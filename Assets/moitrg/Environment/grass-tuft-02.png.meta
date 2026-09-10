@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 2d55be0b8ff4e524eb3676aa40cd4c93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6202113397292352822
+    second: grass-tuft-02_0
+  - first:
+      213: 724411747180648134
+    second: grass-tuft-02_1
+  - first:
+      213: -7974944692468907862
+    second: grass-tuft-02_2
+  - first:
+      213: 6751378803059202144
+    second: grass-tuft-02_3
+  - first:
+      213: -8989770768697348914
+    second: grass-tuft-02_4
+  - first:
+      213: 219995298191631946
+    second: grass-tuft-02_5
+  - first:
+      213: 6106902737445535164
+    second: grass-tuft-02_6
+  - first:
+      213: 6401628635169256354
+    second: grass-tuft-02_7
+  - first:
+      213: -6141279224764463084
+    second: grass-tuft-02_8
+  - first:
+      213: -1428859653595734319
+    second: grass-tuft-02_9
+  - first:
+      213: 9208162514672653691
+    second: grass-tuft-02_10
+  - first:
+      213: 3211693835655473153
+    second: grass-tuft-02_11
+  - first:
+      213: 8216527575412352481
+    second: grass-tuft-02_12
+  - first:
+      213: 6825889845427670482
+    second: grass-tuft-02_13
+  - first:
+      213: -3355181958121689020
+    second: grass-tuft-02_14
+  - first:
+      213: -6214230199518021303
+    second: grass-tuft-02_15
+  - first:
+      213: 3288042536609934920
+    second: grass-tuft-02_16
+  - first:
+      213: 9152494492374665625
+    second: grass-tuft-02_17
+  - first:
+      213: -1855579556257304118
+    second: grass-tuft-02_18
+  - first:
+      213: -7988423630949673123
+    second: grass-tuft-02_19
+  - first:
+      213: -4736734805720770156
+    second: grass-tuft-02_20
+  - first:
+      213: 558230561187018947
+    second: grass-tuft-02_21
+  - first:
+      213: -6436327709559120280
+    second: grass-tuft-02_22
+  - first:
+      213: -7632587113047561401
+    second: grass-tuft-02_23
+  - first:
+      213: -3772801704894975322
+    second: grass-tuft-02_24
+  - first:
+      213: -5894558342833539718
+    second: grass-tuft-02_25
+  - first:
+      213: 167757175543079382
+    second: grass-tuft-02_26
+  - first:
+      213: 6249377572020025037
+    second: grass-tuft-02_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grass-tuft-02_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 1174
+        height: 1244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acab2b1b9baade9a0800000000000000
+      internalID: -6202113397292352822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1204
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c692dd55a0ad0a00800000000000000
+      internalID: 724411747180648134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1192
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa001062e0e435190800000000000000
+      internalID: -7974944692468907862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1042
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06812744047b1bd50800000000000000
+      internalID: 6751378803059202144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 978
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccaa9f9d1bed3380800000000000000
+      internalID: -8989770768697348914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_5
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 940
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46e7f0ee849d0300800000000000000
+      internalID: 219995298191631946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_6
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 907
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd3d471fa310c450800000000000000
+      internalID: 6106902737445535164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_7
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 855
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a37b3f835727d850800000000000000
+      internalID: 6401628635169256354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_8
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 656
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4188d6d351bc5caa0800000000000000
+      internalID: -6141279224764463084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_9
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 589
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ded98927bbab2ce0800000000000000
+      internalID: -1428859653595734319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_10
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 553
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7591292507f9cf70800000000000000
+      internalID: 9208162514672653691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 500
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1086e89f68a329c20800000000000000
+      internalID: 3211693835655473153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 490
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5a7abfb48f60270800000000000000
+      internalID: 8216527575412352481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_13
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 486
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd89a836ae6abe50800000000000000
+      internalID: 6825889845427670482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 484
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4407b5d19cfff61d0800000000000000
+      internalID: -3355181958121689020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 391
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9493935de8e92c9a0800000000000000
+      internalID: -6214230199518021303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 316
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e6209244971ad20800000000000000
+      internalID: 3288042536609934920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 311
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99906b2bf31340f70800000000000000
+      internalID: 9152494492374665625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_18
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 264
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac17ec09938af36e0800000000000000
+      internalID: -1855579556257304118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 262
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5798e9380b632190800000000000000
+      internalID: -7988423630949673123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_20
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 262
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499d8cd5accb34eb0800000000000000
+      internalID: -4736734805720770156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 205
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b15edcbb3fb700800000000000000
+      internalID: 558230561187018947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 227
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e99bd9c029da6a0800000000000000
+      internalID: -6436327709559120280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 195
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b6399b57a931690800000000000000
+      internalID: -7632587113047561401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_24
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 96
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a23fbba6d054abc0800000000000000
+      internalID: -3772801704894975322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_25
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 112
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75779bfa62523ea0800000000000000
+      internalID: -5894558342833539718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 56
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a4c8234ef35200800000000000000
+      internalID: 167757175543079382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass-tuft-02_27
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6fb878acf3ab650800000000000000
+      internalID: 6249377572020025037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grass-tuft-02_0: -6202113397292352822
+      grass-tuft-02_1: 724411747180648134
+      grass-tuft-02_10: 9208162514672653691
+      grass-tuft-02_11: 3211693835655473153
+      grass-tuft-02_12: 8216527575412352481
+      grass-tuft-02_13: 6825889845427670482
+      grass-tuft-02_14: -3355181958121689020
+      grass-tuft-02_15: -6214230199518021303
+      grass-tuft-02_16: 3288042536609934920
+      grass-tuft-02_17: 9152494492374665625
+      grass-tuft-02_18: -1855579556257304118
+      grass-tuft-02_19: -7988423630949673123
+      grass-tuft-02_2: -7974944692468907862
+      grass-tuft-02_20: -4736734805720770156
+      grass-tuft-02_21: 558230561187018947
+      grass-tuft-02_22: -6436327709559120280
+      grass-tuft-02_23: -7632587113047561401
+      grass-tuft-02_24: -3772801704894975322
+      grass-tuft-02_25: -5894558342833539718
+      grass-tuft-02_26: 167757175543079382
+      grass-tuft-02_27: 6249377572020025037
+      grass-tuft-02_3: 6751378803059202144
+      grass-tuft-02_4: -8989770768697348914
+      grass-tuft-02_5: 219995298191631946
+      grass-tuft-02_6: 6106902737445535164
+      grass-tuft-02_7: 6401628635169256354
+      grass-tuft-02_8: -6141279224764463084
+      grass-tuft-02_9: -1428859653595734319
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 5d0a3d2d7da10f144864c27b927f78eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9168936182025665948
+    second: fertilizer-phosphate_0
+  - first:
+      213: -2701679265728377043
+    second: fertilizer-phosphate_1
+  - first:
+      213: 595689849129619708
+    second: fertilizer-phosphate_2
+  - first:
+      213: 2200903497168428857
+    second: fertilizer-phosphate_3
+  - first:
+      213: -241897709272164058
+    second: fertilizer-phosphate_4
+  - first:
+      213: -1338291334361888799
+    second: fertilizer-phosphate_5
+  - first:
+      213: -4716490424884631843
+    second: fertilizer-phosphate_6
+  - first:
+      213: -4673179362622082038
+    second: fertilizer-phosphate_7
+  - first:
+      213: -5295372030214163868
+    second: fertilizer-phosphate_8
+  - first:
+      213: -4851461516591106964
+    second: fertilizer-phosphate_9
+  - first:
+      213: -6446738166935971671
+    second: fertilizer-phosphate_10
+  - first:
+      213: -5249255122636577627
+    second: fertilizer-phosphate_11
+  - first:
+      213: 5871190075836809937
+    second: fertilizer-phosphate_12
+  - first:
+      213: -8712853879333255277
+    second: fertilizer-phosphate_13
+  - first:
+      213: 3003862479229237814
+    second: fertilizer-phosphate_14
+  - first:
+      213: 803095257510869111
+    second: fertilizer-phosphate_15
+  - first:
+      213: 4857880575461236243
+    second: fertilizer-phosphate_16
+  - first:
+      213: 3960909649207755842
+    second: fertilizer-phosphate_17
+  - first:
+      213: -4117849150848452930
+    second: fertilizer-phosphate_18
+  - first:
+      213: 4787906765749937865
+    second: fertilizer-phosphate_19
+  - first:
+      213: -6035950630944228926
+    second: fertilizer-phosphate_20
+  - first:
+      213: -2932424684930527686
+    second: fertilizer-phosphate_21
+  - first:
+      213: 3415933348805333833
+    second: fertilizer-phosphate_22
+  - first:
+      213: -5092709836473084094
+    second: fertilizer-phosphate_23
+  - first:
+      213: 8938530483876994282
+    second: fertilizer-phosphate_24
+  - first:
+      213: 7711399541703451947
+    second: fertilizer-phosphate_25
+  - first:
+      213: 150268785660538690
+    second: fertilizer-phosphate_26
+  - first:
+      213: 105368980054672877
+    second: fertilizer-phosphate_27
+  - first:
+      213: -5116413027556566452
+    second: fertilizer-phosphate_28
+  - first:
+      213: 7314476124551162125
+    second: fertilizer-phosphate_29
+  - first:
+      213: -1958104538042030871
+    second: fertilizer-phosphate_30
+  - first:
+      213: -5076703227834467159
+    second: fertilizer-phosphate_31
+  - first:
+      213: 1167642075219066694
+    second: fertilizer-phosphate_32
+  - first:
+      213: -4762001159692210910
+    second: fertilizer-phosphate_33
+  - first:
+      213: -3584506895100290135
+    second: fertilizer-phosphate_34
+  - first:
+      213: 3986989651603831774
+    second: fertilizer-phosphate_35
+  - first:
+      213: -8455660622795585313
+    second: fertilizer-phosphate_36
+  - first:
+      213: 7614722159833305502
+    second: fertilizer-phosphate_37
+  - first:
+      213: -5198844237995917667
+    second: fertilizer-phosphate_38
+  - first:
+      213: -4180826389978420523
+    second: fertilizer-phosphate_39
+  - first:
+      213: -8884014306941157153
+    second: fertilizer-phosphate_40
+  - first:
+      213: -3977537836269112112
+    second: fertilizer-phosphate_41
+  - first:
+      213: -2061976679372894570
+    second: fertilizer-phosphate_42
+  - first:
+      213: -2725896221362268199
+    second: fertilizer-phosphate_43
+  - first:
+      213: -6223851973383523328
+    second: fertilizer-phosphate_44
+  - first:
+      213: -2801742203652736711
+    second: fertilizer-phosphate_45
+  - first:
+      213: 2741065777257370984
+    second: fertilizer-phosphate_46
+  - first:
+      213: -3729443659065734021
+    second: fertilizer-phosphate_47
+  - first:
+      213: 6154159963016651718
+    second: fertilizer-phosphate_48
+  - first:
+      213: -1841212282284798830
+    second: fertilizer-phosphate_49
+  - first:
+      213: 2108309927810501286
+    second: fertilizer-phosphate_50
+  - first:
+      213: 5140814072436619965
+    second: fertilizer-phosphate_51
+  - first:
+      213: -8791347162356524810
+    second: fertilizer-phosphate_52
+  - first:
+      213: -2778629941098442667
+    second: fertilizer-phosphate_53
+  - first:
+      213: -8866121760744778076
+    second: fertilizer-phosphate_54
+  - first:
+      213: -6433223194424734456
+    second: fertilizer-phosphate_55
+  - first:
+      213: 3458794603364273982
+    second: fertilizer-phosphate_56
+  - first:
+      213: 8868389154147642579
+    second: fertilizer-phosphate_57
+  - first:
+      213: -5072651646677653933
+    second: fertilizer-phosphate_58
+  - first:
+      213: -7572938186714207235
+    second: fertilizer-phosphate_59
+  - first:
+      213: 552746653024948179
+    second: fertilizer-phosphate_60
+  - first:
+      213: 5303793031155659162
+    second: fertilizer-phosphate_61
+  - first:
+      213: 2591131303235559741
+    second: fertilizer-phosphate_62
+  - first:
+      213: -1782182357671715290
+    second: fertilizer-phosphate_63
+  - first:
+      213: -8549363513328802010
+    second: fertilizer-phosphate_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fertilizer-phosphate_0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1111
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dbdd1e0ea9e3f70800000000000000
+      internalID: 9168936182025665948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc83d9505b18ad0800000000000000
+      internalID: -2701679265728377043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1143
+        width: 74
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf05dadf2c0544800800000000000000
+      internalID: 595689849129619708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_3
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1144
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f93add11e2b8e10800000000000000
+      internalID: 2200903497168428857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1132
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291ad6a05b94acf0800000000000000
+      internalID: -241897709272164058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1108
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e740693f1f6d6de0800000000000000
+      internalID: -1338291334361888799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1116
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6683692f8ab8eb0800000000000000
+      internalID: -4716490424884631843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1116
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0479371128852fb0800000000000000
+      internalID: -4673179362622082038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1110
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462bb81d13f0386b0800000000000000
+      internalID: -5295372030214163868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 698
+        width: 93
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64fb1e64752cacb0800000000000000
+      internalID: -4851461516591106964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 35
+        width: 863
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a814df1bc59886a0800000000000000
+      internalID: -6446738166935971671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_11
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 871
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4e8d71746e627b0800000000000000
+      internalID: -5249255122636577627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_12
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 881
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d24d0f5448aa7150800000000000000
+      internalID: 5871190075836809937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_13
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 677
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39705763f89b51780800000000000000
+      internalID: -8712853879333255277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_14
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 680
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a359c720ddfa920800000000000000
+      internalID: 3003862479229237814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 552
+        width: 37
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7787cb8b1ea252b00800000000000000
+      internalID: 803095257510869111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 546
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e13ad25a8aa6340800000000000000
+      internalID: 4857880575461236243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_17
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 594
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2440274175af7f630800000000000000
+      internalID: 3960909649207755842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_18
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 545
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b80db3067ad6c0800000000000000
+      internalID: -4117849150848452930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_19
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 353
+        width: 45
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6e63606df027240800000000000000
+      internalID: 4787906765749937865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c936c881eefb3ca0800000000000000
+      internalID: -6035950630944228926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 290
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e0124294fed47d0800000000000000
+      internalID: -2932424684930527686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 288
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943d3f74845d76f20800000000000000
+      internalID: 3415933348805333833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_23
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 285
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24752e4d26f0359b0800000000000000
+      internalID: -5092709836473084094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_24
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 296
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec1d71ed1a0c0c70800000000000000
+      internalID: 8938530483876994282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_25
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 278
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b252854c605640b60800000000000000
+      internalID: 7711399541703451947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 258
+        width: 86
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f20261aacd51200800000000000000
+      internalID: 150268785660538690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_27
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de501827788567100800000000000000
+      internalID: 105368980054672877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_28
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 266
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a5f489579def8b0800000000000000
+      internalID: -5116413027556566452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 162
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09a2f1184d328560800000000000000
+      internalID: 7314476124551162125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_30
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 142
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4ace01c4a63d4e0800000000000000
+      internalID: -1958104538042030871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_31
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 207
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acf8d2df4deb89b0800000000000000
+      internalID: -5076703227834467159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 111
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f7b3ee74c443010800000000000000
+      internalID: 1167642075219066694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_33
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 110
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d2c88ec29f9edb0800000000000000
+      internalID: -4762001159692210910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 65
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abdb9e68f5414ec0800000000000000
+      internalID: -3584506895100290135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_35
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 128
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb3103d6f1a45730800000000000000
+      internalID: 3986989651603831774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_36
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 134
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c20da67577aa80800000000000000
+      internalID: -8455660622795585313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_37
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 114
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91d828b57deca960800000000000000
+      internalID: 7614722159833305502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_38
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 112
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ebaafc5bef9d7b0800000000000000
+      internalID: -5198844237995917667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 119
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dae1cd9c88baf5c0800000000000000
+      internalID: -4180826389978420523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_40
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 117
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c84fae04a5b480800000000000000
+      internalID: -8884014306941157153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_41
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 95
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4f08c6962fcc8c0800000000000000
+      internalID: -3977537836269112112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_42
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 81
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ec6da82236263e0800000000000000
+      internalID: -2061976679372894570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_43
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 71
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d75f1f34dbab2ad0800000000000000
+      internalID: -2725896221362268199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_44
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 94
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0047cd70b9f60a9a0800000000000000
+      internalID: -6223851973383523328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_45
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 87
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939fe0f5f463e19d0800000000000000
+      internalID: -2801742203652736711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_46
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 97
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865d7673dc83a0620800000000000000
+      internalID: 2741065777257370984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_47
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 101
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ccd8360ca5e3cc0800000000000000
+      internalID: -3729443659065734021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_48
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 99
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3e98651e7f76550800000000000000
+      internalID: 6154159963016651718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_49
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 103
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c04563f23b276e0800000000000000
+      internalID: -1841212282284798830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_50
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 92
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa039385b8324d10800000000000000
+      internalID: 2108309927810501286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaf9e36927d75740800000000000000
+      internalID: 5140814072436619965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_52
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 67
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8d99a955cdef580800000000000000
+      internalID: -8791347162356524810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_53
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 87
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55010965ac25079d0800000000000000
+      internalID: -2778629941098442667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_54
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 86
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6527bbb3535f480800000000000000
+      internalID: -8866121760744778076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d828fd69998b6a0800000000000000
+      internalID: -6433223194424734456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_56
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 62
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fc094cd5b100030800000000000000
+      internalID: 3458794603364273982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_57
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 69
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dca5eee2f8d21b70800000000000000
+      internalID: 8868389154147642579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_58
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 62
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3566a7214325a99b0800000000000000
+      internalID: -5072651646677653933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_59
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfba8e2a7d487e690800000000000000
+      internalID: -7572938186714207235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_60
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 53
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df86500720cba700800000000000000
+      internalID: 552746653024948179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_61
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 53
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b93049abda9940800000000000000
+      internalID: 5303793031155659162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 50
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3120cf113c85f320800000000000000
+      internalID: 2591131303235559741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_63
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 46
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e520e869a6447e0800000000000000
+      internalID: -1782182357671715290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-phosphate_64
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 37
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627e95c5e2f8a5980800000000000000
+      internalID: -8549363513328802010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fertilizer-phosphate_0: 9168936182025665948
+      fertilizer-phosphate_1: -2701679265728377043
+      fertilizer-phosphate_10: -6446738166935971671
+      fertilizer-phosphate_11: -5249255122636577627
+      fertilizer-phosphate_12: 5871190075836809937
+      fertilizer-phosphate_13: -8712853879333255277
+      fertilizer-phosphate_14: 3003862479229237814
+      fertilizer-phosphate_15: 803095257510869111
+      fertilizer-phosphate_16: 4857880575461236243
+      fertilizer-phosphate_17: 3960909649207755842
+      fertilizer-phosphate_18: -4117849150848452930
+      fertilizer-phosphate_19: 4787906765749937865
+      fertilizer-phosphate_2: 595689849129619708
+      fertilizer-phosphate_20: -6035950630944228926
+      fertilizer-phosphate_21: -2932424684930527686
+      fertilizer-phosphate_22: 3415933348805333833
+      fertilizer-phosphate_23: -5092709836473084094
+      fertilizer-phosphate_24: 8938530483876994282
+      fertilizer-phosphate_25: 7711399541703451947
+      fertilizer-phosphate_26: 150268785660538690
+      fertilizer-phosphate_27: 105368980054672877
+      fertilizer-phosphate_28: -5116413027556566452
+      fertilizer-phosphate_29: 7314476124551162125
+      fertilizer-phosphate_3: 2200903497168428857
+      fertilizer-phosphate_30: -1958104538042030871
+      fertilizer-phosphate_31: -5076703227834467159
+      fertilizer-phosphate_32: 1167642075219066694
+      fertilizer-phosphate_33: -4762001159692210910
+      fertilizer-phosphate_34: -3584506895100290135
+      fertilizer-phosphate_35: 3986989651603831774
+      fertilizer-phosphate_36: -8455660622795585313
+      fertilizer-phosphate_37: 7614722159833305502
+      fertilizer-phosphate_38: -5198844237995917667
+      fertilizer-phosphate_39: -4180826389978420523
+      fertilizer-phosphate_4: -241897709272164058
+      fertilizer-phosphate_40: -8884014306941157153
+      fertilizer-phosphate_41: -3977537836269112112
+      fertilizer-phosphate_42: -2061976679372894570
+      fertilizer-phosphate_43: -2725896221362268199
+      fertilizer-phosphate_44: -6223851973383523328
+      fertilizer-phosphate_45: -2801742203652736711
+      fertilizer-phosphate_46: 2741065777257370984
+      fertilizer-phosphate_47: -3729443659065734021
+      fertilizer-phosphate_48: 6154159963016651718
+      fertilizer-phosphate_49: -1841212282284798830
+      fertilizer-phosphate_5: -1338291334361888799
+      fertilizer-phosphate_50: 2108309927810501286
+      fertilizer-phosphate_51: 5140814072436619965
+      fertilizer-phosphate_52: -8791347162356524810
+      fertilizer-phosphate_53: -2778629941098442667
+      fertilizer-phosphate_54: -8866121760744778076
+      fertilizer-phosphate_55: -6433223194424734456
+      fertilizer-phosphate_56: 3458794603364273982
+      fertilizer-phosphate_57: 8868389154147642579
+      fertilizer-phosphate_58: -5072651646677653933
+      fertilizer-phosphate_59: -7572938186714207235
+      fertilizer-phosphate_6: -4716490424884631843
+      fertilizer-phosphate_60: 552746653024948179
+      fertilizer-phosphate_61: 5303793031155659162
+      fertilizer-phosphate_62: 2591131303235559741
+      fertilizer-phosphate_63: -1782182357671715290
+      fertilizer-phosphate_64: -8549363513328802010
+      fertilizer-phosphate_7: -4673179362622082038
+      fertilizer-phosphate_8: -5295372030214163868
+      fertilizer-phosphate_9: -4851461516591106964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

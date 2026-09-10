@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: e7745501780b9df4a890f21401094382
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 67850495251051253
+    second: fertilizer-potassium_0
+  - first:
+      213: 7351808456462293946
+    second: fertilizer-potassium_1
+  - first:
+      213: 4007775263673142604
+    second: fertilizer-potassium_2
+  - first:
+      213: -8815023380614605139
+    second: fertilizer-potassium_3
+  - first:
+      213: -5795967827033207172
+    second: fertilizer-potassium_4
+  - first:
+      213: -1540041100782094286
+    second: fertilizer-potassium_5
+  - first:
+      213: -3782349208937090213
+    second: fertilizer-potassium_6
+  - first:
+      213: 1207492067101027532
+    second: fertilizer-potassium_7
+  - first:
+      213: 7674898388021075784
+    second: fertilizer-potassium_8
+  - first:
+      213: -5273622012217416593
+    second: fertilizer-potassium_9
+  - first:
+      213: 7522444528933069017
+    second: fertilizer-potassium_10
+  - first:
+      213: 9143882603400956280
+    second: fertilizer-potassium_11
+  - first:
+      213: 2405991372530525515
+    second: fertilizer-potassium_12
+  - first:
+      213: -3211513800300809275
+    second: fertilizer-potassium_13
+  - first:
+      213: 6120524633579749784
+    second: fertilizer-potassium_14
+  - first:
+      213: -8370753161349476516
+    second: fertilizer-potassium_15
+  - first:
+      213: -8442939468856894149
+    second: fertilizer-potassium_16
+  - first:
+      213: 9194162169936184141
+    second: fertilizer-potassium_17
+  - first:
+      213: 6041513832455029157
+    second: fertilizer-potassium_18
+  - first:
+      213: -6706541275669727044
+    second: fertilizer-potassium_19
+  - first:
+      213: 6206632101713160063
+    second: fertilizer-potassium_20
+  - first:
+      213: -2630889472558746702
+    second: fertilizer-potassium_21
+  - first:
+      213: 4951120542213326234
+    second: fertilizer-potassium_22
+  - first:
+      213: 2889868996759515245
+    second: fertilizer-potassium_23
+  - first:
+      213: -3132278054916597627
+    second: fertilizer-potassium_24
+  - first:
+      213: -8149952150364886208
+    second: fertilizer-potassium_25
+  - first:
+      213: 2488605670356696595
+    second: fertilizer-potassium_26
+  - first:
+      213: -2653406904416446336
+    second: fertilizer-potassium_27
+  - first:
+      213: 5984355045063493201
+    second: fertilizer-potassium_28
+  - first:
+      213: 1815399898133910470
+    second: fertilizer-potassium_29
+  - first:
+      213: -9105507226557371912
+    second: fertilizer-potassium_30
+  - first:
+      213: 2217259519682566820
+    second: fertilizer-potassium_31
+  - first:
+      213: 911975364900705334
+    second: fertilizer-potassium_32
+  - first:
+      213: 6839455911011958903
+    second: fertilizer-potassium_33
+  - first:
+      213: -8048580413015003571
+    second: fertilizer-potassium_34
+  - first:
+      213: -2005129007492222948
+    second: fertilizer-potassium_35
+  - first:
+      213: 6399857640244991988
+    second: fertilizer-potassium_36
+  - first:
+      213: 1377077544589682331
+    second: fertilizer-potassium_37
+  - first:
+      213: -1460732718094672815
+    second: fertilizer-potassium_38
+  - first:
+      213: 8748577654939917205
+    second: fertilizer-potassium_39
+  - first:
+      213: -3263818544396287171
+    second: fertilizer-potassium_40
+  - first:
+      213: 8779141343549231700
+    second: fertilizer-potassium_41
+  - first:
+      213: 966758476474489879
+    second: fertilizer-potassium_42
+  - first:
+      213: 6375493199304152159
+    second: fertilizer-potassium_43
+  - first:
+      213: 332561524845519373
+    second: fertilizer-potassium_44
+  - first:
+      213: 46819374569093549
+    second: fertilizer-potassium_45
+  - first:
+      213: 7026636898767133336
+    second: fertilizer-potassium_46
+  - first:
+      213: 1207061257859385571
+    second: fertilizer-potassium_47
+  - first:
+      213: 780212925122341507
+    second: fertilizer-potassium_48
+  - first:
+      213: 6575709543559258042
+    second: fertilizer-potassium_49
+  - first:
+      213: -7602810532906505804
+    second: fertilizer-potassium_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fertilizer-potassium_0
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1156
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f54b7aad01f000800000000000000
+      internalID: 67850495251051253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1126
+        width: 138
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbd520f6ded60660800000000000000
+      internalID: 7351808456462293946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1162
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc5d24e5a7e9730800000000000000
+      internalID: 4007775263673142604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1114
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da614b770febaa580800000000000000
+      internalID: -8815023380614605139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1136
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ec71c38f5909fa0800000000000000
+      internalID: -5795967827033207172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1126
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238b16047cca0aae0800000000000000
+      internalID: -1540041100782094286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 63
+        width: 1076
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5333d82f65628bc0800000000000000
+      internalID: -3782349208937090213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_7
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1036
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccca8a033afd1c010800000000000000
+      internalID: 1207492067101027532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 901
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fd639ab67b28a60800000000000000
+      internalID: 7674898388021075784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_9
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 905
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64a91288b450d6b0800000000000000
+      internalID: -5273622012217416593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 819
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0e2a58177156860800000000000000
+      internalID: 7522444528933069017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_11
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 839
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879869b08c895ee70800000000000000
+      internalID: 9143882603400956280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_12
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 775
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b452654e76cc36120800000000000000
+      internalID: 2405991372530525515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 753
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c33ec5c6396e63d0800000000000000
+      internalID: -3211513800300809275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 665
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918c8fe9b870f450800000000000000
+      internalID: 6120524633579749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 610
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4943995c15db80800000000000000
+      internalID: -8370753161349476516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_16
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 601
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dd8a22947a4da80800000000000000
+      internalID: -8442939468856894149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 592
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d438162e7c9389f70800000000000000
+      internalID: 9194162169936184141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 593
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1471142d4c7d350800000000000000
+      internalID: 6041513832455029157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 532
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8f5381e349de2a0800000000000000
+      internalID: -6706541275669727044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_20
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 540
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77262a2303622650800000000000000
+      internalID: 6206632101713160063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_21
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 546
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b332d8b6f33d7bd0800000000000000
+      internalID: -2630889472558746702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 487
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95c3c6a6e9e5b440800000000000000
+      internalID: 4951120542213326234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_23
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 465
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60f3479a80ea1820800000000000000
+      internalID: 2889868996759515245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_24
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 467
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588d1fe54b9e784d0800000000000000
+      internalID: -3132278054916597627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_25
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 471
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04be11513bd85ee80800000000000000
+      internalID: -8149952150364886208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_26
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 260
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e32a70cad498220800000000000000
+      internalID: 2488605670356696595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_27
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 295
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08850b19a743d2bd0800000000000000
+      internalID: -2653406904416446336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 258
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15683def433bc0350800000000000000
+      internalID: 5984355045063493201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 256
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c35d85c698913910800000000000000
+      internalID: 1815399898133910470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 272
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ab45ab6db2a180800000000000000
+      internalID: -9105507226557371912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_31
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 242
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa588d19c945ce10800000000000000
+      internalID: 2217259519682566820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 110
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63450d433ccf7ac00800000000000000
+      internalID: 911975364900705334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 110
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77040d00ae0aaee50800000000000000
+      internalID: 6839455911011958903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 117
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ee210f1c2bd4090800000000000000
+      internalID: -8048580413015003571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_35
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 115
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1038939ac95c24e0800000000000000
+      internalID: -2005129007492222948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_36
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 124
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f75fdbad9cd0d850800000000000000
+      internalID: 6399857640244991988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 111
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b966f611bbc5c1310800000000000000
+      internalID: 1377077544589682331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c1d2a055f6abbe0800000000000000
+      internalID: -1460732718094672815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_39
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 117
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b1d947601396970800000000000000
+      internalID: 8748577654939917205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_40
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 82
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d334de9835694b2d0800000000000000
+      internalID: -3263818544396287171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_41
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 87
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452923fb986c5d970800000000000000
+      internalID: 8779141343549231700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_42
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 91
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c1cd556bd9a6d00800000000000000
+      internalID: 966758476474489879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_43
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 87
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f545174394d4a7850800000000000000
+      internalID: 6375493199304152159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_44
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 85
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d022162e1fe7d9400800000000000000
+      internalID: 332561524845519373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_45
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 87
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9fbcd19f556a000800000000000000
+      internalID: 46819374569093549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_46
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89adaacd701a38160800000000000000
+      internalID: 7026636898767133336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_47
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 69
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e848d891d750c010800000000000000
+      internalID: 1207061257859385571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_48
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 71
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ae51b858fd3da00800000000000000
+      internalID: 780212925122341507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_49
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfdef18dfc914b50800000000000000
+      internalID: 6575709543559258042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fertilizer-potassium_50
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 53
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9628b0a146d7690800000000000000
+      internalID: -7602810532906505804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fertilizer-potassium_0: 67850495251051253
+      fertilizer-potassium_1: 7351808456462293946
+      fertilizer-potassium_10: 7522444528933069017
+      fertilizer-potassium_11: 9143882603400956280
+      fertilizer-potassium_12: 2405991372530525515
+      fertilizer-potassium_13: -3211513800300809275
+      fertilizer-potassium_14: 6120524633579749784
+      fertilizer-potassium_15: -8370753161349476516
+      fertilizer-potassium_16: -8442939468856894149
+      fertilizer-potassium_17: 9194162169936184141
+      fertilizer-potassium_18: 6041513832455029157
+      fertilizer-potassium_19: -6706541275669727044
+      fertilizer-potassium_2: 4007775263673142604
+      fertilizer-potassium_20: 6206632101713160063
+      fertilizer-potassium_21: -2630889472558746702
+      fertilizer-potassium_22: 4951120542213326234
+      fertilizer-potassium_23: 2889868996759515245
+      fertilizer-potassium_24: -3132278054916597627
+      fertilizer-potassium_25: -8149952150364886208
+      fertilizer-potassium_26: 2488605670356696595
+      fertilizer-potassium_27: -2653406904416446336
+      fertilizer-potassium_28: 5984355045063493201
+      fertilizer-potassium_29: 1815399898133910470
+      fertilizer-potassium_3: -8815023380614605139
+      fertilizer-potassium_30: -9105507226557371912
+      fertilizer-potassium_31: 2217259519682566820
+      fertilizer-potassium_32: 911975364900705334
+      fertilizer-potassium_33: 6839455911011958903
+      fertilizer-potassium_34: -8048580413015003571
+      fertilizer-potassium_35: -2005129007492222948
+      fertilizer-potassium_36: 6399857640244991988
+      fertilizer-potassium_37: 1377077544589682331
+      fertilizer-potassium_38: -1460732718094672815
+      fertilizer-potassium_39: 8748577654939917205
+      fertilizer-potassium_4: -5795967827033207172
+      fertilizer-potassium_40: -3263818544396287171
+      fertilizer-potassium_41: 8779141343549231700
+      fertilizer-potassium_42: 966758476474489879
+      fertilizer-potassium_43: 6375493199304152159
+      fertilizer-potassium_44: 332561524845519373
+      fertilizer-potassium_45: 46819374569093549
+      fertilizer-potassium_46: 7026636898767133336
+      fertilizer-potassium_47: 1207061257859385571
+      fertilizer-potassium_48: 780212925122341507
+      fertilizer-potassium_49: 6575709543559258042
+      fertilizer-potassium_5: -1540041100782094286
+      fertilizer-potassium_50: -7602810532906505804
+      fertilizer-potassium_6: -3782349208937090213
+      fertilizer-potassium_7: 1207492067101027532
+      fertilizer-potassium_8: 7674898388021075784
+      fertilizer-potassium_9: -5273622012217416593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

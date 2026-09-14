@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: ad079ab62b3efcf48aa223b702a8cb9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 290818879822571401
+    second: farm-pixel-alphabet-uppercase_0
+  - first:
+      213: 847930481662931897
+    second: farm-pixel-alphabet-uppercase_1
+  - first:
+      213: -4626684286404322443
+    second: farm-pixel-alphabet-uppercase_2
+  - first:
+      213: -1993919758952922498
+    second: farm-pixel-alphabet-uppercase_3
+  - first:
+      213: 4312907613461825988
+    second: farm-pixel-alphabet-uppercase_4
+  - first:
+      213: -4957418269859095224
+    second: farm-pixel-alphabet-uppercase_5
+  - first:
+      213: -8418060010642696781
+    second: farm-pixel-alphabet-uppercase_6
+  - first:
+      213: -4905211700429546272
+    second: farm-pixel-alphabet-uppercase_7
+  - first:
+      213: 2822819806216103235
+    second: farm-pixel-alphabet-uppercase_8
+  - first:
+      213: 6141213785477787763
+    second: farm-pixel-alphabet-uppercase_9
+  - first:
+      213: -2749075945430116519
+    second: farm-pixel-alphabet-uppercase_10
+  - first:
+      213: 2652333529711391950
+    second: farm-pixel-alphabet-uppercase_11
+  - first:
+      213: -8927061223569410460
+    second: farm-pixel-alphabet-uppercase_12
+  - first:
+      213: 4469587334482427777
+    second: farm-pixel-alphabet-uppercase_13
+  - first:
+      213: -7321111026857563699
+    second: farm-pixel-alphabet-uppercase_14
+  - first:
+      213: -2246047162842431878
+    second: farm-pixel-alphabet-uppercase_15
+  - first:
+      213: -5207049358572144434
+    second: farm-pixel-alphabet-uppercase_16
+  - first:
+      213: 284055424548130961
+    second: farm-pixel-alphabet-uppercase_17
+  - first:
+      213: 7247942019487112046
+    second: farm-pixel-alphabet-uppercase_18
+  - first:
+      213: -4205936237014925326
+    second: farm-pixel-alphabet-uppercase_19
+  - first:
+      213: -7278459535352451889
+    second: farm-pixel-alphabet-uppercase_20
+  - first:
+      213: 2345524966813981802
+    second: farm-pixel-alphabet-uppercase_21
+  - first:
+      213: 1006226500158977076
+    second: farm-pixel-alphabet-uppercase_22
+  - first:
+      213: 5942593227143121454
+    second: farm-pixel-alphabet-uppercase_23
+  - first:
+      213: -8011204508815255674
+    second: farm-pixel-alphabet-uppercase_24
+  - first:
+      213: -649151468557237770
+    second: farm-pixel-alphabet-uppercase_25
+  - first:
+      213: 8277642782266079432
+    second: farm-pixel-alphabet-uppercase_26
+  - first:
+      213: 3084795795937686705
+    second: farm-pixel-alphabet-uppercase_27
+  - first:
+      213: -7703661341536422534
+    second: farm-pixel-alphabet-uppercase_28
+  - first:
+      213: -1485985000358116678
+    second: farm-pixel-alphabet-uppercase_29
+  - first:
+      213: -6132336333368591545
+    second: farm-pixel-alphabet-uppercase_30
+  - first:
+      213: 1813859387860574379
+    second: farm-pixel-alphabet-uppercase_31
+  - first:
+      213: 2395978493703664290
+    second: farm-pixel-alphabet-uppercase_32
+  - first:
+      213: 4537041244491639836
+    second: farm-pixel-alphabet-uppercase_33
+  - first:
+      213: -2866252199096252499
+    second: farm-pixel-alphabet-uppercase_34
+  - first:
+      213: 8666237078629033412
+    second: farm-pixel-alphabet-uppercase_35
+  - first:
+      213: -8016825067755030541
+    second: farm-pixel-alphabet-uppercase_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 425
+        width: 111
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9872dc9fa32390400800000000000000
+      internalID: 290818879822571401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 428
+        width: 98
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3beb1d74474cb00800000000000000
+      internalID: 847930481662931897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 425
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b1dfc9727bacfb0800000000000000
+      internalID: -4626684286404322443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 429
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c94879af968adb30800000000000000
+      internalID: 4312907613461825988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 429
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b598b7650b0d2b80800000000000000
+      internalID: -8418060010642696781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 424
+        width: 95
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec9ec782ff2debb0800000000000000
+      internalID: -4905211700429546272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 425
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370b22d7669f93550800000000000000
+      internalID: 6141213785477787763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_10
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 425
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957111c2ef159d9d0800000000000000
+      internalID: -2749075945430116519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_11
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 423
+        width: 91
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec43e48ea4bfec420800000000000000
+      internalID: 2652333529711391950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_12
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 425
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4663bf06d15bc1480800000000000000
+      internalID: -8927061223569410460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 423
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ff864fff9270e30800000000000000
+      internalID: 4469587334482427777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_14
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 425
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9a5fa5f40366a90800000000000000
+      internalID: -7321111026857563699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 423
+        width: 86
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190d6b457ea21f300800000000000000
+      internalID: 284055424548130961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_18
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 425
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b18209ddcd59460800000000000000
+      internalID: 7247942019487112046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 228
+        width: 101
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc23439d97bdfa90800000000000000
+      internalID: -7278459535352451889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 225
+        width: 102
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cd1cab78afc8020800000000000000
+      internalID: 2345524966813981802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 229
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4347f81bba5d6fd00800000000000000
+      internalID: 1006226500158977076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_23
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 225
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a028c0e05587250800000000000000
+      internalID: 5942593227143121454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_25
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 230
+        width: 91
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1093fbd20cdf6f0800000000000000
+      internalID: -649151468557237770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_26
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 229
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8bb8ee04810e270800000000000000
+      internalID: 8277642782266079432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_27
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 228
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4fb75be656fca20800000000000000
+      internalID: 3084795795937686705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_28
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 222
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75ffcb53d8171590800000000000000
+      internalID: -7703661341536422534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_29
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 226
+        width: 118
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab28818e388b06be0800000000000000
+      internalID: -1485985000358116678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_30
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 228
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bf756689095eaa0800000000000000
+      internalID: -6132336333368591545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_31
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 221
+        width: 113
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0efe5c08f1c2910800000000000000
+      internalID: 1813859387860574379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_32
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 222
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2beaedeb9304120800000000000000
+      internalID: 2395978493703664290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm-pixel-alphabet-uppercase_34
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 224
+        width: 121
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da78f2c9fc60938d0800000000000000
+      internalID: -2866252199096252499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 343f527a5e2448443a682121e0e06752
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      farm-pixel-alphabet-uppercase_0: 290818879822571401
+      farm-pixel-alphabet-uppercase_1: 847930481662931897
+      farm-pixel-alphabet-uppercase_10: -2749075945430116519
+      farm-pixel-alphabet-uppercase_11: 2652333529711391950
+      farm-pixel-alphabet-uppercase_12: -8927061223569410460
+      farm-pixel-alphabet-uppercase_13: 4469587334482427777
+      farm-pixel-alphabet-uppercase_14: -7321111026857563699
+      farm-pixel-alphabet-uppercase_15: -2246047162842431878
+      farm-pixel-alphabet-uppercase_16: -5207049358572144434
+      farm-pixel-alphabet-uppercase_17: 284055424548130961
+      farm-pixel-alphabet-uppercase_18: 7247942019487112046
+      farm-pixel-alphabet-uppercase_19: -4205936237014925326
+      farm-pixel-alphabet-uppercase_2: -4626684286404322443
+      farm-pixel-alphabet-uppercase_20: -7278459535352451889
+      farm-pixel-alphabet-uppercase_21: 2345524966813981802
+      farm-pixel-alphabet-uppercase_22: 1006226500158977076
+      farm-pixel-alphabet-uppercase_23: 5942593227143121454
+      farm-pixel-alphabet-uppercase_24: -8011204508815255674
+      farm-pixel-alphabet-uppercase_25: -649151468557237770
+      farm-pixel-alphabet-uppercase_26: 8277642782266079432
+      farm-pixel-alphabet-uppercase_27: 3084795795937686705
+      farm-pixel-alphabet-uppercase_28: -7703661341536422534
+      farm-pixel-alphabet-uppercase_29: -1485985000358116678
+      farm-pixel-alphabet-uppercase_3: -1993919758952922498
+      farm-pixel-alphabet-uppercase_30: -6132336333368591545
+      farm-pixel-alphabet-uppercase_31: 1813859387860574379
+      farm-pixel-alphabet-uppercase_32: 2395978493703664290
+      farm-pixel-alphabet-uppercase_33: 4537041244491639836
+      farm-pixel-alphabet-uppercase_34: -2866252199096252499
+      farm-pixel-alphabet-uppercase_35: 8666237078629033412
+      farm-pixel-alphabet-uppercase_36: -8016825067755030541
+      farm-pixel-alphabet-uppercase_4: 4312907613461825988
+      farm-pixel-alphabet-uppercase_5: -4957418269859095224
+      farm-pixel-alphabet-uppercase_6: -8418060010642696781
+      farm-pixel-alphabet-uppercase_7: -4905211700429546272
+      farm-pixel-alphabet-uppercase_8: 2822819806216103235
+      farm-pixel-alphabet-uppercase_9: 6141213785477787763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

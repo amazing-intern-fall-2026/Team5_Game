@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: a4d74d21ee3f5324ab926756e465de5a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2967953860472826123
+    second: item-rice_0
+  - first:
+      213: -7179191663660320747
+    second: item-rice_1
+  - first:
+      213: 7961991784759218023
+    second: item-rice_2
+  - first:
+      213: 3864890770021616944
+    second: item-rice_3
+  - first:
+      213: -8852141939245427250
+    second: item-rice_4
+  - first:
+      213: 7482427167744943820
+    second: item-rice_5
+  - first:
+      213: -1756124568061295922
+    second: item-rice_6
+  - first:
+      213: -4795572068591681503
+    second: item-rice_7
+  - first:
+      213: -3346088936629064528
+    second: item-rice_8
+  - first:
+      213: -6405820226964289059
+    second: item-rice_9
+  - first:
+      213: -4664713442286689615
+    second: item-rice_10
+  - first:
+      213: 1809917407019709190
+    second: item-rice_11
+  - first:
+      213: 8891144045634050840
+    second: item-rice_12
+  - first:
+      213: -3086044286907940886
+    second: item-rice_13
+  - first:
+      213: 2574473663495329579
+    second: item-rice_14
+  - first:
+      213: -2376958072121164041
+    second: item-rice_15
+  - first:
+      213: 6447182205639892607
+    second: item-rice_16
+  - first:
+      213: 5663606362429763136
+    second: item-rice_17
+  - first:
+      213: -8941530070290845333
+    second: item-rice_18
+  - first:
+      213: -6132416013689072106
+    second: item-rice_19
+  - first:
+      213: 6361341098487531965
+    second: item-rice_20
+  - first:
+      213: -1624646029421324221
+    second: item-rice_21
+  - first:
+      213: 8916243717407278796
+    second: item-rice_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: item-rice_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1231
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b096b3baf4a403920800000000000000
+      internalID: 2967953860472826123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 913
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518b41908336e5c90800000000000000
+      internalID: -7179191663660320747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 907
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fc623085dae7e60800000000000000
+      internalID: 7961991784759218023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 835
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d03d2ada9d2a530800000000000000
+      internalID: 3864890770021616944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 753
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec550f19ecfd62580800000000000000
+      internalID: -8852141939245427250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 747
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc66b2f8ddbe6d760800000000000000
+      internalID: 7482427167744943820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 694
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2ce5b720ef0a7e0800000000000000
+      internalID: -1756124568061295922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 612
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120cec49c94b27db0800000000000000
+      internalID: -4795572068591681503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 534
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc2c5927dd4091d0800000000000000
+      internalID: -3346088936629064528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 550
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd908cc6174f917a0800000000000000
+      internalID: -6405820226964289059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 521
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b22385c6db934fb0800000000000000
+      internalID: -4664713442286689615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 530
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603b436da4e1e1910800000000000000
+      internalID: 1809917407019709190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 511
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bd8d6f660b36b70800000000000000
+      internalID: 8891144045634050840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 515
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef7ab5521b2c25d0800000000000000
+      internalID: -3086044286907940886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 481
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27dc34282e5ab320800000000000000
+      internalID: 2574473663495329579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_15
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 411
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe78312a39530fd0800000000000000
+      internalID: -2376958072121164041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 388
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e9261be0ef87950800000000000000
+      internalID: 6447182205639892607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 387
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ea444cafb299e40800000000000000
+      internalID: 5663606362429763136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 379
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6137db76cd49e380800000000000000
+      internalID: -8941530070290845333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 155
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6165521602845eaa0800000000000000
+      internalID: -6132416013689072106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 157
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db941767606084850800000000000000
+      internalID: 6361341098487531965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 111
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348d7924b091479e0800000000000000
+      internalID: -1624646029421324221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-rice_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc68ed2bb6cdcbb70800000000000000
+      internalID: 8916243717407278796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      item-rice_0: 2967953860472826123
+      item-rice_1: -7179191663660320747
+      item-rice_10: -4664713442286689615
+      item-rice_11: 1809917407019709190
+      item-rice_12: 8891144045634050840
+      item-rice_13: -3086044286907940886
+      item-rice_14: 2574473663495329579
+      item-rice_15: -2376958072121164041
+      item-rice_16: 6447182205639892607
+      item-rice_17: 5663606362429763136
+      item-rice_18: -8941530070290845333
+      item-rice_19: -6132416013689072106
+      item-rice_2: 7961991784759218023
+      item-rice_20: 6361341098487531965
+      item-rice_21: -1624646029421324221
+      item-rice_22: 8916243717407278796
+      item-rice_3: 3864890770021616944
+      item-rice_4: -8852141939245427250
+      item-rice_5: 7482427167744943820
+      item-rice_6: -1756124568061295922
+      item-rice_7: -4795572068591681503
+      item-rice_8: -3346088936629064528
+      item-rice_9: -6405820226964289059
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

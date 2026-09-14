@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ba65f3c6dbf5c4da5c522d5148b019, type: 3}
+  m_Name: RiceSeedData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Hạt giống lúa
+  icon: {fileID: -3224839729940322891, guid: 81685a4b884669849a13612d2513e61c, type: 3}
+  maxStack: 99
+  itemType: 2
+  purchasePrice: 150
+  sellPrice: 0
+  sellPriceMode: 0
+  canHoe: 0
+  canWater: 0
+  cropToPlant: {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc001, type: 2}
+  fertilizerType: 0
+  fertilizerTestMode: 0
+  fertilizerEffects: []

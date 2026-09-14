@@ -24,6 +24,24 @@ public class HotbarSelector : MonoBehaviour
 
     private void SelectSlot(int index)
     {
+        if (selectionHighlight == null
+            || index < 0
+            || index >= hotbarSlots.Length
+            || hotbarSlots[index] == null)
+        {
+            return;
+        }
+
         selectionHighlight.position = hotbarSlots[index].position;
+    }
+
+    public void SelectSlot(RectTransform slot)
+    {
+        if (slot == null)
+        {
+            return;
+        }
+
+        selectionHighlight.position = slot.position;
     }
 }

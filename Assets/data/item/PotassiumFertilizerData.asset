@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ba65f3c6dbf5c4da5c522d5148b019, type: 3}
+  m_Name: PotassiumFertilizerData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: "Ph\xE2n kali"
+  icon: {fileID: -3782349208937090213, guid: e7745501780b9df4a890f21401094382, type: 3}
+  maxStack: 99
+  itemType: 4
+  purchasePrice: 0
+  sellPrice: 0
+  sellPriceMode: 0
+  canHoe: 0
+  canWater: 0
+  cropToPlant: {fileID: 0}
+  fertilizerType: 4
+  fertilizerTestMode: 1
+  fertilizerEffects:
+  - cropType: 5
+    maximumApplications: 2
+    reductionMinutes: 1
+    testReductionSeconds: 1
+  - cropType: 6
+    maximumApplications: 2
+    reductionMinutes: 2
+    testReductionSeconds: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ba65f3c6dbf5c4da5c522d5148b019, type: 3}
+  m_Name: PhosphateFertilizerData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: "Ph\xE2n l\xE2n"
+  icon: {fileID: 9168936182025665948, guid: 5d0a3d2d7da10f144864c27b927f78eb, type: 3}
+  maxStack: 99
+  itemType: 4
+  purchasePrice: 0
+  sellPrice: 0
+  sellPriceMode: 0
+  canHoe: 0
+  canWater: 0
+  cropToPlant: {fileID: 0}
+  fertilizerType: 3
+  fertilizerTestMode: 1
+  fertilizerEffects:
+  - cropType: 3
+    maximumApplications: 1
+    reductionMinutes: 3
+    testReductionSeconds: 1
+  - cropType: 4
+    maximumApplications: 1
+    reductionMinutes: 6
+    testReductionSeconds: 1

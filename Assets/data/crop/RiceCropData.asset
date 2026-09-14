@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39ab97a50d0d53459619d86ddc34527, type: 3}
+  m_Name: RiceCropData
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: "L\xFAa"
+  cropType: 1
+  stage1Sprite: {fileID: 21300000, guid: 6ea028a7b01f6604e9d517b8f088976b, type: 3}
+  stage2Sprite: {fileID: 21300000, guid: 552b3ddb04701b948b77ead2cfe9f597, type: 3}
+  stage3Sprite: {fileID: 21300000, guid: 9000ef010f46c174db15268dd65a6b0d, type: 3}
+  testMode: 1
+  stage1DurationMinutes: 6
+  stage2DurationMinutes: 6
+  testStage1DurationSeconds: 2
+  testStage2DurationSeconds: 2
+  harvestItem: {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc101, type: 2}
+  harvestAmount: 1

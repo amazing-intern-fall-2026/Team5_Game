@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 4171dadd36161f34fa4b8f32bf6fe8c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -727461793350578142
+    second: chili-stage-2_0
+  - first:
+      213: -91576715655261313
+    second: chili-stage-2_1
+  - first:
+      213: 5459108782292808482
+    second: chili-stage-2_2
+  - first:
+      213: -3623147541281527074
+    second: chili-stage-2_3
+  - first:
+      213: -1992263280282104969
+    second: chili-stage-2_4
+  - first:
+      213: -4837366532436907331
+    second: chili-stage-2_5
+  - first:
+      213: -3591808578957367195
+    second: chili-stage-2_6
+  - first:
+      213: 8565185657494326014
+    second: chili-stage-2_7
+  - first:
+      213: -5272996176289574665
+    second: chili-stage-2_8
+  - first:
+      213: 3559349161085621236
+    second: chili-stage-2_9
+  - first:
+      213: 3557218437732559300
+    second: chili-stage-2_10
+  - first:
+      213: 7912157195088699753
+    second: chili-stage-2_11
+  - first:
+      213: -6142792751878960228
+    second: chili-stage-2_12
+  - first:
+      213: -3399682634481351388
+    second: chili-stage-2_13
+  - first:
+      213: 5727661573147609246
+    second: chili-stage-2_14
+  - first:
+      213: 2305778251655392610
+    second: chili-stage-2_15
+  - first:
+      213: -5352352849550499471
+    second: chili-stage-2_16
+  - first:
+      213: 7160247038426341114
+    second: chili-stage-2_17
+  - first:
+      213: -3998656624381010488
+    second: chili-stage-2_18
+  - first:
+      213: -6317651757035734610
+    second: chili-stage-2_19
+  - first:
+      213: -2348165481243802823
+    second: chili-stage-2_20
+  - first:
+      213: 3263147278894819961
+    second: chili-stage-2_21
+  - first:
+      213: -4889616360082063875
+    second: chili-stage-2_22
+  - first:
+      213: -3944506270744030393
+    second: chili-stage-2_23
+  - first:
+      213: -8118640824134365336
+    second: chili-stage-2_24
+  - first:
+      213: 5010866277636977062
+    second: chili-stage-2_25
+  - first:
+      213: 6471615198693550417
+    second: chili-stage-2_26
+  - first:
+      213: 8135974819013880926
+    second: chili-stage-2_27
+  - first:
+      213: -5594712945060889277
+    second: chili-stage-2_28
+  - first:
+      213: -3008163358789818660
+    second: chili-stage-2_29
+  - first:
+      213: -86287970960780420
+    second: chili-stage-2_30
+  - first:
+      213: -5476048662238758457
+    second: chili-stage-2_31
+  - first:
+      213: 7677937504086087107
+    second: chili-stage-2_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chili-stage-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1237
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2209bab6a5987e5f0800000000000000
+      internalID: -727461793350578142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1210
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73dba95677aabef0800000000000000
+      internalID: -91576715655261313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1203
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22337ce8386a2cb40800000000000000
+      internalID: 5459108782292808482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_3
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1205
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaa519e18ef7bdc0800000000000000
+      internalID: -3623147541281527074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_4
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1207
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b0bbf1a1f0a54e0800000000000000
+      internalID: -1992263280282104969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1195
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba2cb9a4c83edcb0800000000000000
+      internalID: -4837366532436907331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_6
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1189
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ab0ea025572ec0800000000000000
+      internalID: -3591808578957367195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_7
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 882
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa4836a9f6add670800000000000000
+      internalID: 8565185657494326014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 841
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0544a4aed82d6b0800000000000000
+      internalID: -5272996176289574665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 789
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3d71a2439556130800000000000000
+      internalID: 3559349161085621236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_10
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 758
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9e4897257cd5130800000000000000
+      internalID: 3557218437732559300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_11
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 756
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961205c6c01adcd60800000000000000
+      internalID: 7912157195088699753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_12
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 767
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b096fb98a60caa0800000000000000
+      internalID: -6142792751878960228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_13
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 723
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425ccaef7a6e1d0d0800000000000000
+      internalID: -3399682634481351388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_14
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 549
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e984e15baddbc7f40800000000000000
+      internalID: 5727661573147609246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_15
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 529
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dadb47a15cfff10800000000000000
+      internalID: 2305778251655392610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 457
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1712ef9f07f98b5b0800000000000000
+      internalID: -5352352849550499471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_17
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 393
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed17daebe4e5360800000000000000
+      internalID: 7160247038426341114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd1056cfae188c0800000000000000
+      internalID: -3998656624381010488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_19
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 305
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9334703313358a0800000000000000
+      internalID: -6317651757035734610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 102
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93301a89fe3a96fd0800000000000000
+      internalID: -2348165481243802823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_21
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 101
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aee484927094d20800000000000000
+      internalID: 3263147278894819961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_22
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 103
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdbe59a3d7942cb0800000000000000
+      internalID: -4889616360082063875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_23
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 63
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7435006127c4249c0800000000000000
+      internalID: -3944506270744030393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_24
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 78
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f8c725f2bc45f80800000000000000
+      internalID: -8118640824134365336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1398fa45c2a8540800000000000000
+      internalID: 5010866277636977062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_26
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 73
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159e5213cbbcfc950800000000000000
+      internalID: 6471615198693550417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c68dcddf9c8e070800000000000000
+      internalID: 8135974819013880926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_28
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 67
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dbd51f7369b52b0800000000000000
+      internalID: -5594712945060889277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 49
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6acf4fc5bd046d0800000000000000
+      internalID: -3008163358789818660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 53
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c735e7e2c817dcef0800000000000000
+      internalID: -86287970960780420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_31
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 51
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9718a41ca2104b0800000000000000
+      internalID: -5476048662238758457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chili-stage-2_32
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c553b20b738d8a60800000000000000
+      internalID: 7677937504086087107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chili-stage-2_0: -727461793350578142
+      chili-stage-2_1: -91576715655261313
+      chili-stage-2_10: 3557218437732559300
+      chili-stage-2_11: 7912157195088699753
+      chili-stage-2_12: -6142792751878960228
+      chili-stage-2_13: -3399682634481351388
+      chili-stage-2_14: 5727661573147609246
+      chili-stage-2_15: 2305778251655392610
+      chili-stage-2_16: -5352352849550499471
+      chili-stage-2_17: 7160247038426341114
+      chili-stage-2_18: -3998656624381010488
+      chili-stage-2_19: -6317651757035734610
+      chili-stage-2_2: 5459108782292808482
+      chili-stage-2_20: -2348165481243802823
+      chili-stage-2_21: 3263147278894819961
+      chili-stage-2_22: -4889616360082063875
+      chili-stage-2_23: -3944506270744030393
+      chili-stage-2_24: -8118640824134365336
+      chili-stage-2_25: 5010866277636977062
+      chili-stage-2_26: 6471615198693550417
+      chili-stage-2_27: 8135974819013880926
+      chili-stage-2_28: -5594712945060889277
+      chili-stage-2_29: -3008163358789818660
+      chili-stage-2_3: -3623147541281527074
+      chili-stage-2_30: -86287970960780420
+      chili-stage-2_31: -5476048662238758457
+      chili-stage-2_32: 7677937504086087107
+      chili-stage-2_4: -1992263280282104969
+      chili-stage-2_5: -4837366532436907331
+      chili-stage-2_6: -3591808578957367195
+      chili-stage-2_7: 8565185657494326014
+      chili-stage-2_8: -5272996176289574665
+      chili-stage-2_9: 3559349161085621236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

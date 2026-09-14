@@ -308,10 +308,10 @@ TextureImporter:
       name: fertilizer-phosphate_0
       rect:
         serializedVersion: 2
-        x: 400
-        y: 1111
-        width: 75
-        height: 39
+        x: 261
+        y: 35
+        width: 863
+        height: 1052
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

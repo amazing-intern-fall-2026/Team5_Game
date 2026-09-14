@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: e2048c52a62a37d4b9fee47aeb869224
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8220247092116958476
+    second: okra-stage-3_0
+  - first:
+      213: -4934918343566739080
+    second: okra-stage-3_1
+  - first:
+      213: 1474396735071880170
+    second: okra-stage-3_2
+  - first:
+      213: 9200420934623720625
+    second: okra-stage-3_3
+  - first:
+      213: 2722921686713169868
+    second: okra-stage-3_4
+  - first:
+      213: 5361328553565816318
+    second: okra-stage-3_5
+  - first:
+      213: 598290198920954506
+    second: okra-stage-3_6
+  - first:
+      213: -8348255548397146921
+    second: okra-stage-3_7
+  - first:
+      213: 7400703942833424474
+    second: okra-stage-3_8
+  - first:
+      213: -897483202698852527
+    second: okra-stage-3_9
+  - first:
+      213: -1108023052694544612
+    second: okra-stage-3_10
+  - first:
+      213: 6065109818593641065
+    second: okra-stage-3_11
+  - first:
+      213: 6396188993744497107
+    second: okra-stage-3_12
+  - first:
+      213: 5886108516765966888
+    second: okra-stage-3_13
+  - first:
+      213: -1206880276655876107
+    second: okra-stage-3_14
+  - first:
+      213: 5334966185157466810
+    second: okra-stage-3_15
+  - first:
+      213: 6402551145114607462
+    second: okra-stage-3_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: okra-stage-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1208
+        height: 1268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f25e6c82d0dbed80800000000000000
+      internalID: -8220247092116958476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1231
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8793520b9e5a38bb0800000000000000
+      internalID: -4934918343566739080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1243
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae384f3d40c167410800000000000000
+      internalID: 1474396735071880170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1235
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4705818167eaf70800000000000000
+      internalID: 9200420934623720625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1209
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7febfe8d2c9c520800000000000000
+      internalID: 2722921686713169868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_5
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1235
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef50377f9e3476a40800000000000000
+      internalID: 5361328553565816318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 921
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82084b14cd8d4800800000000000000
+      internalID: 598290198920954506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 788
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcaa974fc9052c80800000000000000
+      internalID: -8348255548397146921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 771
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a584b60860594b660800000000000000
+      internalID: 7400703942833424474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 755
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157414f38cf7b83f0800000000000000
+      internalID: -897483202698852527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_10
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 607
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f923577e28f90f0800000000000000
+      internalID: -1108023052694544612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_11
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 606
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9620205ee399b2450800000000000000
+      internalID: 6065109818593641065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 415
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d967685004d3c850800000000000000
+      internalID: 6396188993744497107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 331
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822ac339288afa150800000000000000
+      internalID: 5886108516765966888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 304
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7508f58cc404fe0800000000000000
+      internalID: -1206880276655876107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_15
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba1803ca7b990a40800000000000000
+      internalID: 5334966185157466810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okra-stage-3_16
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 27
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f93d4285e6ad850800000000000000
+      internalID: 6402551145114607462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      okra-stage-3_0: -8220247092116958476
+      okra-stage-3_1: -4934918343566739080
+      okra-stage-3_10: -1108023052694544612
+      okra-stage-3_11: 6065109818593641065
+      okra-stage-3_12: 6396188993744497107
+      okra-stage-3_13: 5886108516765966888
+      okra-stage-3_14: -1206880276655876107
+      okra-stage-3_15: 5334966185157466810
+      okra-stage-3_16: 6402551145114607462
+      okra-stage-3_2: 1474396735071880170
+      okra-stage-3_3: 9200420934623720625
+      okra-stage-3_4: 2722921686713169868
+      okra-stage-3_5: 5361328553565816318
+      okra-stage-3_6: 598290198920954506
+      okra-stage-3_7: -8348255548397146921
+      okra-stage-3_8: 7400703942833424474
+      okra-stage-3_9: -897483202698852527
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

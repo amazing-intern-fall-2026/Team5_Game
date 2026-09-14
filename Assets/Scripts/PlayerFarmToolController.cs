@@ -6,16 +6,20 @@ public class PlayerFarmToolController : MonoBehaviour
     [Header("References")]
     [SerializeField] private FarmTileController farmTileController;
 
-    [Header("Tool settings")]
-    [SerializeField] private float toolReach = 0.6f;
-
     private Vector2 facingDirection = Vector2.down;
-    private FarmTool selectedTool = FarmTool.Hoe;
+    private HotbarSlotUI selectedHotbarSlot;
+    private TargetTileIndicator targetTileIndicator;
 
-    private enum FarmTool
+    private void Awake()
     {
-        Hoe,
-        WateringCan
+        targetTileIndicator = GetComponent<TargetTileIndicator>();
+
+        if (targetTileIndicator == null)
+        {
+            targetTileIndicator = gameObject.AddComponent<TargetTileIndicator>();
+        }
+
+        targetTileIndicator.Initialize(farmTileController);
     }
 
     private void Update()
@@ -26,8 +30,9 @@ public class PlayerFarmToolController : MonoBehaviour
         }
 
         UpdateFacingDirection();
-        SelectTool();
-        UseTool();
+        UpdateTargetTile();
+        UseSelectedItem();
+        HarvestCrop();
     }
 
     private void UpdateFacingDirection()
@@ -50,22 +55,57 @@ public class PlayerFarmToolController : MonoBehaviour
         }
     }
 
-    private void SelectTool()
+    public void SetSelectedHotbarSlot(HotbarSlotUI hotbarSlot)
     {
-        if (Keyboard.current.digit1Key.wasPressedThisFrame)
-        {
-            selectedTool = FarmTool.Hoe;
-            Debug.Log("Đã chọn: Cuốc");
-        }
+        selectedHotbarSlot = hotbarSlot;
 
-        if (Keyboard.current.digit2Key.wasPressedThisFrame)
+        if (selectedHotbarSlot != null
+            && !selectedHotbarSlot.IsEmpty)
         {
-            selectedTool = FarmTool.WateringCan;
-            Debug.Log("Đã chọn: Bình tưới");
+            Debug.Log(
+                "Đã chọn: "
+                + selectedHotbarSlot.CurrentItem.itemName
+            );
         }
     }
 
-    private void UseTool()
+    private void UpdateTargetTile()
+    {
+        if (targetTileIndicator == null)
+        {
+            return;
+        }
+
+        bool canTarget = selectedHotbarSlot != null
+            && !selectedHotbarSlot.IsEmpty
+            && IsFarmActionItem(selectedHotbarSlot.CurrentItem);
+
+        Vector3Int targetCell = Vector3Int.zero;
+        bool hasTarget = farmTileController != null
+            && farmTileController.TryGetAdjacentGroundCell(
+                transform.position,
+                facingDirection,
+                out targetCell
+            );
+
+        targetTileIndicator.SetTarget(
+            canTarget && hasTarget,
+            hasTarget
+                ? farmTileController.GetCellCenterWorld(targetCell)
+                : transform.position
+        );
+    }
+
+    private static bool IsFarmActionItem(ItemData item)
+    {
+        return item != null
+            && (item.canHoe
+                || item.canWater
+                || item.cropToPlant != null
+                || item.fertilizerType != FertilizerType.None);
+    }
+
+    private void UseSelectedItem()
     {
         if (!Keyboard.current.spaceKey.wasPressedThisFrame)
         {
@@ -78,16 +118,143 @@ public class PlayerFarmToolController : MonoBehaviour
             return;
         }
 
-        Vector3 targetPosition =
-            transform.position + (Vector3)(facingDirection * toolReach);
+        if (selectedHotbarSlot == null
+            || selectedHotbarSlot.IsEmpty)
+        {
+            Debug.Log("Hãy chọn item trong Hotbar.");
+            return;
+        }
 
-        if (selectedTool == FarmTool.Hoe)
+        ItemData selectedItem =
+            selectedHotbarSlot.CurrentItem;
+
+        if (!TryGetTargetPosition(out Vector3 targetPosition))
+        {
+            if (selectedItem.fertilizerType != FertilizerType.None)
+            {
+                Debug.Log("Không có cây đang trồng ở ô phía trước.");
+            }
+
+            return;
+        }
+
+        if (selectedItem.canHoe)
         {
             farmTileController.HoeAtWorldPosition(targetPosition);
         }
-        else
+        else if (selectedItem.canWater)
         {
             farmTileController.WaterAtWorldPosition(targetPosition);
         }
+        else if (selectedItem.cropToPlant != null)
+        {
+            bool planted = farmTileController.TryPlantAtWorldPosition(
+                targetPosition,
+                selectedItem.cropToPlant
+            );
+
+            if (planted)
+            {
+                selectedHotbarSlot.RemoveOne();
+            }
+        }
+        else if (selectedItem.fertilizerType != FertilizerType.None)
+        {
+            ApplyFertilizer(selectedItem, targetPosition);
+        }
+        else
+        {
+            Debug.Log(
+                selectedItem.itemName
+                + " không thể sử dụng ở nông trại."
+            );
+        }
+    }
+
+    private void HarvestCrop()
+    {
+        if (!Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            return;
+        }
+
+        if (farmTileController == null)
+        {
+            return;
+        }
+
+        if (!TryGetTargetPosition(out Vector3 targetPosition))
+        {
+            return;
+        }
+
+        farmTileController.TryHarvestAtWorldPosition(
+            targetPosition
+        );
+    }
+
+    private void ApplyFertilizer(ItemData selectedItem, Vector3 targetPosition)
+    {
+        FertilizerApplicationResult result =
+            farmTileController.ApplyFertilizerAtWorldPosition(
+                targetPosition,
+                selectedItem,
+                out string cropName,
+                out float reducedSeconds
+            );
+
+        switch (result)
+        {
+            case FertilizerApplicationResult.Success:
+                selectedHotbarSlot.RemoveOne();
+                string reductionText = selectedItem.fertilizerTestMode
+                    ? $"{reducedSeconds:0.##} giây"
+                    : $"{reducedSeconds / 60f:0.#} phút";
+                Debug.Log(
+                    $"Bón {selectedItem.itemName} cho {cropName} thành công. "
+                    + $"Giảm {reductionText} phát triển."
+                );
+                break;
+
+            case FertilizerApplicationResult.NoCrop:
+                Debug.Log("Không có cây đang trồng ở ô phía trước.");
+                break;
+
+            case FertilizerApplicationResult.WrongType:
+                Debug.Log(
+                    $"Không thể bón {selectedItem.itemName} cho {cropName}: sai loại phân."
+                );
+                break;
+
+            case FertilizerApplicationResult.ApplicationLimitReached:
+                Debug.Log(
+                    $"Không thể bón thêm cho {cropName}: cây đã đạt số lần bón tối đa."
+                );
+                break;
+
+            case FertilizerApplicationResult.CropMature:
+                Debug.Log(
+                    $"Không thể bón {selectedItem.itemName}: {cropName} đã trưởng thành."
+                );
+                break;
+        }
+    }
+
+    private bool TryGetTargetPosition(out Vector3 targetPosition)
+    {
+        targetPosition = transform.position;
+
+        if (farmTileController == null
+            || !farmTileController.TryGetAdjacentGroundCell(
+                transform.position,
+                facingDirection,
+                out Vector3Int targetCell
+            ))
+        {
+            return false;
+        }
+
+        targetPosition = farmTileController.GetCellCenterWorld(targetCell);
+        return true;
     }
 }

@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: dd7c842b46d81d54694b16e46ddbba21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3885613196728028017
+    second: item-lettuce_0
+  - first:
+      213: -6056242732812892313
+    second: item-lettuce_1
+  - first:
+      213: 8561864689652473595
+    second: item-lettuce_2
+  - first:
+      213: -7960511770088730575
+    second: item-lettuce_3
+  - first:
+      213: -1282795059808973283
+    second: item-lettuce_4
+  - first:
+      213: 7662798831597242955
+    second: item-lettuce_5
+  - first:
+      213: -3287207862012862338
+    second: item-lettuce_6
+  - first:
+      213: -7607417411220210360
+    second: item-lettuce_7
+  - first:
+      213: 329141913866355203
+    second: item-lettuce_8
+  - first:
+      213: -8167057655671185160
+    second: item-lettuce_9
+  - first:
+      213: 3421093987861797172
+    second: item-lettuce_10
+  - first:
+      213: 3345372890799666081
+    second: item-lettuce_11
+  - first:
+      213: 3233902220471676495
+    second: item-lettuce_12
+  - first:
+      213: -7605635687720941062
+    second: item-lettuce_13
+  - first:
+      213: -6960207085209697235
+    second: item-lettuce_14
+  - first:
+      213: -3156212089698795189
+    second: item-lettuce_15
+  - first:
+      213: -9124843995014485963
+    second: item-lettuce_16
+  - first:
+      213: 5208156906463664789
+    second: item-lettuce_17
+  - first:
+      213: 8845786787226084800
+    second: item-lettuce_18
+  - first:
+      213: -7100380300431065489
+    second: item-lettuce_19
+  - first:
+      213: 1128024845072475929
+    second: item-lettuce_20
+  - first:
+      213: 127039650769780685
+    second: item-lettuce_21
+  - first:
+      213: -1648763859545522144
+    second: item-lettuce_22
+  - first:
+      213: -8700748988246884495
+    second: item-lettuce_23
+  - first:
+      213: -387434951305413069
+    second: item-lettuce_24
+  - first:
+      213: 6959130573931566440
+    second: item-lettuce_25
+  - first:
+      213: -2494366181645896652
+    second: item-lettuce_26
+  - first:
+      213: -2280091077978378952
+    second: item-lettuce_27
+  - first:
+      213: -716355686670392686
+    second: item-lettuce_28
+  - first:
+      213: -374212889764389587
+    second: item-lettuce_29
+  - first:
+      213: 3840360184326634363
+    second: item-lettuce_30
+  - first:
+      213: -8353169468733025431
+    second: item-lettuce_31
+  - first:
+      213: -4559786074139992407
+    second: item-lettuce_32
+  - first:
+      213: -7198495938582685438
+    second: item-lettuce_33
+  - first:
+      213: 2694470701516547304
+    second: item-lettuce_34
+  - first:
+      213: -8885538519044532096
+    second: item-lettuce_35
+  - first:
+      213: 4201446693884133657
+    second: item-lettuce_36
+  - first:
+      213: 5051194261817293650
+    second: item-lettuce_37
+  - first:
+      213: 516171353289103802
+    second: item-lettuce_38
+  - first:
+      213: -4156454254633877952
+    second: item-lettuce_39
+  - first:
+      213: -2763308819240857013
+    second: item-lettuce_40
+  - first:
+      213: 5472370512647611375
+    second: item-lettuce_41
+  - first:
+      213: 8942424325555835834
+    second: item-lettuce_42
+  - first:
+      213: 4557847324921282934
+    second: item-lettuce_43
+  - first:
+      213: 1488839272225834539
+    second: item-lettuce_44
+  - first:
+      213: -397639509968265566
+    second: item-lettuce_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: item-lettuce_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1233
+        height: 1230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b4b859d987ce530800000000000000
+      internalID: 3885613196728028017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1197
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76785256257e3fba0800000000000000
+      internalID: -6056242732812892313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1126
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe12b1929ad1d670800000000000000
+      internalID: 8561864689652473595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_3
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1161
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1309b81c8b4968190800000000000000
+      internalID: -7960511770088730575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1129
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ec57c80b8923ee0800000000000000
+      internalID: -1282795059808973283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1125
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ac1a620fab75a60800000000000000
+      internalID: 7662798831597242955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_6
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1128
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e702ad9addd7162d0800000000000000
+      internalID: -3287207862012862338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1076
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84df81a9b260d6690800000000000000
+      internalID: -7607417411220210360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 909
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30242b8a3d8519400800000000000000
+      internalID: 329141913866355203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 913
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0a5954558c8ae80800000000000000
+      internalID: -8167057655671185160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_10
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 835
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4391ab13bda2a7f20800000000000000
+      internalID: 3421093987861797172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_11
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 861
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3f55d6be62d6e20800000000000000
+      internalID: 3345372890799666081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_12
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 805
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eaf818fe021ec20800000000000000
+      internalID: 3233902220471676495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_13
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 821
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90c5e63aa537690800000000000000
+      internalID: -7605635687720941062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_14
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 809
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d244be26880686f90800000000000000
+      internalID: -6960207085209697235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_15
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 795
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41c5b5a3d1e234d0800000000000000
+      internalID: -3156212089698795189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_16
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 803
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5382e466bba0e5180800000000000000
+      internalID: -9124843995014485963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_17
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 799
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a9348cc17174840800000000000000
+      internalID: 5208156906463664789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 789
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5647b473c82ca70800000000000000
+      internalID: 8845786787226084800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_19
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 795
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eff967cb1667d90800000000000000
+      internalID: -7100380300431065489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_20
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 779
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9172c5cbe9c87af00800000000000000
+      internalID: 1128024845072475929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_21
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 709
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfb588a3e553c100800000000000000
+      internalID: 127039650769780685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 746
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0208949510a6e19e0800000000000000
+      internalID: -1648763859545522144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 698
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f74bbc4eab04780800000000000000
+      internalID: -8700748988246884495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_24
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 678
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ebed9e6fd8f9af0800000000000000
+      internalID: -387434951305413069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_25
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 682
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86550ccc26cc39060800000000000000
+      internalID: 6959130573931566440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434bf3b6c2b326dd0800000000000000
+      internalID: -2494366181645896652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_27
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 522
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83daf89be3d7b50e0800000000000000
+      internalID: -2280091077978378952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_28
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 528
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2922e236c4efe06f0800000000000000
+      internalID: -716355686670392686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_29
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 391
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d98330c578ecaf0800000000000000
+      internalID: -374212889764389587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_30
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 375
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bb7549d33bb4530800000000000000
+      internalID: 3840360184326634363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 355
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963978b00a4931c80800000000000000
+      internalID: -8353169468733025431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_32
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 329
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aedc1f69b268b0c0800000000000000
+      internalID: -4559786074139992407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_33
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 95
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209dfa7451ec91c90800000000000000
+      internalID: -7198495938582685438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_34
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 150
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4679db3dea46520800000000000000
+      internalID: 2694470701516547304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_35
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 117
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088dc466bc930b480800000000000000
+      internalID: -8885538519044532096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_36
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 69
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91104b302898e4a30800000000000000
+      internalID: 4201446693884133657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_37
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 92
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b7c133b62791640800000000000000
+      internalID: 5051194261817293650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_38
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 95
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9970c6c1fc92700800000000000000
+      internalID: 516171353289103802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 103
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ef26390ee4156c0800000000000000
+      internalID: -4156454254633877952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_40
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42d1700541c6a9d0800000000000000
+      internalID: -2763308819240857013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_41
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 69
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3eea5ccf3c1fb40800000000000000
+      internalID: 5472370512647611375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_42
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 78
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3519b8b8fd91c70800000000000000
+      internalID: 8942424325555835834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_43
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 87
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671c5665ef9b04f30800000000000000
+      internalID: 4557847324921282934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_44
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 47
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b260cac0e6b69a410800000000000000
+      internalID: 1488839272225834539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-lettuce_45
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 53
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae5ea3f8fc4b7af0800000000000000
+      internalID: -397639509968265566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      item-lettuce_0: 3885613196728028017
+      item-lettuce_1: -6056242732812892313
+      item-lettuce_10: 3421093987861797172
+      item-lettuce_11: 3345372890799666081
+      item-lettuce_12: 3233902220471676495
+      item-lettuce_13: -7605635687720941062
+      item-lettuce_14: -6960207085209697235
+      item-lettuce_15: -3156212089698795189
+      item-lettuce_16: -9124843995014485963
+      item-lettuce_17: 5208156906463664789
+      item-lettuce_18: 8845786787226084800
+      item-lettuce_19: -7100380300431065489
+      item-lettuce_2: 8561864689652473595
+      item-lettuce_20: 1128024845072475929
+      item-lettuce_21: 127039650769780685
+      item-lettuce_22: -1648763859545522144
+      item-lettuce_23: -8700748988246884495
+      item-lettuce_24: -387434951305413069
+      item-lettuce_25: 6959130573931566440
+      item-lettuce_26: -2494366181645896652
+      item-lettuce_27: -2280091077978378952
+      item-lettuce_28: -716355686670392686
+      item-lettuce_29: -374212889764389587
+      item-lettuce_3: -7960511770088730575
+      item-lettuce_30: 3840360184326634363
+      item-lettuce_31: -8353169468733025431
+      item-lettuce_32: -4559786074139992407
+      item-lettuce_33: -7198495938582685438
+      item-lettuce_34: 2694470701516547304
+      item-lettuce_35: -8885538519044532096
+      item-lettuce_36: 4201446693884133657
+      item-lettuce_37: 5051194261817293650
+      item-lettuce_38: 516171353289103802
+      item-lettuce_39: -4156454254633877952
+      item-lettuce_4: -1282795059808973283
+      item-lettuce_40: -2763308819240857013
+      item-lettuce_41: 5472370512647611375
+      item-lettuce_42: 8942424325555835834
+      item-lettuce_43: 4557847324921282934
+      item-lettuce_44: 1488839272225834539
+      item-lettuce_45: -397639509968265566
+      item-lettuce_5: 7662798831597242955
+      item-lettuce_6: -3287207862012862338
+      item-lettuce_7: -7607417411220210360
+      item-lettuce_8: 329141913866355203
+      item-lettuce_9: -8167057655671185160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

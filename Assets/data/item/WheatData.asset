@@ -15,3 +15,5 @@ MonoBehaviour:
   itemName: Wheat
   icon: {fileID: 21300000, guid: 7e69a15d789a02548b194ed28ea45877, type: 3}
   maxStack: 99
+  canHoe: 0
+  canWater: 0

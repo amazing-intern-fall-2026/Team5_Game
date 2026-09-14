@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: b585095dfe56f4e49821887b4b2bb390
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5046894706612140855
+    second: corn-stage-3_0
+  - first:
+      213: 747233317808631727
+    second: corn-stage-3_1
+  - first:
+      213: -8106770827920378747
+    second: corn-stage-3_2
+  - first:
+      213: -8754863054127978058
+    second: corn-stage-3_3
+  - first:
+      213: -5248875383960578497
+    second: corn-stage-3_4
+  - first:
+      213: -1378579136835678602
+    second: corn-stage-3_5
+  - first:
+      213: -5585244732879544063
+    second: corn-stage-3_6
+  - first:
+      213: 860055069811510579
+    second: corn-stage-3_7
+  - first:
+      213: -6919231378737202101
+    second: corn-stage-3_8
+  - first:
+      213: -2688132982938275928
+    second: corn-stage-3_9
+  - first:
+      213: 752637543965731310
+    second: corn-stage-3_10
+  - first:
+      213: -7131623924414975757
+    second: corn-stage-3_11
+  - first:
+      213: -9103929834930105358
+    second: corn-stage-3_12
+  - first:
+      213: 2789289608620445671
+    second: corn-stage-3_13
+  - first:
+      213: 204732343290152897
+    second: corn-stage-3_14
+  - first:
+      213: -9148633433586995560
+    second: corn-stage-3_15
+  - first:
+      213: 6461052412200172113
+    second: corn-stage-3_16
+  - first:
+      213: -1069470774629251798
+    second: corn-stage-3_17
+  - first:
+      213: 6102431153778542665
+    second: corn-stage-3_18
+  - first:
+      213: -6764061606564984112
+    second: corn-stage-3_19
+  - first:
+      213: 2544958306918285645
+    second: corn-stage-3_20
+  - first:
+      213: -3311599465637282971
+    second: corn-stage-3_21
+  - first:
+      213: 3340015308620823169
+    second: corn-stage-3_22
+  - first:
+      213: -7777054947784019510
+    second: corn-stage-3_23
+  - first:
+      213: -1960820711602707891
+    second: corn-stage-3_24
+  - first:
+      213: -1251077516913265305
+    second: corn-stage-3_25
+  - first:
+      213: 3993923488097946057
+    second: corn-stage-3_26
+  - first:
+      213: 6214146051097625493
+    second: corn-stage-3_27
+  - first:
+      213: 6231336787078684304
+    second: corn-stage-3_28
+  - first:
+      213: 4166522914629387060
+    second: corn-stage-3_29
+  - first:
+      213: 2062712744377860197
+    second: corn-stage-3_30
+  - first:
+      213: -7003418997534518001
+    second: corn-stage-3_31
+  - first:
+      213: -4245890428389114250
+    second: corn-stage-3_32
+  - first:
+      213: 8130640772782800716
+    second: corn-stage-3_33
+  - first:
+      213: -8589705017295911579
+    second: corn-stage-3_34
+  - first:
+      213: -879851595630659199
+    second: corn-stage-3_35
+  - first:
+      213: 931758098100708912
+    second: corn-stage-3_36
+  - first:
+      213: -5059110919255076428
+    second: corn-stage-3_37
+  - first:
+      213: 503624993870057629
+    second: corn-stage-3_38
+  - first:
+      213: -7572925949022784428
+    second: corn-stage-3_39
+  - first:
+      213: 139828632316097889
+    second: corn-stage-3_40
+  - first:
+      213: 5008270302223719334
+    second: corn-stage-3_41
+  - first:
+      213: 1433745259486471542
+    second: corn-stage-3_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corn-stage-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1203
+        height: 1274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b7a6efefb2a0640800000000000000
+      internalID: 5046894706612140855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1069
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafe1585eb4be5a00800000000000000
+      internalID: 747233317808631727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1048
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5847e4e22e6fe7f80800000000000000
+      internalID: -8106770827920378747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1012
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9a281007a708680800000000000000
+      internalID: -8754863054127978058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 871
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36dcb4e5af3827b0800000000000000
+      internalID: -5248875383960578497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_5
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 868
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e052e349d4edce0800000000000000
+      internalID: -1378579136835678602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_6
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 834
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e711e1893d72b0800000000000000
+      internalID: -5585244732879544063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_7
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 822
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d836b77878feb00800000000000000
+      internalID: 860055069811510579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_8
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 731
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cf1af78b3f9ff90800000000000000
+      internalID: -6919231378737202101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_9
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 761
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afe3fa5b45d1bad0800000000000000
+      internalID: -2688132982938275928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 723
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee923bccbd7e17a00800000000000000
+      internalID: 752637543965731310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 667
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0719163d1670d90800000000000000
+      internalID: -7131623924414975757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_12
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 584
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f319e0cc0858a180800000000000000
+      internalID: -9103929834930105358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_13
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 611
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef8289ee1c85b620800000000000000
+      internalID: 2789289608620445671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 580
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c7d34bfa57d200800000000000000
+      internalID: 204732343290152897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 538
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee8ca1d56890180800000000000000
+      internalID: -9148633433586995560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 546
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a3f50dfe44aa950800000000000000
+      internalID: 6461052412200172113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_17
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 554
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25cf8c2ff97821f0800000000000000
+      internalID: -1069470774629251798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_18
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 554
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9484f336dc030b450800000000000000
+      internalID: 6102431153778542665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_19
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 534
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da06dd6ec93122a0800000000000000
+      internalID: -6764061606564984112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_20
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 513
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d414b0ca812815320800000000000000
+      internalID: 2544958306918285645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_21
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 512
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bf054e4d5da02d0800000000000000
+      internalID: -3311599465637282971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_22
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 498
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18af5be1a3e1a5e20800000000000000
+      internalID: 3340015308620823169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_23
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 500
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1b3a6cab9521490800000000000000
+      internalID: -7777054947784019510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_24
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 500
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4221b0a3f3c9c4e0800000000000000
+      internalID: -1960820711602707891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_25
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 483
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76538e970a743aee0800000000000000
+      internalID: -1251077516913265305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_26
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 452
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9ca2070444d6730800000000000000
+      internalID: 3993923488097946057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_27
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 455
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5930216d8e41d3650800000000000000
+      internalID: 6214146051097625493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_28
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 385
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e16a5fac72a7650800000000000000
+      internalID: 6231336787078684304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 387
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4338203048672d930800000000000000
+      internalID: 4166522914629387060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 351
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5604052ff4a30ac10800000000000000
+      internalID: 2062712744377860197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 323
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f059bb6078bdece90800000000000000
+      internalID: -7003418997534518001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_32
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 313
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eb2aca6219315c0800000000000000
+      internalID: -4245890428389114250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_33
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 278
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fb60274b6d5d070800000000000000
+      internalID: 8130640772782800716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 277
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565cfa60ccc3bc880800000000000000
+      internalID: -8589705017295911579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 192
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189bf5ba2a32ac3f0800000000000000
+      internalID: -879851595630659199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_36
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 188
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036e2e5bd054eec00800000000000000
+      internalID: 931758098100708912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_37
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 168
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1508a5c6d6ac9b0800000000000000
+      internalID: -5059110919255076428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_38
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9012ab734c3df600800000000000000
+      internalID: 503624993870057629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_39
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454b822f8ff87e690800000000000000
+      internalID: -7572925949022784428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_40
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 87
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16531a67665c0f100800000000000000
+      internalID: 139828632316097889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_41
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 95
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abde2f0e43f08540800000000000000
+      internalID: 5008270302223719334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corn-stage-3_42
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 63
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675671a97bfa5e310800000000000000
+      internalID: 1433745259486471542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      corn-stage-3_0: 5046894706612140855
+      corn-stage-3_1: 747233317808631727
+      corn-stage-3_10: 752637543965731310
+      corn-stage-3_11: -7131623924414975757
+      corn-stage-3_12: -9103929834930105358
+      corn-stage-3_13: 2789289608620445671
+      corn-stage-3_14: 204732343290152897
+      corn-stage-3_15: -9148633433586995560
+      corn-stage-3_16: 6461052412200172113
+      corn-stage-3_17: -1069470774629251798
+      corn-stage-3_18: 6102431153778542665
+      corn-stage-3_19: -6764061606564984112
+      corn-stage-3_2: -8106770827920378747
+      corn-stage-3_20: 2544958306918285645
+      corn-stage-3_21: -3311599465637282971
+      corn-stage-3_22: 3340015308620823169
+      corn-stage-3_23: -7777054947784019510
+      corn-stage-3_24: -1960820711602707891
+      corn-stage-3_25: -1251077516913265305
+      corn-stage-3_26: 3993923488097946057
+      corn-stage-3_27: 6214146051097625493
+      corn-stage-3_28: 6231336787078684304
+      corn-stage-3_29: 4166522914629387060
+      corn-stage-3_3: -8754863054127978058
+      corn-stage-3_30: 2062712744377860197
+      corn-stage-3_31: -7003418997534518001
+      corn-stage-3_32: -4245890428389114250
+      corn-stage-3_33: 8130640772782800716
+      corn-stage-3_34: -8589705017295911579
+      corn-stage-3_35: -879851595630659199
+      corn-stage-3_36: 931758098100708912
+      corn-stage-3_37: -5059110919255076428
+      corn-stage-3_38: 503624993870057629
+      corn-stage-3_39: -7572925949022784428
+      corn-stage-3_4: -5248875383960578497
+      corn-stage-3_40: 139828632316097889
+      corn-stage-3_41: 5008270302223719334
+      corn-stage-3_42: 1433745259486471542
+      corn-stage-3_5: -1378579136835678602
+      corn-stage-3_6: -5585244732879544063
+      corn-stage-3_7: 860055069811510579
+      corn-stage-3_8: -6919231378737202101
+      corn-stage-3_9: -2688132982938275928
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

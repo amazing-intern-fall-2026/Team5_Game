@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc56a38b931343940819d46f0c531797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HotbarSlotUI
-  itemIcon: {fileID: 3987950395766375057}
+  itemIcon: {fileID: 866263600753572047}
   countText: {fileID: 1386598972528685342}
 --- !u!1 &1828820324841997266
 GameObject:
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc56a38b931343940819d46f0c531797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HotbarSlotUI
-  itemIcon: {fileID: 6664322011017394845}
+  itemIcon: {fileID: 3696556178534897954}
   countText: {fileID: 5891162758432276598}
 --- !u!1 &1954778335465053613
 GameObject:

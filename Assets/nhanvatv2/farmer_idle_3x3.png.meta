@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 8cc253df42c5c6940ae4bad9c887981e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2958680809104686316
+    second: farmer_idle_3x3_0
+  - first:
+      213: 1925010230093954499
+    second: farmer_idle_3x3_1
+  - first:
+      213: -3304964248161464273
+    second: farmer_idle_3x3_2
+  - first:
+      213: -2956677675337330495
+    second: farmer_idle_3x3_3
+  - first:
+      213: -7689971068805204800
+    second: farmer_idle_3x3_4
+  - first:
+      213: 7859582169347689863
+    second: farmer_idle_3x3_5
+  - first:
+      213: 8035301575392339966
+    second: farmer_idle_3x3_6
+  - first:
+      213: 915289736335290820
+    second: farmer_idle_3x3_7
+  - first:
+      213: -6188506181445770352
+    second: farmer_idle_3x3_8
+  - first:
+      213: -7021426757595414423
+    second: farmer_idle_3x3_9
+  - first:
+      213: -1918826463141565266
+    second: farmer_idle_3x3_10
+  - first:
+      213: 1678967415603478376
+    second: farmer_idle_3x3_11
+  - first:
+      213: -3104719409327364369
+    second: farmer_idle_3x3_12
+  - first:
+      213: -2301325452895176293
+    second: farmer_idle_3x3_13
+  - first:
+      213: 9107823424450920978
+    second: farmer_idle_3x3_14
+  - first:
+      213: -5867963786235086381
+    second: farmer_idle_3x3_15
+  - first:
+      213: -6396561619595978766
+    second: farmer_idle_3x3_16
+  - first:
+      213: -6221248333721882692
+    second: farmer_idle_3x3_17
+  - first:
+      213: -5327292910547446007
+    second: farmer_idle_3x3_18
+  - first:
+      213: 1560663474835273343
+    second: farmer_idle_3x3_19
+  - first:
+      213: 9058524801277933210
+    second: farmer_idle_3x3_20
+  - first:
+      213: 3627273977490125020
+    second: farmer_idle_3x3_21
+  - first:
+      213: 5816576111314440817
+    second: farmer_idle_3x3_22
+  - first:
+      213: -4462441806453012619
+    second: farmer_idle_3x3_23
+  - first:
+      213: 1661607062940394548
+    second: farmer_idle_3x3_24
+  - first:
+      213: -2908864787212836876
+    second: farmer_idle_3x3_25
+  - first:
+      213: -1264401099819683034
+    second: farmer_idle_3x3_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farmer_idle_3x3_2
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 841
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2058f8d6886222d0800000000000000
+      internalID: -3304964248161464273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 421
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4b5de5e0cb74590800000000000000
+      internalID: -7689971068805204800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 421
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d86f65758d21d60800000000000000
+      internalID: 7859582169347689863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c173d07a23c3bc00800000000000000
+      internalID: 915289736335290820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e76c77f45268149b45d6c1493502f1
+      internalID: 2958680809104686316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 841
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7069fd35cd504c947ad3ed3ab9f9a333
+      internalID: 1925010230093954499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1bc75797c7d994eb0597dbee6bdd5e
+      internalID: -2956677675337330495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a18949820197a489620fc86a043f41
+      internalID: 8035301575392339966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_idle_3x3_8
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1
+        width: 415
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a5abe719129ea448cb2ae21be40220
+      internalID: -6188506181445770352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 036eaa40ba52cd640a2589543601430e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":415.0,"y":420.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      farmer_idle_3x3_0: 2958680809104686316
+      farmer_idle_3x3_1: 1925010230093954499
+      farmer_idle_3x3_2: -3304964248161464273
+      farmer_idle_3x3_3: -2956677675337330495
+      farmer_idle_3x3_4: -7689971068805204800
+      farmer_idle_3x3_5: 7859582169347689863
+      farmer_idle_3x3_6: 8035301575392339966
+      farmer_idle_3x3_7: 915289736335290820
+      farmer_idle_3x3_8: -6188506181445770352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

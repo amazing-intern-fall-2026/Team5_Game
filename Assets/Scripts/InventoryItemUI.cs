@@ -162,6 +162,25 @@ public class InventoryItemUI : MonoBehaviour,
         return true;
     }
 
+    public int RemoveItems(int amountToRemove)
+    {
+        int removed = Mathf.Min(Mathf.Max(0, amountToRemove), amount);
+        amount -= removed;
+
+        if (amount == 0)
+        {
+            itemData = null;
+        }
+
+        RefreshUI();
+        return removed;
+    }
+
+    public bool WasDraggedFrom(Transform slot)
+    {
+        return originalParent == slot;
+    }
+
     public void ClearItem()
     {
         itemData = null;

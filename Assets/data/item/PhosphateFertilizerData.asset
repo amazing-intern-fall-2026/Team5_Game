@@ -16,7 +16,7 @@ MonoBehaviour:
   icon: {fileID: 9168936182025665948, guid: 5d0a3d2d7da10f144864c27b927f78eb, type: 3}
   maxStack: 99
   itemType: 4
-  purchasePrice: 0
+  purchasePrice: 100
   sellPrice: 0
   sellPriceMode: 0
   canHoe: 0

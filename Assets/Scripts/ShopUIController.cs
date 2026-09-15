@@ -1,0 +1,583 @@
+using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
+
+public class ShopUIController : MonoBehaviour
+{
+    private enum ShopTab
+    {
+        BuySeeds,
+        SellProduce
+    }
+
+    [Header("References")]
+    [SerializeField] private CoinManager coinManager;
+    [SerializeField] private GameObject shopPrefab;
+    [SerializeField] private Canvas parentCanvas;
+
+    [Header("Input")]
+    [SerializeField] private Key toggleKey = Key.B;
+
+    private GameObject shopInstance;
+    private CanvasGroup shopCanvasGroup;
+    private TextMeshProUGUI coinText;
+    private TextMeshProUGUI emptyText;
+    private RectTransform contentRoot;
+    private Button buyTabButton;
+    private Button sellTabButton;
+    private ShopTab currentTab;
+    private bool isOpen;
+
+    public static bool IsOpen { get; private set; }
+
+    protected void Awake()
+    {
+        if (coinManager == null)
+        {
+            coinManager = FindFirstObjectByType<CoinManager>();
+        }
+
+#if UNITY_EDITOR
+        // The currently open scene can keep an older in-memory version after
+        // fields are added to this component. Resolve the existing prefab for
+        // Editor Play Mode so the Shop still opens without reopening the scene.
+        if (shopPrefab == null)
+        {
+            shopPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(
+                "Assets/Shop/PixelFarmShopUI.prefab"
+            );
+        }
+#endif
+
+        if (parentCanvas == null)
+        {
+            parentCanvas = FindFirstObjectByType<Canvas>();
+        }
+
+        CreateShopUI();
+        SetOpen(false);
+    }
+
+    protected void OnDisable()
+    {
+        SetOpen(false);
+    }
+
+    protected void Update()
+    {
+        if (Keyboard.current != null
+            && Keyboard.current[toggleKey].wasPressedThisFrame)
+        {
+            SetOpen(!isOpen);
+        }
+    }
+
+    private void SetOpen(bool open)
+    {
+        isOpen = open;
+        IsOpen = open;
+
+        if (shopCanvasGroup != null)
+        {
+            shopCanvasGroup.alpha = open ? 1f : 0f;
+            shopCanvasGroup.interactable = open;
+            shopCanvasGroup.blocksRaycasts = open;
+        }
+
+        if (open)
+        {
+            RefreshShop();
+            shopInstance?.transform.SetAsLastSibling();
+        }
+    }
+
+    private void CreateShopUI()
+    {
+        if (shopPrefab == null || parentCanvas == null)
+        {
+            Debug.LogError("Shop thiếu ShopUI prefab hoặc Canvas.");
+            return;
+        }
+
+        shopInstance = Instantiate(shopPrefab, parentCanvas.transform);
+        shopInstance.name = "ShopUI_Runtime";
+        parentCanvas.pixelPerfect = true;
+
+        RectTransform rootRect = shopInstance.GetComponent<RectTransform>();
+        rootRect.anchorMin = Vector2.zero;
+        rootRect.anchorMax = Vector2.one;
+        rootRect.pivot = new Vector2(0.5f, 0.5f);
+        rootRect.anchoredPosition = Vector2.zero;
+        rootRect.sizeDelta = Vector2.zero;
+        rootRect.localRotation = Quaternion.identity;
+        rootRect.localScale = Vector3.one;
+
+        shopCanvasGroup = shopInstance.GetComponent<CanvasGroup>();
+        if (shopCanvasGroup == null)
+        {
+            shopCanvasGroup = shopInstance.AddComponent<CanvasGroup>();
+        }
+
+        Transform panelTransform = shopInstance.transform.Find("Panel");
+        RectTransform panel = panelTransform != null
+            ? panelTransform as RectTransform
+            : rootRect;
+
+        if (panel == null)
+        {
+            Debug.LogError("ShopUI prefab không có RectTransform làm khung Shop.");
+            return;
+        }
+
+        BuildHeader(panel);
+        BuildTabs(panel);
+        BuildScrollView(panel);
+    }
+
+    private void BuildHeader(RectTransform panel)
+    {
+        TextMeshProUGUI title = CreateText("Title", panel, "CỬA HÀNG NÔNG TRẠI", 27f);
+        SetRect(title.rectTransform, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f),
+            new Vector2(0f, -38f), new Vector2(350f, 42f));
+        title.alignment = TextAlignmentOptions.Center;
+        title.fontStyle = FontStyles.Bold;
+        ApplyReadableText(title, new Color(1f, 0.88f, 0.54f), 0.12f);
+
+        coinText = CreateText("CoinText", panel, "Coin: 0", 17f);
+        SetRect(coinText.rectTransform, new Vector2(0f, 1f), new Vector2(0f, 1f),
+            new Vector2(112f, -78f), new Vector2(190f, 30f));
+        coinText.alignment = TextAlignmentOptions.MidlineLeft;
+        ApplyReadableText(coinText, new Color(1f, 0.84f, 0.24f), 0.1f);
+
+        Button closeButton = CreateButton("CloseButton", panel, "X");
+        SetRect(closeButton.GetComponent<RectTransform>(), Vector2.one, Vector2.one,
+            new Vector2(-29f, -34f), new Vector2(38f, 38f));
+        closeButton.onClick.AddListener(() => SetOpen(false));
+    }
+
+    private void BuildTabs(RectTransform panel)
+    {
+        buyTabButton = CreateButton("BuySeedsTab", panel, "MUA HẠT GIỐNG");
+        SetRect(buyTabButton.GetComponent<RectTransform>(), new Vector2(0.5f, 1f),
+            new Vector2(0.5f, 1f), new Vector2(-112f, -118f), new Vector2(205f, 42f));
+        buyTabButton.onClick.AddListener(() => SelectTab(ShopTab.BuySeeds));
+
+        sellTabButton = CreateButton("SellProduceTab", panel, "BÁN NÔNG SẢN");
+        SetRect(sellTabButton.GetComponent<RectTransform>(), new Vector2(0.5f, 1f),
+            new Vector2(0.5f, 1f), new Vector2(112f, -118f), new Vector2(205f, 42f));
+        sellTabButton.onClick.AddListener(() => SelectTab(ShopTab.SellProduce));
+    }
+
+    private void BuildScrollView(RectTransform panel)
+    {
+        GameObject viewportObject = CreateUIObject("Viewport", panel);
+        RectTransform viewport = viewportObject.GetComponent<RectTransform>();
+        viewport.anchorMin = Vector2.zero;
+        viewport.anchorMax = Vector2.one;
+        viewport.offsetMin = new Vector2(26f, 24f);
+        viewport.offsetMax = new Vector2(-26f, -150f);
+
+        Image viewportImage = viewportObject.AddComponent<Image>();
+        viewportImage.color = new Color(0.025f, 0.055f, 0.065f, 0.94f);
+        viewportObject.AddComponent<RectMask2D>();
+
+        GameObject contentObject = CreateUIObject("Content", viewport);
+        contentRoot = contentObject.GetComponent<RectTransform>();
+        contentRoot.anchorMin = new Vector2(0f, 1f);
+        contentRoot.anchorMax = new Vector2(1f, 1f);
+        contentRoot.pivot = new Vector2(0.5f, 1f);
+        contentRoot.anchoredPosition = Vector2.zero;
+        contentRoot.sizeDelta = Vector2.zero;
+
+        VerticalLayoutGroup layout = contentObject.AddComponent<VerticalLayoutGroup>();
+        layout.padding = new RectOffset(10, 10, 10, 10);
+        layout.spacing = 8f;
+        layout.childControlHeight = true;
+        layout.childControlWidth = true;
+        layout.childForceExpandHeight = false;
+        layout.childForceExpandWidth = true;
+
+        ContentSizeFitter fitter = contentObject.AddComponent<ContentSizeFitter>();
+        fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        ScrollRect scrollRect = viewportObject.AddComponent<ScrollRect>();
+        scrollRect.viewport = viewport;
+        scrollRect.content = contentRoot;
+        scrollRect.horizontal = false;
+        scrollRect.vertical = true;
+        scrollRect.movementType = ScrollRect.MovementType.Clamped;
+        scrollRect.scrollSensitivity = 28f;
+
+        emptyText = CreateText("EmptyText", contentRoot, "", 18f);
+        emptyText.alignment = TextAlignmentOptions.Center;
+        emptyText.gameObject.AddComponent<LayoutElement>().minHeight = 70f;
+    }
+
+    private void SelectTab(ShopTab tab)
+    {
+        currentTab = tab;
+        RefreshShop();
+    }
+
+    private void RefreshShop()
+    {
+        if (coinText != null)
+        {
+            coinText.text = coinManager != null
+                ? "Coin: " + coinManager.CurrentCoins.ToString("N0")
+                : "Coin: ---";
+        }
+
+        if (contentRoot == null)
+        {
+            return;
+        }
+
+        for (int i = contentRoot.childCount - 1; i >= 0; i--)
+        {
+            Transform child = contentRoot.GetChild(i);
+            if (child != emptyText.transform)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+
+        SetTabColor(buyTabButton, currentTab == ShopTab.BuySeeds);
+        SetTabColor(sellTabButton, currentTab == ShopTab.SellProduce);
+
+        bool hasRows = currentTab == ShopTab.BuySeeds
+            ? BuildSeedRows()
+            : BuildProduceRows();
+
+        emptyText.gameObject.SetActive(!hasRows);
+        if (!hasRows)
+        {
+            emptyText.text = currentTab == ShopTab.BuySeeds
+                ? "Chưa có dữ liệu hạt giống."
+                : "Không có nông sản trong Hotbar hoặc Inventory.";
+        }
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRoot);
+    }
+
+    private bool BuildSeedRows()
+    {
+        if (coinManager == null)
+        {
+            return false;
+        }
+
+        bool hasRows = false;
+        hasRows |= BuildPurchaseCatalog(coinManager.SeedCatalog, ItemType.Seed);
+        hasRows |= BuildPurchaseCatalog(
+            coinManager.FertilizerCatalog,
+            ItemType.Fertilizer
+        );
+        return hasRows;
+    }
+
+    private bool BuildPurchaseCatalog(ItemData[] catalog, ItemType expectedType)
+    {
+        if (catalog == null)
+        {
+            return false;
+        }
+
+        bool hasRows = false;
+        foreach (ItemData item in catalog)
+        {
+            if (item == null || item.itemType != expectedType)
+            {
+                continue;
+            }
+
+            hasRows = true;
+            CreateBuyRow(item);
+        }
+
+        return hasRows;
+    }
+
+    private void CreateBuyRow(ItemData seed)
+    {
+        GameObject row = CreateUIObject("BuySeed_" + seed.name, contentRoot);
+        Image rowImage = row.AddComponent<Image>();
+        rowImage.color = new Color(0.06f, 0.115f, 0.125f, 1f);
+
+        Button rowButton = row.AddComponent<Button>();
+        rowButton.targetGraphic = rowImage;
+        ColorBlock rowColors = rowButton.colors;
+        rowColors.normalColor = Color.white;
+        rowColors.highlightedColor = new Color(1f, 0.94f, 0.72f, 1f);
+        rowColors.pressedColor = new Color(0.78f, 0.72f, 0.56f, 1f);
+        rowColors.selectedColor = Color.white;
+        rowButton.colors = rowColors;
+        rowButton.onClick.AddListener(() =>
+        {
+            coinManager.TryBuyItem(seed, 1);
+            RefreshShop();
+        });
+
+        LayoutElement rowLayout = row.AddComponent<LayoutElement>();
+        rowLayout.minHeight = 78f;
+        rowLayout.preferredHeight = 78f;
+
+        GameObject iconFrame = CreateUIObject("IconFrame", row.transform);
+        Image iconFrameImage = iconFrame.AddComponent<Image>();
+        iconFrameImage.color = new Color(0.68f, 0.43f, 0.17f, 1f);
+        iconFrameImage.raycastTarget = false;
+        SetRect(iconFrameImage.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(45f, 0f), new Vector2(58f, 58f));
+
+        GameObject iconObject = CreateUIObject("ItemIcon", row.transform);
+        Image icon = iconObject.AddComponent<Image>();
+        icon.sprite = seed.icon;
+        icon.preserveAspect = true;
+        icon.raycastTarget = false;
+        SetRect(icon.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(45f, 0f), new Vector2(48f, 48f));
+
+        TextMeshProUGUI nameText = CreateText(
+            "ItemName", row.transform, seed.itemName, 18f);
+        SetRect(nameText.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(191f, 13f), new Vector2(220f, 27f));
+        nameText.alignment = TextAlignmentOptions.MidlineLeft;
+        nameText.fontStyle = FontStyles.Bold;
+        ApplyReadableText(nameText, Color.white, 0.12f);
+
+        TextMeshProUGUI typeText = CreateText(
+            "ItemInfo",
+            row.transform,
+            seed.itemType == ItemType.Fertilizer
+                ? "Phân bón • Mua 1"
+                : "Hạt giống • Mua 1",
+            14f);
+        SetRect(typeText.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(191f, -15f), new Vector2(220f, 23f));
+        typeText.alignment = TextAlignmentOptions.MidlineLeft;
+        ApplyReadableText(typeText, new Color(0.82f, 0.88f, 0.86f), 0.08f);
+
+        GameObject priceBox = CreateUIObject("PriceBox", row.transform);
+        Image priceBoxImage = priceBox.AddComponent<Image>();
+        priceBoxImage.color = new Color(0.69f, 0.43f, 0.16f, 1f);
+        SetRect(priceBoxImage.rectTransform, new Vector2(1f, 0.5f),
+            new Vector2(1f, 0.5f), new Vector2(-86f, 0f), new Vector2(142f, 48f));
+
+        GameObject coin = CreateUIObject("Coin", priceBox.transform);
+        Image coinImage = coin.AddComponent<Image>();
+        coinImage.color = new Color(1f, 0.72f, 0.16f, 1f);
+        coinImage.raycastTarget = false;
+        SetRect(coinImage.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(23f, 0f), new Vector2(18f, 18f));
+
+        TextMeshProUGUI priceText = CreateText(
+            "Price", priceBox.transform, seed.purchasePrice.ToString("N0"), 19f);
+        SetRect(priceText.rectTransform, new Vector2(0f, 0.5f),
+            new Vector2(0f, 0.5f), new Vector2(88f, 0f), new Vector2(82f, 28f));
+        priceText.alignment = TextAlignmentOptions.Center;
+        priceText.fontStyle = FontStyles.Bold;
+        ApplyReadableText(priceText, new Color(1f, 0.93f, 0.58f), 0.12f);
+    }
+
+    private bool BuildProduceRows()
+    {
+        if (coinManager == null
+            || coinManager.ItemStorage == null
+            || coinManager.ProduceCatalog == null)
+        {
+            return false;
+        }
+
+        bool hasRows = false;
+        foreach (ItemData produce in coinManager.ProduceCatalog)
+        {
+            if (produce == null || produce.itemType != ItemType.Produce)
+            {
+                continue;
+            }
+
+            int owned = coinManager.ItemStorage.CountItem(produce);
+            if (owned <= 0)
+            {
+                continue;
+            }
+
+            hasRows = true;
+            ItemData selectedProduce = produce;
+            int sellAllAmount = owned;
+            CreateItemRow(
+                selectedProduce,
+                "x" + owned + "   " + GetSellPriceText(selectedProduce),
+                "Bán 1",
+                () =>
+                {
+                    coinManager.TrySellProduce(selectedProduce, 1);
+                    RefreshShop();
+                },
+                "Bán hết",
+                () =>
+                {
+                    coinManager.TrySellProduce(selectedProduce, sellAllAmount);
+                    RefreshShop();
+                }
+            );
+        }
+
+        return hasRows;
+    }
+
+    private void CreateItemRow(
+        ItemData item,
+        string detail,
+        string primaryLabel,
+        UnityEngine.Events.UnityAction primaryAction,
+        string secondaryLabel,
+        UnityEngine.Events.UnityAction secondaryAction
+    )
+    {
+        GameObject row = CreateUIObject("ShopItem_" + item.name, contentRoot);
+        row.AddComponent<Image>().color = new Color(0.08f, 0.15f, 0.17f, 0.96f);
+        LayoutElement rowLayout = row.AddComponent<LayoutElement>();
+        rowLayout.minHeight = 74f;
+        rowLayout.preferredHeight = 74f;
+
+        GameObject iconObject = CreateUIObject("Icon", row.transform);
+        Image icon = iconObject.AddComponent<Image>();
+        icon.sprite = item.icon;
+        icon.preserveAspect = true;
+        icon.raycastTarget = false;
+        SetRect(icon.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(43f, 0f), new Vector2(56f, 56f));
+
+        TextMeshProUGUI nameText = CreateText("Name", row.transform, item.itemName, 18f);
+        SetRect(nameText.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(180f, 14f), new Vector2(210f, 28f));
+        nameText.alignment = TextAlignmentOptions.MidlineLeft;
+        nameText.fontStyle = FontStyles.Bold;
+
+        TextMeshProUGUI detailText = CreateText("Detail", row.transform, detail, 15f);
+        SetRect(detailText.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(195f, -17f), new Vector2(240f, 25f));
+        detailText.alignment = TextAlignmentOptions.MidlineLeft;
+        detailText.color = new Color(1f, 0.82f, 0.25f);
+
+        float primaryX = secondaryAction == null ? -58f : -138f;
+        Button primary = CreateButton("PrimaryButton", row.transform, primaryLabel);
+        SetRect(primary.GetComponent<RectTransform>(), new Vector2(1f, 0.5f),
+            new Vector2(1f, 0.5f), new Vector2(primaryX, 0f), new Vector2(92f, 42f));
+        primary.onClick.AddListener(primaryAction);
+
+        if (secondaryAction != null)
+        {
+            Button secondary = CreateButton("SecondaryButton", row.transform, secondaryLabel);
+            SetRect(secondary.GetComponent<RectTransform>(), new Vector2(1f, 0.5f),
+                new Vector2(1f, 0.5f), new Vector2(-50f, 0f), new Vector2(82f, 42f));
+            secondary.onClick.AddListener(secondaryAction);
+        }
+    }
+
+    private static GameObject CreateUIObject(string objectName, Transform parent)
+    {
+        GameObject result = new GameObject(objectName, typeof(RectTransform));
+        result.layer = 5;
+        result.transform.SetParent(parent, false);
+        return result;
+    }
+
+    private static TextMeshProUGUI CreateText(
+        string objectName,
+        Transform parent,
+        string value,
+        float fontSize
+    )
+    {
+        GameObject textObject = CreateUIObject(objectName, parent);
+        TextMeshProUGUI text = textObject.AddComponent<TextMeshProUGUI>();
+        text.text = value;
+        text.fontSize = fontSize;
+        text.color = Color.white;
+        text.raycastTarget = false;
+        text.enableAutoSizing = false;
+        text.extraPadding = true;
+        return text;
+    }
+
+    private static void ApplyReadableText(
+        TextMeshProUGUI text,
+        Color faceColor,
+        float outlineWidth
+    )
+    {
+        text.color = faceColor;
+        text.fontStyle |= FontStyles.Bold;
+        text.outlineColor = new Color32(15, 18, 16, 255);
+        text.outlineWidth = outlineWidth;
+    }
+
+    private static Button CreateButton(string objectName, Transform parent, string label)
+    {
+        GameObject buttonObject = CreateUIObject(objectName, parent);
+        Image image = buttonObject.AddComponent<Image>();
+        image.color = new Color(0.12f, 0.29f, 0.32f, 1f);
+
+        Button button = buttonObject.AddComponent<Button>();
+        button.targetGraphic = image;
+        ColorBlock colors = button.colors;
+        colors.highlightedColor = new Color(0.2f, 0.48f, 0.5f, 1f);
+        colors.pressedColor = new Color(0.08f, 0.2f, 0.22f, 1f);
+        button.colors = colors;
+
+        TextMeshProUGUI buttonText = CreateText("Text", buttonObject.transform, label, 16f);
+        buttonText.alignment = TextAlignmentOptions.Center;
+        buttonText.fontStyle = FontStyles.Bold;
+        ApplyReadableText(buttonText, Color.white, 0.1f);
+        RectTransform textRect = buttonText.rectTransform;
+        textRect.anchorMin = Vector2.zero;
+        textRect.anchorMax = Vector2.one;
+        textRect.offsetMin = Vector2.zero;
+        textRect.offsetMax = Vector2.zero;
+        return button;
+    }
+
+    private static void SetRect(
+        RectTransform rect,
+        Vector2 anchorMin,
+        Vector2 anchorMax,
+        Vector2 position,
+        Vector2 size
+    )
+    {
+        rect.anchorMin = anchorMin;
+        rect.anchorMax = anchorMax;
+        rect.pivot = new Vector2(0.5f, 0.5f);
+        rect.anchoredPosition = position;
+        rect.sizeDelta = size;
+        rect.localRotation = Quaternion.identity;
+        rect.localScale = Vector3.one;
+    }
+
+    private static void SetTabColor(Button button, bool selected)
+    {
+        if (button != null && button.targetGraphic is Image image)
+        {
+            image.color = selected
+                ? new Color(0.75f, 0.46f, 0.12f, 1f)
+                : new Color(0.12f, 0.29f, 0.32f, 1f);
+        }
+    }
+
+    private static string GetSellPriceText(ItemData produce)
+    {
+        if (produce.sellPriceMode == SellPriceMode.HalfOrOneAndHalf)
+        {
+            int lowPrice = Mathf.RoundToInt(produce.sellPrice * 0.5f);
+            int highPrice = Mathf.RoundToInt(produce.sellPrice * 1.5f);
+            return lowPrice.ToString("N0") + " hoặc "
+                + highPrice.ToString("N0") + " coin/cái";
+        }
+
+        return produce.sellPrice.ToString("N0") + " coin/cái";
+    }
+}

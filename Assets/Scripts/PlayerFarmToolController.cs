@@ -30,6 +30,17 @@ public class PlayerFarmToolController : MonoBehaviour
         }
 
         UpdateFacingDirection();
+
+        if (PixelFarmShopController.IsOpen)
+        {
+            if (targetTileIndicator != null)
+            {
+                targetTileIndicator.SetTarget(false, transform.position);
+            }
+
+            return;
+        }
+
         UpdateTargetTile();
         UseSelectedItem();
         HarvestCrop();

@@ -9,16 +9,33 @@ public class CoinManager : MonoBehaviour
 
     [Header("Shop catalog")]
     [SerializeField] private ItemData[] seedCatalog;
+    [SerializeField] private ItemData[] fertilizerCatalog;
     [SerializeField] private ItemData[] produceCatalog;
 
     [Header("UI (auto-created when empty)")]
+    [SerializeField] private GameObject currencyUIPrefab;
     [SerializeField] private TextMeshProUGUI coinText;
 
+    private GameObject currencyUIInstance;
+
     public int CurrentCoins { get; private set; }
+    public ItemData[] SeedCatalog => seedCatalog;
+    public ItemData[] FertilizerCatalog => fertilizerCatalog;
+    public ItemData[] ProduceCatalog => produceCatalog;
+    public ItemStorageController ItemStorage => itemStorageController;
 
     private void Awake()
     {
         CurrentCoins = Mathf.Max(0, startingCoins);
+
+#if UNITY_EDITOR
+        if (currencyUIPrefab == null)
+        {
+            currencyUIPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(
+                "Assets/Prefabs/UI/CurrencyUI.prefab"
+            );
+        }
+#endif
 
         if (itemStorageController == null)
         {
@@ -62,19 +79,36 @@ public class CoinManager : MonoBehaviour
 
     public bool TryBuySeed(ItemData seedItem, int amount = 1)
     {
-        if (seedItem == null || seedItem.itemType != ItemType.Seed
-            || seedItem.cropToPlant == null || seedItem.purchasePrice <= 0
-            || amount <= 0 || itemStorageController == null)
+        if (seedItem == null || seedItem.itemType != ItemType.Seed)
         {
             Debug.LogWarning("Dữ liệu mua hạt giống không hợp lệ.");
             return false;
         }
 
-        long totalPrice = (long)seedItem.purchasePrice * amount;
+        return TryBuyItem(seedItem, amount);
+    }
+
+    public bool TryBuyItem(ItemData item, int amount = 1)
+    {
+        bool isSeed = item != null
+            && item.itemType == ItemType.Seed
+            && item.cropToPlant != null;
+        bool isFertilizer = item != null
+            && item.itemType == ItemType.Fertilizer
+            && item.fertilizerType != FertilizerType.None;
+
+        if ((!isSeed && !isFertilizer) || item.purchasePrice <= 0
+            || amount <= 0 || itemStorageController == null)
+        {
+            Debug.LogWarning("Dữ liệu vật phẩm mua trong Shop không hợp lệ.");
+            return false;
+        }
+
+        long totalPrice = (long)item.purchasePrice * amount;
         if (totalPrice > int.MaxValue || !CanAfford((int)totalPrice))
         {
             Debug.Log(
-                $"Không đủ coin mua {amount} {seedItem.itemName}. "
+                $"Không đủ coin mua {amount} {item.itemName}. "
                 + $"Cần {totalPrice}, hiện có {CurrentCoins} coin."
             );
             return false;
@@ -83,12 +117,12 @@ public class CoinManager : MonoBehaviour
         int bought = 0;
         for (int i = 0; i < amount; i++)
         {
-            if (!itemStorageController.TryAddItem(seedItem, 1))
+            if (!itemStorageController.TryAddItem(item, 1))
             {
                 break;
             }
 
-            CurrentCoins -= seedItem.purchasePrice;
+            CurrentCoins -= item.purchasePrice;
             bought++;
         }
 
@@ -101,8 +135,8 @@ public class CoinManager : MonoBehaviour
         }
 
         Debug.Log(
-            $"Đã mua {bought} {seedItem.itemName} với giá "
-            + $"{bought * seedItem.purchasePrice} coin. Số dư: {CurrentCoins} coin."
+            $"Đã mua {bought} {item.itemName} với giá "
+            + $"{bought * item.purchasePrice} coin. Số dư: {CurrentCoins} coin."
         );
         return bought == amount;
     }
@@ -170,26 +204,71 @@ public class CoinManager : MonoBehaviour
             return;
         }
 
-        GameObject textObject = new GameObject("Coin Text");
-        textObject.transform.SetParent(canvas.transform, false);
+        if (currencyUIPrefab == null)
+        {
+            Debug.LogWarning("CoinManager thiếu CurrencyUI prefab.");
+            return;
+        }
+
+        currencyUIInstance = Instantiate(currencyUIPrefab, canvas.transform);
+        currencyUIInstance.name = "CurrencyUI_Runtime";
+
+        RectTransform rootRect = currencyUIInstance.GetComponent<RectTransform>();
+        rootRect.anchorMin = Vector2.zero;
+        rootRect.anchorMax = Vector2.one;
+        rootRect.offsetMin = Vector2.zero;
+        rootRect.offsetMax = Vector2.zero;
+        rootRect.localScale = Vector3.one;
+
+        RectTransform currencyBar = currencyUIInstance.transform.childCount > 0
+            ? currencyUIInstance.transform.GetChild(0) as RectTransform
+            : rootRect;
+        currencyBar.anchorMin = Vector2.one;
+        currencyBar.anchorMax = Vector2.one;
+        currencyBar.pivot = Vector2.one;
+        currencyBar.anchoredPosition = new Vector2(-24f, -18f);
+        currencyBar.sizeDelta = new Vector2(300f, 38f);
+
+        GameObject valueCover = new GameObject(
+            "CoinValueBackground",
+            typeof(RectTransform),
+            typeof(UnityEngine.UI.Image)
+        );
+        valueCover.layer = 5;
+        valueCover.transform.SetParent(currencyBar, false);
+        UnityEngine.UI.Image coverImage = valueCover.GetComponent<UnityEngine.UI.Image>();
+        coverImage.color = new Color(0.025f, 0.065f, 0.075f, 1f);
+        coverImage.raycastTarget = false;
+        RectTransform coverRect = valueCover.GetComponent<RectTransform>();
+        coverRect.anchorMin = new Vector2(0f, 0f);
+        coverRect.anchorMax = new Vector2(1f, 1f);
+        coverRect.offsetMin = new Vector2(58f, 5f);
+        coverRect.offsetMax = new Vector2(-8f, -5f);
+
+        GameObject textObject = new GameObject("CoinValue", typeof(RectTransform));
+        textObject.layer = 5;
+        textObject.transform.SetParent(currencyBar, false);
         coinText = textObject.AddComponent<TextMeshProUGUI>();
-        coinText.fontSize = 28f;
-        coinText.alignment = TextAlignmentOptions.TopRight;
-        coinText.color = new Color(1f, 0.82f, 0.18f);
+        coinText.fontSize = 20f;
+        coinText.fontStyle = FontStyles.Bold;
+        coinText.alignment = TextAlignmentOptions.MidlineRight;
+        coinText.color = new Color(1f, 0.88f, 0.42f);
+        coinText.outlineColor = new Color32(20, 18, 12, 255);
+        coinText.outlineWidth = 0.1f;
+        coinText.raycastTarget = false;
 
         RectTransform rect = coinText.rectTransform;
-        rect.anchorMin = Vector2.one;
+        rect.anchorMin = Vector2.zero;
         rect.anchorMax = Vector2.one;
-        rect.pivot = Vector2.one;
-        rect.anchoredPosition = new Vector2(-24f, -18f);
-        rect.sizeDelta = new Vector2(300f, 50f);
+        rect.offsetMin = new Vector2(65f, 2f);
+        rect.offsetMax = new Vector2(-16f, -2f);
     }
 
     private void RefreshUI()
     {
         if (coinText != null)
         {
-            coinText.text = $"Coin: {CurrentCoins:N0}";
+            coinText.text = CurrentCoins.ToString("N0");
         }
     }
 }

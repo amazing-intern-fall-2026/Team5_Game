@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
 {
@@ -12,6 +13,8 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
         for (int i = 0; i < transform.childCount; i++)
         {
             Transform slot = transform.GetChild(i);
+            EnsureSlotRaycastTarget(slot);
+
             InventorySlotDropTargetUI dropTarget =
                 slot.GetComponent<InventorySlotDropTargetUI>();
 
@@ -22,6 +25,25 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
 
             dropTarget.Initialize(this, slot);
         }
+    }
+
+    private static void EnsureSlotRaycastTarget(Transform slot)
+    {
+        // Empty slots in the prefab have their Image disabled. An IDropHandler
+        // alone cannot receive EventSystem raycasts, so drops on an empty slot
+        // never reached HandleDrop. Keep the hit area transparent while making
+        // it a valid GraphicRaycaster target.
+        Image hitArea = slot.GetComponent<Image>();
+
+        if (hitArea == null)
+        {
+            hitArea = slot.gameObject.AddComponent<Image>();
+        }
+
+        hitArea.enabled = true;
+        hitArea.sprite = null;
+        hitArea.color = Color.clear;
+        hitArea.raycastTarget = true;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -44,17 +66,18 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
             return;
         }
 
-        HotbarSlotUI hotbarItem =
+        HotbarSlotUI hotbarSource =
             eventData.pointerDrag.GetComponentInParent<HotbarSlotUI>();
+        InventoryItemUI inventorySource =
+            eventData.pointerDrag.GetComponentInParent<InventoryItemUI>();
 
-        if (hotbarItem == null)
+        if (hotbarSource == null && inventorySource == null)
         {
             return;
         }
 
-        if (hotbarItem.IsEmpty)
+        if (inventorySource != null && inventorySource.WasDraggedFrom(inventorySlot))
         {
-            Debug.LogWarning("Hotbar Slot đang trống. Không có item để chuyển.");
             return;
         }
 
@@ -81,21 +104,51 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
             itemRect.localScale = Vector3.one;
         }
 
-        int remaining = inventoryItem.AddItem(
-            hotbarItem.CurrentItem,
-            1
-        );
-
-        if (remaining == 0)
+        if (hotbarSource != null)
         {
-            hotbarItem.RemoveOne();
-            Debug.Log("Đã chuyển 1 item từ Hotbar vào Inventory.");
+            TransferFromHotbar(hotbarSource, inventoryItem);
         }
         else
         {
-            Debug.LogWarning(
-                "Ô Inventory chứa item khác loại hoặc đã đầy. Item được giữ nguyên."
-            );
+            TransferFromInventory(inventorySource, inventoryItem);
+        }
+    }
+
+    private static void TransferFromHotbar(
+        HotbarSlotUI source,
+        InventoryItemUI destination
+    )
+    {
+        if (source.IsEmpty)
+        {
+            return;
+        }
+
+        int remaining = destination.AddItem(source.CurrentItem, source.Amount);
+        int transferred = source.Amount - remaining;
+
+        if (transferred > 0)
+        {
+            source.RemoveItems(transferred);
+        }
+    }
+
+    private static void TransferFromInventory(
+        InventoryItemUI source,
+        InventoryItemUI destination
+    )
+    {
+        if (source == destination || source.IsEmpty)
+        {
+            return;
+        }
+
+        int remaining = destination.AddItem(source.ItemData, source.Amount);
+        int transferred = source.Amount - remaining;
+
+        if (transferred > 0)
+        {
+            source.RemoveItems(transferred);
         }
     }
 

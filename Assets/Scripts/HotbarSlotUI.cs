@@ -244,33 +244,68 @@ public class HotbarSlotUI : MonoBehaviour,
             return;
         }
 
-        InventoryItemUI draggedItem =
+        InventoryItemUI inventorySource =
             eventData.pointerDrag.GetComponentInParent<InventoryItemUI>();
 
-        if (draggedItem == null)
+        if (inventorySource != null)
+        {
+            TransferFromInventory(inventorySource);
+            return;
+        }
+
+        HotbarSlotUI hotbarSource =
+            eventData.pointerDrag.GetComponentInParent<HotbarSlotUI>();
+
+        if (hotbarSource != null && hotbarSource != this)
+        {
+            TransferFromHotbar(hotbarSource);
+        }
+    }
+
+    private void TransferFromInventory(InventoryItemUI source)
+    {
+        if (source.IsEmpty)
         {
             return;
         }
 
-        if (draggedItem.IsEmpty)
+        int remaining = AddItem(source.ItemData, source.Amount);
+        int transferred = source.Amount - remaining;
+
+        if (transferred > 0)
         {
-            Debug.LogWarning("Item Inventory đang trống. Không thể chuyển vào Hotbar.");
+            source.RemoveItems(transferred);
+        }
+    }
+
+    private void TransferFromHotbar(HotbarSlotUI source)
+    {
+        if (source.IsEmpty)
+        {
             return;
         }
 
-        int remaining = AddItem(draggedItem.ItemData, 1);
+        int remaining = AddItem(source.CurrentItem, source.Amount);
+        int transferred = source.Amount - remaining;
 
-        if (remaining == 0)
+        if (transferred > 0)
         {
-            draggedItem.RemoveOne();
-            Debug.Log("Đã chuyển 1 item từ Inventory vào Hotbar.");
+            source.RemoveItems(transferred);
         }
-        else
+    }
+
+    public int RemoveItems(int amountToRemove)
+    {
+        int removed = Mathf.Min(Mathf.Max(0, amountToRemove), amount);
+        amount -= removed;
+
+        if (amount == 0)
         {
-            Debug.LogWarning(
-                "Hotbar Slot chứa item khác loại hoặc đã đầy. Item được giữ nguyên."
-            );
+            currentItem = null;
         }
+
+        RefreshUI();
+        return removed;
     }
 
     public void OnPointerClick(PointerEventData eventData)

@@ -8,6 +8,9 @@ public class CropPlant : MonoBehaviour
     private float growthElapsedSeconds;
     private int currentStage;
     private int fertilizerApplicationCount;
+    private bool mutationRolled;
+    private CropQuality quality = CropQuality.Normal;
+    private SpriteRenderer qualityOverlay;
 
     public bool IsReadyToHarvest => currentStage >= 3;
     public CropType CropType => cropData != null
@@ -19,6 +22,7 @@ public class CropPlant : MonoBehaviour
     public float RemainingGrowthSeconds => cropData == null
         ? 0f
         : Mathf.Max(0f, cropData.TotalGrowthDurationSeconds - growthElapsedSeconds);
+    public CropQuality Quality => quality;
 
     public void Initialize(CropData newCropData, int sortingOrder)
     {
@@ -29,8 +33,11 @@ public class CropPlant : MonoBehaviour
         growthElapsedSeconds = 0f;
         currentStage = 1;
         fertilizerApplicationCount = 0;
+        mutationRolled = false;
+        quality = CropQuality.Normal;
 
         RefreshSprite();
+        RefreshQualityOverlay();
     }
 
     private void Update()
@@ -104,6 +111,18 @@ public class CropPlant : MonoBehaviour
         }
 
         fertilizerApplicationCount++;
+
+        if (!mutationRolled)
+        {
+            mutationRolled = true;
+            quality = cropData.RollQuality(Random.value);
+            RefreshQualityOverlay();
+            Debug.Log(
+                $"[Biến dị] {CropName} roll: "
+                + CropQualityUtility.GetDisplayName(quality)
+            );
+        }
+
         growthElapsedSeconds = Mathf.Min(
             cropData.TotalGrowthDurationSeconds,
             growthElapsedSeconds + reducedSeconds
@@ -111,6 +130,44 @@ public class CropPlant : MonoBehaviour
         UpdateGrowthStage();
 
         return FertilizerApplicationResult.Success;
+    }
+
+    private void RefreshQualityOverlay()
+    {
+        if (cropData == null || quality == CropQuality.Normal)
+        {
+            if (qualityOverlay != null)
+            {
+                qualityOverlay.gameObject.SetActive(false);
+            }
+            return;
+        }
+
+        Sprite icon = cropData.GetQualityIcon(quality);
+        if (icon == null)
+        {
+            Debug.LogWarning("Thiếu icon cho "
+                + CropQualityUtility.GetDisplayName(quality));
+            return;
+        }
+
+        if (qualityOverlay == null)
+        {
+            GameObject overlayObject = new GameObject("QualityStarOverlay");
+            overlayObject.transform.SetParent(transform, false);
+            qualityOverlay = overlayObject.AddComponent<SpriteRenderer>();
+        }
+
+        qualityOverlay.gameObject.SetActive(true);
+        qualityOverlay.sprite = icon;
+        qualityOverlay.sortingLayerID = spriteRenderer.sortingLayerID;
+        qualityOverlay.sortingOrder = spriteRenderer.sortingOrder + 1;
+        qualityOverlay.transform.localPosition = quality == CropQuality.PurpleStar
+            ? (Vector3)cropData.purpleStarLocalPosition
+            : (Vector3)cropData.goldStarLocalPosition;
+        qualityOverlay.transform.localRotation = Quaternion.identity;
+        qualityOverlay.transform.localScale =
+            Vector3.one * Mathf.Max(0.001f, cropData.qualityIconLocalScale);
     }
 
     private void RefreshSprite()
@@ -136,8 +193,18 @@ public class CropPlant : MonoBehaviour
 
     public bool TryHarvest(out ItemData harvestItem, out int amount)
     {
+        return TryHarvest(out harvestItem, out amount, out _);
+    }
+
+    public bool TryHarvest(
+        out ItemData harvestItem,
+        out int amount,
+        out CropQuality harvestQuality
+    )
+    {
         harvestItem = null;
         amount = 0;
+        harvestQuality = CropQuality.Normal;
 
         if (!IsReadyToHarvest)
         {
@@ -146,6 +213,7 @@ public class CropPlant : MonoBehaviour
 
         harvestItem = cropData.harvestItem;
         amount = cropData.harvestAmount;
+        harvestQuality = quality;
 
         return harvestItem != null && amount > 0;
     }

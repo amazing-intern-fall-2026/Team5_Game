@@ -2,23 +2,31 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 3f;
 
     private SpriteRenderer spriteRenderer;
+    private Rigidbody2D playerBody;
+    private Vector2 moveInput;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerBody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
         if (Keyboard.current == null)
+        {
+            moveInput = Vector2.zero;
             return;
+        }
 
-        Vector2 moveInput = Vector2.zero;
+        moveInput = Vector2.zero;
 
         if (Keyboard.current.wKey.isPressed)
             moveInput.y += 1;
@@ -35,12 +43,21 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput.sqrMagnitude > 1)
             moveInput.Normalize();
 
-        transform.position +=
-            (Vector3)(moveInput * moveSpeed * Time.deltaTime);
-
         if (moveInput.x != 0)
         {
             spriteRenderer.flipX = moveInput.x < 0;
         }
+    }
+
+    private void FixedUpdate()
+    {
+        if (playerBody == null)
+        {
+            return;
+        }
+
+        playerBody.MovePosition(
+            playerBody.position + moveInput * moveSpeed * Time.fixedDeltaTime
+        );
     }
 }

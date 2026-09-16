@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000000000000000000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1000000000000000001}
+  - component: {fileID: 1000000000000000002}
+  m_Layer: 5
+  m_Name: DayNightUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1000000000000000001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000000000000000000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 18, y: -18}
+  m_SizeDelta: {x: 380, y: 112}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1000000000000000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000000000000000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6666666666666666666666666666666, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::DayNightUI
+  controller: {fileID: 0}
+  panelBackground: {fileID: 21300000, guid: 3e26b5d985caf9f499f79b323b69906d, type: 3}
+  panelBorder: {fileID: 21300000, guid: 4043a250b3ee05f458a9e03139dea642, type: 3}
+  orbitCircle: {fileID: 21300000, guid: 0559b3f15268e7546becbc5a71734cd0, type: 3}
+  sunIcon: {fileID: 21300000, guid: 9905480ae62c7284fbdced324737a128, type: 3}
+  moonIcon: {fileID: 21300000, guid: 8cee1de676ea64e4593471139605b404, type: 3}
+  screenPosition: {x: 18, y: -18}
+  panelSize: {x: 380, y: 112}
+  orbitCenter: {x: 190, y: -56}
+  orbitRadius: 25
+  orbitSmoothing: 12
+  celestialIconSize: {x: 27, y: 27}
+  dayAccent: {r: 1, g: 0.82, b: 0.25, a: 1}
+  nightAccent: {r: 0.55, g: 0.82, b: 1, a: 1}
+  inactiveIconColor: {r: 1, g: 1, b: 1, a: 0.35}
+  activeIconColor: {r: 1, g: 1, b: 1, a: 1}

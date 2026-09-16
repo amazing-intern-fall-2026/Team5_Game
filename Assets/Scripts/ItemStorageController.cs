@@ -47,6 +47,15 @@ public class ItemStorageController : MonoBehaviour
 
     public bool TryAddItem(ItemData itemToAdd, int amountToAdd)
     {
+        return TryAddItem(itemToAdd, amountToAdd, CropQuality.Normal);
+    }
+
+    public bool TryAddItem(
+        ItemData itemToAdd,
+        int amountToAdd,
+        CropQuality quality
+    )
+    {
         if (itemToAdd == null || amountToAdd <= 0)
         {
             return false;
@@ -54,7 +63,7 @@ public class ItemStorageController : MonoBehaviour
 
         // Keep additions atomic. This prevents a crop from giving a partial
         // harvest and then being harvested again when the storage is full.
-        if (!CanStoreItem(itemToAdd, amountToAdd))
+        if (!CanStoreItem(itemToAdd, amountToAdd, quality))
         {
             Debug.LogWarning(
                 "Hotbar và Inventory không đủ chỗ để nhận: "
@@ -68,7 +77,7 @@ public class ItemStorageController : MonoBehaviour
         // Ưu tiên Hotbar theo thứ tự 1 đến 8.
         foreach (HotbarSlotUI hotbarSlot in hotbarSlots)
         {
-            remaining = hotbarSlot.AddItem(itemToAdd, remaining);
+            remaining = hotbarSlot.AddItem(itemToAdd, remaining, quality);
 
             if (remaining <= 0)
             {
@@ -98,7 +107,7 @@ public class ItemStorageController : MonoBehaviour
                 itemRect.localScale = Vector3.one;
             }
 
-            remaining = inventoryItem.AddItem(itemToAdd, remaining);
+            remaining = inventoryItem.AddItem(itemToAdd, remaining, quality);
 
             if (remaining <= 0)
             {
@@ -116,6 +125,15 @@ public class ItemStorageController : MonoBehaviour
 
     public bool CanStoreItem(ItemData item, int amount)
     {
+        return CanStoreItem(item, amount, CropQuality.Normal);
+    }
+
+    public bool CanStoreItem(
+        ItemData item,
+        int amount,
+        CropQuality quality
+    )
+    {
         if (item == null || amount <= 0)
         {
             return false;
@@ -130,7 +148,7 @@ public class ItemStorageController : MonoBehaviour
             {
                 availableCapacity += maxStack;
             }
-            else if (slot.CurrentItem == item)
+            else if (slot.CurrentItem == item && slot.Quality == quality)
             {
                 availableCapacity += Mathf.Max(0, maxStack - slot.Amount);
             }
@@ -150,7 +168,8 @@ public class ItemStorageController : MonoBehaviour
             {
                 availableCapacity += maxStack;
             }
-            else if (inventoryItem.ItemData == item)
+            else if (inventoryItem.ItemData == item
+                && inventoryItem.Quality == quality)
             {
                 availableCapacity += Mathf.Max(
                     0,
@@ -194,6 +213,85 @@ public class ItemStorageController : MonoBehaviour
         }
 
         return total;
+    }
+
+    public int CountItem(ItemData item, CropQuality quality)
+    {
+        if (item == null)
+        {
+            return 0;
+        }
+
+        int total = 0;
+        foreach (HotbarSlotUI slot in hotbarSlots)
+        {
+            if (!slot.IsEmpty
+                && slot.CurrentItem == item
+                && slot.Quality == quality)
+            {
+                total += slot.Amount;
+            }
+        }
+
+        foreach (InventoryItemUI inventoryItem in
+            inventorySlotGrid.GetComponentsInChildren<InventoryItemUI>(true))
+        {
+            if (!inventoryItem.IsEmpty
+                && inventoryItem.ItemData == item
+                && inventoryItem.Quality == quality)
+            {
+                total += inventoryItem.Amount;
+            }
+        }
+
+        return total;
+    }
+
+    public bool TryRemoveItem(
+        ItemData item,
+        CropQuality quality,
+        int amountToRemove
+    )
+    {
+        if (item == null || amountToRemove <= 0
+            || CountItem(item, quality) < amountToRemove)
+        {
+            return false;
+        }
+
+        int remaining = amountToRemove;
+        foreach (HotbarSlotUI slot in hotbarSlots)
+        {
+            if (remaining <= 0)
+            {
+                break;
+            }
+
+            if (!slot.IsEmpty
+                && slot.CurrentItem == item
+                && slot.Quality == quality)
+            {
+                remaining -= slot.RemoveItems(remaining);
+            }
+        }
+
+        foreach (InventoryItemUI inventoryItem in
+            inventorySlotGrid.GetComponentsInChildren<InventoryItemUI>(true))
+        {
+            if (remaining <= 0)
+            {
+                break;
+            }
+
+            if (!inventoryItem.IsEmpty
+                && inventoryItem.ItemData == item
+                && inventoryItem.Quality == quality)
+            {
+                remaining -= inventoryItem.RemoveItems(remaining);
+            }
+        }
+
+        return remaining == 0;
     }
 
     public bool TryRemoveItem(ItemData item, int amountToRemove)

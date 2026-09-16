@@ -151,6 +151,15 @@ public class CoinManager : MonoBehaviour
 
     public bool TrySellProduce(ItemData produceItem, int amount = 1)
     {
+        return TrySellProduce(produceItem, CropQuality.Normal, amount);
+    }
+
+    public bool TrySellProduce(
+        ItemData produceItem,
+        CropQuality quality,
+        int amount = 1
+    )
+    {
         if (produceItem == null || produceItem.itemType != ItemType.Produce
             || produceItem.sellPrice <= 0 || amount <= 0
             || itemStorageController == null)
@@ -159,10 +168,16 @@ public class CoinManager : MonoBehaviour
             return false;
         }
 
-        if (!itemStorageController.TryRemoveItem(produceItem, amount))
+        if (!itemStorageController.TryRemoveItem(
+            produceItem,
+            quality,
+            amount
+        ))
         {
             Debug.Log(
-                $"Không đủ {produceItem.itemName} để bán {amount} sản phẩm."
+                $"Không đủ {produceItem.itemName} "
+                + $"[{CropQualityUtility.GetDisplayName(quality)}] "
+                + $"để bán {amount} sản phẩm."
             );
             return false;
         }
@@ -170,13 +185,16 @@ public class CoinManager : MonoBehaviour
         int totalPrice = 0;
         for (int i = 0; i < amount; i++)
         {
-            totalPrice += produceItem.CalculateSellPrice(Random.value);
+            // Chili (HalfOrOneAndHalf) rolls 125/375 first, then quality applies.
+            totalPrice += produceItem.CalculateSellPrice(Random.value, quality);
         }
 
         CurrentCoins += totalPrice;
         RefreshUI();
         Debug.Log(
-            $"Đã bán {amount} {produceItem.itemName}, nhận {totalPrice} coin. "
+            $"Đã bán {amount} {produceItem.itemName} "
+            + $"[{CropQualityUtility.GetDisplayName(quality)}], "
+            + $"nhận {totalPrice} coin. "
             + $"Số dư: {CurrentCoins} coin."
         );
         return true;

@@ -8,6 +8,8 @@ public class DemoTrainerMenu : MonoBehaviour
     [SerializeField] private ItemData[] tools;
     [SerializeField] private ItemData[] seeds;
     [SerializeField] private ItemData[] fertilizers;
+    [Tooltip("Nông sản dùng để test chất lượng. Nếu để trống sẽ lấy từ CoinManager.")]
+    [SerializeField] private ItemData[] produce;
 
     private bool isOpen;
     private Vector2 scrollPosition;
@@ -17,6 +19,15 @@ public class DemoTrainerMenu : MonoBehaviour
         if (itemStorage == null)
         {
             itemStorage = FindFirstObjectByType<ItemStorageController>();
+        }
+
+        if (produce == null || produce.Length == 0)
+        {
+            CoinManager coinManager = FindFirstObjectByType<CoinManager>();
+            if (coinManager != null)
+            {
+                produce = coinManager.ProduceCatalog;
+            }
         }
     }
 
@@ -42,6 +53,8 @@ public class DemoTrainerMenu : MonoBehaviour
         DrawSection("Công cụ", tools, true);
         DrawSection("Hạt giống", seeds, false);
         DrawSection("Phân bón", fertilizers, false);
+        DrawQualitySection("Nông sản Sao Tím", produce, CropQuality.PurpleStar);
+        DrawQualitySection("Nông sản Sao Vàng", produce, CropQuality.GoldStar);
 
         GUILayout.Space(12f);
         GUI.backgroundColor = new Color(1f, 0.45f, 0.35f);
@@ -53,6 +66,45 @@ public class DemoTrainerMenu : MonoBehaviour
 
         GUILayout.EndScrollView();
         GUILayout.EndArea();
+    }
+
+    private void DrawQualitySection(
+        string title,
+        ItemData[] items,
+        CropQuality quality
+    )
+    {
+        GUILayout.Space(6f);
+        GUILayout.Label(title);
+
+        if (items == null)
+        {
+            GUILayout.Label("Không tìm thấy Produce Catalog trong CoinManager.");
+            return;
+        }
+
+        Color previousColor = GUI.backgroundColor;
+        GUI.backgroundColor = quality == CropQuality.PurpleStar
+            ? new Color(0.72f, 0.42f, 1f)
+            : new Color(1f, 0.78f, 0.2f);
+
+        foreach (ItemData item in items)
+        {
+            if (item == null || item.itemType != ItemType.Produce)
+            {
+                continue;
+            }
+
+            string label = "+ " + stackAmount + "  " + item.itemName
+                + " [" + CropQualityUtility.GetDisplayName(quality) + "]";
+
+            if (GUILayout.Button(label, GUILayout.Height(30f)))
+            {
+                GiveItem(item, stackAmount, quality);
+            }
+        }
+
+        GUI.backgroundColor = previousColor;
     }
 
     private void DrawSection(
@@ -88,15 +140,27 @@ public class DemoTrainerMenu : MonoBehaviour
 
     private void GiveItem(ItemData item, int amount)
     {
+        GiveItem(item, amount, CropQuality.Normal);
+    }
+
+    private void GiveItem(
+        ItemData item,
+        int amount,
+        CropQuality quality
+    )
+    {
         if (itemStorage == null)
         {
             Debug.LogError("[Trainer] Không tìm thấy ItemStorageController.");
             return;
         }
 
-        if (itemStorage.TryAddItem(item, amount))
+        if (itemStorage.TryAddItem(item, amount, quality))
         {
-            Debug.Log("[Trainer] Đã cấp " + amount + " x " + item.itemName + ".");
+            Debug.Log(
+                "[Trainer] Đã cấp " + amount + " x " + item.itemName
+                + " [" + CropQualityUtility.GetDisplayName(quality) + "]."
+            );
         }
         else
         {

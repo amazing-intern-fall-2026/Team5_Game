@@ -46,12 +46,38 @@ public sealed class DayNightController : MonoBehaviour
 
     [Header("UI (auto-created if empty)")]
     [SerializeField] private Canvas uiCanvas;
+    [SerializeField] private GameObject dayNightUIPrefab;
+    [SerializeField] private DayNightUI dayNightUI;
     [SerializeField] private TextMeshProUGUI dayText;
     [SerializeField] private TextMeshProUGUI stateText;
     [SerializeField] private TextMeshProUGUI clockText;
 
     private float elapsedInCycle;
     private int dayNumber = 1;
+    private float currentHour;
+
+    public int DayNumber => dayNumber;
+    public bool IsDay => elapsedInCycle < DaySeconds;
+    public float CurrentHour => currentHour;
+    public float CycleProgress => Mathf.Repeat(
+        elapsedInCycle / Mathf.Max(0.0001f, DaySeconds + NightSeconds),
+        1f
+    );
+    public float CelestialAngleDegrees
+    {
+        get
+        {
+            if (IsDay)
+            {
+                float progress = Mathf.Clamp01(elapsedInCycle / DaySeconds);
+                return Mathf.Lerp(180f, 0f, progress);
+            }
+
+            float nightProgress = Mathf.Clamp01(
+                (elapsedInCycle - DaySeconds) / NightSeconds);
+            return Mathf.Lerp(0f, -180f, nightProgress);
+        }
+    }
 
     private float DaySeconds => testMode
         ? Mathf.Max(0.1f, testDaySeconds)
@@ -250,22 +276,65 @@ public sealed class DayNightController : MonoBehaviour
         }
 
         hour = Mathf.Repeat(hour, 24f);
+        currentHour = hour;
         int displayHour = Mathf.FloorToInt(hour);
         int displayMinute = Mathf.FloorToInt((hour - displayHour) * 60f);
 
         if (dayText != null) dayText.text = $"Ngày {dayNumber}";
         if (stateText != null) stateText.text = isDay ? "Ban ngày" : "Ban đêm";
         if (clockText != null) clockText.text = $"{displayHour:00}:{displayMinute:00}";
+        dayNightUI?.RefreshFromController();
     }
 
     private void CreateClockUIIfNeeded()
     {
-        if (uiCanvas == null || (dayText != null && stateText != null && clockText != null))
+        if (uiCanvas == null)
         {
             return;
         }
 
-        GameObject panel = new GameObject("DayNightUI", typeof(RectTransform), typeof(Image));
+        if (dayNightUI != null)
+        {
+            dayNightUI.Bind(this);
+            return;
+        }
+
+#if UNITY_EDITOR
+        if (dayNightUIPrefab == null)
+        {
+            dayNightUIPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(
+                "Assets/Prefabs/UI/DayNight/DayNightUI.prefab"
+            );
+        }
+#endif
+
+        GameObject panel;
+        if (dayNightUIPrefab != null)
+        {
+            panel = Instantiate(dayNightUIPrefab, uiCanvas.transform);
+            panel.name = "DayNightUI_Runtime";
+        }
+        else
+        {
+            panel = new GameObject(
+                "DayNightUI_Runtime",
+                typeof(RectTransform),
+                typeof(DayNightUI)
+            );
+            panel.layer = 5;
+            panel.transform.SetParent(uiCanvas.transform, false);
+        }
+
+        dayNightUI = panel.GetComponent<DayNightUI>();
+        if (dayNightUI == null)
+        {
+            dayNightUI = panel.AddComponent<DayNightUI>();
+        }
+        dayNightUI.Bind(this);
+        return;
+
+        /* Legacy fallback retained only for serialized scene compatibility.
+        panel = new GameObject("DayNightUI", typeof(RectTransform), typeof(Image));
         panel.layer = 5;
         panel.transform.SetParent(uiCanvas.transform, false);
         Image panelImage = panel.GetComponent<Image>();
@@ -284,6 +353,7 @@ public sealed class DayNightController : MonoBehaviour
         clockText = CreateText("ClockText", panel.transform, new Vector2(108f, -13f), 25f);
         clockText.alignment = TextAlignmentOptions.TopRight;
         clockText.color = new Color(1f, 0.85f, 0.35f);
+        */
     }
 
     private static TextMeshProUGUI CreateText(

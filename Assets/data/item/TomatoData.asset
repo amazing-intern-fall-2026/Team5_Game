@@ -19,6 +19,9 @@ MonoBehaviour:
   purchasePrice: 0
   sellPrice: 250
   sellPriceMode: 0
+  normalQualityPriceMultiplier: 1
+  purpleStarPriceMultiplier: 2
+  goldStarPriceMultiplier: 5
   canHoe: 0
   canWater: 0
   cropToPlant: {fileID: 0}

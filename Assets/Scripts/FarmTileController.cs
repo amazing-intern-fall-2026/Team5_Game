@@ -177,7 +177,8 @@ public class FarmTileController : MonoBehaviour
 
         if (!cropPlant.TryHarvest(
             out ItemData harvestItem,
-            out int harvestAmount
+            out int harvestAmount,
+            out CropQuality harvestQuality
         ))
         {
             return false;
@@ -193,21 +194,41 @@ public class FarmTileController : MonoBehaviour
 
         if (!itemStorageController.TryAddItem(
             harvestItem,
-            harvestAmount
+            harvestAmount,
+            harvestQuality
         ))
         {
             return false;
         }
 
+        // Thu hoạch chỉ được xem là hoàn tất sau khi toàn bộ nông sản đã vào kho.
+        // Giữ đất ở trạng thái đã cuốc nhưng bắt buộc người chơi tưới lại trước
+        // khi có thể trồng cây tiếp theo.
+        ResetWaterAfterHarvest(cellPosition);
+
         plantedCrops.Remove(cellPosition);
         Destroy(cropPlant.gameObject);
 
         Debug.Log(
-            $"Thu hoạch thành công {harvestAmount} {harvestItem.itemName}; "
+            $"Thu hoạch thành công {harvestAmount} {harvestItem.itemName} "
+            + $"[{CropQualityUtility.GetDisplayName(harvestQuality)}]; "
             + "đã ưu tiên xếp vào Hotbar rồi Inventory."
         );
 
         return true;
+    }
+
+    private void ResetWaterAfterHarvest(Vector3Int cellPosition)
+    {
+        if (farmSoilTilemap == null || tilledTile == null)
+        {
+            Debug.LogWarning(
+                "Không thể làm khô đất sau thu hoạch: thiếu Farm Soil Tilemap hoặc Tilled Tile."
+            );
+            return;
+        }
+
+        farmSoilTilemap.SetTile(cellPosition, tilledTile);
     }
 
     public FertilizerApplicationResult ApplyFertilizerAtWorldPosition(

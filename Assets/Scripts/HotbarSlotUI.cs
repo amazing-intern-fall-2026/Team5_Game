@@ -14,6 +14,7 @@ public class HotbarSlotUI : MonoBehaviour,
     [Header("UI References")]
     [SerializeField] private Image itemIcon;
     [SerializeField] private TextMeshProUGUI countText;
+    [SerializeField] private Image qualityBadge;
 
     [Header("Hotbar settings")]
     [SerializeField] private int hotbarNumber;
@@ -21,6 +22,7 @@ public class HotbarSlotUI : MonoBehaviour,
 
     private ItemData currentItem;
     private int amount;
+    private CropQuality quality = CropQuality.Normal;
 
     private Canvas rootCanvas;
     private CanvasGroup canvasGroup;
@@ -28,6 +30,7 @@ public class HotbarSlotUI : MonoBehaviour,
 
     public ItemData CurrentItem => currentItem;
     public int Amount => amount;
+    public CropQuality Quality => quality;
     public bool IsEmpty => currentItem == null || amount <= 0;
 
     private void Awake()
@@ -112,6 +115,27 @@ public class HotbarSlotUI : MonoBehaviour,
 
         countText.raycastTarget = false;
 
+        if (qualityBadge == null || !qualityBadge.transform.IsChildOf(transform))
+        {
+            GameObject badgeObject = new GameObject(
+                "QualityBadge",
+                typeof(RectTransform),
+                typeof(CanvasRenderer),
+                typeof(Image)
+            );
+            badgeObject.transform.SetParent(transform, false);
+            qualityBadge = badgeObject.GetComponent<Image>();
+        }
+
+        RectTransform badgeRect = qualityBadge.rectTransform;
+        badgeRect.anchorMin = new Vector2(0f, 1f);
+        badgeRect.anchorMax = new Vector2(0f, 1f);
+        badgeRect.pivot = new Vector2(0f, 1f);
+        badgeRect.anchoredPosition = new Vector2(2f, -2f);
+        badgeRect.sizeDelta = new Vector2(16f, 16f);
+        qualityBadge.preserveAspect = true;
+        qualityBadge.raycastTarget = false;
+
         Image slotHitArea = GetComponent<Image>();
         if (slotHitArea != null)
         {
@@ -134,12 +158,21 @@ public class HotbarSlotUI : MonoBehaviour,
 
     public int AddItem(ItemData itemToAdd, int amountToAdd)
     {
+        return AddItem(itemToAdd, amountToAdd, CropQuality.Normal);
+    }
+
+    public int AddItem(
+        ItemData itemToAdd,
+        int amountToAdd,
+        CropQuality qualityToAdd
+    )
+    {
         if (itemToAdd == null || amountToAdd <= 0)
         {
             return amountToAdd;
         }
 
-        if (!IsEmpty && currentItem != itemToAdd)
+        if (!IsEmpty && (currentItem != itemToAdd || quality != qualityToAdd))
         {
             return amountToAdd;
         }
@@ -148,6 +181,7 @@ public class HotbarSlotUI : MonoBehaviour,
         {
             currentItem = itemToAdd;
             amount = 0;
+            quality = qualityToAdd;
         }
 
         int maxStack = Mathf.Max(1, currentItem.maxStack);
@@ -172,6 +206,7 @@ public class HotbarSlotUI : MonoBehaviour,
         if (amount <= 0)
         {
             currentItem = null;
+            quality = CropQuality.Normal;
         }
 
         RefreshUI();
@@ -182,6 +217,7 @@ public class HotbarSlotUI : MonoBehaviour,
     {
         currentItem = null;
         amount = 0;
+        quality = CropQuality.Normal;
         RefreshUI();
     }
 
@@ -269,7 +305,7 @@ public class HotbarSlotUI : MonoBehaviour,
             return;
         }
 
-        int remaining = AddItem(source.ItemData, source.Amount);
+        int remaining = AddItem(source.ItemData, source.Amount, source.Quality);
         int transferred = source.Amount - remaining;
 
         if (transferred > 0)
@@ -285,7 +321,7 @@ public class HotbarSlotUI : MonoBehaviour,
             return;
         }
 
-        int remaining = AddItem(source.CurrentItem, source.Amount);
+        int remaining = AddItem(source.CurrentItem, source.Amount, source.Quality);
         int transferred = source.Amount - remaining;
 
         if (transferred > 0)
@@ -302,6 +338,7 @@ public class HotbarSlotUI : MonoBehaviour,
         if (amount == 0)
         {
             currentItem = null;
+            quality = CropQuality.Normal;
         }
 
         RefreshUI();
@@ -395,5 +432,11 @@ public class HotbarSlotUI : MonoBehaviour,
             itemIcon.enabled = false;
             countText.text = "";
         }
+
+        Sprite badgeSprite = hasItem
+            ? CropQualityUtility.LoadDefaultIcon(quality)
+            : null;
+        qualityBadge.sprite = badgeSprite;
+        qualityBadge.enabled = badgeSprite != null;
     }
 }

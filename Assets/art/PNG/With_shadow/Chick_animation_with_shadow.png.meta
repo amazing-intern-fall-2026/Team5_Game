@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 340b7338139559944936decd70750ff3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4759788963049078007
+    second: Chick_animation_with_shadow_0
+  - first:
+      213: 1090188221684332681
+    second: Chick_animation_with_shadow_1
+  - first:
+      213: 3115347719119695750
+    second: Chick_animation_with_shadow_2
+  - first:
+      213: 3486197659643369807
+    second: Chick_animation_with_shadow_3
+  - first:
+      213: 3174596648255737417
+    second: Chick_animation_with_shadow_4
+  - first:
+      213: -1499687695679570261
+    second: Chick_animation_with_shadow_5
+  - first:
+      213: -852307490373780250
+    second: Chick_animation_with_shadow_6
+  - first:
+      213: -5046752964347730065
+    second: Chick_animation_with_shadow_7
+  - first:
+      213: -6801542877146853541
+    second: Chick_animation_with_shadow_8
+  - first:
+      213: -6594791923010106826
+    second: Chick_animation_with_shadow_9
+  - first:
+      213: 3593911898857642163
+    second: Chick_animation_with_shadow_10
+  - first:
+      213: -7505857994032681678
+    second: Chick_animation_with_shadow_11
+  - first:
+      213: -2137425337940375627
+    second: Chick_animation_with_shadow_12
+  - first:
+      213: -2470969613015218775
+    second: Chick_animation_with_shadow_13
+  - first:
+      213: -6874381338508860717
+    second: Chick_animation_with_shadow_14
+  - first:
+      213: 7314326003039074548
+    second: Chick_animation_with_shadow_15
+  - first:
+      213: -1657503083954484588
+    second: Chick_animation_with_shadow_16
+  - first:
+      213: -6027146475562148117
+    second: Chick_animation_with_shadow_17
+  - first:
+      213: 2179690410396234255
+    second: Chick_animation_with_shadow_18
+  - first:
+      213: -6680052501362756851
+    second: Chick_animation_with_shadow_19
+  - first:
+      213: 6338094736265075511
+    second: Chick_animation_with_shadow_20
+  - first:
+      213: -8977159253058760058
+    second: Chick_animation_with_shadow_21
+  - first:
+      213: -3149511812542343436
+    second: Chick_animation_with_shadow_22
+  - first:
+      213: 3913864425684036346
+    second: Chick_animation_with_shadow_23
+  - first:
+      213: 8356427938896914256
+    second: Chick_animation_with_shadow_24
+  - first:
+      213: 2167486166133619855
+    second: Chick_animation_with_shadow_25
+  - first:
+      213: 1153751516816839718
+    second: Chick_animation_with_shadow_26
+  - first:
+      213: -4216188854702838925
+    second: Chick_animation_with_shadow_27
+  - first:
+      213: 366713068033816704
+    second: Chick_animation_with_shadow_28
+  - first:
+      213: -3171514482154384213
+    second: Chick_animation_with_shadow_29
+  - first:
+      213: -7391442667137902583
+    second: Chick_animation_with_shadow_30
+  - first:
+      213: -8914368862774059225
+    second: Chick_animation_with_shadow_31
+  - first:
+      213: 6071519153659594972
+    second: Chick_animation_with_shadow_32
+  - first:
+      213: -7972129102448588584
+    second: Chick_animation_with_shadow_33
+  - first:
+      213: -204820391163411883
+    second: Chick_animation_with_shadow_34
+  - first:
+      213: 6386418171413189919
+    second: Chick_animation_with_shadow_35
+  - first:
+      213: 6670193804388663163
+    second: Chick_animation_with_shadow_36
+  - first:
+      213: -160908755838533452
+    second: Chick_animation_with_shadow_37
+  - first:
+      213: 6977832837429789245
+    second: Chick_animation_with_shadow_38
+  - first:
+      213: -5918114886065175246
+    second: Chick_animation_with_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90382a31825d1fdb0800000000000000
+      internalID: -4759788963049078007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 113
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9883fcb5960212f00800000000000000
+      internalID: 1090188221684332681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fe3f5ae30fb3b20800000000000000
+      internalID: 3115347719119695750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 113
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4957dffc46716030800000000000000
+      internalID: 3486197659643369807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 113
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ecd64f4de6e0c20800000000000000
+      internalID: 3174596648255737417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baebef88cf9003be0800000000000000
+      internalID: -1499687695679570261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecbddc6adefb24f0800000000000000
+      internalID: -852307490373780250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 97
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6767e2fae456f9b0800000000000000
+      internalID: -5046752964347730065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fc2131ac01c91a0800000000000000
+      internalID: -6801542877146853541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a0e5dcfa79a74a0800000000000000
+      internalID: -6594791923010106826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b89575a4d320e130800000000000000
+      internalID: 3593911898857642163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 97
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23de7231ce5d5d790800000000000000
+      internalID: -7505857994032681678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7052ecaf65652e0800000000000000
+      internalID: -2137425337940375627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5817d8a3a55bdd0800000000000000
+      internalID: -2470969613015218775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 81
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2ea9b389a4990a0800000000000000
+      internalID: -6874381338508860717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 81
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8fb8e2fb4b18560800000000000000
+      internalID: 7314326003039074548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a47ca1abd5ff8e0800000000000000
+      internalID: -1657503083954484588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeded2b6364b5ca0800000000000000
+      internalID: -6027146475562148117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f023ef731e0df3e10800000000000000
+      internalID: 2179690410396234255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03305774afab43a0800000000000000
+      internalID: -6680052501362756851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b5adbf49f65f750800000000000000
+      internalID: 6338094736265075511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682525de839ba6380800000000000000
+      internalID: -8977159253058760058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6548d71bfaa44d0800000000000000
+      internalID: -3149511812542343436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 65
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa6fe765f6d05630800000000000000
+      internalID: 3913864425684036346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 49
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057a919afeef7f370800000000000000
+      internalID: 8356427938896914256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 49
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cb7fb2f25741e10800000000000000
+      internalID: 2167486166133619855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 49
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6249fe644e2f20010800000000000000
+      internalID: 1153751516816839718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 49
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37be97133961d75c0800000000000000
+      internalID: -4216188854702838925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08836aaa793d61500800000000000000
+      internalID: 366713068033816704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 33
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba45e23c1648cf3d0800000000000000
+      internalID: -3171514482154384213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90854974e025c6990800000000000000
+      internalID: -7391442667137902583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 33
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f9c89efbcc94480800000000000000
+      internalID: -8914368862774059225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd84cd0808e524450800000000000000
+      internalID: 6071519153659594972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d88ff8c1de4d5190800000000000000
+      internalID: -7972129102448588584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552c2fd70f4582df0800000000000000
+      internalID: -204820391163411883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15de2e7d7d11a850800000000000000
+      internalID: 6386418171413189919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ff895cce9419c50800000000000000
+      internalID: 6670193804388663163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b08efec65654cdf0800000000000000
+      internalID: -160908755838533452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d320f09defd36d060800000000000000
+      internalID: 6977832837429789245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chick_animation_with_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235422cddd1aedda0800000000000000
+      internalID: -5918114886065175246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chick_animation_with_shadow_0: -4759788963049078007
+      Chick_animation_with_shadow_1: 1090188221684332681
+      Chick_animation_with_shadow_10: 3593911898857642163
+      Chick_animation_with_shadow_11: -7505857994032681678
+      Chick_animation_with_shadow_12: -2137425337940375627
+      Chick_animation_with_shadow_13: -2470969613015218775
+      Chick_animation_with_shadow_14: -6874381338508860717
+      Chick_animation_with_shadow_15: 7314326003039074548
+      Chick_animation_with_shadow_16: -1657503083954484588
+      Chick_animation_with_shadow_17: -6027146475562148117
+      Chick_animation_with_shadow_18: 2179690410396234255
+      Chick_animation_with_shadow_19: -6680052501362756851
+      Chick_animation_with_shadow_2: 3115347719119695750
+      Chick_animation_with_shadow_20: 6338094736265075511
+      Chick_animation_with_shadow_21: -8977159253058760058
+      Chick_animation_with_shadow_22: -3149511812542343436
+      Chick_animation_with_shadow_23: 3913864425684036346
+      Chick_animation_with_shadow_24: 8356427938896914256
+      Chick_animation_with_shadow_25: 2167486166133619855
+      Chick_animation_with_shadow_26: 1153751516816839718
+      Chick_animation_with_shadow_27: -4216188854702838925
+      Chick_animation_with_shadow_28: 366713068033816704
+      Chick_animation_with_shadow_29: -3171514482154384213
+      Chick_animation_with_shadow_3: 3486197659643369807
+      Chick_animation_with_shadow_30: -7391442667137902583
+      Chick_animation_with_shadow_31: -8914368862774059225
+      Chick_animation_with_shadow_32: 6071519153659594972
+      Chick_animation_with_shadow_33: -7972129102448588584
+      Chick_animation_with_shadow_34: -204820391163411883
+      Chick_animation_with_shadow_35: 6386418171413189919
+      Chick_animation_with_shadow_36: 6670193804388663163
+      Chick_animation_with_shadow_37: -160908755838533452
+      Chick_animation_with_shadow_38: 6977832837429789245
+      Chick_animation_with_shadow_39: -5918114886065175246
+      Chick_animation_with_shadow_4: 3174596648255737417
+      Chick_animation_with_shadow_5: -1499687695679570261
+      Chick_animation_with_shadow_6: -852307490373780250
+      Chick_animation_with_shadow_7: -5046752964347730065
+      Chick_animation_with_shadow_8: -6801542877146853541
+      Chick_animation_with_shadow_9: -6594791923010106826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

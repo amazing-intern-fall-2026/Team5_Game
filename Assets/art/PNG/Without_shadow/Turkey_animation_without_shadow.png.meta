@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: d4d01ddac99a93a47a9498bea12c9555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6323368893565003899
+    second: Turkey_animation_without_shadow_0
+  - first:
+      213: -7946379199805347491
+    second: Turkey_animation_without_shadow_1
+  - first:
+      213: -6589481466880338205
+    second: Turkey_animation_without_shadow_2
+  - first:
+      213: -2964872909994773834
+    second: Turkey_animation_without_shadow_3
+  - first:
+      213: -3034774200383985222
+    second: Turkey_animation_without_shadow_4
+  - first:
+      213: -3750834961596377036
+    second: Turkey_animation_without_shadow_5
+  - first:
+      213: 4161890570663414693
+    second: Turkey_animation_without_shadow_6
+  - first:
+      213: 8733273342062807091
+    second: Turkey_animation_without_shadow_7
+  - first:
+      213: 4832297192718730175
+    second: Turkey_animation_without_shadow_8
+  - first:
+      213: 1310469179004092237
+    second: Turkey_animation_without_shadow_9
+  - first:
+      213: 2751221489722731779
+    second: Turkey_animation_without_shadow_10
+  - first:
+      213: -6143131340871137856
+    second: Turkey_animation_without_shadow_11
+  - first:
+      213: -4004071544833907676
+    second: Turkey_animation_without_shadow_12
+  - first:
+      213: -2269398447167402584
+    second: Turkey_animation_without_shadow_13
+  - first:
+      213: -1634145919348091181
+    second: Turkey_animation_without_shadow_14
+  - first:
+      213: 7491894778755993411
+    second: Turkey_animation_without_shadow_15
+  - first:
+      213: -6989955809349349654
+    second: Turkey_animation_without_shadow_16
+  - first:
+      213: 8750950464540600883
+    second: Turkey_animation_without_shadow_17
+  - first:
+      213: -3366726778896729438
+    second: Turkey_animation_without_shadow_18
+  - first:
+      213: -2139158628875403550
+    second: Turkey_animation_without_shadow_19
+  - first:
+      213: 228520647387721980
+    second: Turkey_animation_without_shadow_20
+  - first:
+      213: 4841973160692390173
+    second: Turkey_animation_without_shadow_21
+  - first:
+      213: 4914910993279644933
+    second: Turkey_animation_without_shadow_22
+  - first:
+      213: -3582340739087408762
+    second: Turkey_animation_without_shadow_23
+  - first:
+      213: 1762621105035810999
+    second: Turkey_animation_without_shadow_24
+  - first:
+      213: -1274021209925090327
+    second: Turkey_animation_without_shadow_25
+  - first:
+      213: -3846341430291847900
+    second: Turkey_animation_without_shadow_26
+  - first:
+      213: -2549604877392105106
+    second: Turkey_animation_without_shadow_27
+  - first:
+      213: 3968279784217151046
+    second: Turkey_animation_without_shadow_28
+  - first:
+      213: 3666633420298612413
+    second: Turkey_animation_without_shadow_29
+  - first:
+      213: -5398883406455045348
+    second: Turkey_animation_without_shadow_30
+  - first:
+      213: 5936420934544058451
+    second: Turkey_animation_without_shadow_31
+  - first:
+      213: -1356062203165111113
+    second: Turkey_animation_without_shadow_32
+  - first:
+      213: -3015508589443202963
+    second: Turkey_animation_without_shadow_33
+  - first:
+      213: 6559870901828680351
+    second: Turkey_animation_without_shadow_34
+  - first:
+      213: 7346649528969886309
+    second: Turkey_animation_without_shadow_35
+  - first:
+      213: 6175886482776485683
+    second: Turkey_animation_without_shadow_36
+  - first:
+      213: 1761143781514857688
+    second: Turkey_animation_without_shadow_37
+  - first:
+      213: -6679658957995235095
+    second: Turkey_animation_without_shadow_38
+  - first:
+      213: -7045764628544115439
+    second: Turkey_animation_without_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 230
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7862bc818e11c750800000000000000
+      internalID: 6323368893565003899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 230
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59ac01383ac8b190800000000000000
+      internalID: -7946379199805347491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 230
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6d398b4857d84a0800000000000000
+      internalID: -6589481466880338205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 230
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b235930cc7aad6d0800000000000000
+      internalID: -2964872909994773834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 230
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9a79491f052e5d0800000000000000
+      internalID: -3034774200383985222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 230
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389ee6a97b52fbc0800000000000000
+      internalID: -3750834961596377036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 198
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc0726c6102c930800000000000000
+      internalID: 4161890570663414693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 198
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338ca0075d1d23970800000000000000
+      internalID: 8733273342062807091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 198
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb30e15b1b4cf0340800000000000000
+      internalID: 4832297192718730175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 198
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff2af66c8bf2210800000000000000
+      internalID: 1310469179004092237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 198
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d28594e5d4e2620800000000000000
+      internalID: 2751221489722731779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 198
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c58ecad7963fbaa0800000000000000
+      internalID: -6143131340871137856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 166
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424eceaf42eae68c0800000000000000
+      internalID: -4004071544833907676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 166
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad83c6d22a7180e0800000000000000
+      internalID: -2269398447167402584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 166
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d65a16c1f85259e0800000000000000
+      internalID: -1634145919348091181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 166
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fca568b9e88f760800000000000000
+      internalID: 7491894778755993411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 166
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeecd0cc930befe90800000000000000
+      internalID: -6989955809349349654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 166
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a6bfd351f917970800000000000000
+      internalID: 8750950464540600883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 134
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aab01015dbf641d0800000000000000
+      internalID: -3366726778896729438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee7baf8f8e2052e0800000000000000
+      internalID: -2139158628875403550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 134
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0336b615edb2300800000000000000
+      internalID: 228520647387721980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 134
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d199b0f8fe4223340800000000000000
+      internalID: 4841973160692390173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 134
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50578111285453440800000000000000
+      internalID: 4914910993279644933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 134
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681e84ee318f84ec0800000000000000
+      internalID: -3582340739087408762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 102
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b814476e86167810800000000000000
+      internalID: 1762621105035810999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30a1aa574c15ee0800000000000000
+      internalID: -1274021209925090327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 102
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425269219dc0f9ac0800000000000000
+      internalID: -3846341430291847900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b0755fdbfd9cd0800000000000000
+      internalID: -2549604877392105106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64680ab5079221730800000000000000
+      internalID: 3968279784217151046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 70
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe697a4baf72e230800000000000000
+      internalID: 3666633420298612413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c130f7675205315b0800000000000000
+      internalID: -5398883406455045348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 70
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e0b03367626250800000000000000
+      internalID: 5936420934544058451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc82076c9c4e2de0800000000000000
+      internalID: -1356062203165111113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 38
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60491d2ae2c626d0800000000000000
+      internalID: -3015508589443202963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 38
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a7beb54d7590b50800000000000000
+      internalID: 6559870901828680351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a7a8782da84f560800000000000000
+      internalID: 7346649528969886309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f670be80825b550800000000000000
+      internalID: 6175886482776485683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcc49730f6d07810800000000000000
+      internalID: 1761143781514857688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e820fb61951d43a0800000000000000
+      internalID: -6679658957995235095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turkey_animation_without_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 6
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dad90866a683e90800000000000000
+      internalID: -7045764628544115439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Turkey_animation_without_shadow_0: 6323368893565003899
+      Turkey_animation_without_shadow_1: -7946379199805347491
+      Turkey_animation_without_shadow_10: 2751221489722731779
+      Turkey_animation_without_shadow_11: -6143131340871137856
+      Turkey_animation_without_shadow_12: -4004071544833907676
+      Turkey_animation_without_shadow_13: -2269398447167402584
+      Turkey_animation_without_shadow_14: -1634145919348091181
+      Turkey_animation_without_shadow_15: 7491894778755993411
+      Turkey_animation_without_shadow_16: -6989955809349349654
+      Turkey_animation_without_shadow_17: 8750950464540600883
+      Turkey_animation_without_shadow_18: -3366726778896729438
+      Turkey_animation_without_shadow_19: -2139158628875403550
+      Turkey_animation_without_shadow_2: -6589481466880338205
+      Turkey_animation_without_shadow_20: 228520647387721980
+      Turkey_animation_without_shadow_21: 4841973160692390173
+      Turkey_animation_without_shadow_22: 4914910993279644933
+      Turkey_animation_without_shadow_23: -3582340739087408762
+      Turkey_animation_without_shadow_24: 1762621105035810999
+      Turkey_animation_without_shadow_25: -1274021209925090327
+      Turkey_animation_without_shadow_26: -3846341430291847900
+      Turkey_animation_without_shadow_27: -2549604877392105106
+      Turkey_animation_without_shadow_28: 3968279784217151046
+      Turkey_animation_without_shadow_29: 3666633420298612413
+      Turkey_animation_without_shadow_3: -2964872909994773834
+      Turkey_animation_without_shadow_30: -5398883406455045348
+      Turkey_animation_without_shadow_31: 5936420934544058451
+      Turkey_animation_without_shadow_32: -1356062203165111113
+      Turkey_animation_without_shadow_33: -3015508589443202963
+      Turkey_animation_without_shadow_34: 6559870901828680351
+      Turkey_animation_without_shadow_35: 7346649528969886309
+      Turkey_animation_without_shadow_36: 6175886482776485683
+      Turkey_animation_without_shadow_37: 1761143781514857688
+      Turkey_animation_without_shadow_38: -6679658957995235095
+      Turkey_animation_without_shadow_39: -7045764628544115439
+      Turkey_animation_without_shadow_4: -3034774200383985222
+      Turkey_animation_without_shadow_5: -3750834961596377036
+      Turkey_animation_without_shadow_6: 4161890570663414693
+      Turkey_animation_without_shadow_7: 8733273342062807091
+      Turkey_animation_without_shadow_8: 4832297192718730175
+      Turkey_animation_without_shadow_9: 1310469179004092237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

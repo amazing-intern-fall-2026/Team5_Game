@@ -6,7 +6,7 @@ public class StartMenuController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void OnstartClick()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("demo1");
     }
 
     public void OnExitClick()

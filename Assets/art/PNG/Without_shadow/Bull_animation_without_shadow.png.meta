@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: a685ac5b8a3f3d840b5404b0a27b4929
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6032755878110024250
+    second: Bull_animation_without_shadow_0
+  - first:
+      213: -3124605168959458590
+    second: Bull_animation_without_shadow_1
+  - first:
+      213: 891245102468602412
+    second: Bull_animation_without_shadow_2
+  - first:
+      213: -1803131010588463338
+    second: Bull_animation_without_shadow_3
+  - first:
+      213: 1694575344715528855
+    second: Bull_animation_without_shadow_4
+  - first:
+      213: 1602035980193082118
+    second: Bull_animation_without_shadow_5
+  - first:
+      213: -2537151097933247316
+    second: Bull_animation_without_shadow_6
+  - first:
+      213: -2791140974454396653
+    second: Bull_animation_without_shadow_7
+  - first:
+      213: 2580695835515869118
+    second: Bull_animation_without_shadow_8
+  - first:
+      213: -3237965335067769218
+    second: Bull_animation_without_shadow_9
+  - first:
+      213: -2671614856934458805
+    second: Bull_animation_without_shadow_10
+  - first:
+      213: -283904954410230282
+    second: Bull_animation_without_shadow_11
+  - first:
+      213: -7507557117226899141
+    second: Bull_animation_without_shadow_12
+  - first:
+      213: -5923182815290236777
+    second: Bull_animation_without_shadow_13
+  - first:
+      213: 41727527877641905
+    second: Bull_animation_without_shadow_14
+  - first:
+      213: -3283746757234546718
+    second: Bull_animation_without_shadow_15
+  - first:
+      213: 8660475998399245002
+    second: Bull_animation_without_shadow_16
+  - first:
+      213: 895688410853909336
+    second: Bull_animation_without_shadow_17
+  - first:
+      213: 1847831109510726453
+    second: Bull_animation_without_shadow_18
+  - first:
+      213: 4388903996749280191
+    second: Bull_animation_without_shadow_19
+  - first:
+      213: 8951012219050390927
+    second: Bull_animation_without_shadow_20
+  - first:
+      213: -4570531695931542175
+    second: Bull_animation_without_shadow_21
+  - first:
+      213: -6186037053374795167
+    second: Bull_animation_without_shadow_22
+  - first:
+      213: 5188307144123653010
+    second: Bull_animation_without_shadow_23
+  - first:
+      213: 486115928886151987
+    second: Bull_animation_without_shadow_24
+  - first:
+      213: -4151137000956396769
+    second: Bull_animation_without_shadow_25
+  - first:
+      213: -1282917582341262868
+    second: Bull_animation_without_shadow_26
+  - first:
+      213: -2259679696685915194
+    second: Bull_animation_without_shadow_27
+  - first:
+      213: 622162039916158387
+    second: Bull_animation_without_shadow_28
+  - first:
+      213: 2149720617273624781
+    second: Bull_animation_without_shadow_29
+  - first:
+      213: 7769793300890981638
+    second: Bull_animation_without_shadow_30
+  - first:
+      213: 2042952226545664654
+    second: Bull_animation_without_shadow_31
+  - first:
+      213: -76377418603740907
+    second: Bull_animation_without_shadow_32
+  - first:
+      213: 336726271276992977
+    second: Bull_animation_without_shadow_33
+  - first:
+      213: 4006683346296263520
+    second: Bull_animation_without_shadow_34
+  - first:
+      213: -4797923253303494774
+    second: Bull_animation_without_shadow_35
+  - first:
+      213: 7577566531932280155
+    second: Bull_animation_without_shadow_36
+  - first:
+      213: 592455896010751126
+    second: Bull_animation_without_shadow_37
+  - first:
+      213: 2105517948834698352
+    second: Bull_animation_without_shadow_38
+  - first:
+      213: -4609213029281848617
+    second: Bull_animation_without_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 469
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd2a94ed78574ca0800000000000000
+      internalID: -6032755878110024250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 469
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e272d8572c23a4d0800000000000000
+      internalID: -3124605168959458590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 469
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a927cd2b65e5c00800000000000000
+      internalID: 891245102468602412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 469
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f226636edf9f6e0800000000000000
+      internalID: -1803131010588463338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 469
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a77ea3c47548710800000000000000
+      internalID: 1694575344715528855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 469
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60badcc6c339b3610800000000000000
+      internalID: 1602035980193082118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 404
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4232d48a3accd0800000000000000
+      internalID: -2537151097933247316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 403
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ab936210e349d0800000000000000
+      internalID: -2791140974454396653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 403
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7d045703970d320800000000000000
+      internalID: 2580695835515869118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 402
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76c148eeaf6013d0800000000000000
+      internalID: -3237965335067769218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 403
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4af3c341748cead0800000000000000
+      internalID: -2671614856934458805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 404
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd976ab2fd5f0cf0800000000000000
+      internalID: -283904954410230282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 341
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b392cb0249ccfc790800000000000000
+      internalID: -7507557117226899141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 341
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7906de2ac90accda0800000000000000
+      internalID: -5923182815290236777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 341
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6808c27fe349000800000000000000
+      internalID: 41727527877641905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 341
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7a1bae8b9cd62d0800000000000000
+      internalID: -3283746757234546718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 341
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca226e0901303870800000000000000
+      internalID: 8660475998399245002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 341
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853a1663ddf1e6c00800000000000000
+      internalID: 895688410853909336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 277
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5338d479a90d4a910800000000000000
+      internalID: 1847831109510726453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 277
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3788f7ee488ec30800000000000000
+      internalID: 4388903996749280191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 277
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85fda05032683c70800000000000000
+      internalID: 8951012219050390927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 277
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165365563a53290c0800000000000000
+      internalID: -4570531695931542175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 277
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f0323318c62aa0800000000000000
+      internalID: -6186037053374795167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 277
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b9c17dbd1900840800000000000000
+      internalID: 5188307144123653010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 213
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b0bec9cd70fb600800000000000000
+      internalID: 486115928886151987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 213
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b730c24e23466c0800000000000000
+      internalID: -4151137000956396769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 213
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1327c8149223ee0800000000000000
+      internalID: -1282917582341262868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 213
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3afd4c94104a0e0800000000000000
+      internalID: -2259679696685915194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 148
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd5fe5341d52a800800000000000000
+      internalID: 622162039916158387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 147
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc88deef28755dd10800000000000000
+      internalID: 2149720617273624781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 147
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60511dd47d9d3db60800000000000000
+      internalID: 7769793300890981638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 148
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82095cd9360a5c10800000000000000
+      internalID: 2042952226545664654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 85
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51143477427a0fef0800000000000000
+      internalID: -76377418603740907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 85
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9c10a72ca4ca400800000000000000
+      internalID: 336726271276992977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 85
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063567f66499a9730800000000000000
+      internalID: 4006683346296263520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 85
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87324bb83a5a6db0800000000000000
+      internalID: -4797923253303494774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 21
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5556b5fc9ce82960800000000000000
+      internalID: 7577566531932280155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 21
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c7eca9f73d83800800000000000000
+      internalID: 592455896010751126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 21
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07450804b6d483d10800000000000000
+      internalID: 2105517948834698352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bull_animation_without_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 21
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2ad87ab29c800c0800000000000000
+      internalID: -4609213029281848617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bull_animation_without_shadow_0: -6032755878110024250
+      Bull_animation_without_shadow_1: -3124605168959458590
+      Bull_animation_without_shadow_10: -2671614856934458805
+      Bull_animation_without_shadow_11: -283904954410230282
+      Bull_animation_without_shadow_12: -7507557117226899141
+      Bull_animation_without_shadow_13: -5923182815290236777
+      Bull_animation_without_shadow_14: 41727527877641905
+      Bull_animation_without_shadow_15: -3283746757234546718
+      Bull_animation_without_shadow_16: 8660475998399245002
+      Bull_animation_without_shadow_17: 895688410853909336
+      Bull_animation_without_shadow_18: 1847831109510726453
+      Bull_animation_without_shadow_19: 4388903996749280191
+      Bull_animation_without_shadow_2: 891245102468602412
+      Bull_animation_without_shadow_20: 8951012219050390927
+      Bull_animation_without_shadow_21: -4570531695931542175
+      Bull_animation_without_shadow_22: -6186037053374795167
+      Bull_animation_without_shadow_23: 5188307144123653010
+      Bull_animation_without_shadow_24: 486115928886151987
+      Bull_animation_without_shadow_25: -4151137000956396769
+      Bull_animation_without_shadow_26: -1282917582341262868
+      Bull_animation_without_shadow_27: -2259679696685915194
+      Bull_animation_without_shadow_28: 622162039916158387
+      Bull_animation_without_shadow_29: 2149720617273624781
+      Bull_animation_without_shadow_3: -1803131010588463338
+      Bull_animation_without_shadow_30: 7769793300890981638
+      Bull_animation_without_shadow_31: 2042952226545664654
+      Bull_animation_without_shadow_32: -76377418603740907
+      Bull_animation_without_shadow_33: 336726271276992977
+      Bull_animation_without_shadow_34: 4006683346296263520
+      Bull_animation_without_shadow_35: -4797923253303494774
+      Bull_animation_without_shadow_36: 7577566531932280155
+      Bull_animation_without_shadow_37: 592455896010751126
+      Bull_animation_without_shadow_38: 2105517948834698352
+      Bull_animation_without_shadow_39: -4609213029281848617
+      Bull_animation_without_shadow_4: 1694575344715528855
+      Bull_animation_without_shadow_5: 1602035980193082118
+      Bull_animation_without_shadow_6: -2537151097933247316
+      Bull_animation_without_shadow_7: -2791140974454396653
+      Bull_animation_without_shadow_8: 2580695835515869118
+      Bull_animation_without_shadow_9: -3237965335067769218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

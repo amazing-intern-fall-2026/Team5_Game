@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 0affca365b0b7a94d9067d6fc88b9dab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1530891998073934057
+    second: Piglet_animation_with_shadow_0
+  - first:
+      213: -2691095878991102790
+    second: Piglet_animation_with_shadow_1
+  - first:
+      213: -4648763043266983907
+    second: Piglet_animation_with_shadow_2
+  - first:
+      213: -2850423627082093810
+    second: Piglet_animation_with_shadow_3
+  - first:
+      213: -452916114831768378
+    second: Piglet_animation_with_shadow_4
+  - first:
+      213: 183019201627128661
+    second: Piglet_animation_with_shadow_5
+  - first:
+      213: -6856613803954748056
+    second: Piglet_animation_with_shadow_6
+  - first:
+      213: -4160764571855368428
+    second: Piglet_animation_with_shadow_7
+  - first:
+      213: -896826302341490205
+    second: Piglet_animation_with_shadow_8
+  - first:
+      213: -113027554555832320
+    second: Piglet_animation_with_shadow_9
+  - first:
+      213: -3825438168368558564
+    second: Piglet_animation_with_shadow_10
+  - first:
+      213: 3655968031905336002
+    second: Piglet_animation_with_shadow_11
+  - first:
+      213: -2567925719609219120
+    second: Piglet_animation_with_shadow_12
+  - first:
+      213: 1414461183838897565
+    second: Piglet_animation_with_shadow_13
+  - first:
+      213: 4428461209822977771
+    second: Piglet_animation_with_shadow_14
+  - first:
+      213: 7081775140704825994
+    second: Piglet_animation_with_shadow_15
+  - first:
+      213: -7146420079908897674
+    second: Piglet_animation_with_shadow_16
+  - first:
+      213: -1032637669134341770
+    second: Piglet_animation_with_shadow_17
+  - first:
+      213: 7505405641726119554
+    second: Piglet_animation_with_shadow_18
+  - first:
+      213: 2349607247579083475
+    second: Piglet_animation_with_shadow_19
+  - first:
+      213: 8316046877949794052
+    second: Piglet_animation_with_shadow_20
+  - first:
+      213: 8695069991758249587
+    second: Piglet_animation_with_shadow_21
+  - first:
+      213: -8057006985897647216
+    second: Piglet_animation_with_shadow_22
+  - first:
+      213: -4067502873245875442
+    second: Piglet_animation_with_shadow_23
+  - first:
+      213: -5280401484716706153
+    second: Piglet_animation_with_shadow_24
+  - first:
+      213: -2702071084747501952
+    second: Piglet_animation_with_shadow_25
+  - first:
+      213: 6391090364840635124
+    second: Piglet_animation_with_shadow_26
+  - first:
+      213: -1693247529382600072
+    second: Piglet_animation_with_shadow_27
+  - first:
+      213: -5471482676633547895
+    second: Piglet_animation_with_shadow_28
+  - first:
+      213: -3334189986343821707
+    second: Piglet_animation_with_shadow_29
+  - first:
+      213: 7348186138426590732
+    second: Piglet_animation_with_shadow_30
+  - first:
+      213: -4223233161142912205
+    second: Piglet_animation_with_shadow_31
+  - first:
+      213: 4013237533433454447
+    second: Piglet_animation_with_shadow_32
+  - first:
+      213: 141284928488797202
+    second: Piglet_animation_with_shadow_33
+  - first:
+      213: 5745459449489748604
+    second: Piglet_animation_with_shadow_34
+  - first:
+      213: -2883615572153428118
+    second: Piglet_animation_with_shadow_35
+  - first:
+      213: -8109988653212156562
+    second: Piglet_animation_with_shadow_36
+  - first:
+      213: 7872695702150174695
+    second: Piglet_animation_with_shadow_37
+  - first:
+      213: 8141190017212239089
+    second: Piglet_animation_with_shadow_38
+  - first:
+      213: 5285126518731981879
+    second: Piglet_animation_with_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 227
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e05fa64922de3510800000000000000
+      internalID: 1530891998073934057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 227
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcb73c5e8e47aad0800000000000000
+      internalID: -2691095878991102790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 227
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d188b1174a64c7fb0800000000000000
+      internalID: -4648763043266983907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 227
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b246830d24178d0800000000000000
+      internalID: -2850423627082093810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 227
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c40766713be6b9f0800000000000000
+      internalID: -452916114831768378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 227
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5538f048ef63a8200800000000000000
+      internalID: 183019201627128661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865cc3db21a68d0a0800000000000000
+      internalID: -6856613803954748056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 195
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fc784aaaef146c0800000000000000
+      internalID: -4160764571855368428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 195
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e955b7ca35dd83f0800000000000000
+      internalID: -896826302341490205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 195
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0085ed8b9027e6ef0800000000000000
+      internalID: -113027554555832320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 195
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ecb20014059eac0800000000000000
+      internalID: -3825438168368558564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 195
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cac6eb0e8b9cb230800000000000000
+      internalID: 3655968031905336002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 163
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d76a19d925ec5cd0800000000000000
+      internalID: -2567925719609219120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 163
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95cb4bd3fc21a310800000000000000
+      internalID: 1414461183838897565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 163
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee5811e10e057d30800000000000000
+      internalID: 4428461209822977771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 163
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8237e838f4874260800000000000000
+      internalID: 7081775140704825994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 163
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cbf49fcc0d2dc90800000000000000
+      internalID: -7146420079908897674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 163
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6796f85d2855ba1f0800000000000000
+      internalID: -1032637669134341770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 131
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e4c427aae882860800000000000000
+      internalID: 7505405641726119554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d272a9c75b7b9020800000000000000
+      internalID: 2349607247579083475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40791bf3398886370800000000000000
+      internalID: 8316046877949794052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 131
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37eb8ebc6181ba870800000000000000
+      internalID: 8695069991758249587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093eabc85d2cf2090800000000000000
+      internalID: -8057006985897647216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 131
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e038c45ffa35d87c0800000000000000
+      internalID: -4067502873245875442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796f30093de38b6b0800000000000000
+      internalID: -5280401484716706153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 99
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e45c32aa0508ad0800000000000000
+      internalID: -2702071084747501952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa6fbb43d6b1b850800000000000000
+      internalID: 6391090364840635124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 99
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872a75ed7506088e0800000000000000
+      internalID: -1693247529382600072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 67
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bcd88ae736114b0800000000000000
+      internalID: -5471482676633547895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57edf4a6fd39ab1d0800000000000000
+      internalID: -3334189986343821707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06cd5c4c500af560800000000000000
+      internalID: 7348186138426590732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b3d6ac0df0465c0800000000000000
+      internalID: -4223233161142912205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd09b0642e1b730800000000000000
+      internalID: 4013237533433454447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214f0b6d4e1f5f100800000000000000
+      internalID: 141284928488797202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 35
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c727f36bde8fbbf40800000000000000
+      internalID: 5745459449489748604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 35
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6792094ae65bf7d0800000000000000
+      internalID: -2883615572153428118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d37d8d948837f80800000000000000
+      internalID: -8109988653212156562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7d76f970f614d60800000000000000
+      internalID: 7872695702150174695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc44e0df215bf070800000000000000
+      internalID: 8141190017212239089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piglet_animation_with_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7344406219a885940800000000000000
+      internalID: 5285126518731981879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Piglet_animation_with_shadow_0: 1530891998073934057
+      Piglet_animation_with_shadow_1: -2691095878991102790
+      Piglet_animation_with_shadow_10: -3825438168368558564
+      Piglet_animation_with_shadow_11: 3655968031905336002
+      Piglet_animation_with_shadow_12: -2567925719609219120
+      Piglet_animation_with_shadow_13: 1414461183838897565
+      Piglet_animation_with_shadow_14: 4428461209822977771
+      Piglet_animation_with_shadow_15: 7081775140704825994
+      Piglet_animation_with_shadow_16: -7146420079908897674
+      Piglet_animation_with_shadow_17: -1032637669134341770
+      Piglet_animation_with_shadow_18: 7505405641726119554
+      Piglet_animation_with_shadow_19: 2349607247579083475
+      Piglet_animation_with_shadow_2: -4648763043266983907
+      Piglet_animation_with_shadow_20: 8316046877949794052
+      Piglet_animation_with_shadow_21: 8695069991758249587
+      Piglet_animation_with_shadow_22: -8057006985897647216
+      Piglet_animation_with_shadow_23: -4067502873245875442
+      Piglet_animation_with_shadow_24: -5280401484716706153
+      Piglet_animation_with_shadow_25: -2702071084747501952
+      Piglet_animation_with_shadow_26: 6391090364840635124
+      Piglet_animation_with_shadow_27: -1693247529382600072
+      Piglet_animation_with_shadow_28: -5471482676633547895
+      Piglet_animation_with_shadow_29: -3334189986343821707
+      Piglet_animation_with_shadow_3: -2850423627082093810
+      Piglet_animation_with_shadow_30: 7348186138426590732
+      Piglet_animation_with_shadow_31: -4223233161142912205
+      Piglet_animation_with_shadow_32: 4013237533433454447
+      Piglet_animation_with_shadow_33: 141284928488797202
+      Piglet_animation_with_shadow_34: 5745459449489748604
+      Piglet_animation_with_shadow_35: -2883615572153428118
+      Piglet_animation_with_shadow_36: -8109988653212156562
+      Piglet_animation_with_shadow_37: 7872695702150174695
+      Piglet_animation_with_shadow_38: 8141190017212239089
+      Piglet_animation_with_shadow_39: 5285126518731981879
+      Piglet_animation_with_shadow_4: -452916114831768378
+      Piglet_animation_with_shadow_5: 183019201627128661
+      Piglet_animation_with_shadow_6: -6856613803954748056
+      Piglet_animation_with_shadow_7: -4160764571855368428
+      Piglet_animation_with_shadow_8: -896826302341490205
+      Piglet_animation_with_shadow_9: -113027554555832320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

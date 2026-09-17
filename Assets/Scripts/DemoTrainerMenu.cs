@@ -9,6 +9,10 @@ public class DemoTrainerMenu : MonoBehaviour
     [SerializeField] private ItemData[] seeds;
     [SerializeField] private ItemData[] fertilizers;
 
+    [SerializeField] private GameObject[] animalPrefabs;
+    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private float spawnOffset = 1.5f;
+
     private bool isOpen;
     private Vector2 scrollPosition;
 
@@ -17,6 +21,15 @@ public class DemoTrainerMenu : MonoBehaviour
         if (itemStorage == null)
         {
             itemStorage = FindFirstObjectByType<ItemStorageController>();
+        }
+
+        if (spawnPoint == null)
+        {
+            PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
+            if (player != null)
+            {
+                spawnPoint = player.transform;
+            }
         }
     }
 
@@ -42,6 +55,25 @@ public class DemoTrainerMenu : MonoBehaviour
         DrawSection("Công cụ", tools, true);
         DrawSection("Hạt giống", seeds, false);
         DrawSection("Phân bón", fertilizers, false);
+
+        GUILayout.Space(6f);
+        GUILayout.Label("Sinh vật");
+
+        if (animalPrefabs != null)
+        {
+            foreach (GameObject animalPrefab in animalPrefabs)
+            {
+                if (animalPrefab == null)
+                {
+                    continue;
+                }
+
+                if (GUILayout.Button("+ " + animalPrefab.name, GUILayout.Height(30f)))
+                {
+                    SpawnAnimal(animalPrefab);
+                }
+            }
+        }
 
         GUILayout.Space(12f);
         GUI.backgroundColor = new Color(1f, 0.45f, 0.35f);
@@ -84,6 +116,16 @@ public class DemoTrainerMenu : MonoBehaviour
                 GiveItem(item, amount);
             }
         }
+    }
+
+    private void SpawnAnimal(GameObject animalPrefab)
+    {
+        Vector3 origin = spawnPoint != null ? spawnPoint.position : transform.position;
+        Vector3 randomOffset = Random.insideUnitCircle * spawnOffset;
+        Vector3 spawnPosition = origin + new Vector3(randomOffset.x, randomOffset.y, 0f);
+
+        Instantiate(animalPrefab, spawnPosition, Quaternion.identity);
+        Debug.Log("[Trainer] Đã triệu hồi " + animalPrefab.name + ".");
     }
 
     private void GiveItem(ItemData item, int amount)

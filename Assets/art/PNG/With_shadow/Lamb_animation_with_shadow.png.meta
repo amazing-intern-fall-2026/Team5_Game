@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 985039bc2c786284482f53f5cce83e6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3909048807450547526
+    second: Lamb_animation_with_shadow_0
+  - first:
+      213: 4750308461088718073
+    second: Lamb_animation_with_shadow_1
+  - first:
+      213: -2981550179613377861
+    second: Lamb_animation_with_shadow_2
+  - first:
+      213: 1937798938920435380
+    second: Lamb_animation_with_shadow_3
+  - first:
+      213: -4167210262715796665
+    second: Lamb_animation_with_shadow_4
+  - first:
+      213: -4386045493452494643
+    second: Lamb_animation_with_shadow_5
+  - first:
+      213: 4873238840788499752
+    second: Lamb_animation_with_shadow_6
+  - first:
+      213: 5604585017897673908
+    second: Lamb_animation_with_shadow_7
+  - first:
+      213: 4384118820419862616
+    second: Lamb_animation_with_shadow_8
+  - first:
+      213: -8831004176798988071
+    second: Lamb_animation_with_shadow_9
+  - first:
+      213: 7716163732543379156
+    second: Lamb_animation_with_shadow_10
+  - first:
+      213: -5660272327532288310
+    second: Lamb_animation_with_shadow_11
+  - first:
+      213: 3065479410292364203
+    second: Lamb_animation_with_shadow_12
+  - first:
+      213: -7725269799702331918
+    second: Lamb_animation_with_shadow_13
+  - first:
+      213: -4825435149571111139
+    second: Lamb_animation_with_shadow_14
+  - first:
+      213: -1471164721403138857
+    second: Lamb_animation_with_shadow_15
+  - first:
+      213: 6079168616633687593
+    second: Lamb_animation_with_shadow_16
+  - first:
+      213: -1309366596729024432
+    second: Lamb_animation_with_shadow_17
+  - first:
+      213: -2521288629831839008
+    second: Lamb_animation_with_shadow_18
+  - first:
+      213: 8268570245180884926
+    second: Lamb_animation_with_shadow_19
+  - first:
+      213: 7779536669067651407
+    second: Lamb_animation_with_shadow_20
+  - first:
+      213: -8300224441682206194
+    second: Lamb_animation_with_shadow_21
+  - first:
+      213: -2864315576611803636
+    second: Lamb_animation_with_shadow_22
+  - first:
+      213: -3050868139125710555
+    second: Lamb_animation_with_shadow_23
+  - first:
+      213: -756971678501943960
+    second: Lamb_animation_with_shadow_24
+  - first:
+      213: -4609600633257720128
+    second: Lamb_animation_with_shadow_25
+  - first:
+      213: 3722915055617438949
+    second: Lamb_animation_with_shadow_26
+  - first:
+      213: -3488732033569892421
+    second: Lamb_animation_with_shadow_27
+  - first:
+      213: -9195506066657793958
+    second: Lamb_animation_with_shadow_28
+  - first:
+      213: -4998132107930817756
+    second: Lamb_animation_with_shadow_29
+  - first:
+      213: 1811113103264191595
+    second: Lamb_animation_with_shadow_30
+  - first:
+      213: -4073091793256903118
+    second: Lamb_animation_with_shadow_31
+  - first:
+      213: -3152083315258006605
+    second: Lamb_animation_with_shadow_32
+  - first:
+      213: -3473546853371717374
+    second: Lamb_animation_with_shadow_33
+  - first:
+      213: -3673525773417340510
+    second: Lamb_animation_with_shadow_34
+  - first:
+      213: -285231737009852400
+    second: Lamb_animation_with_shadow_35
+  - first:
+      213: -8111792616774352398
+    second: Lamb_animation_with_shadow_36
+  - first:
+      213: -5438272458571938202
+    second: Lamb_animation_with_shadow_37
+  - first:
+      213: -2859732063110567108
+    second: Lamb_animation_with_shadow_38
+  - first:
+      213: 1636239495448514817
+    second: Lamb_animation_with_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 227
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaee3612d440c9c0800000000000000
+      internalID: -3909048807450547526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 227
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb9bc806c7ce140800000000000000
+      internalID: 4750308461088718073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 227
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba742898e76f96d0800000000000000
+      internalID: -2981550179613377861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 227
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be3b783ed174ea10800000000000000
+      internalID: 1937798938920435380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 227
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743767a48581b26c0800000000000000
+      internalID: -4167210262715796665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 227
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8af0aacd2a123c0800000000000000
+      internalID: -4386045493452494643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 195
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82db5daf7e831a340800000000000000
+      internalID: 4873238840788499752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 195
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b46441216c77cd40800000000000000
+      internalID: 5604585017897673908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 195
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8500b30d6d487dc30800000000000000
+      internalID: 4384118820419862616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 195
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8c7e76d78f17580800000000000000
+      internalID: -8831004176798988071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 195
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d610036802551b60800000000000000
+      internalID: 7716163732543379156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 195
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6e679be4ca271b0800000000000000
+      internalID: -5660272327532288310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba310c43845ca8a20800000000000000
+      internalID: 3065479410292364203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 162
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd70b22c045ac490800000000000000
+      internalID: -7725269799702331918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1741273c4c980db0800000000000000
+      internalID: -4825435149571111139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 162
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcedaefa7f559be0800000000000000
+      internalID: -1471164721403138857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 162
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5724e5ab8d5450800000000000000
+      internalID: 6079168616633687593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0505431840234dde0800000000000000
+      internalID: -1309366596729024432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 130
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e254aa7955920dd0800000000000000
+      internalID: -2521288629831839008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 130
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70f5844dcdfb270800000000000000
+      internalID: 8268570245180884926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 130
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4927ecf16776fb60800000000000000
+      internalID: 7779536669067651407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 130
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e026485c8ddafcc80800000000000000
+      internalID: -8300224441682206194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 130
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e6f6ba828ef38d0800000000000000
+      internalID: -2864315576611803636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 130
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521ead6779329a5d0800000000000000
+      internalID: -3050868139125710555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8654cddd442be75f0800000000000000
+      internalID: -756971678501943960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 99
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6024295a86700c0800000000000000
+      internalID: -4609600633257720128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f70ba4837aa330800000000000000
+      internalID: 3722915055617438949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 99
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb75a8613b8859fc0800000000000000
+      internalID: -3488732033569892421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 67
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58a9e6c3fff26080800000000000000
+      internalID: -9195506066657793958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b2f4e345113aab0800000000000000
+      internalID: -4998132107930817756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 67
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b641e1095cd522910800000000000000
+      internalID: 1811113103264191595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e0d5d18987977c0800000000000000
+      internalID: -4073091793256903118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b36c9bdcec8144d0800000000000000
+      internalID: -3152083315258006605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2095a1e5a8b7bcfc0800000000000000
+      internalID: -3473546853371717374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 34
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1a732b5c3050dc0800000000000000
+      internalID: -3673525773417340510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0103cd41f37aa0cf0800000000000000
+      internalID: -285231737009852400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f14789d79f1d6f80800000000000000
+      internalID: -8111792616774352398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666870b13006784b0800000000000000
+      internalID: -5438272458571938202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bef7117d03058d0800000000000000
+      internalID: -2859732063110567108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamb_animation_with_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1015ca5e62715b610800000000000000
+      internalID: 1636239495448514817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lamb_animation_with_shadow_0: -3909048807450547526
+      Lamb_animation_with_shadow_1: 4750308461088718073
+      Lamb_animation_with_shadow_10: 7716163732543379156
+      Lamb_animation_with_shadow_11: -5660272327532288310
+      Lamb_animation_with_shadow_12: 3065479410292364203
+      Lamb_animation_with_shadow_13: -7725269799702331918
+      Lamb_animation_with_shadow_14: -4825435149571111139
+      Lamb_animation_with_shadow_15: -1471164721403138857
+      Lamb_animation_with_shadow_16: 6079168616633687593
+      Lamb_animation_with_shadow_17: -1309366596729024432
+      Lamb_animation_with_shadow_18: -2521288629831839008
+      Lamb_animation_with_shadow_19: 8268570245180884926
+      Lamb_animation_with_shadow_2: -2981550179613377861
+      Lamb_animation_with_shadow_20: 7779536669067651407
+      Lamb_animation_with_shadow_21: -8300224441682206194
+      Lamb_animation_with_shadow_22: -2864315576611803636
+      Lamb_animation_with_shadow_23: -3050868139125710555
+      Lamb_animation_with_shadow_24: -756971678501943960
+      Lamb_animation_with_shadow_25: -4609600633257720128
+      Lamb_animation_with_shadow_26: 3722915055617438949
+      Lamb_animation_with_shadow_27: -3488732033569892421
+      Lamb_animation_with_shadow_28: -9195506066657793958
+      Lamb_animation_with_shadow_29: -4998132107930817756
+      Lamb_animation_with_shadow_3: 1937798938920435380
+      Lamb_animation_with_shadow_30: 1811113103264191595
+      Lamb_animation_with_shadow_31: -4073091793256903118
+      Lamb_animation_with_shadow_32: -3152083315258006605
+      Lamb_animation_with_shadow_33: -3473546853371717374
+      Lamb_animation_with_shadow_34: -3673525773417340510
+      Lamb_animation_with_shadow_35: -285231737009852400
+      Lamb_animation_with_shadow_36: -8111792616774352398
+      Lamb_animation_with_shadow_37: -5438272458571938202
+      Lamb_animation_with_shadow_38: -2859732063110567108
+      Lamb_animation_with_shadow_39: 1636239495448514817
+      Lamb_animation_with_shadow_4: -4167210262715796665
+      Lamb_animation_with_shadow_5: -4386045493452494643
+      Lamb_animation_with_shadow_6: 4873238840788499752
+      Lamb_animation_with_shadow_7: 5604585017897673908
+      Lamb_animation_with_shadow_8: 4384118820419862616
+      Lamb_animation_with_shadow_9: -8831004176798988071
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

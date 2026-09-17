@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: a2670ba3bc629ee46accc53712a92c19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4907447508020149467
+    second: Calf_animation_with_shadow_0
+  - first:
+      213: 5805695537744951303
+    second: Calf_animation_with_shadow_1
+  - first:
+      213: -5160233589445718157
+    second: Calf_animation_with_shadow_2
+  - first:
+      213: -3567697969060792941
+    second: Calf_animation_with_shadow_3
+  - first:
+      213: -657601070746793680
+    second: Calf_animation_with_shadow_4
+  - first:
+      213: 7507252018650738526
+    second: Calf_animation_with_shadow_5
+  - first:
+      213: 7140193113917791423
+    second: Calf_animation_with_shadow_6
+  - first:
+      213: -8017173958310637047
+    second: Calf_animation_with_shadow_7
+  - first:
+      213: 35263371095612139
+    second: Calf_animation_with_shadow_8
+  - first:
+      213: 5868261825247893594
+    second: Calf_animation_with_shadow_9
+  - first:
+      213: 6710471299328306424
+    second: Calf_animation_with_shadow_10
+  - first:
+      213: -191597127181355494
+    second: Calf_animation_with_shadow_11
+  - first:
+      213: 3902568379529113068
+    second: Calf_animation_with_shadow_12
+  - first:
+      213: -3035238283950250088
+    second: Calf_animation_with_shadow_13
+  - first:
+      213: 5396772149505497360
+    second: Calf_animation_with_shadow_14
+  - first:
+      213: 8049418318314827710
+    second: Calf_animation_with_shadow_15
+  - first:
+      213: -6599939597633659815
+    second: Calf_animation_with_shadow_16
+  - first:
+      213: 8418721981951051111
+    second: Calf_animation_with_shadow_17
+  - first:
+      213: 2706415385553466445
+    second: Calf_animation_with_shadow_18
+  - first:
+      213: 8275630429819448978
+    second: Calf_animation_with_shadow_19
+  - first:
+      213: -6464115585010288341
+    second: Calf_animation_with_shadow_20
+  - first:
+      213: -7724645688926744119
+    second: Calf_animation_with_shadow_21
+  - first:
+      213: -6094405869400079173
+    second: Calf_animation_with_shadow_22
+  - first:
+      213: 5227222775772585622
+    second: Calf_animation_with_shadow_23
+  - first:
+      213: 3433658037172423790
+    second: Calf_animation_with_shadow_24
+  - first:
+      213: -1330812266724017931
+    second: Calf_animation_with_shadow_25
+  - first:
+      213: -3754203674407664330
+    second: Calf_animation_with_shadow_26
+  - first:
+      213: -8847358828203512683
+    second: Calf_animation_with_shadow_27
+  - first:
+      213: 6235769120146980672
+    second: Calf_animation_with_shadow_28
+  - first:
+      213: 6676723306058990986
+    second: Calf_animation_with_shadow_29
+  - first:
+      213: 8286882040195809584
+    second: Calf_animation_with_shadow_30
+  - first:
+      213: 3171969882306913454
+    second: Calf_animation_with_shadow_31
+  - first:
+      213: -5078169604640471957
+    second: Calf_animation_with_shadow_32
+  - first:
+      213: 6099184677305326753
+    second: Calf_animation_with_shadow_33
+  - first:
+      213: 2627522445934825420
+    second: Calf_animation_with_shadow_34
+  - first:
+      213: 6521545505433181092
+    second: Calf_animation_with_shadow_35
+  - first:
+      213: -8015568933766342548
+    second: Calf_animation_with_shadow_36
+  - first:
+      213: 6471975998799561025
+    second: Calf_animation_with_shadow_37
+  - first:
+      213: -6217924778305934747
+    second: Calf_animation_with_shadow_38
+  - first:
+      213: 5759550947028900249
+    second: Calf_animation_with_shadow_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 465
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcba6df181ca1440800000000000000
+      internalID: 4907447508020149467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 465
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708bb59e459f19050800000000000000
+      internalID: 5805695537744951303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 465
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f8c07f3ea2368b0800000000000000
+      internalID: -5160233589445718157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 465
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395bf30899dfc7ec0800000000000000
+      internalID: -3567697969060792941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 465
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039883e6f4bbfd6f0800000000000000
+      internalID: -657601070746793680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 465
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fe2039fed1f2860800000000000000
+      internalID: 7507252018650738526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 401
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc92c68ecf071360800000000000000
+      internalID: 7140193113917791423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 401
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902d16003c64db090800000000000000
+      internalID: -8017173958310637047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 401
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea9cb369d74d7000800000000000000
+      internalID: 35263371095612139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 401
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58d2e6e901407150800000000000000
+      internalID: 5868261825247893594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 401
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fceae7d712602d50800000000000000
+      internalID: 6710471299328306424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 401
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16be5e8d6f475df0800000000000000
+      internalID: -191597127181355494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 338
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced2185b345b82630800000000000000
+      internalID: 3902568379529113068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 338
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897aa74bcdaa0e5d0800000000000000
+      internalID: -3035238283950250088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 338
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0191ff83daf25ea40800000000000000
+      internalID: 5396772149505497360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 338
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf6da7105745bf60800000000000000
+      internalID: 8049418318314827710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 338
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cd20867ed4864a0800000000000000
+      internalID: -6599939597633659815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 338
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76507fcc90f45d470800000000000000
+      internalID: 8418721981951051111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 274
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44f096347e1f8520800000000000000
+      internalID: 2706415385553466445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 274
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e2dcd9702f8d270800000000000000
+      internalID: 8275630429819448978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 274
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b293560bf19da46a0800000000000000
+      internalID: -6464115585010288341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 274
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1d4cf3cab8cc490800000000000000
+      internalID: -7724645688926744119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 274
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb44a5db6225c6ba0800000000000000
+      internalID: -6094405869400079173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 274
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e91c76b63da8840800000000000000
+      internalID: 5227222775772585622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 209
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cc3d1eacdc6af20800000000000000
+      internalID: 3433658037172423790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 209
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8be2b5b41088de0800000000000000
+      internalID: -1330812266724017931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 209
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635077416a366ebc0800000000000000
+      internalID: -3754203674407664330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 209
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c6384650ed73580800000000000000
+      internalID: -8847358828203512683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 145
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ff5bbe9f6e98650800000000000000
+      internalID: 6235769120146980672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 145
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85c739d87c78ac50800000000000000
+      internalID: 6676723306058990986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 145
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318f6d4f4be00370800000000000000
+      internalID: 8286882040195809584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 145
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea424295dc9150c20800000000000000
+      internalID: 3171969882306913454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 82
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64083e56a7b689b0800000000000000
+      internalID: -5078169604640471957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 82
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac1a4e2628a4a450800000000000000
+      internalID: 6099184677305326753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf8f4d4eb5d67420800000000000000
+      internalID: 2627522445934825420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 82
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abd3e5a51f218a50800000000000000
+      internalID: 6521545505433181092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 18
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c685336e58af2c090800000000000000
+      internalID: -8015568933766342548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 18
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414d4381e311d950800000000000000
+      internalID: 6471975998799561025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 18
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56aa9fcab5e75b9a0800000000000000
+      internalID: -6217924778305934747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Calf_animation_with_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 18
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9991c6722190eef40800000000000000
+      internalID: 5759550947028900249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Calf_animation_with_shadow_0: 4907447508020149467
+      Calf_animation_with_shadow_1: 5805695537744951303
+      Calf_animation_with_shadow_10: 6710471299328306424
+      Calf_animation_with_shadow_11: -191597127181355494
+      Calf_animation_with_shadow_12: 3902568379529113068
+      Calf_animation_with_shadow_13: -3035238283950250088
+      Calf_animation_with_shadow_14: 5396772149505497360
+      Calf_animation_with_shadow_15: 8049418318314827710
+      Calf_animation_with_shadow_16: -6599939597633659815
+      Calf_animation_with_shadow_17: 8418721981951051111
+      Calf_animation_with_shadow_18: 2706415385553466445
+      Calf_animation_with_shadow_19: 8275630429819448978
+      Calf_animation_with_shadow_2: -5160233589445718157
+      Calf_animation_with_shadow_20: -6464115585010288341
+      Calf_animation_with_shadow_21: -7724645688926744119
+      Calf_animation_with_shadow_22: -6094405869400079173
+      Calf_animation_with_shadow_23: 5227222775772585622
+      Calf_animation_with_shadow_24: 3433658037172423790
+      Calf_animation_with_shadow_25: -1330812266724017931
+      Calf_animation_with_shadow_26: -3754203674407664330
+      Calf_animation_with_shadow_27: -8847358828203512683
+      Calf_animation_with_shadow_28: 6235769120146980672
+      Calf_animation_with_shadow_29: 6676723306058990986
+      Calf_animation_with_shadow_3: -3567697969060792941
+      Calf_animation_with_shadow_30: 8286882040195809584
+      Calf_animation_with_shadow_31: 3171969882306913454
+      Calf_animation_with_shadow_32: -5078169604640471957
+      Calf_animation_with_shadow_33: 6099184677305326753
+      Calf_animation_with_shadow_34: 2627522445934825420
+      Calf_animation_with_shadow_35: 6521545505433181092
+      Calf_animation_with_shadow_36: -8015568933766342548
+      Calf_animation_with_shadow_37: 6471975998799561025
+      Calf_animation_with_shadow_38: -6217924778305934747
+      Calf_animation_with_shadow_39: 5759550947028900249
+      Calf_animation_with_shadow_4: -657601070746793680
+      Calf_animation_with_shadow_5: 7507252018650738526
+      Calf_animation_with_shadow_6: 7140193113917791423
+      Calf_animation_with_shadow_7: -8017173958310637047
+      Calf_animation_with_shadow_8: 35263371095612139
+      Calf_animation_with_shadow_9: 5868261825247893594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

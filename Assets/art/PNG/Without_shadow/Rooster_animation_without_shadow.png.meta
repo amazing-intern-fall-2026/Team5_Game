@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: b3d879de001d6e54c91fbe4ab815d3f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3832042778752577746
+    second: Rooster_animation_without_shadow_0
+  - first:
+      213: 5136773267712241606
+    second: Rooster_animation_without_shadow_1
+  - first:
+      213: -5403132847112255131
+    second: Rooster_animation_without_shadow_2
+  - first:
+      213: 4650071439488011016
+    second: Rooster_animation_without_shadow_3
+  - first:
+      213: 1442976994021132242
+    second: Rooster_animation_without_shadow_4
+  - first:
+      213: 6348981681306743172
+    second: Rooster_animation_without_shadow_5
+  - first:
+      213: 6001673290513516517
+    second: Rooster_animation_without_shadow_6
+  - first:
+      213: 5142966472398418658
+    second: Rooster_animation_without_shadow_7
+  - first:
+      213: -73857084521542020
+    second: Rooster_animation_without_shadow_8
+  - first:
+      213: 2668110862196208093
+    second: Rooster_animation_without_shadow_9
+  - first:
+      213: -90143279464656995
+    second: Rooster_animation_without_shadow_10
+  - first:
+      213: -7532774817791449497
+    second: Rooster_animation_without_shadow_11
+  - first:
+      213: -4070152069466856741
+    second: Rooster_animation_without_shadow_12
+  - first:
+      213: -6644026587584005927
+    second: Rooster_animation_without_shadow_13
+  - first:
+      213: 1030349969042474452
+    second: Rooster_animation_without_shadow_14
+  - first:
+      213: 8704195926523258524
+    second: Rooster_animation_without_shadow_15
+  - first:
+      213: -4892950680728282525
+    second: Rooster_animation_without_shadow_16
+  - first:
+      213: -1379515237782135179
+    second: Rooster_animation_without_shadow_17
+  - first:
+      213: -462517846978200378
+    second: Rooster_animation_without_shadow_18
+  - first:
+      213: 3706655151698753309
+    second: Rooster_animation_without_shadow_19
+  - first:
+      213: 3281453273712040209
+    second: Rooster_animation_without_shadow_20
+  - first:
+      213: 1708105246865626420
+    second: Rooster_animation_without_shadow_21
+  - first:
+      213: 3065872456488379743
+    second: Rooster_animation_without_shadow_22
+  - first:
+      213: -7257932408892351080
+    second: Rooster_animation_without_shadow_23
+  - first:
+      213: -842923851438375057
+    second: Rooster_animation_without_shadow_24
+  - first:
+      213: 4635962246359560919
+    second: Rooster_animation_without_shadow_25
+  - first:
+      213: 6005812500225921671
+    second: Rooster_animation_without_shadow_26
+  - first:
+      213: 1554791359391353718
+    second: Rooster_animation_without_shadow_27
+  - first:
+      213: -6889375567226069227
+    second: Rooster_animation_without_shadow_28
+  - first:
+      213: 4927122654307241596
+    second: Rooster_animation_without_shadow_29
+  - first:
+      213: 9117176429535880857
+    second: Rooster_animation_without_shadow_30
+  - first:
+      213: 3414449766789490371
+    second: Rooster_animation_without_shadow_31
+  - first:
+      213: -8036803184143953687
+    second: Rooster_animation_without_shadow_32
+  - first:
+      213: -6205649333734296064
+    second: Rooster_animation_without_shadow_33
+  - first:
+      213: 3547619307202110280
+    second: Rooster_animation_without_shadow_34
+  - first:
+      213: -3851408919021085729
+    second: Rooster_animation_without_shadow_35
+  - first:
+      213: -7103308382935034210
+    second: Rooster_animation_without_shadow_36
+  - first:
+      213: -2332379626556894463
+    second: Rooster_animation_without_shadow_37
+  - first:
+      213: -803746951547139990
+    second: Rooster_animation_without_shadow_38
+  - first:
+      213: -7077347050543517085
+    second: Rooster_animation_without_shadow_39
+  - first:
+      213: 2311676948859437925
+    second: Rooster_animation_without_shadow_40
+  - first:
+      213: -5539452277239478058
+    second: Rooster_animation_without_shadow_41
+  - first:
+      213: 2860463978637666631
+    second: Rooster_animation_without_shadow_42
+  - first:
+      213: -7924683762322718784
+    second: Rooster_animation_without_shadow_43
+  - first:
+      213: -8897352719155941915
+    second: Rooster_animation_without_shadow_44
+  - first:
+      213: 901064287583494376
+    second: Rooster_animation_without_shadow_45
+  - first:
+      213: -356248394711884932
+    second: Rooster_animation_without_shadow_46
+  - first:
+      213: -3407469224017980027
+    second: Rooster_animation_without_shadow_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f0a505569d1dac0800000000000000
+      internalID: -3832042778752577746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 230
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfe5b9321c794740800000000000000
+      internalID: 5136773267712241606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 230
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56901a57d473405b0800000000000000
+      internalID: -5403132847112255131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 230
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b4fda465f588040800000000000000
+      internalID: 4650071439488011016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 230
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7c0bb4eeb760410800000000000000
+      internalID: 1442976994021132242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 230
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48130c7633d1c1850800000000000000
+      internalID: 6348981681306743172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 198
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7020b3f0a3a4350800000000000000
+      internalID: 6001673290513516517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 198
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e23d0f02cc7f5740800000000000000
+      internalID: 5142966472398418658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 198
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e82f87f5b99fef0800000000000000
+      internalID: -73857084521542020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 198
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f09261b8070520800000000000000
+      internalID: 2668110862196208093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 198
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fce983a2fbfbef0800000000000000
+      internalID: -90143279464656995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 198
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766688ca635367790800000000000000
+      internalID: -7532774817791449497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 166
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd26b95e14ae387c0800000000000000
+      internalID: -4070152069466856741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 166
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8fdc8250dabc3a0800000000000000
+      internalID: -6644026587584005927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 166
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d58c1b76d98c4e00800000000000000
+      internalID: 1030349969042474452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 166
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9622df04148bc870800000000000000
+      internalID: 8704195926523258524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 166
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a5fa3a74fb81cb0800000000000000
+      internalID: -4892950680728282525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 166
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ed1c1433afadce0800000000000000
+      internalID: -1379515237782135179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf59cf77ec499f0800000000000000
+      internalID: -462517846978200378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1730e5c83fa07330800000000000000
+      internalID: 3706655151698753309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 134
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11916a6dd501a8d20800000000000000
+      internalID: 3281453273712040209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 134
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435186e0ca864b710800000000000000
+      internalID: 1708105246865626420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 134
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e4a761ca2c8a20800000000000000
+      internalID: 3065872456488379743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 134
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d1d24ade4a64b90800000000000000
+      internalID: -7257932408892351080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 102
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fbf4e19355d44f0800000000000000
+      internalID: -842923851438375057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 102
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d23266c91f365040800000000000000
+      internalID: 4635962246359560919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782119716aee85350800000000000000
+      internalID: 6005812500225921671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 102
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b4e54f08ab39510800000000000000
+      internalID: 1554791359391353718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f1c3f4c650460a0800000000000000
+      internalID: -6889375567226069227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 102
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e43c6f2f7a06440800000000000000
+      internalID: 4927122654307241596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 70
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996ec0568a7b68e70800000000000000
+      internalID: 9117176429535880857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 70
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c627ece8ff826f20800000000000000
+      internalID: 3414449766789490371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e01f57b51a877090800000000000000
+      internalID: -8036803184143953687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 70
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006b0265fca11e9a0800000000000000
+      internalID: -6205649333734296064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 70
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843691cb6fcab3130800000000000000
+      internalID: 3547619307202110280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 70
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb1af86efb0d8ac0800000000000000
+      internalID: -3851408919021085729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e965a1129aafb6d90800000000000000
+      internalID: -7103308382935034210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103d7bd4619b1afd0800000000000000
+      internalID: -2332379626556894463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 38
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68cabfe76488d4f0800000000000000
+      internalID: -803746951547139990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 38
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362f13cda5638cd90800000000000000
+      internalID: -7077347050543517085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 38
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563c93cefe9b41020800000000000000
+      internalID: 2311676948859437925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 38
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d889ecc089ef13b0800000000000000
+      internalID: -5539452277239478058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749af7b45d862b720800000000000000
+      internalID: 2860463978637666631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfb27dda1ed50290800000000000000
+      internalID: -7924683762322718784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edaa5597d0468480800000000000000
+      internalID: -8897352719155941915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 6
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0643d0239318c00800000000000000
+      internalID: 901064287583494376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b1565f8f95e0bf0800000000000000
+      internalID: -356248394711884932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooster_animation_without_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58515575bcc36b0d0800000000000000
+      internalID: -3407469224017980027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rooster_animation_without_shadow_0: -3832042778752577746
+      Rooster_animation_without_shadow_1: 5136773267712241606
+      Rooster_animation_without_shadow_10: -90143279464656995
+      Rooster_animation_without_shadow_11: -7532774817791449497
+      Rooster_animation_without_shadow_12: -4070152069466856741
+      Rooster_animation_without_shadow_13: -6644026587584005927
+      Rooster_animation_without_shadow_14: 1030349969042474452
+      Rooster_animation_without_shadow_15: 8704195926523258524
+      Rooster_animation_without_shadow_16: -4892950680728282525
+      Rooster_animation_without_shadow_17: -1379515237782135179
+      Rooster_animation_without_shadow_18: -462517846978200378
+      Rooster_animation_without_shadow_19: 3706655151698753309
+      Rooster_animation_without_shadow_2: -5403132847112255131
+      Rooster_animation_without_shadow_20: 3281453273712040209
+      Rooster_animation_without_shadow_21: 1708105246865626420
+      Rooster_animation_without_shadow_22: 3065872456488379743
+      Rooster_animation_without_shadow_23: -7257932408892351080
+      Rooster_animation_without_shadow_24: -842923851438375057
+      Rooster_animation_without_shadow_25: 4635962246359560919
+      Rooster_animation_without_shadow_26: 6005812500225921671
+      Rooster_animation_without_shadow_27: 1554791359391353718
+      Rooster_animation_without_shadow_28: -6889375567226069227
+      Rooster_animation_without_shadow_29: 4927122654307241596
+      Rooster_animation_without_shadow_3: 4650071439488011016
+      Rooster_animation_without_shadow_30: 9117176429535880857
+      Rooster_animation_without_shadow_31: 3414449766789490371
+      Rooster_animation_without_shadow_32: -8036803184143953687
+      Rooster_animation_without_shadow_33: -6205649333734296064
+      Rooster_animation_without_shadow_34: 3547619307202110280
+      Rooster_animation_without_shadow_35: -3851408919021085729
+      Rooster_animation_without_shadow_36: -7103308382935034210
+      Rooster_animation_without_shadow_37: -2332379626556894463
+      Rooster_animation_without_shadow_38: -803746951547139990
+      Rooster_animation_without_shadow_39: -7077347050543517085
+      Rooster_animation_without_shadow_4: 1442976994021132242
+      Rooster_animation_without_shadow_40: 2311676948859437925
+      Rooster_animation_without_shadow_41: -5539452277239478058
+      Rooster_animation_without_shadow_42: 2860463978637666631
+      Rooster_animation_without_shadow_43: -7924683762322718784
+      Rooster_animation_without_shadow_44: -8897352719155941915
+      Rooster_animation_without_shadow_45: 901064287583494376
+      Rooster_animation_without_shadow_46: -356248394711884932
+      Rooster_animation_without_shadow_47: -3407469224017980027
+      Rooster_animation_without_shadow_5: 6348981681306743172
+      Rooster_animation_without_shadow_6: 6001673290513516517
+      Rooster_animation_without_shadow_7: 5142966472398418658
+      Rooster_animation_without_shadow_8: -73857084521542020
+      Rooster_animation_without_shadow_9: 2668110862196208093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

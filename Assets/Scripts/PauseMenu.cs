@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
 
     [Header("Scene Settings")]
-    public string mainMenuSceneName = "MainMenu";
+    public string mainMenuSceneName = "Menu";
 
     void Update()
     {

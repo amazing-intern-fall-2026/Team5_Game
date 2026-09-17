@@ -9083,6 +9083,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b230b11d48a84b00a53fd976a77ce2fb, type: 2}
   - {fileID: 11400000, guid: c340c22e59b94c11b64fe087b88df30c, type: 2}
   - {fileID: 11400000, guid: d450d33f6ac04d22b75af198c99e041d, type: 2}
+  animalPrefabs:
+  - {fileID: 540927434841566388, guid: c44b451a5c9304341a996f596b290560, type: 3}
+  - {fileID: 540927434841566388, guid: eb19bf64e82355b4da6bca28827e8ded, type: 3}
+  - {fileID: 540927434841566388, guid: d4d878f561954f34aaffa7cafce543ab, type: 3}
+  - {fileID: 540927434841566388, guid: d7bde5ccec31bc742aac6907d984bbfa, type: 3}
+  spawnPoint: {fileID: 0}
+  spawnOffset: 1.5
 --- !u!114 &2100000200
 MonoBehaviour:
   m_ObjectHideFlags: 0

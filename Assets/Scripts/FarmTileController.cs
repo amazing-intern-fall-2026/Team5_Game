@@ -12,6 +12,12 @@ public class FarmTileController : MonoBehaviour
     [SerializeField] private TileBase tilledTile;
     [SerializeField] private TileBase wateredTile;
 
+    [Header("Farm plot (10 x 5 = 50 cells)")]
+    [SerializeField] private bool restrictToFarmPlot = true;
+    [SerializeField] private Vector3Int farmPlotOriginCell = new Vector3Int(-5, -4, 0);
+    [Min(1)] [SerializeField] private int farmPlotWidth = 10;
+    [Min(1)] [SerializeField] private int farmPlotHeight = 5;
+
     [Header("Crop visuals")]
     [SerializeField] private Transform cropParent;
     [SerializeField] private int cropSortingOrder = 3;
@@ -49,6 +55,23 @@ public class FarmTileController : MonoBehaviour
         return groundTilemap.GetCellCenterWorld(cellPosition);
     }
 
+    public Vector3Int FarmPlotOriginCell => farmPlotOriginCell;
+    public int FarmPlotWidth => Mathf.Max(1, farmPlotWidth);
+    public int FarmPlotHeight => Mathf.Max(1, farmPlotHeight);
+
+    public bool IsInsideFarmPlot(Vector3Int cellPosition)
+    {
+        if (!restrictToFarmPlot)
+        {
+            return true;
+        }
+
+        return cellPosition.x >= farmPlotOriginCell.x
+            && cellPosition.x < farmPlotOriginCell.x + FarmPlotWidth
+            && cellPosition.y >= farmPlotOriginCell.y
+            && cellPosition.y < farmPlotOriginCell.y + FarmPlotHeight;
+    }
+
     public bool TryGetAdjacentGroundCell(
         Vector3 originWorldPosition,
         Vector2 direction,
@@ -79,7 +102,8 @@ public class FarmTileController : MonoBehaviour
 
     public bool HoeAtWorldPosition(Vector3 worldPosition)
     {
-        if (!TryGetGroundCell(worldPosition, out Vector3Int cellPosition))
+        if (!TryGetGroundCell(worldPosition, out Vector3Int cellPosition)
+            || !IsInsideFarmPlot(cellPosition))
         {
             return false;
         }
@@ -97,6 +121,11 @@ public class FarmTileController : MonoBehaviour
     {
         Vector3Int cellPosition =
             groundTilemap.WorldToCell(worldPosition);
+
+        if (!IsInsideFarmPlot(cellPosition))
+        {
+            return false;
+        }
 
         TileBase currentSoil =
             farmSoilTilemap.GetTile(cellPosition);
@@ -122,6 +151,11 @@ public class FarmTileController : MonoBehaviour
 
         Vector3Int cellPosition =
             groundTilemap.WorldToCell(worldPosition);
+
+        if (!IsInsideFarmPlot(cellPosition))
+        {
+            return false;
+        }
 
         TileBase currentSoil =
             farmSoilTilemap.GetTile(cellPosition);

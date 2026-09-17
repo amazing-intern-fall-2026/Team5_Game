@@ -8915,6 +8915,7 @@ GameObject:
   - component: {fileID: 1739827724}
   - component: {fileID: 2100000100}
   - component: {fileID: 2100000200}
+  - component: {fileID: 2100000300}
   m_Layer: 0
   m_Name: FarmManager
   m_TagString: Untagged
@@ -8957,6 +8958,27 @@ MonoBehaviour:
   cropSortingOrder: 3
   cropVisualScale: 0.1
   itemStorageController: {fileID: 337125475}
+  restrictToFarmPlot: 1
+  farmPlotOriginCell: {x: -5, y: -4, z: 0}
+  farmPlotWidth: 10
+  farmPlotHeight: 5
+--- !u!114 &2100000300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739827720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9c2e81a45b4d58a6c3b02791e4f5ad, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::FarmPlotFenceController
+  farmTileController: {fileID: 1739827722}
+  horizontalFenceSprite: {fileID: 21300000, guid: b1000000000000000000000000000000, type: 3}
+  verticalFenceSprite: {fileID: 21300000, guid: b1010000000000000000000000000000, type: 3}
+  sortingOrder: 4
+  fenceThickness: 0.35
 --- !u!4 &1739827723
 Transform:
   m_ObjectHideFlags: 0
@@ -10235,7 +10257,7 @@ Transform:
   m_GameObject: {fileID: 2300000000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -5,13 +5,14 @@ public class PlayerFarmToolController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private FarmTileController farmTileController;
-
+    private Animator animator;
     private Vector2 facingDirection = Vector2.down;
     private HotbarSlotUI selectedHotbarSlot;
     private TargetTileIndicator targetTileIndicator;
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         targetTileIndicator = GetComponent<TargetTileIndicator>();
 
         if (targetTileIndicator == null)
@@ -66,6 +67,42 @@ public class PlayerFarmToolController : MonoBehaviour
         }
     }
 
+    private int GetAnimatorDirection()
+    {
+        if (facingDirection == Vector2.down)
+            return 0;
+
+        if (facingDirection == Vector2.up)
+            return 1;
+
+        return 2; // Right / Left
+    }
+    private void PlayHoeAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetInteger(
+            "Direction",
+            GetAnimatorDirection()
+        );
+
+        animator.ResetTrigger("Water");
+        animator.SetTrigger("Hoe");
+    }
+    private void PlayWaterAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetInteger(
+            "Direction",
+            GetAnimatorDirection()
+        );
+
+        animator.ResetTrigger("Hoe");
+        animator.SetTrigger("Water");
+    }
     public void SetSelectedHotbarSlot(HotbarSlotUI hotbarSlot)
     {
         selectedHotbarSlot = hotbarSlot;
@@ -151,10 +188,12 @@ public class PlayerFarmToolController : MonoBehaviour
 
         if (selectedItem.canHoe)
         {
+            PlayHoeAnimation();
             farmTileController.HoeAtWorldPosition(targetPosition);
         }
         else if (selectedItem.canWater)
         {
+            PlayWaterAnimation();
             farmTileController.WaterAtWorldPosition(targetPosition);
         }
         else if (selectedItem.cropToPlant != null)

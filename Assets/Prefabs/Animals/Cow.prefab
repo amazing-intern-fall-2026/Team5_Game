@@ -113,6 +113,9 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   animator: {fileID: 4755870010352046919}
   isWalkingParam: IsWalking
+  moveXParam: MoveX
+  moveYParam: MoveY
+  mirrorHorizontalMovement: 0
 --- !u!95 &4755870010352046919
 Animator:
   serializedVersion: 7

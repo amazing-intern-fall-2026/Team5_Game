@@ -12,12 +12,23 @@ public enum CropType
     Lettuce = 7
 }
 
+public enum SeasonType
+{
+    Spring = 0,
+    Summer = 1,
+    Autumn = 2,
+    Winter = 3
+}
+
 [CreateAssetMenu(fileName = "NewCrop", menuName = "Farm Game/Crop Data")]
 public class CropData : ScriptableObject
 {
     [Header("Identity")]
     public string cropName;
     public CropType cropType = CropType.None;
+
+    [Header("Season")]
+    public SeasonType[] allowedSeasons = { SeasonType.Spring };
 
     [Header("Growth sprites")]
     public Sprite stage1Sprite;
@@ -61,6 +72,24 @@ public class CropData : ScriptableObject
 
     public float TotalGrowthDurationSeconds =>
         Stage1DurationSeconds + Stage2DurationSeconds;
+
+    public bool IsAllowedInSeason(SeasonType season)
+    {
+        if (allowedSeasons == null || allowedSeasons.Length == 0)
+        {
+            return false;
+        }
+
+        foreach (SeasonType allowedSeason in allowedSeasons)
+        {
+            if (allowedSeason == season)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 
     public CropQuality RollQuality(float random01)
     {

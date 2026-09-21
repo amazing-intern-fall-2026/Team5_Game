@@ -47,6 +47,13 @@ public class CropPlant : MonoBehaviour
             return;
         }
 
+        if (!IsReadyToHarvest
+            && SeasonManager.Instance != null
+            && !cropData.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
+        {
+            return;
+        }
+
         // Corn reaches its first growth checkpoint, then waits for nitrogen.
         // Waiting time is intentionally not banked while the crop is paused.
         bool cornIsWaitingForNitrogen = cropData.cropType == CropType.Corn
@@ -87,6 +94,12 @@ public class CropPlant : MonoBehaviour
     )
     {
         reducedSeconds = 0f;
+
+        if (SeasonManager.Instance != null
+            && !cropData.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
+        {
+            return FertilizerApplicationResult.OutOfSeason;
+        }
 
         if (IsReadyToHarvest)
         {

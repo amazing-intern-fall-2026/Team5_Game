@@ -97,6 +97,16 @@ public class CoinManager : MonoBehaviour
             && item.itemType == ItemType.Fertilizer
             && item.fertilizerType != FertilizerType.None;
 
+        if (isSeed && SeasonManager.Instance != null
+            && !item.cropToPlant.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
+        {
+            Debug.Log(
+                $"Không thể mua {item.itemName}: hạt giống không phù hợp với "
+                + $"{SeasonManager.GetSeasonDisplayName(SeasonManager.Instance.CurrentSeason)}."
+            );
+            return false;
+        }
+
         if ((!isSeed && !isFertilizer) || item.purchasePrice <= 0
             || amount <= 0 || itemStorageController == null)
         {

@@ -4,7 +4,8 @@ public enum FertilizerApplicationResult
     NoCrop,
     WrongType,
     ApplicationLimitReached,
-    CropMature
+    CropMature,
+    OutOfSeason
 }
 
 /// <summary>

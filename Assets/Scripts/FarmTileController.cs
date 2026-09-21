@@ -149,6 +149,16 @@ public class FarmTileController : MonoBehaviour
             return false;
         }
 
+        if (SeasonManager.Instance != null
+            && !cropData.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
+        {
+            Debug.Log(
+                $"Không thể trồng {cropData.cropName}: không phù hợp với "
+                + $"{SeasonManager.GetSeasonDisplayName(SeasonManager.Instance.CurrentSeason)}."
+            );
+            return false;
+        }
+
         Vector3Int cellPosition =
             groundTilemap.WorldToCell(worldPosition);
 

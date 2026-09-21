@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropData
   cropName: "\u1EDAt"
   cropType: 4
+  allowedSeasons:
+  - 1
+  - 2
   stage1Sprite: {fileID: 21300000, guid: 6ea028a7b01f6604e9d517b8f088976b, type: 3}
   stage2Sprite: {fileID: 21300000, guid: 4171dadd36161f34fa4b8f32bf6fe8c4, type: 3}
   stage3Sprite: {fileID: 21300000, guid: 21d242fcf97efd14ea6331bbc88debf7, type: 3}

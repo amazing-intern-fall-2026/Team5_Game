@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -11,6 +12,7 @@ public enum DayNightTimeUnit
 
 public sealed class DayNightController : MonoBehaviour
 {
+    public event Action<int> DayStarted;
     [Header("Cycle Duration")]
     [SerializeField, Min(0.01f)] private float dayDuration = 8f;
     [SerializeField, Min(0.01f)] private float nightDuration = 4f;
@@ -187,6 +189,7 @@ public sealed class DayNightController : MonoBehaviour
                 elapsedInCycle = 0f;
                 dayNumber++;
                 Debug.Log($"[DayNight] Bắt đầu Ngày {dayNumber}.");
+                DayStarted?.Invoke(dayNumber);
             }
         }
     }

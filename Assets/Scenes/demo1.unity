@@ -8442,9 +8442,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemUI
   itemData: {fileID: 11400000, guid: 1f504c8bc8277014e9a161bd022e46b0, type: 2}
   amount: 1
+  quality: 0
   hideInitialTestItem: 1
   itemIcon: {fileID: 1041687203}
   countText: {fileID: 323268177}
+  qualityBadge: {fileID: 0}
 --- !u!225 &1041687202
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -8549,9 +8551,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemUI
   itemData: {fileID: 11400000, guid: dfb09e96eeab8dd43ba37b5df1f32206, type: 2}
   amount: 1
+  quality: 0
   hideInitialTestItem: 1
   itemIcon: {fileID: 1154045087}
   countText: {fileID: 1006483260}
+  qualityBadge: {fileID: 0}
 --- !u!225 &1154045086
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -8788,9 +8792,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemUI
   itemData: {fileID: 11400000, guid: 7ace39fea920a8948a26d2c357defd05, type: 2}
   amount: 10
+  quality: 0
   hideInitialTestItem: 1
   itemIcon: {fileID: 1546124828}
   countText: {fileID: 2100000003}
+  qualityBadge: {fileID: 0}
 --- !u!225 &1546124827
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -8954,31 +8960,14 @@ MonoBehaviour:
   farmSoilTilemap: {fileID: 1786115444}
   tilledTile: {fileID: 11400000, guid: 485298303be5a4b49a8687452d2c1b68, type: 2}
   wateredTile: {fileID: 11400000, guid: 2951212a07d9ab94b82cbaa45721a9d8, type: 2}
-  cropParent: {fileID: 666819932}
-  cropSortingOrder: 3
-  cropVisualScale: 0.1
-  itemStorageController: {fileID: 337125475}
   restrictToFarmPlot: 1
   farmPlotOriginCell: {x: -5, y: -4, z: 0}
   farmPlotWidth: 10
   farmPlotHeight: 5
---- !u!114 &2100000300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739827720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f9c2e81a45b4d58a6c3b02791e4f5ad, type: 3}
-  m_Name:
-  m_EditorClassIdentifier: Assembly-CSharp::FarmPlotFenceController
-  farmTileController: {fileID: 1739827722}
-  horizontalFenceSprite: {fileID: 21300000, guid: b1000000000000000000000000000000, type: 3}
-  verticalFenceSprite: {fileID: 21300000, guid: b1010000000000000000000000000000, type: 3}
-  sortingOrder: 4
-  fenceThickness: 0.35
+  cropParent: {fileID: 666819932}
+  cropSortingOrder: 3
+  cropVisualScale: 0.1
+  itemStorageController: {fileID: 337125475}
 --- !u!4 &1739827723
 Transform:
   m_ObjectHideFlags: 0
@@ -10088,6 +10077,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b230b11d48a84b00a53fd976a77ce2fb, type: 2}
   - {fileID: 11400000, guid: c340c22e59b94c11b64fe087b88df30c, type: 2}
   - {fileID: 11400000, guid: d450d33f6ac04d22b75af198c99e041d, type: 2}
+  produce: []
 --- !u!114 &2100000200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10107,6 +10097,23 @@ MonoBehaviour:
   buttonNormalSprite: {fileID: 21300000, guid: a6666666666666666666666666666666, type: 3}
   buttonHoverSprite: {fileID: 21300000, guid: a7777777777777777777777777777777, type: 3}
   toggleKey: 16
+--- !u!114 &2100000300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739827720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9c2e81a45b4d58a6c3b02791e4f5ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FarmPlotFenceController
+  farmTileController: {fileID: 1739827722}
+  horizontalFenceSprite: {fileID: 21300000, guid: b1000000000000000000000000000000, type: 3}
+  verticalFenceSprite: {fileID: 21300000, guid: b1010000000000000000000000000000, type: 3}
+  sortingOrder: 4
+  fenceThickness: 0.35
 --- !u!1 &2200000000
 GameObject:
   m_ObjectHideFlags: 0
@@ -10118,6 +10125,7 @@ GameObject:
   - component: {fileID: 2200000001}
   - component: {fileID: 2200000002}
   - component: {fileID: 2200000003}
+  - component: {fileID: 2200000004}
   m_Layer: 0
   m_Name: TimeManager
   m_TagString: Untagged
@@ -10229,6 +10237,38 @@ MonoBehaviour:
   dayText: {fileID: 0}
   stateText: {fileID: 0}
   clockText: {fileID: 0}
+--- !u!114 &2200000004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83f41a96d7e4b12a0593e8fc27d61b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SeasonManager
+  dayNightController: {fileID: 2200000003}
+  springDays: 7
+  summerDays: 7
+  autumnDays: 7
+  winterDays: 7
+  startingSeason: 0
+  startingDayInSeason: 1
+  testMode: 1
+  testSpringDays: 1
+  testSummerDays: 1
+  testAutumnDays: 1
+  testWinterDays: 1
+  uiCanvas: {fileID: 1021507647}
+  seasonUIPrefab: {fileID: 1000000000000001000, guid: f49c81b562e443aca10762d9ef38b704, type: 3}
+  seasonUI: {fileID: 0}
+  seasonUIPosition: {x: 0, y: -22}
+  seasonUISize: {x: 260, y: 42}
+  panelColor: {r: 0.025, g: 0.065, b: 0.075, a: 0.92}
+  textColor: {r: 1, g: 0.86, b: 0.42, a: 1}
+  announcementSeconds: 2.5
 --- !u!1 &2300000000
 GameObject:
   m_ObjectHideFlags: 0

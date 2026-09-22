@@ -124,7 +124,11 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
             return;
         }
 
-        int remaining = destination.AddItem(source.CurrentItem, source.Amount);
+        int remaining = destination.AddItem(
+            source.CurrentItem,
+            source.Amount,
+            source.Quality
+        );
         int transferred = source.Amount - remaining;
 
         if (transferred > 0)
@@ -143,7 +147,11 @@ public class InventorySlotGridDropUI : MonoBehaviour, IDropHandler
             return;
         }
 
-        int remaining = destination.AddItem(source.ItemData, source.Amount);
+        int remaining = destination.AddItem(
+            source.ItemData,
+            source.Amount,
+            source.Quality
+        );
         int transferred = source.Amount - remaining;
 
         if (transferred > 0)

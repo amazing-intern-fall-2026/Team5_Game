@@ -12,6 +12,12 @@ public class FarmTileController : MonoBehaviour
     [SerializeField] private TileBase tilledTile;
     [SerializeField] private TileBase wateredTile;
 
+    [Header("Farm plot (10 x 5 = 50 cells)")]
+    [SerializeField] private bool restrictToFarmPlot = true;
+    [SerializeField] private Vector3Int farmPlotOriginCell = new Vector3Int(-5, -4, 0);
+    [Min(1)] [SerializeField] private int farmPlotWidth = 10;
+    [Min(1)] [SerializeField] private int farmPlotHeight = 5;
+
     [Header("Crop visuals")]
     [SerializeField] private Transform cropParent;
     [SerializeField] private int cropSortingOrder = 3;
@@ -49,6 +55,23 @@ public class FarmTileController : MonoBehaviour
         return groundTilemap.GetCellCenterWorld(cellPosition);
     }
 
+    public Vector3Int FarmPlotOriginCell => farmPlotOriginCell;
+    public int FarmPlotWidth => Mathf.Max(1, farmPlotWidth);
+    public int FarmPlotHeight => Mathf.Max(1, farmPlotHeight);
+
+    public bool IsInsideFarmPlot(Vector3Int cellPosition)
+    {
+        if (!restrictToFarmPlot)
+        {
+            return true;
+        }
+
+        return cellPosition.x >= farmPlotOriginCell.x
+            && cellPosition.x < farmPlotOriginCell.x + FarmPlotWidth
+            && cellPosition.y >= farmPlotOriginCell.y
+            && cellPosition.y < farmPlotOriginCell.y + FarmPlotHeight;
+    }
+
     public bool TryGetAdjacentGroundCell(
         Vector3 originWorldPosition,
         Vector2 direction,
@@ -79,7 +102,8 @@ public class FarmTileController : MonoBehaviour
 
     public bool HoeAtWorldPosition(Vector3 worldPosition)
     {
-        if (!TryGetGroundCell(worldPosition, out Vector3Int cellPosition))
+        if (!TryGetGroundCell(worldPosition, out Vector3Int cellPosition)
+            || !IsInsideFarmPlot(cellPosition))
         {
             return false;
         }
@@ -97,6 +121,11 @@ public class FarmTileController : MonoBehaviour
     {
         Vector3Int cellPosition =
             groundTilemap.WorldToCell(worldPosition);
+
+        if (!IsInsideFarmPlot(cellPosition))
+        {
+            return false;
+        }
 
         TileBase currentSoil =
             farmSoilTilemap.GetTile(cellPosition);
@@ -120,8 +149,23 @@ public class FarmTileController : MonoBehaviour
             return false;
         }
 
+        if (SeasonManager.Instance != null
+            && !cropData.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
+        {
+            Debug.Log(
+                $"Không thể trồng {cropData.cropName}: không phù hợp với "
+                + $"{SeasonManager.GetSeasonDisplayName(SeasonManager.Instance.CurrentSeason)}."
+            );
+            return false;
+        }
+
         Vector3Int cellPosition =
             groundTilemap.WorldToCell(worldPosition);
+
+        if (!IsInsideFarmPlot(cellPosition))
+        {
+            return false;
+        }
 
         TileBase currentSoil =
             farmSoilTilemap.GetTile(cellPosition);
@@ -177,7 +221,8 @@ public class FarmTileController : MonoBehaviour
 
         if (!cropPlant.TryHarvest(
             out ItemData harvestItem,
-            out int harvestAmount
+            out int harvestAmount,
+            out CropQuality harvestQuality
         ))
         {
             return false;
@@ -193,21 +238,41 @@ public class FarmTileController : MonoBehaviour
 
         if (!itemStorageController.TryAddItem(
             harvestItem,
-            harvestAmount
+            harvestAmount,
+            harvestQuality
         ))
         {
             return false;
         }
 
+        // Thu hoạch chỉ được xem là hoàn tất sau khi toàn bộ nông sản đã vào kho.
+        // Giữ đất ở trạng thái đã cuốc nhưng bắt buộc người chơi tưới lại trước
+        // khi có thể trồng cây tiếp theo.
+        ResetWaterAfterHarvest(cellPosition);
+
         plantedCrops.Remove(cellPosition);
         Destroy(cropPlant.gameObject);
 
         Debug.Log(
-            $"Thu hoạch thành công {harvestAmount} {harvestItem.itemName}; "
+            $"Thu hoạch thành công {harvestAmount} {harvestItem.itemName} "
+            + $"[{CropQualityUtility.GetDisplayName(harvestQuality)}]; "
             + "đã ưu tiên xếp vào Hotbar rồi Inventory."
         );
 
         return true;
+    }
+
+    private void ResetWaterAfterHarvest(Vector3Int cellPosition)
+    {
+        if (farmSoilTilemap == null || tilledTile == null)
+        {
+            Debug.LogWarning(
+                "Không thể làm khô đất sau thu hoạch: thiếu Farm Soil Tilemap hoặc Tilled Tile."
+            );
+            return;
+        }
+
+        farmSoilTilemap.SetTile(cellPosition, tilledTile);
     }
 
     public FertilizerApplicationResult ApplyFertilizerAtWorldPosition(

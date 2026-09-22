@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropData
   cropName: "C\xE0 chua"
   cropType: 3
+  allowedSeasons:
+  - 0
+  - 1
   stage1Sprite: {fileID: 21300000, guid: 6ea028a7b01f6604e9d517b8f088976b, type: 3}
   stage2Sprite: {fileID: 21300000, guid: 776fbd6f570a5b0458d0e62d59247930, type: 3}
   stage3Sprite: {fileID: 21300000, guid: bc1372044d8209e499de68718382a5f1, type: 3}
@@ -24,3 +27,11 @@ MonoBehaviour:
   testStage2DurationSeconds: 2
   harvestItem: {fileID: 11400000, guid: 89f6c76c5b3a2b1489567977ac5d1331, type: 2}
   harvestAmount: 4
+  normalQualityWeight: 94
+  purpleStarWeight: 5
+  goldStarWeight: 1
+  purpleStarIcon: {fileID: 21300000, guid: e1843b46fe8a4fbca2f345b25016d62a, type: 3}
+  goldStarIcon: {fileID: 21300000, guid: 64bb44185988477da91317c49f5701ab, type: 3}
+  purpleStarLocalPosition: {x: -4, y: 5}
+  goldStarLocalPosition: {x: 4, y: 5}
+  qualityIconLocalScale: 0.08

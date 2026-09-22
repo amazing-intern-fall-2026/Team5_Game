@@ -248,6 +248,12 @@ public class PlayerFarmToolController : MonoBehaviour
                     $"Không thể bón {selectedItem.itemName}: {cropName} đã trưởng thành."
                 );
                 break;
+
+            case FertilizerApplicationResult.OutOfSeason:
+                Debug.Log(
+                    $"Không thể bón phân cho {cropName}: cây đang tạm dừng vì trái mùa."
+                );
+                break;
         }
     }
 

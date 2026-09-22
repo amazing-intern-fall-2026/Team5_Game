@@ -12,12 +12,14 @@ public class InventoryItemUI : MonoBehaviour,
     [Header("Item data")]
     [SerializeField] private ItemData itemData;
     [SerializeField] private int amount;
+    [SerializeField] private CropQuality quality = CropQuality.Normal;
     [Tooltip("Temporarily clears this serialized test item at runtime without deleting its data or GameObject.")]
     [SerializeField] private bool hideInitialTestItem;
 
     [Header("UI")]
     [SerializeField] private Image itemIcon;
     [SerializeField] private TextMeshProUGUI countText;
+    [SerializeField] private Image qualityBadge;
 
     private Canvas rootCanvas;
     private CanvasGroup canvasGroup;
@@ -27,6 +29,7 @@ public class InventoryItemUI : MonoBehaviour,
 
     public ItemData ItemData => itemData;
     public int Amount => amount;
+    public CropQuality Quality => quality;
     public bool IsEmpty => itemData == null || amount <= 0;
 
     private void Awake()
@@ -38,6 +41,7 @@ public class InventoryItemUI : MonoBehaviour,
         {
             itemData = null;
             amount = 0;
+            quality = CropQuality.Normal;
         }
 
         rootCanvas = GetComponentInParent<Canvas>();
@@ -114,16 +118,46 @@ public class InventoryItemUI : MonoBehaviour,
         countText.fontStyle = FontStyles.Bold;
         countText.alignment = TextAlignmentOptions.BottomRight;
         countText.raycastTarget = false;
+
+        if (qualityBadge == null || !qualityBadge.transform.IsChildOf(transform))
+        {
+            GameObject badgeObject = new GameObject(
+                "QualityBadge",
+                typeof(RectTransform),
+                typeof(CanvasRenderer),
+                typeof(Image)
+            );
+            badgeObject.transform.SetParent(transform, false);
+            qualityBadge = badgeObject.GetComponent<Image>();
+        }
+
+        RectTransform badgeRect = qualityBadge.rectTransform;
+        badgeRect.anchorMin = new Vector2(0f, 1f);
+        badgeRect.anchorMax = new Vector2(0f, 1f);
+        badgeRect.pivot = new Vector2(0f, 1f);
+        badgeRect.anchoredPosition = new Vector2(2f, -2f);
+        badgeRect.sizeDelta = new Vector2(18f, 18f);
+        qualityBadge.preserveAspect = true;
+        qualityBadge.raycastTarget = false;
     }
 
     public int AddItem(ItemData itemToAdd, int amountToAdd)
+    {
+        return AddItem(itemToAdd, amountToAdd, CropQuality.Normal);
+    }
+
+    public int AddItem(
+        ItemData itemToAdd,
+        int amountToAdd,
+        CropQuality qualityToAdd
+    )
     {
         if (itemToAdd == null || amountToAdd <= 0)
         {
             return amountToAdd;
         }
 
-        if (!IsEmpty && itemData != itemToAdd)
+        if (!IsEmpty && (itemData != itemToAdd || quality != qualityToAdd))
         {
             return amountToAdd;
         }
@@ -132,6 +166,7 @@ public class InventoryItemUI : MonoBehaviour,
         {
             itemData = itemToAdd;
             amount = 0;
+            quality = qualityToAdd;
         }
 
         int maxStack = Mathf.Max(1, itemData.maxStack);
@@ -156,6 +191,7 @@ public class InventoryItemUI : MonoBehaviour,
         if (amount <= 0)
         {
             itemData = null;
+            quality = CropQuality.Normal;
         }
 
         RefreshUI();
@@ -170,6 +206,7 @@ public class InventoryItemUI : MonoBehaviour,
         if (amount == 0)
         {
             itemData = null;
+            quality = CropQuality.Normal;
         }
 
         RefreshUI();
@@ -185,6 +222,7 @@ public class InventoryItemUI : MonoBehaviour,
     {
         itemData = null;
         amount = 0;
+        quality = CropQuality.Normal;
         RefreshUI();
     }
 
@@ -195,6 +233,11 @@ public class InventoryItemUI : MonoBehaviour,
         itemIcon.sprite = hasItem ? itemData.icon : null;
         itemIcon.enabled = hasItem;
         countText.text = hasItem ? amount.ToString() : "";
+        Sprite badgeSprite = hasItem
+            ? CropQualityUtility.LoadDefaultIcon(quality)
+            : null;
+        qualityBadge.sprite = badgeSprite;
+        qualityBadge.enabled = badgeSprite != null;
     }
 
     public void OnBeginDrag(PointerEventData eventData)

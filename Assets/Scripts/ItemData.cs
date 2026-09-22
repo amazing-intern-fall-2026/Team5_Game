@@ -47,6 +47,11 @@ public class ItemData : ScriptableObject
     [Min(0)] public int sellPrice;
     public SellPriceMode sellPriceMode = SellPriceMode.Fixed;
 
+    [Header("Produce quality price multipliers")]
+    [Min(0f)] public float normalQualityPriceMultiplier = 1f;
+    [Min(0f)] public float purpleStarPriceMultiplier = 2f;
+    [Min(0f)] public float goldStarPriceMultiplier = 5f;
+
     [Header("Farm actions")]
     public bool canHoe;
     public bool canWater;
@@ -97,5 +102,24 @@ public class ItemData : ScriptableObject
         }
 
         return sellPrice;
+    }
+
+    public float GetQualityPriceMultiplier(CropQuality quality)
+    {
+        switch (quality)
+        {
+            case CropQuality.PurpleStar:
+                return Mathf.Max(0f, purpleStarPriceMultiplier);
+            case CropQuality.GoldStar:
+                return Mathf.Max(0f, goldStarPriceMultiplier);
+            default:
+                return Mathf.Max(0f, normalQualityPriceMultiplier);
+        }
+    }
+
+    public int CalculateSellPrice(float randomValue, CropQuality quality)
+    {
+        int basePrice = CalculateSellPrice(randomValue);
+        return Mathf.RoundToInt(basePrice * GetQualityPriceMultiplier(quality));
     }
 }

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropData
   cropName: Ngô
   cropType: 2
+  allowedSeasons:
+  - 1
   stage1Sprite: {fileID: 21300000, guid: 6ea028a7b01f6604e9d517b8f088976b, type: 3}
   stage2Sprite: {fileID: 21300000, guid: 59eab96591bb3d9439357546f27eca1b, type: 3}
   stage3Sprite: {fileID: 21300000, guid: b585095dfe56f4e49821887b4b2bb390, type: 3}
@@ -24,3 +26,11 @@ MonoBehaviour:
   testStage2DurationSeconds: 2
   harvestItem: {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc102, type: 2}
   harvestAmount: 1
+  normalQualityWeight: 94
+  purpleStarWeight: 5
+  goldStarWeight: 1
+  purpleStarIcon: {fileID: 21300000, guid: e1843b46fe8a4fbca2f345b25016d62a, type: 3}
+  goldStarIcon: {fileID: 21300000, guid: 64bb44185988477da91317c49f5701ab, type: 3}
+  purpleStarLocalPosition: {x: -4, y: 5}
+  goldStarLocalPosition: {x: 4, y: 5}
+  qualityIconLocalScale: 0.08

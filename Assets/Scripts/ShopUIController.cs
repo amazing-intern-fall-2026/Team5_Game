@@ -17,6 +17,11 @@ public class ShopUIController : MonoBehaviour
     [SerializeField] private GameObject shopPrefab;
     [SerializeField] private Canvas parentCanvas;
 
+    [Header("Shop visual sprites")]
+    [SerializeField] private Sprite panelSprite;
+    [SerializeField] private Sprite buttonNormalSprite;
+    [SerializeField] private Sprite buttonHoverSprite;
+
     [Header("Input")]
     [SerializeField] private Key toggleKey = Key.B;
 
@@ -29,6 +34,8 @@ public class ShopUIController : MonoBehaviour
     private Button sellTabButton;
     private ShopTab currentTab;
     private bool isOpen;
+    private SeasonType displayedSeason;
+    private bool hasDisplayedSeason;
 
     public static bool IsOpen { get; private set; }
 
@@ -72,6 +79,28 @@ public class ShopUIController : MonoBehaviour
         {
             SetOpen(!isOpen);
         }
+
+        if (isOpen && SeasonManager.Instance != null
+            && (!hasDisplayedSeason
+                || displayedSeason != SeasonManager.Instance.CurrentSeason))
+        {
+            RefreshShop();
+        }
+    }
+
+    public void OpenShop()
+    {
+        SetOpen(true);
+    }
+
+    public void CloseShop()
+    {
+        SetOpen(false);
+    }
+
+    public void ToggleShop()
+    {
+        SetOpen(!isOpen);
     }
 
     private void SetOpen(bool open)
@@ -129,6 +158,14 @@ public class ShopUIController : MonoBehaviour
         {
             Debug.LogError("ShopUI prefab không có RectTransform làm khung Shop.");
             return;
+        }
+
+        Image panelImage = panel.GetComponent<Image>();
+        if (panelImage != null && panelSprite != null)
+        {
+            panelImage.sprite = panelSprite;
+            panelImage.type = Image.Type.Sliced;
+            panelImage.color = Color.white;
         }
 
         BuildHeader(panel);
@@ -223,6 +260,12 @@ public class ShopUIController : MonoBehaviour
 
     private void RefreshShop()
     {
+        if (SeasonManager.Instance != null)
+        {
+            displayedSeason = SeasonManager.Instance.CurrentSeason;
+            hasDisplayedSeason = true;
+        }
+
         if (coinText != null)
         {
             coinText.text = coinManager != null
@@ -302,6 +345,11 @@ public class ShopUIController : MonoBehaviour
 
     private void CreateBuyRow(ItemData seed)
     {
+        bool unavailableInCurrentSeason = seed.itemType == ItemType.Seed
+            && seed.cropToPlant != null
+            && SeasonManager.Instance != null
+            && !seed.cropToPlant.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason);
+
         GameObject row = CreateUIObject("BuySeed_" + seed.name, contentRoot);
         Image rowImage = row.AddComponent<Image>();
         rowImage.color = new Color(0.06f, 0.115f, 0.125f, 1f);
@@ -314,6 +362,7 @@ public class ShopUIController : MonoBehaviour
         rowColors.pressedColor = new Color(0.78f, 0.72f, 0.56f, 1f);
         rowColors.selectedColor = Color.white;
         rowButton.colors = rowColors;
+        rowButton.interactable = !unavailableInCurrentSeason;
         rowButton.onClick.AddListener(() =>
         {
             coinManager.TryBuyItem(seed, 1);
@@ -350,7 +399,9 @@ public class ShopUIController : MonoBehaviour
         TextMeshProUGUI typeText = CreateText(
             "ItemInfo",
             row.transform,
-            seed.itemType == ItemType.Fertilizer
+            unavailableInCurrentSeason
+                ? "Không bán trong mùa này"
+                : seed.itemType == ItemType.Fertilizer
                 ? "Phân bón • Mua 1"
                 : "Hạt giống • Mua 1",
             14f);
@@ -358,6 +409,13 @@ public class ShopUIController : MonoBehaviour
             new Vector2(0f, 0.5f), new Vector2(191f, -15f), new Vector2(220f, 23f));
         typeText.alignment = TextAlignmentOptions.MidlineLeft;
         ApplyReadableText(typeText, new Color(0.82f, 0.88f, 0.86f), 0.08f);
+
+        if (unavailableInCurrentSeason)
+        {
+            rowImage.color = new Color(0.045f, 0.055f, 0.06f, 0.78f);
+            icon.color = new Color(0.45f, 0.45f, 0.45f, 0.75f);
+            nameText.color = new Color(0.55f, 0.55f, 0.55f, 1f);
+        }
 
         GameObject priceBox = CreateUIObject("PriceBox", row.transform);
         Image priceBoxImage = priceBox.AddComponent<Image>();
@@ -398,31 +456,46 @@ public class ShopUIController : MonoBehaviour
                 continue;
             }
 
-            int owned = coinManager.ItemStorage.CountItem(produce);
-            if (owned <= 0)
+            foreach (CropQuality quality in System.Enum.GetValues(
+                typeof(CropQuality)))
             {
-                continue;
-            }
-
-            hasRows = true;
-            ItemData selectedProduce = produce;
-            int sellAllAmount = owned;
-            CreateItemRow(
-                selectedProduce,
-                "x" + owned + "   " + GetSellPriceText(selectedProduce),
-                "Bán 1",
-                () =>
+                int owned = coinManager.ItemStorage.CountItem(produce, quality);
+                if (owned <= 0)
                 {
-                    coinManager.TrySellProduce(selectedProduce, 1);
-                    RefreshShop();
-                },
-                "Bán hết",
-                () =>
-                {
-                    coinManager.TrySellProduce(selectedProduce, sellAllAmount);
-                    RefreshShop();
+                    continue;
                 }
-            );
+
+                hasRows = true;
+                ItemData selectedProduce = produce;
+                CropQuality selectedQuality = quality;
+                int sellAllAmount = owned;
+                CreateItemRow(
+                    selectedProduce,
+                    CropQualityUtility.GetDisplayName(selectedQuality)
+                        + " • x" + owned + "   "
+                        + GetSellPriceText(selectedProduce, selectedQuality),
+                    "Bán 1",
+                    () =>
+                    {
+                        coinManager.TrySellProduce(
+                            selectedProduce,
+                            selectedQuality,
+                            1
+                        );
+                        RefreshShop();
+                    },
+                    "Bán hết",
+                    () =>
+                    {
+                        coinManager.TrySellProduce(
+                            selectedProduce,
+                            selectedQuality,
+                            sellAllAmount
+                        );
+                        RefreshShop();
+                    }
+                );
+            }
         }
 
         return hasRows;
@@ -516,18 +589,34 @@ public class ShopUIController : MonoBehaviour
         text.outlineWidth = outlineWidth;
     }
 
-    private static Button CreateButton(string objectName, Transform parent, string label)
+    private Button CreateButton(string objectName, Transform parent, string label)
     {
         GameObject buttonObject = CreateUIObject(objectName, parent);
         Image image = buttonObject.AddComponent<Image>();
-        image.color = new Color(0.12f, 0.29f, 0.32f, 1f);
+        image.sprite = buttonNormalSprite;
+        image.type = buttonNormalSprite != null ? Image.Type.Sliced : Image.Type.Simple;
+        image.color = buttonNormalSprite != null
+            ? Color.white
+            : new Color(0.12f, 0.29f, 0.32f, 1f);
 
         Button button = buttonObject.AddComponent<Button>();
         button.targetGraphic = image;
-        ColorBlock colors = button.colors;
-        colors.highlightedColor = new Color(0.2f, 0.48f, 0.5f, 1f);
-        colors.pressedColor = new Color(0.08f, 0.2f, 0.22f, 1f);
-        button.colors = colors;
+        if (buttonNormalSprite != null && buttonHoverSprite != null)
+        {
+            button.transition = Selectable.Transition.SpriteSwap;
+            SpriteState states = button.spriteState;
+            states.highlightedSprite = buttonHoverSprite;
+            states.selectedSprite = buttonHoverSprite;
+            states.pressedSprite = buttonHoverSprite;
+            button.spriteState = states;
+        }
+        else
+        {
+            ColorBlock colors = button.colors;
+            colors.highlightedColor = new Color(0.2f, 0.48f, 0.5f, 1f);
+            colors.pressedColor = new Color(0.08f, 0.2f, 0.22f, 1f);
+            button.colors = colors;
+        }
 
         TextMeshProUGUI buttonText = CreateText("Text", buttonObject.transform, label, 16f);
         buttonText.alignment = TextAlignmentOptions.Center;
@@ -568,16 +657,23 @@ public class ShopUIController : MonoBehaviour
         }
     }
 
-    private static string GetSellPriceText(ItemData produce)
+    private static string GetSellPriceText(
+        ItemData produce,
+        CropQuality quality
+    )
     {
+        float qualityMultiplier = produce.GetQualityPriceMultiplier(quality);
         if (produce.sellPriceMode == SellPriceMode.HalfOrOneAndHalf)
         {
-            int lowPrice = Mathf.RoundToInt(produce.sellPrice * 0.5f);
-            int highPrice = Mathf.RoundToInt(produce.sellPrice * 1.5f);
+            int lowPrice = Mathf.RoundToInt(
+                produce.sellPrice * 0.5f * qualityMultiplier);
+            int highPrice = Mathf.RoundToInt(
+                produce.sellPrice * 1.5f * qualityMultiplier);
             return lowPrice.ToString("N0") + " hoặc "
                 + highPrice.ToString("N0") + " coin/cái";
         }
 
-        return produce.sellPrice.ToString("N0") + " coin/cái";
+        int price = Mathf.RoundToInt(produce.sellPrice * qualityMultiplier);
+        return price.ToString("N0") + " coin/cái";
     }
 }

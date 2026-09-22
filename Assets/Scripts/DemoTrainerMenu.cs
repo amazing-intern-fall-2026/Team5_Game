@@ -10,9 +10,6 @@ public class DemoTrainerMenu : MonoBehaviour
     [SerializeField] private ItemData[] fertilizers;
     [Tooltip("Nông sản dùng để test chất lượng. Nếu để trống sẽ lấy từ CoinManager.")]
     [SerializeField] private ItemData[] produce;
-    [SerializeField] private ItemData[] fertilizers;
-    [Tooltip("Nông sản dùng để test chất lượng. Nếu để trống sẽ lấy từ CoinManager.")]
-    [SerializeField] private ItemData[] produce;
 
     [SerializeField] private GameObject[] animalPrefabs;
     [SerializeField] private Transform spawnPoint;
@@ -36,6 +33,7 @@ public class DemoTrainerMenu : MonoBehaviour
                 produce = coinManager.ProduceCatalog;
             }
         }
+
         if (spawnPoint == null)
         {
             PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
@@ -70,9 +68,6 @@ public class DemoTrainerMenu : MonoBehaviour
         DrawSection("Phân bón", fertilizers, false);
         DrawQualitySection("Nông sản Sao Tím", produce, CropQuality.PurpleStar);
         DrawQualitySection("Nông sản Sao Vàng", produce, CropQuality.GoldStar);
-        DrawSection("Phân bón", fertilizers, false);
-        DrawQualitySection("Nông sản Sao Tím", produce, CropQuality.PurpleStar);
-        DrawQualitySection("Nông sản Sao Vàng", produce, CropQuality.GoldStar);
 
         GUILayout.Space(6f);
         GUILayout.Label("Sinh vật");
@@ -92,9 +87,6 @@ public class DemoTrainerMenu : MonoBehaviour
                 }
             }
         }
-
-        GUILayout.Space(12f);
-        GUI.backgroundColor = new Color(1f, 0.45f, 0.35f);
 
         GUILayout.Space(12f);
         GUI.backgroundColor = new Color(1f, 0.45f, 0.35f);

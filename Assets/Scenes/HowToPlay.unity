@@ -848,7 +848,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1839284904}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: HowToPanelController, Assembly-CSharp
         m_MethodName: CloseHowToUI
         m_Mode: 1
         m_Arguments:
@@ -1009,9 +1009,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1839284899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fd5e8f4af96daa4db5d9ca0ebfd0fe6, type: 3}
+  m_Script: {fileID: 11500000, guid: b24c248bff0116844bfd309c694aecf4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  m_EditorClassIdentifier: Assembly-CSharp::HowToPanelController
   howToPanel: {fileID: 532549778}
 --- !u!1 &1946671998
 GameObject:

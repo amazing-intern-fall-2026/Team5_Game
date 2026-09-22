@@ -186,6 +186,8 @@ public sealed class DayNightController : MonoBehaviour
             {
                 elapsedInCycle = 0f;
                 dayNumber++;
+
+                SeasonManager.Instance?.NextDay();
                 Debug.Log($"[DayNight] Bắt đầu Ngày {dayNumber}.");
             }
         }

@@ -20,6 +20,13 @@ public sealed class SeasonManager : MonoBehaviour
 [Header("Reference")]
     [SerializeField] private DayNightController dayNightController;
 
+    [Header("Winter Buildings")]
+    [SerializeField] private GameObject houseNormal;
+    [SerializeField] private GameObject houseWinter;
+
+    [SerializeField] private GameObject cattleNormal;
+    [SerializeField] private GameObject cattleWinter;
+
     [Header("Season Length")]
     [Min(1)][SerializeField] private int springDays = 7;
     [Min(1)][SerializeField] private int summerDays = 7;
@@ -116,6 +123,8 @@ public sealed class SeasonManager : MonoBehaviour
             GetSeasonLength(CurrentSeason)
         );
 
+        ApplyBuildingSeason(CurrentSeason);
+
         CreateUI();
         RefreshUI();
 
@@ -197,10 +206,28 @@ public sealed class SeasonManager : MonoBehaviour
         // Chỉ gọi khi thực sự sang mùa
         if (seasonChanged)
         {
+            ApplyBuildingSeason(CurrentSeason);
             OnSeasonChanged?.Invoke(CurrentSeason);
         }
     }
 
+
+    private void ApplyBuildingSeason(SeasonType season)
+    {
+        bool isWinter = season == SeasonType.Winter;
+
+        if (houseNormal != null)
+            houseNormal.SetActive(!isWinter);
+
+        if (houseWinter != null)
+            houseWinter.SetActive(isWinter);
+
+        if (cattleNormal != null)
+            cattleNormal.SetActive(!isWinter);
+
+        if (cattleWinter != null)
+            cattleWinter.SetActive(isWinter);
+    }
 
     // =========================================================
     // SEASON LENGTH

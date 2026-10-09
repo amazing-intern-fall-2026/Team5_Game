@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 916d3bf7385e5fb438f10f26bd04b555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3458883124411254708
+    second: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 467
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7402e20eb600030800000000000000
+      internalID: 3458883124411254708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 466
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b8446c7f4c1a145a932b95353a9984
+      internalID: -1528581272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 469
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935fc939815c6d94b83e757c6284d55a
+      internalID: 1983245580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 469
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589f811796b1874e8622781b7489e81
+      internalID: -2077858073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 469
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600b267958d13c545be672491a876d79
+      internalID: 1656661395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_5"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400b912734240e4eb4e5d8d0483d89b
+      internalID: -937970212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_6"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b568c70b0a0ea343bba8acc826a0eba
+      internalID: -1983294194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_7"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 405
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c4a5cc453b194a99dcdb95b57511d
+      internalID: 1782939931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_8"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 405
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13da4398a16fa1498364798f08999c5
+      internalID: -399062287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_9"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 405
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2752f9b4e62e348a1b72d1e06ef26b
+      internalID: 68283503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538eb959caef2734aa31305abf7d76ef
+      internalID: -1915675444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_11"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed51455fd63c948904918de89e10a4
+      internalID: 1477496940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_12"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 341
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76be664dcce821478dd86643146fb5d
+      internalID: -259547887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_13"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 341
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d593cc98f64680b49875de47bce07ea2
+      internalID: 708079776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_14"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 341
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6a240f9415b3845847eff67818e9bc
+      internalID: 909202486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_15"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3dead1fd5994468c14786316a9378
+      internalID: 1129801312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_16"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 277
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f37078ebdea2743a456b2ad6d0c457
+      internalID: 1933106912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_17"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 277
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890df5afd0fe6be4f877527b245b6e6b
+      internalID: 1909815908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_18"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 277
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bc1f86791fa6848a3fff1e693965f0
+      internalID: 1895035221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_19"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 277
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05dd2c70d505d544b9ec116c6d8014b
+      internalID: 2087831486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_20"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51fad926349fb340b75d38fa86f4be1
+      internalID: -719598562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_21"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 213
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87ecc04361db0d41b5bdd4111a91b50
+      internalID: -1181842740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_22"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 213
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d6dc8c50feb1d44bfcb1848668e702
+      internalID: -343984740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_23"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 213
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e26bd422518c74a913712d203115ec
+      internalID: -702660446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_24"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 213
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a751f7b711f0a4b8e891573a046d3d
+      internalID: -1595994089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_25"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3096be9a5a9294496cb7fb7489e4e4
+      internalID: 1931682737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_26"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 149
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e112328920f64294ea4909efb0d5f714
+      internalID: 1757667673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_27"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 149
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e7ff5d74d8f3448cca0279b468750
+      internalID: -2098858605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_28"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 149
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c672e142bcf6ddd44bf5555dfe1fb1a3
+      internalID: 613978652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_29"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 149
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22762b3ae9b0bcf4b9bb567722cb2774
+      internalID: -2052680031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_30"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf9df137f09d7445bf74afdd24e5e50
+      internalID: -1813066287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_31"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 85
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788bc04aee4396740a7051a1119512e3
+      internalID: 955474252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_32"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26ec0b533a3c50459b0f268828ba858
+      internalID: -1265521152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_33"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81be95988eba14b4cbf7a6ef0a8b72fe
+      internalID: 906624668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_34"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 85
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a3c72050f1184cb0d9520b348ebee
+      internalID: -1772416596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54546b534ebca34dbf4f7804ad02342
+      internalID: -598151507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_36"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 21
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1944d3a5e9d30247942cb64a578330a
+      internalID: -661911707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_37"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 21
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb1399d5f7130c4cab0839ee91c0710
+      internalID: -1549286245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_38"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 21
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0918984601675294b86f89cbe12f91a5
+      internalID: -2122624047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_39"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 21
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c476fb1d9a2b94044a0d8e49b2565cf8
+      internalID: 119453818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c1f393f9475c7a42b3101819745e39c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_0": 3458883124411254708
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_1": -1528581272
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_10": -1915675444
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_11": 1477496940
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_12": -259547887
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_13": 708079776
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_14": 909202486
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_15": 1129801312
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_16": 1933106912
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_17": 1909815908
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_18": 1895035221
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_19": 2087831486
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_2": 1983245580
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_20": -719598562
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_21": -1181842740
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_22": -343984740
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_23": -702660446
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_24": -1595994089
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_25": 1931682737
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_26": 1757667673
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_27": -2098858605
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_28": 613978652
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_29": -2052680031
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_3": -2077858073
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_30": -1813066287
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_31": 955474252
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_32": -1265521152
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_33": 906624668
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_34": -1772416596
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_35": -598151507
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_36": -661911707
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_37": -1549286245
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_38": -2122624047
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_39": 119453818
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_4": 1656661395
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_5": -937970212
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_6": -1983294194
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_7": 1782939931
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_8": -399062287
+      "B\u1ED9 tileset pixel ngh\u1EC7 thu\u1EADt cho l\xE0ng ch\u1EE3 (\u0111\u1EA5t)_9": 68283503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

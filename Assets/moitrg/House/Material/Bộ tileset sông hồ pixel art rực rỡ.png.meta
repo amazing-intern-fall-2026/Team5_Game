@@ -6968,9 +6968,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1152
-        y: 544
-        width: 48
-        height: 48
+        y: 437
+        width: 87
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7649,7 +7649,7 @@ TextureImporter:
       name: "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_343"
       rect:
         serializedVersion: 2
-        x: 1104
+        x: 1152
         y: 496
         width: 48
         height: 48
@@ -7671,7 +7671,7 @@ TextureImporter:
       name: "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_344"
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1104
         y: 496
         width: 48
         height: 48
@@ -14883,6 +14883,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_672"
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 544
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2217d8266bf91fd448dfa10706d7d9af
+      internalID: 212536152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -15536,6 +15558,7 @@ TextureImporter:
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_67": -2134725714
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_670": -1301646995
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_671": 1896249854
+      "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_672": 212536152
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_68": -611301896
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_69": 770296309
       "B\u1ED9 tileset s\xF4ng h\u1ED3 pixel art r\u1EF1c r\u1EE1_7": 927655120

@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: 47218302a7310af4b840cac9b4058d00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4484422988809920051
+    second: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_0"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 649
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e5c96e2fedb3e30800000000000000
+      internalID: 4484422988809920051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_1"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 649
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63b69ff2afbf9f489f72106184355f1
+      internalID: -954965360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_2"
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 649
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176aaf34b235bfb4da533b129dc77e60
+      internalID: -13721010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_3"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 649
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab35bfd9f58e3947b46558ff65874d4
+      internalID: 1658724274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_4"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 649
+        width: 110
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf97582e08b94647badf0a5a45742b8
+      internalID: 83283718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_5"
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 507
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f46fdd48990826419d8ca4707f5b4af
+      internalID: -29469879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_6"
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 375
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34dd958de9e026478b0d0d66ad1ee95
+      internalID: 1115046703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_7"
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 376
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8f7ad646f40af4a86f2093a3958a76
+      internalID: 1411701425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_8"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 376
+        width: 111
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f458ba4faf4542a48c38a64d0b89c
+      internalID: 1305413202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_9"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 250
+        width: 114
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c3a0be25fb9e04c9ba1512fbb9ca5e
+      internalID: -858329896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_10"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 124
+        width: 113
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a21214db4fc72478ee9d98c178af95
+      internalID: 467769609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_11"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 376
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda9542a6193b5046b3374cc17172201
+      internalID: 140831776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_12"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 377
+        width: 112
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03670ec37dd1bbd4f85c176f3027b818
+      internalID: -1617648665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_13"
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 251
+        width: 128
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28396831a55fdfa438639dedeaebceb4
+      internalID: -1157210807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_14"
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 252
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbb26f3e233b494493754a8f68fe6b5
+      internalID: 912981306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_15"
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2
+        width: 134
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c633c25e94144b84470b2b495cc4d
+      internalID: -1300979120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_16"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 649
+        width: 114
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c12bb75c7874da4aa74441826615976
+      internalID: 686908341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_17"
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 505
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4150353e4c8824b894fefa7c4f0c11
+      internalID: -1065857136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_18"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 506
+        width: 115
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2c6fda7afd90f47897e33863e4f700
+      internalID: -390915806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_19"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 783
+        width: 113
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6b52f8858254d4d861bad7178dfdb8
+      internalID: 280554310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d65cb56865d768746aba97c1da29fc9a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_0": 4484422988809920051
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_1": -954965360
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_10": 467769609
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_11": 140831776
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_12": -1617648665
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_13": -1157210807
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_14": 912981306
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_15": -1300979120
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_16": 686908341
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_17": -1065857136
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_18": -390915806
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_19": 280554310
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_2": -13721010
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_3": 1658724274
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_4": 83283718
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_5": -29469879
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_6": 1115046703
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_7": 1411701425
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_8": 1305413202
+      "B\u1ED9 G\u1EA1ch Pixel Ngh\u1EC7 Thu\u1EADt Thi\xEAn Nhi\xEAn_9": -858329896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

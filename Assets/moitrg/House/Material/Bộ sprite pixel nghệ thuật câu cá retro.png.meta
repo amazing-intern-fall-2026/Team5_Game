@@ -3155,7 +3155,7 @@ TextureImporter:
         width: 101
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3164,6 +3164,28 @@ TextureImporter:
       bones: []
       spriteID: 931ee6e6235f9af40b352c68f1811e34
       internalID: -918030848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_123"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 258
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d69a9eeb686e940a5f83e5cda1ce20
+      internalID: 1122345194
       vertices: []
       indices: 
       edges: []
@@ -3210,6 +3232,7 @@ TextureImporter:
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_120": -3320341594566789579
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_121": 3467417926394609944
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_122": -918030848
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_123": 1122345194
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_13": 2905112288076916810
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_14": 8039501680191791151
       "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_15": -8970950502423140167

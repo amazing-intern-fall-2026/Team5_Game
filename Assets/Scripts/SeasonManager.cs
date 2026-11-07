@@ -72,7 +72,12 @@ public sealed class SeasonManager : MonoBehaviour
     private TextMeshProUGUI announcementText;
 
     private Coroutine announcementRoutine;
+    // Dữ liệu mùa dùng chung cho tất cả Scene
+    private static SeasonType savedSeason = SeasonType.Spring;
+    private static int savedDayInSeason = 1;
+    private static bool seasonInitialized;
 
+    // Các Scene đọc dữ liệu mùa từ đây
     public SeasonType CurrentSeason { get; private set; }
 
     public int DayInSeason { get; private set; }
@@ -115,13 +120,19 @@ public sealed class SeasonManager : MonoBehaviour
                 FindFirstObjectByType<Canvas>();
         }
 
-        CurrentSeason = startingSeason;
+        // Chỉ khởi tạo mùa lần đầu tiên
+        if (!seasonInitialized)
+        {
+            savedSeason = startingSeason;
 
-        DayInSeason = Mathf.Clamp(
-            startingDayInSeason,
-            1,
-            GetSeasonLength(CurrentSeason)
-        );
+            savedDayInSeason = Mathf.Clamp(
+                startingDayInSeason,
+                1,
+                GetSeasonLength(savedSeason)
+            );
+
+            seasonInitialized = true;
+        }
 
         ApplyBuildingSeason(CurrentSeason);
 
@@ -160,17 +171,17 @@ public sealed class SeasonManager : MonoBehaviour
 
     private void NextDay(int absoluteDay)
     {
-        DayInSeason++;
+        savedDayInSeason++;
 
         bool seasonChanged = false;
 
-        if (DayInSeason > GetSeasonLength(CurrentSeason))
+        if (savedDayInSeason > GetSeasonLength(CurrentSeason))
         {
             // Spring -> Summer -> Autumn -> Winter -> Spring
-            CurrentSeason =
-                (SeasonType)(((int)CurrentSeason + 1) % 4);
+            savedSeason =
+    (SeasonType)(((int)savedSeason + 1) % 4);
 
-            DayInSeason = 1;
+            savedDayInSeason = 1;
 
             seasonChanged = true;
 

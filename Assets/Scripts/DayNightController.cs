@@ -51,11 +51,14 @@ public sealed class DayNightController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dayText;
     [SerializeField] private TextMeshProUGUI stateText;
     [SerializeField] private TextMeshProUGUI clockText;
+    // Dữ liệu thời gian dùng chung cho tất cả Scene
 
     private float elapsedInCycle;
     private int dayNumber = 1;
     private float currentHour;
 
+    // Đánh dấu đã khởi tạo thời gian hay chưa
+    private static bool timeInitialized;
     public int DayNumber => dayNumber;
     public bool IsDay => elapsedInCycle < DaySeconds;
     public float CurrentHour => currentHour;
@@ -90,8 +93,16 @@ public sealed class DayNightController : MonoBehaviour
     private void Awake()
     {
         ResolveReferences();
-        InitializeStartTime();
+
+        // Chỉ khởi tạo thời gian lần đầu tiên
+        if (!timeInitialized)
+        {
+            InitializeStartTime();
+            timeInitialized = true;
+        }
+
         CreateClockUIIfNeeded();
+
         ApplyCurrentState();
     }
 

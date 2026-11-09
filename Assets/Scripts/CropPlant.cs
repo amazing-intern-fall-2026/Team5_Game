@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
@@ -11,6 +12,36 @@ public class CropPlant : MonoBehaviour
     private bool mutationRolled;
     private CropQuality quality = CropQuality.Normal;
     private SpriteRenderer qualityOverlay;
+
+    // [Quái] --- health / monster interaction ---------------------------
+    private static readonly List<CropPlant> activeCrops = new List<CropPlant>();
+    private float currentHealth;
+    private bool isDying;
+    private float dotDamagePerSecond;
+    private float dotRemainingSeconds;
+    private float dotTickTimer;
+
+    public static IReadOnlyList<CropPlant> ActiveCrops => activeCrops;
+
+    /// <summary>Raised when monsters destroy this crop. Harvesting does NOT raise it.</summary>
+    public event System.Action<CropPlant> Died;
+
+    /// <summary>Raised on every hit: amount, and the attacker (null for damage-over-time).</summary>
+    public event System.Action<float, IElementalTarget> Damaged;
+
+    public CropData Data => cropData;
+    public float MaxHealth => cropData != null ? Mathf.Max(1f, cropData.maxHealth) : 1f;
+    public float CurrentHealth => currentHealth;
+    public bool IsAlive => !isDying && currentHealth > 0f;
+    public bool IsPoisoned => dotRemainingSeconds > 0f;
+    public bool IsDecoy => cropData != null
+        && cropData.specialType == SpecialCropType.Decoy;
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetStatics()
+    {
+        activeCrops.Clear();
+    }
 
     public bool IsReadyToHarvest => currentStage >= 3;
     public CropType CropType => cropData != null
@@ -36,13 +67,32 @@ public class CropPlant : MonoBehaviour
         mutationRolled = false;
         quality = CropQuality.Normal;
 
+        // [Quái]
+        currentHealth = MaxHealth;
+        isDying = false;
+        dotRemainingSeconds = 0f;
+        dotTickTimer = 0f;
+        if (!activeCrops.Contains(this))
+        {
+            activeCrops.Add(this);
+        }
+        AttachSpecialEffect();
+
         RefreshSprite();
         RefreshQualityOverlay();
+        RefreshTint();
     }
 
     private void Update()
     {
         if (cropData == null)
+        {
+            return;
+        }
+
+        // [Quái] Blight keeps ticking even when the crop is out of season.
+        UpdateDamageOverTime();
+        if (!IsAlive)
         {
             return;
         }
@@ -66,6 +116,140 @@ public class CropPlant : MonoBehaviour
         }
 
         UpdateGrowthStage();
+    }
+
+    // [Quái] ------------------------------------------------------------
+    public void TakeDamage(float amount, IElementalTarget attacker = null)
+    {
+        if (!IsAlive || amount <= 0f)
+        {
+            return;
+        }
+
+        currentHealth = Mathf.Max(0f, currentHealth - amount);
+        RefreshTint();
+        Damaged?.Invoke(amount, attacker);
+
+        if (currentHealth <= 0f)
+        {
+            Die();
+        }
+    }
+
+    public void Heal(float amount)
+    {
+        if (!IsAlive || amount <= 0f)
+        {
+            return;
+        }
+
+        currentHealth = Mathf.Min(MaxHealth, currentHealth + amount);
+        RefreshTint();
+    }
+
+    /// <summary>Blight: damage over time that keeps ticking even if the attacker dies.</summary>
+    public void ApplyDamageOverTime(float damagePerSecond, float duration)
+    {
+        if (!IsAlive || damagePerSecond <= 0f || duration <= 0f)
+        {
+            return;
+        }
+
+        dotDamagePerSecond = Mathf.Max(
+            IsPoisoned ? dotDamagePerSecond : 0f,
+            damagePerSecond
+        );
+        dotRemainingSeconds = Mathf.Max(dotRemainingSeconds, duration);
+        RefreshTint();
+    }
+
+    /// <summary>Wraith drain: rewinds growth by a fraction (0-1) of the total growth time.</summary>
+    public void DrainGrowth(float fractionOfTotalGrowth)
+    {
+        if (cropData == null || !IsAlive)
+        {
+            return;
+        }
+
+        float seconds = cropData.TotalGrowthDurationSeconds
+            * Mathf.Clamp01(fractionOfTotalGrowth);
+        growthElapsedSeconds = Mathf.Max(0f, growthElapsedSeconds - seconds);
+        UpdateGrowthStage();
+    }
+
+    private void UpdateDamageOverTime()
+    {
+        if (!IsAlive || dotRemainingSeconds <= 0f)
+        {
+            return;
+        }
+
+        float step = Mathf.Min(Time.deltaTime, dotRemainingSeconds);
+        dotRemainingSeconds -= step;
+        dotTickTimer += step;
+
+        if (dotTickTimer >= 0.5f || dotRemainingSeconds <= 0f)
+        {
+            float tickDamage = dotDamagePerSecond * dotTickTimer;
+            dotTickTimer = 0f;
+            TakeDamage(tickDamage, null);
+            if (IsAlive && dotRemainingSeconds <= 0f)
+            {
+                RefreshTint();
+            }
+        }
+    }
+
+    private void Die()
+    {
+        if (isDying)
+        {
+            return;
+        }
+
+        isDying = true;
+        activeCrops.Remove(this);
+        Debug.Log($"[Quái] {CropName} đã bị phá hủy.");
+        Died?.Invoke(this);
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        activeCrops.Remove(this);
+    }
+
+    private void RefreshTint()
+    {
+        if (spriteRenderer == null)
+        {
+            return;
+        }
+
+        float fraction = Mathf.Clamp01(currentHealth / MaxHealth);
+        Color tint = Color.Lerp(new Color(1f, 0.4f, 0.4f, 1f), Color.white, fraction);
+        if (IsPoisoned)
+        {
+            tint *= new Color(0.75f, 1f, 0.6f, 1f); // sickly green while blighted
+        }
+
+        spriteRenderer.color = tint;
+    }
+
+    private void AttachSpecialEffect()
+    {
+        if (cropData == null || !cropData.HasSpecialEffect)
+        {
+            return;
+        }
+
+        SpecialCropEffect effect = GetComponent<SpecialCropEffect>();
+        if (effect == null)
+        {
+            effect = gameObject.AddComponent<SpecialCropEffect>();
+        }
+
+        effect.Initialize(this);
     }
 
     private void UpdateGrowthStage()

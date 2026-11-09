@@ -5,6 +5,7 @@ public class PlayerFarmToolController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private FarmTileController farmTileController;
+    [SerializeField] private FarmActionSFX farmActionSFX;
 
     private Vector2 facingDirection = Vector2.down;
     private HotbarSlotUI selectedHotbarSlot;
@@ -20,6 +21,11 @@ public class PlayerFarmToolController : MonoBehaviour
         }
 
         targetTileIndicator.Initialize(farmTileController);
+
+        if (farmActionSFX == null)
+        {
+            farmActionSFX = GetComponent<FarmActionSFX>();
+        }
     }
 
     private void Update()
@@ -151,11 +157,17 @@ public class PlayerFarmToolController : MonoBehaviour
 
         if (selectedItem.canHoe)
         {
-            farmTileController.HoeAtWorldPosition(targetPosition);
+            if (farmTileController.HoeAtWorldPosition(targetPosition))
+            {
+                farmActionSFX?.PlayTill();
+            }
         }
         else if (selectedItem.canWater)
         {
-            farmTileController.WaterAtWorldPosition(targetPosition);
+            if (farmTileController.WaterAtWorldPosition(targetPosition))
+            {
+                farmActionSFX?.PlayWater();
+            }
         }
         else if (selectedItem.cropToPlant != null)
         {
@@ -167,6 +179,7 @@ public class PlayerFarmToolController : MonoBehaviour
             if (planted)
             {
                 selectedHotbarSlot.RemoveOne();
+                farmActionSFX?.PlayPlant();
             }
         }
         else if (selectedItem.fertilizerType != FertilizerType.None)
@@ -199,9 +212,10 @@ public class PlayerFarmToolController : MonoBehaviour
             return;
         }
 
-        farmTileController.TryHarvestAtWorldPosition(
-            targetPosition
-        );
+        if (farmTileController.TryHarvestAtWorldPosition(targetPosition))
+        {
+            farmActionSFX?.PlayHarvest();
+        }
     }
 
     private void ApplyFertilizer(ItemData selectedItem, Vector3 targetPosition)
@@ -218,6 +232,7 @@ public class PlayerFarmToolController : MonoBehaviour
         {
             case FertilizerApplicationResult.Success:
                 selectedHotbarSlot.RemoveOne();
+                farmActionSFX?.PlayFertilize();
                 string reductionText = selectedItem.fertilizerTestMode
                     ? $"{reducedSeconds:0.##} giây"
                     : $"{reducedSeconds / 60f:0.#} phút";

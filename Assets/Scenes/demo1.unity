@@ -243,6 +243,8 @@ GameObject:
   - component: {fileID: 185138566}
   - component: {fileID: 2600000001}
   - component: {fileID: 2600000002}
+  - component: {fileID: 2600000004}
+  - component: {fileID: 2600000003}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -372,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFarmToolController
   farmTileController: {fileID: 1739827722}
+  farmActionSFX: {fileID: 0}
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +573,80 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272321244}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &320150719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320150721}
+  - component: {fileID: 320150720}
+  m_Layer: 0
+  m_Name: MonsterSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &320150720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320150719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 546146054d8a00a4cab3cf5d9a998a01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterSpawner
+  dayNightController: {fileID: 0}
+  farmTileController: {fileID: 0}
+  entries:
+  - prefab: {fileID: 841040487060712420, guid: 13960dc7c65185b46a9fe862b3697c78, type: 3}
+    unlockDay: 1
+    baseCount: 3
+    extraPerDay: 0.5
+    maxCount: 14
+  - prefab: {fileID: 216764490603134943, guid: 2f0e5652ce456554fa0e74b91e74ba1f, type: 3}
+    unlockDay: 3
+    baseCount: 1
+    extraPerDay: 0.5
+    maxCount: 6
+  - prefab: {fileID: 679040893651603893, guid: bb1d4af9905059141b3cde423ef906b7, type: 3}
+    unlockDay: 5
+    baseCount: 1
+    extraPerDay: 0.34
+    maxCount: 4
+  - prefab: {fileID: 4242804186019665447, guid: 553a94d2b7819c34d918c6341dc3a1ef, type: 3}
+    unlockDay: 7
+    baseCount: 1
+    extraPerDay: 0.34
+    maxCount: 4
+  spawnPoints: []
+  spawnRadius: 9
+  timeBetweenSpawns: 0.5
+  healthPerDay: 0.12
+  damagePerDay: 0.08
+  speedPerDay: 0.02
+  maxSpeedMultiplier: 1.5
+--- !u!4 &320150721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320150719}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -8847,6 +8924,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546124824}
   m_CullTransparentMesh: 1
+--- !u!1 &1572216321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572216323}
+  - component: {fileID: 1572216322}
+  m_Layer: 0
+  m_Name: DragonStats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1572216322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572216321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e67b8d59d2c67243a2a9c0328376bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragonStats
+  tracks:
+  - element: 0
+    stat: 0
+    maxLevel: 5
+    baseCost: 800
+    costGrowth: 1.6
+    bonusPerLevel: 0.2
+    description: "M\u1ED7i \u0111\xF2n ch\xE1y g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng
+      h\u01A1n"
+  - element: 0
+    stat: 1
+    maxLevel: 5
+    baseCost: 600
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "T\u0103ng t\u1EA7m ph\xE1t hi\u1EC7n v\xE0 t\u1EA5n c\xF4ng"
+  - element: 0
+    stat: 2
+    maxLevel: 5
+    baseCost: 700
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "Gi\u1EA3m th\u1EDDi gian h\u1ED3i gi\u1EEFa c\xE1c \u0111\xF2n
+      \u0111\xE1nh"
+  - element: 1
+    stat: 0
+    maxLevel: 5
+    baseCost: 800
+    costGrowth: 1.6
+    bonusPerLevel: 0.2
+    description: "L\xE0m ch\u1EADm qu\xE1i m\u1EA1nh h\u01A1n v\xE0 l\xE2u h\u01A1n"
+  - element: 1
+    stat: 1
+    maxLevel: 5
+    baseCost: 600
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "T\u0103ng t\u1EA7m ph\xE1t hi\u1EC7n v\xE0 t\u1EA5n c\xF4ng"
+  - element: 1
+    stat: 2
+    maxLevel: 5
+    baseCost: 700
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "Gi\u1EA3m th\u1EDDi gian h\u1ED3i gi\u1EEFa c\xE1c \u0111\xF2n
+      \u0111\xE1nh"
+  - element: 2
+    stat: 0
+    maxLevel: 5
+    baseCost: 800
+    costGrowth: 1.6
+    bonusPerLevel: 0.2
+    description: "\u0110\u1EA9y l\xF9i qu\xE1i xa h\u01A1n"
+  - element: 2
+    stat: 1
+    maxLevel: 5
+    baseCost: 600
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "T\u0103ng t\u1EA7m ph\xE1t hi\u1EC7n v\xE0 t\u1EA5n c\xF4ng"
+  - element: 2
+    stat: 2
+    maxLevel: 5
+    baseCost: 700
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "Gi\u1EA3m th\u1EDDi gian h\u1ED3i gi\u1EEFa c\xE1c \u0111\xF2n
+      \u0111\xE1nh"
+  - element: 3
+    stat: 0
+    maxLevel: 5
+    baseCost: 1000
+    costGrowth: 1.6
+    bonusPerLevel: 0.2
+    description: "L\xE0m qu\xE1i t\xEA li\u1EC7t l\xE2u h\u01A1n"
+  - element: 3
+    stat: 1
+    maxLevel: 5
+    baseCost: 750
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "T\u0103ng t\u1EA7m ph\xE1t hi\u1EC7n v\xE0 t\u1EA5n c\xF4ng"
+  - element: 3
+    stat: 2
+    maxLevel: 5
+    baseCost: 875
+    costGrowth: 1.6
+    bonusPerLevel: 0.1
+    description: "Gi\u1EA3m th\u1EDDi gian h\u1ED3i gi\u1EEFa c\xE1c \u0111\xF2n
+      \u0111\xE1nh"
+--- !u!4 &1572216323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572216321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1632711082 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4101995005951988527, guid: 932c769f799702e43ae45c4415f00488, type: 3}
@@ -9005,6 +9216,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc204, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc205, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc206, type: 2}
+  - {fileID: 11400000, guid: be01743f8cf18fa43adc0331845493ac, type: 2}
+  - {fileID: 11400000, guid: f4e1c79413e42b84a812731e6f1ed0ce, type: 2}
+  - {fileID: 11400000, guid: 5db10354e38fcf240b568e6ff304daf5, type: 2}
+  - {fileID: 11400000, guid: 5a8879a9f419c8447840c24ce66941ba, type: 2}
   fertilizerCatalog:
   - {fileID: 11400000, guid: a120a00c37974fafb42fc865f66bd1ea, type: 2}
   - {fileID: 11400000, guid: c340c22e59b94c11b64fe087b88df30c, type: 2}
@@ -9018,6 +9233,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc104, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc105, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc106, type: 2}
+  - {fileID: 11400000, guid: 5009a86a8e645e148b46e2360467ab92, type: 2}
+  - {fileID: 11400000, guid: 812620552c394a4468ca55bef38292c2, type: 2}
+  - {fileID: 11400000, guid: cd5eb221cfa4581488addf9f031bf282, type: 2}
+  - {fileID: 11400000, guid: 6ba86a16372dc1546a119b959fbf674b, type: 2}
+  - {fileID: 11400000, guid: e6a75f47c7f348d488179015d3cf018a, type: 2}
+  - {fileID: 11400000, guid: 618bf195baf85834f937a90a3a42ab08, type: 2}
+  - {fileID: 11400000, guid: d4bb2d20e1a593a46a6c9b97cbb89839, type: 2}
+  - {fileID: 11400000, guid: 476c66b45f5064b48b07430ff1434456, type: 2}
+  animalCatalog:
+  - {fileID: 11400000, guid: 0d22b858c069fdb45bbe2bc18441113c, type: 2}
+  - {fileID: 11400000, guid: 0eef9bea7bacd0d4eb18829d99e0e3b9, type: 2}
+  - {fileID: 11400000, guid: 88ff13b13633cbf40830cd96ae0ec63d, type: 2}
+  - {fileID: 11400000, guid: c3c8a0d4f77923c43963b5b073c12063, type: 2}
+  - {fileID: 11400000, guid: e325efa24e1aef94898a63d16da33043, type: 2}
   currencyUIPrefab: {fileID: 7030180513843089321, guid: 3abff23666b38e046a93561c53b42dab, type: 3}
   coinText: {fileID: 0}
 --- !u!1001 &1748141591
@@ -10072,19 +10301,36 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc204, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc205, type: 2}
   - {fileID: 11400000, guid: 0f1a2b3c4d5e67890123456789abc206, type: 2}
+  - {fileID: 11400000, guid: be01743f8cf18fa43adc0331845493ac, type: 2}
+  - {fileID: 11400000, guid: f4e1c79413e42b84a812731e6f1ed0ce, type: 2}
+  - {fileID: 11400000, guid: 5db10354e38fcf240b568e6ff304daf5, type: 2}
+  - {fileID: 11400000, guid: 5a8879a9f419c8447840c24ce66941ba, type: 2}
   fertilizers:
   - {fileID: 11400000, guid: a120a00c37974fafb42fc865f66bd1ea, type: 2}
   - {fileID: 11400000, guid: b230b11d48a84b00a53fd976a77ce2fb, type: 2}
   - {fileID: 11400000, guid: c340c22e59b94c11b64fe087b88df30c, type: 2}
   - {fileID: 11400000, guid: d450d33f6ac04d22b75af198c99e041d, type: 2}
+  produce: []
   animalPrefabs:
   - {fileID: 540927434841566388, guid: c44b451a5c9304341a996f596b290560, type: 3}
   - {fileID: 540927434841566388, guid: eb19bf64e82355b4da6bca28827e8ded, type: 3}
   - {fileID: 540927434841566388, guid: d4d878f561954f34aaffa7cafce543ab, type: 3}
   - {fileID: 540927434841566388, guid: d7bde5ccec31bc742aac6907d984bbfa, type: 3}
-  produce: []
   spawnPoint: {fileID: 0}
   spawnOffset: 1.5
+  monsterPrefabs:
+  - {fileID: 841040487060712420, guid: 13960dc7c65185b46a9fe862b3697c78, type: 3}
+  - {fileID: 216764490603134943, guid: 2f0e5652ce456554fa0e74b91e74ba1f, type: 3}
+  - {fileID: 679040893651603893, guid: bb1d4af9905059141b3cde423ef906b7, type: 3}
+  - {fileID: 4242804186019665447, guid: 553a94d2b7819c34d918c6341dc3a1ef, type: 3}
+  monsterSpawner: {fileID: 0}
+  monsterSpawnDistance: 4
+  animalItems:
+  - {fileID: 11400000, guid: e6a75f47c7f348d488179015d3cf018a, type: 2}
+  - {fileID: 11400000, guid: 618bf195baf85834f937a90a3a42ab08, type: 2}
+  - {fileID: 11400000, guid: d4bb2d20e1a593a46a6c9b97cbb89839, type: 2}
+  - {fileID: 11400000, guid: 476c66b45f5064b48b07430ff1434456, type: 2}
+  - {fileID: 11400000, guid: e325efa24e1aef94898a63d16da33043, type: 2}
 --- !u!114 &2100000200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10133,6 +10379,8 @@ GameObject:
   - component: {fileID: 2200000002}
   - component: {fileID: 2200000003}
   - component: {fileID: 2200000004}
+  - component: {fileID: 2200000005}
+  - component: {fileID: 2200000006}
   m_Layer: 0
   m_Name: TimeManager
   m_TagString: Untagged
@@ -10276,6 +10524,42 @@ MonoBehaviour:
   panelColor: {r: 0.025, g: 0.065, b: 0.075, a: 0.92}
   textColor: {r: 1, g: 0.86, b: 0.42, a: 1}
   announcementSeconds: 2.5
+--- !u!114 &2200000005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abaa222a10538c48a263262c536eb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DayNightAmbience
+  dayNightController: {fileID: 2200000003}
+  dayAmbience: {fileID: 8300000, guid: d41bd008e94adcc4c9ee2215c4604a84, type: 3}
+  nightAmbience: {fileID: 8300000, guid: f74fa5cfae13e874e967c63215493a08, type: 3}
+  dayVolume: 0.5
+  nightVolume: 0.5
+  fadeDuration: 2
+--- !u!114 &2200000006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66144399cebc350449c074e15a095d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DayNightMusic
+  dayNightController: {fileID: 0}
+  dayMusic: {fileID: 8300000, guid: 82f0efbfa1744204693cb1e9e3faac12, type: 3}
+  nightMusic: {fileID: 8300000, guid: df655a25efe4e39468e4cc3faaa7bcb6, type: 3}
+  dayVolume: 0.4
+  nightVolume: 0.4
+  fadeDuration: 3
 --- !u!1 &2300000000
 GameObject:
   m_ObjectHideFlags: 0
@@ -12929,6 +13213,126 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.62, y: 0.82}
   m_EdgeRadius: 0
+--- !u!114 &2600000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185138561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de07a8edcb339c048b6300e7d4d67d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FarmActionSFX
+  tillClips:
+  - {fileID: 8300000, guid: 59e3046d94166644cb1a1e17908029e4, type: 3}
+  waterClips:
+  - {fileID: 8300000, guid: 6ba5d4aa2068a854697d0aaf5cbc7ddb, type: 3}
+  plantClips:
+  - {fileID: 8300000, guid: 29c2b3a59557eb140b9ff55344e6006d, type: 3}
+  harvestClips:
+  - {fileID: 8300000, guid: b15da5e6519a59c42a84a4cdb5a2ec26, type: 3}
+  fertilizeClips:
+  - {fileID: 8300000, guid: 59e3046d94166644cb1a1e17908029e4, type: 3}
+  volume: 0.8
+--- !u!82 &2600000004
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185138561}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &4344152531528355644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13043,3 +13447,5 @@ SceneRoots:
   - {fileID: 272321247}
   - {fileID: 2200000001}
   - {fileID: 2300000001}
+  - {fileID: 320150721}
+  - {fileID: 1572216323}

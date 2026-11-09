@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 1ea0f1ca974d1dd499dee611976d0771
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7694711612239935973
+    second: item-thornvine_0
+  - first:
+      213: -7646535582994760019
+    second: item-thornvine_1
+  - first:
+      213: 6919926878635404133
+    second: item-thornvine_2
+  - first:
+      213: 8527139417499098671
+    second: item-thornvine_3
+  - first:
+      213: 5228441799050264619
+    second: item-thornvine_4
+  - first:
+      213: -5947526752119351600
+    second: item-thornvine_5
+  - first:
+      213: 8966100335134690328
+    second: item-thornvine_6
+  - first:
+      213: -5057947088985335722
+    second: item-thornvine_7
+  - first:
+      213: 2346072670750224182
+    second: item-thornvine_8
+  - first:
+      213: 6587332514417842860
+    second: item-thornvine_9
+  - first:
+      213: 771860027256807219
+    second: item-thornvine_10
+  - first:
+      213: 2211800409346358654
+    second: item-thornvine_11
+  - first:
+      213: 116626516243758927
+    second: item-thornvine_12
+  - first:
+      213: 9055564430964102798
+    second: item-thornvine_13
+  - first:
+      213: -7673796820187506736
+    second: item-thornvine_14
+  - first:
+      213: 3808527774298904109
+    second: item-thornvine_15
+  - first:
+      213: 1286167249748757223
+    second: item-thornvine_16
+  - first:
+      213: 3279507592164952523
+    second: item-thornvine_17
+  - first:
+      213: -9100749904084286748
+    second: item-thornvine_18
+  - first:
+      213: -450250013056467477
+    second: item-thornvine_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: item-thornvine_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 23
+        width: 1163
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168d579e84e63590800000000000000
+      internalID: -7694711612239935973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_1
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1175
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae763d766c02e590800000000000000
+      internalID: -7646535582994760019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_2
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1162
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56badb035d4880060800000000000000
+      internalID: 6919926878635404133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1163
+        width: 23
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ed34a1f1c765670800000000000000
+      internalID: 8527139417499098671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_4
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1124
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2002316d182f8840800000000000000
+      internalID: 5228441799050264619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 797
+        width: 186
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d61bc72ee3267da0800000000000000
+      internalID: -5947526752119351600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 875
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cc63810ccfd6c70800000000000000
+      internalID: 8966100335134690328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_7
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 807
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658de44bbef8ec9b0800000000000000
+      internalID: -5057947088985335722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_8
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 885
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fa15df9acee8020800000000000000
+      internalID: 2346072670750224182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 817
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa914b4508ea6b50800000000000000
+      internalID: 6587332514417842860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_10
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 752
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f17f4fa9236ba00800000000000000
+      internalID: 771860027256807219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_11
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 762
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d3721f0c4e1be10800000000000000
+      internalID: 2211800409346358654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_12
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 588
+        width: 72
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fb918d2375e9100800000000000000
+      internalID: 116626516243758927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_13
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 722
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86174c1fd3dbad70800000000000000
+      internalID: 9055564430964102798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 168
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d793361372318590800000000000000
+      internalID: -7673796820187506736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 135
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d269b4015db9ad430800000000000000
+      internalID: 3808527774298904109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea040b9c4269d110800000000000000
+      internalID: 1286167249748757223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 117
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9403d87c6238d20800000000000000
+      internalID: 3279507592164952523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_18
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 87
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2c2691e24a3b180800000000000000
+      internalID: -9100749904084286748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: item-thornvine_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed77a7aff360c9f0800000000000000
+      internalID: -450250013056467477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      item-thornvine_0: -7694711612239935973
+      item-thornvine_1: -7646535582994760019
+      item-thornvine_10: 771860027256807219
+      item-thornvine_11: 2211800409346358654
+      item-thornvine_12: 116626516243758927
+      item-thornvine_13: 9055564430964102798
+      item-thornvine_14: -7673796820187506736
+      item-thornvine_15: 3808527774298904109
+      item-thornvine_16: 1286167249748757223
+      item-thornvine_17: 3279507592164952523
+      item-thornvine_18: -9100749904084286748
+      item-thornvine_19: -450250013056467477
+      item-thornvine_2: 6919926878635404133
+      item-thornvine_3: 8527139417499098671
+      item-thornvine_4: 5228441799050264619
+      item-thornvine_5: -5947526752119351600
+      item-thornvine_6: 8966100335134690328
+      item-thornvine_7: -5057947088985335722
+      item-thornvine_8: 2346072670750224182
+      item-thornvine_9: 6587332514417842860
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

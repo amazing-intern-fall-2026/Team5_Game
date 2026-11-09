@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 33f00589a5c6c79488b834864f867839
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3422624175245938343
+    second: thornvine-stage-3_0
+  - first:
+      213: 1955621396272267767
+    second: thornvine-stage-3_1
+  - first:
+      213: -1124164884001301149
+    second: thornvine-stage-3_2
+  - first:
+      213: -2465863028340610824
+    second: thornvine-stage-3_3
+  - first:
+      213: -7096366928407943290
+    second: thornvine-stage-3_4
+  - first:
+      213: -3179422548624780270
+    second: thornvine-stage-3_5
+  - first:
+      213: 8973113436312662320
+    second: thornvine-stage-3_6
+  - first:
+      213: -6635769846048469001
+    second: thornvine-stage-3_7
+  - first:
+      213: 684874161995428421
+    second: thornvine-stage-3_8
+  - first:
+      213: -4973794749793265577
+    second: thornvine-stage-3_9
+  - first:
+      213: -4263752411174909395
+    second: thornvine-stage-3_10
+  - first:
+      213: 7741244146310716816
+    second: thornvine-stage-3_11
+  - first:
+      213: 2313160818442514177
+    second: thornvine-stage-3_12
+  - first:
+      213: 419926566520392887
+    second: thornvine-stage-3_13
+  - first:
+      213: 6726146855951100458
+    second: thornvine-stage-3_14
+  - first:
+      213: 2652947688783816117
+    second: thornvine-stage-3_15
+  - first:
+      213: 5108220571261537709
+    second: thornvine-stage-3_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thornvine-stage-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1208
+        height: 1268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aec235bd8a9f7f20800000000000000
+      internalID: 3422624175245938343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1231
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f146ff6c43c32b10800000000000000
+      internalID: 1955621396272267767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1243
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d522c7ef92660f0800000000000000
+      internalID: -1124164884001301149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1235
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f82df2f3ae77cdd0800000000000000
+      internalID: -2465863028340610824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1209
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6872a6470e3a48d90800000000000000
+      internalID: -7096366928407943290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_5
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1235
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2145a5e890c60e3d0800000000000000
+      internalID: -3179422548624780270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 921
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03173b4f027e68c70800000000000000
+      internalID: 8973113436312662320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 788
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff480b9b7209e3a0800000000000000
+      internalID: -6635769846048469001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 771
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b495fb69218900800000000000000
+      internalID: 684874161995428421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 755
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7589ed0070889fab0800000000000000
+      internalID: -4973794749793265577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_10
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 607
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a44b9b5cb14d4c0800000000000000
+      internalID: -4263752411174909395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_11
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 606
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d1c64498c6e6b60800000000000000
+      internalID: 7741244146310716816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 415
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f2e9b328ff91020800000000000000
+      internalID: 2313160818442514177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 331
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc8235ccf0e3d500800000000000000
+      internalID: 419926566520392887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 304
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a6318cde2185d50800000000000000
+      internalID: 6726146855951100458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_15
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b527a5fdd921d420800000000000000
+      internalID: 2652947688783816117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thornvine-stage-3_16
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 27
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad03688b8b04e640800000000000000
+      internalID: 5108220571261537709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      thornvine-stage-3_0: 3422624175245938343
+      thornvine-stage-3_1: 1955621396272267767
+      thornvine-stage-3_10: -4263752411174909395
+      thornvine-stage-3_11: 7741244146310716816
+      thornvine-stage-3_12: 2313160818442514177
+      thornvine-stage-3_13: 419926566520392887
+      thornvine-stage-3_14: 6726146855951100458
+      thornvine-stage-3_15: 2652947688783816117
+      thornvine-stage-3_16: 5108220571261537709
+      thornvine-stage-3_2: -1124164884001301149
+      thornvine-stage-3_3: -2465863028340610824
+      thornvine-stage-3_4: -7096366928407943290
+      thornvine-stage-3_5: -3179422548624780270
+      thornvine-stage-3_6: 8973113436312662320
+      thornvine-stage-3_7: -6635769846048469001
+      thornvine-stage-3_8: 684874161995428421
+      thornvine-stage-3_9: -4973794749793265577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

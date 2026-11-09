@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ba65f3c6dbf5c4da5c522d5148b019, type: 3}
+  m_Name: ChickenAnimalData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: "G\xE0"
+  icon: {fileID: -4661314771213596105, guid: dd6a5e1f6f09e9549bb13ed2713db200, type: 3}
+  maxStack: 1
+  itemType: 5
+  purchasePrice: 800
+  sellPrice: 0
+  sellPriceMode: 0
+  normalQualityPriceMultiplier: 1
+  purpleStarPriceMultiplier: 2
+  goldStarPriceMultiplier: 5
+  canHoe: 0
+  canWater: 0
+  cropToPlant: {fileID: 0}
+  fertilizerType: 0
+  fertilizerTestMode: 0
+  fertilizerEffects: []
+  animalPrefab: {fileID: 540927434841566388, guid: c44b451a5c9304341a996f596b290560, type: 3}
+  maxOwned: 6
+  feedSatisfaction: 30

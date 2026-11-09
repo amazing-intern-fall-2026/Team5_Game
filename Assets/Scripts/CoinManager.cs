@@ -11,6 +11,8 @@ public class CoinManager : MonoBehaviour
     [SerializeField] private ItemData[] seedCatalog;
     [SerializeField] private ItemData[] fertilizerCatalog;
     [SerializeField] private ItemData[] produceCatalog;
+    // [Thú] Animals + animal feed sold in the shop's animal tab.
+    [SerializeField] private ItemData[] animalCatalog;
 
     [Header("UI (auto-created when empty)")]
     [SerializeField] private GameObject currencyUIPrefab;
@@ -22,6 +24,7 @@ public class CoinManager : MonoBehaviour
     public ItemData[] SeedCatalog => seedCatalog;
     public ItemData[] FertilizerCatalog => fertilizerCatalog;
     public ItemData[] ProduceCatalog => produceCatalog;
+    public ItemData[] AnimalCatalog => animalCatalog;
     public ItemStorageController ItemStorage => itemStorageController;
 
     private void Awake()
@@ -96,6 +99,8 @@ public class CoinManager : MonoBehaviour
         bool isFertilizer = item != null
             && item.itemType == ItemType.Fertilizer
             && item.fertilizerType != FertilizerType.None;
+        // [Thú] animal feed goes into the inventory just like seeds do
+        bool isFeed = item != null && item.itemType == ItemType.AnimalFeed;
 
         if (isSeed && SeasonManager.Instance != null
             && !item.cropToPlant.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason))
@@ -107,7 +112,7 @@ public class CoinManager : MonoBehaviour
             return false;
         }
 
-        if ((!isSeed && !isFertilizer) || item.purchasePrice <= 0
+        if ((!isSeed && !isFertilizer && !isFeed) || item.purchasePrice <= 0
             || amount <= 0 || itemStorageController == null)
         {
             Debug.LogWarning("Dữ liệu vật phẩm mua trong Shop không hợp lệ.");
@@ -149,6 +154,41 @@ public class CoinManager : MonoBehaviour
             + $"{bought * item.purchasePrice} coin. Số dư: {CurrentCoins} coin."
         );
         return bought == amount;
+    }
+
+    // [Thú] Buying an animal does not add an inventory item - it summons the
+    // animal on the farm. Coins are only taken if the animal was really created.
+    public bool TryBuyAnimal(ItemData animalItem)
+    {
+        if (animalItem == null || animalItem.itemType != ItemType.Animal
+            || animalItem.animalPrefab == null || animalItem.purchasePrice <= 0)
+        {
+            Debug.LogWarning("Dữ liệu mua thú vật không hợp lệ.");
+            return false;
+        }
+
+        if (!CanAfford(animalItem.purchasePrice))
+        {
+            Debug.Log(
+                $"Không đủ coin mua {animalItem.itemName}. "
+                + $"Cần {animalItem.purchasePrice}, hiện có {CurrentCoins} coin."
+            );
+            return false;
+        }
+
+        AnimalProducer animal = AnimalManager.Instance.SpawnPurchased(animalItem);
+        if (animal == null)
+        {
+            return false; // reason already logged (e.g. owned the maximum)
+        }
+
+        CurrentCoins -= animalItem.purchasePrice;
+        RefreshUI();
+        Debug.Log(
+            $"Đã mua {animalItem.itemName} với giá {animalItem.purchasePrice} coin. "
+            + $"Số dư: {CurrentCoins} coin."
+        );
+        return true;
     }
 
     public bool TryBuySeedByIndex(int catalogIndex)

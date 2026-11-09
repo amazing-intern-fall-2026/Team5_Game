@@ -9,7 +9,12 @@ public enum CropType
     Chili = 4,
     Strawberry = 5,
     Okra = 6,
-    Lettuce = 7
+    Lettuce = 7,
+    // [Quái] Special defensive crops
+    Thornvine = 8,
+    Lavender = 9,
+    HealingAloe = 10,
+    DecoyPumpkin = 11
 }
 
 public enum SeasonType
@@ -18,6 +23,16 @@ public enum SeasonType
     Summer = 1,
     Autumn = 2,
     Winter = 3
+}
+
+// [Quái] Passive ability a crop can have while it grows.
+public enum SpecialCropType
+{
+    None = 0,
+    Thorns = 1,      // reflects damage back at monsters that bite it
+    RepelAura = 2,   // slows monsters inside its radius
+    HealAura = 3,    // heals crops inside its radius
+    Decoy = 4        // monsters prefer to attack it; very durable
 }
 
 [CreateAssetMenu(fileName = "NewCrop", menuName = "Farm Game/Crop Data")]
@@ -50,6 +65,22 @@ public class CropData : ScriptableObject
     public ItemData harvestItem;
     [Min(1)] public int harvestAmount = 1;
 
+    // [Quái] Monsters attack crops, so every crop has health.
+    [Header("Durability (monsters attack crops)")]
+    [Min(1f)] public float maxHealth = 30f;
+
+    // [Quái] Optional passive ability (used by the 4 special crops).
+    [Header("Special effect (optional)")]
+    public SpecialCropType specialType = SpecialCropType.None;
+    [Tooltip("If true, the effect only works once the crop is fully grown.")]
+    public bool specialRequiresMature = true;
+    [Tooltip("Thorns: damage reflected per hit. RepelAura: slow strength 0-1 (0.5 = half speed). HealAura: HP restored per pulse.")]
+    [Min(0f)] public float specialPower = 5f;
+    [Tooltip("Aura radius in world units (RepelAura / HealAura).")]
+    [Min(0f)] public float specialRadius = 2.5f;
+    [Tooltip("Seconds between aura pulses.")]
+    [Min(0.1f)] public float specialInterval = 1.5f;
+
     [Header("Mutation chance after first valid fertilizer")]
     [Min(0f)] public float normalQualityWeight = 94f;
     [Min(0f)] public float purpleStarWeight = 5f;
@@ -61,6 +92,8 @@ public class CropData : ScriptableObject
     public Vector2 purpleStarLocalPosition = new Vector2(-4f, 5f);
     public Vector2 goldStarLocalPosition = new Vector2(4f, 5f);
     [Min(0.001f)] public float qualityIconLocalScale = 0.08f;
+
+    public bool HasSpecialEffect => specialType != SpecialCropType.None;
 
     public float Stage1DurationSeconds => testMode
         ? Mathf.Max(0.01f, testStage1DurationSeconds)

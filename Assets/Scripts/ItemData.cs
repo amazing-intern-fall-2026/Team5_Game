@@ -15,7 +15,10 @@ public enum ItemType
     Tool = 1,
     Seed = 2,
     Produce = 3,
-    Fertilizer = 4
+    Fertilizer = 4,
+    // [Thú]
+    Animal = 5,       // sold in the shop's animal tab, summoned on the farm
+    AnimalFeed = 6    // food that raises an animal's satisfaction
 }
 
 public enum SellPriceMode
@@ -63,6 +66,18 @@ public class ItemData : ScriptableObject
     public FertilizerType fertilizerType = FertilizerType.None;
     public bool fertilizerTestMode;
     public FertilizerEffect[] fertilizerEffects;
+
+    // [Thú] Used when Item Type = Animal.
+    [Header("Animal (shop)")]
+    [Tooltip("The animal prefab that is summoned on the farm when bought.")]
+    public GameObject animalPrefab;
+    [Tooltip("The shop stops selling this animal once you own this many.")]
+    [Min(1)] public int maxOwned = 5;
+
+    // [Thú] Used when Item Type = AnimalFeed.
+    [Header("Animal feed")]
+    [Tooltip("Satisfaction one portion gives an animal.")]
+    [Min(0)] public int feedSatisfaction = 30;
 
     public bool TryGetFertilizerEffect(
         CropType cropType,

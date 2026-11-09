@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 2469ca156e2da6b45976fde96515a661
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1632304731402228587
+    second: pumpkin-stage-2_0
+  - first:
+      213: -7700437679188327039
+    second: pumpkin-stage-2_1
+  - first:
+      213: -5806910809369565873
+    second: pumpkin-stage-2_2
+  - first:
+      213: -8251161876308274733
+    second: pumpkin-stage-2_3
+  - first:
+      213: 5439641469901821078
+    second: pumpkin-stage-2_4
+  - first:
+      213: 2762486704329315870
+    second: pumpkin-stage-2_5
+  - first:
+      213: -4480690001792941048
+    second: pumpkin-stage-2_6
+  - first:
+      213: -3250041327509243785
+    second: pumpkin-stage-2_7
+  - first:
+      213: -4891829243016729996
+    second: pumpkin-stage-2_8
+  - first:
+      213: 5660608355033070303
+    second: pumpkin-stage-2_9
+  - first:
+      213: 1519715873706886664
+    second: pumpkin-stage-2_10
+  - first:
+      213: -2616492562778175515
+    second: pumpkin-stage-2_11
+  - first:
+      213: -3463692414023242044
+    second: pumpkin-stage-2_12
+  - first:
+      213: 1494490606037130833
+    second: pumpkin-stage-2_13
+  - first:
+      213: -5195095227755332931
+    second: pumpkin-stage-2_14
+  - first:
+      213: 1163410257270236348
+    second: pumpkin-stage-2_15
+  - first:
+      213: 4213688455312649296
+    second: pumpkin-stage-2_16
+  - first:
+      213: 2675481210312185299
+    second: pumpkin-stage-2_17
+  - first:
+      213: -4184822748768030379
+    second: pumpkin-stage-2_18
+  - first:
+      213: 2851740039572615391
+    second: pumpkin-stage-2_19
+  - first:
+      213: 2760357610269802446
+    second: pumpkin-stage-2_20
+  - first:
+      213: 7687702877829503602
+    second: pumpkin-stage-2_21
+  - first:
+      213: 4359302448732518297
+    second: pumpkin-stage-2_22
+  - first:
+      213: -1050727437959431402
+    second: pumpkin-stage-2_23
+  - first:
+      213: -6175635893993026809
+    second: pumpkin-stage-2_24
+  - first:
+      213: -5368088419771390411
+    second: pumpkin-stage-2_25
+  - first:
+      213: -1764401252124627616
+    second: pumpkin-stage-2_26
+  - first:
+      213: -1316945034243739899
+    second: pumpkin-stage-2_27
+  - first:
+      213: 4818459107281817647
+    second: pumpkin-stage-2_28
+  - first:
+      213: 3337707288429602201
+    second: pumpkin-stage-2_29
+  - first:
+      213: -3411932407386171079
+    second: pumpkin-stage-2_30
+  - first:
+      213: 5828458526430289355
+    second: pumpkin-stage-2_31
+  - first:
+      213: 1265885080857573584
+    second: pumpkin-stage-2_32
+  - first:
+      213: -6982872505088160736
+    second: pumpkin-stage-2_33
+  - first:
+      213: -6285469238041387641
+    second: pumpkin-stage-2_34
+  - first:
+      213: -1784964610277002416
+    second: pumpkin-stage-2_35
+  - first:
+      213: -7393373437941560478
+    second: pumpkin-stage-2_36
+  - first:
+      213: 1793547048596229521
+    second: pumpkin-stage-2_37
+  - first:
+      213: -649849492920598620
+    second: pumpkin-stage-2_38
+  - first:
+      213: 5478633245132720874
+    second: pumpkin-stage-2_39
+  - first:
+      213: 4368962120508214423
+    second: pumpkin-stage-2_40
+  - first:
+      213: -8680712455459517364
+    second: pumpkin-stage-2_41
+  - first:
+      213: -5561844720589388858
+    second: pumpkin-stage-2_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin-stage-2_0
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1245
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b635b60418c17a610800000000000000
+      internalID: 1632304731402228587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1221
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18542fcbabc822590800000000000000
+      internalID: -7700437679188327039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45a62d9265b96fa0800000000000000
+      internalID: -5806910809369565873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1220
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d156627dfbfd7d80800000000000000
+      internalID: -8251161876308274733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1217
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6945bfea81d7d7b40800000000000000
+      internalID: 5439641469901821078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1205
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16d9447503565620800000000000000
+      internalID: 2762486704329315870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1197
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804cc7ede2461d1c0800000000000000
+      internalID: -4480690001792941048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1206
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778f870d1a885e2d0800000000000000
+      internalID: -3250041327509243785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_8
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1203
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47aae14b83bbc1cb0800000000000000
+      internalID: -4891829243016729996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_9
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1204
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaba56ce458e8e40800000000000000
+      internalID: 5660608355033070303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1205
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80642db098d171510800000000000000
+      internalID: 1519715873706886664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_11
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1158
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7c72e70e950bbd0800000000000000
+      internalID: -2616492562778175515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_12
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1171
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ceede2d91e7eefc0800000000000000
+      internalID: -3463692414023242044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_13
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1168
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e500db94f7db410800000000000000
+      internalID: 1494490606037130833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_14
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1158
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaf0574a6057e7b0800000000000000
+      internalID: -5195095227755332931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_15
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 958
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb463a80773452010800000000000000
+      internalID: 1163410257270236348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_16
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 897
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c231533570a7a30800000000000000
+      internalID: 4213688455312649296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 763
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5d3e74cf7312520800000000000000
+      internalID: 2675481210312185299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 741
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55135b3d1e58ce5c0800000000000000
+      internalID: -4184822748768030379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_19
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 726
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0fb72f47a639720800000000000000
+      internalID: 2851740039572615391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 656
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf7d2d1f92ce4620800000000000000
+      internalID: 2760357610269802446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_21
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 556
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a96c3490530ba60800000000000000
+      internalID: 7687702877829503602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_22
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 544
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99731350b7a5f7c30800000000000000
+      internalID: 4359302448732518297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 409
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bfba056f01b61f0800000000000000
+      internalID: -1050727437959431402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 294
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bc464dfdbbb4aa0800000000000000
+      internalID: -6175635893993026809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 296
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53663a80608b085b0800000000000000
+      internalID: -5368088419771390411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 294
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d6bddc8669387e0800000000000000
+      internalID: -1764401252124627616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_27
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 296
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fef25087549bde0800000000000000
+      internalID: -1316945034243739899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 262
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20574e570b9ed240800000000000000
+      internalID: 4818459107281817647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 263
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995241b481be15e20800000000000000
+      internalID: 3337707288429602201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_30
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 265
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9399a1c7d8166a0d0800000000000000
+      internalID: -3411932407386171079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_31
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 253
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd59f73628d2e050800000000000000
+      internalID: 5828458526430289355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_32
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 199
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d87bfa26c3519110800000000000000
+      internalID: 1265885080857573584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 168
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cc066147ad71f90800000000000000
+      internalID: -6982872505088160736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_34
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 126
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dd5e3a70785c8a0800000000000000
+      internalID: -6285469238041387641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 93
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053bbc3e4288a37e0800000000000000
+      internalID: -1784964610277002416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_36
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b4faba706756990800000000000000
+      internalID: -7393373437941560478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d478fb985f3e810800000000000000
+      internalID: 1793547048596229521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_38
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 69
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4affff844554bf6f0800000000000000
+      internalID: -649849492920598620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_39
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 73
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea08cec8e3080c40800000000000000
+      internalID: 5478633245132720874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_40
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 71
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c870e96eba1ac30800000000000000
+      internalID: 4368962120508214423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_41
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 43
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cc60f930ae78780800000000000000
+      internalID: -8680712455459517364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin-stage-2_42
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 46
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3436dc1bb50d2b0800000000000000
+      internalID: -5561844720589388858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin-stage-2_0: 1632304731402228587
+      pumpkin-stage-2_1: -7700437679188327039
+      pumpkin-stage-2_10: 1519715873706886664
+      pumpkin-stage-2_11: -2616492562778175515
+      pumpkin-stage-2_12: -3463692414023242044
+      pumpkin-stage-2_13: 1494490606037130833
+      pumpkin-stage-2_14: -5195095227755332931
+      pumpkin-stage-2_15: 1163410257270236348
+      pumpkin-stage-2_16: 4213688455312649296
+      pumpkin-stage-2_17: 2675481210312185299
+      pumpkin-stage-2_18: -4184822748768030379
+      pumpkin-stage-2_19: 2851740039572615391
+      pumpkin-stage-2_2: -5806910809369565873
+      pumpkin-stage-2_20: 2760357610269802446
+      pumpkin-stage-2_21: 7687702877829503602
+      pumpkin-stage-2_22: 4359302448732518297
+      pumpkin-stage-2_23: -1050727437959431402
+      pumpkin-stage-2_24: -6175635893993026809
+      pumpkin-stage-2_25: -5368088419771390411
+      pumpkin-stage-2_26: -1764401252124627616
+      pumpkin-stage-2_27: -1316945034243739899
+      pumpkin-stage-2_28: 4818459107281817647
+      pumpkin-stage-2_29: 3337707288429602201
+      pumpkin-stage-2_3: -8251161876308274733
+      pumpkin-stage-2_30: -3411932407386171079
+      pumpkin-stage-2_31: 5828458526430289355
+      pumpkin-stage-2_32: 1265885080857573584
+      pumpkin-stage-2_33: -6982872505088160736
+      pumpkin-stage-2_34: -6285469238041387641
+      pumpkin-stage-2_35: -1784964610277002416
+      pumpkin-stage-2_36: -7393373437941560478
+      pumpkin-stage-2_37: 1793547048596229521
+      pumpkin-stage-2_38: -649849492920598620
+      pumpkin-stage-2_39: 5478633245132720874
+      pumpkin-stage-2_4: 5439641469901821078
+      pumpkin-stage-2_40: 4368962120508214423
+      pumpkin-stage-2_41: -8680712455459517364
+      pumpkin-stage-2_42: -5561844720589388858
+      pumpkin-stage-2_5: 2762486704329315870
+      pumpkin-stage-2_6: -4480690001792941048
+      pumpkin-stage-2_7: -3250041327509243785
+      pumpkin-stage-2_8: -4891829243016729996
+      pumpkin-stage-2_9: 5660608355033070303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

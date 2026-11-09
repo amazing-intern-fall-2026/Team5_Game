@@ -9,7 +9,9 @@ public class ShopUIController : MonoBehaviour
     private enum ShopTab
     {
         BuySeeds,
-        SellProduce
+        SellProduce,
+        BuyAnimals,      // [Thú]
+        DragonUpgrades   // [Rồng]
     }
 
     [Header("References")]
@@ -32,6 +34,8 @@ public class ShopUIController : MonoBehaviour
     private RectTransform contentRoot;
     private Button buyTabButton;
     private Button sellTabButton;
+    private Button animalTabButton;   // [Thú]
+    private Button upgradeTabButton;  // [Rồng]
     private ShopTab currentTab;
     private bool isOpen;
     private SeasonType displayedSeason;
@@ -194,17 +198,32 @@ public class ShopUIController : MonoBehaviour
         closeButton.onClick.AddListener(() => SetOpen(false));
     }
 
+    // [Thú][Rồng] Four tabs now: seeds, animals, dragon upgrades, sell.
     private void BuildTabs(RectTransform panel)
     {
-        buyTabButton = CreateButton("BuySeedsTab", panel, "MUA HẠT GIỐNG");
-        SetRect(buyTabButton.GetComponent<RectTransform>(), new Vector2(0.5f, 1f),
-            new Vector2(0.5f, 1f), new Vector2(-112f, -118f), new Vector2(205f, 42f));
-        buyTabButton.onClick.AddListener(() => SelectTab(ShopTab.BuySeeds));
+        const float step = 144f;
+        buyTabButton = CreateTab(panel, "BuySeedsTab", "HẠT GIỐNG", -1.5f * step, ShopTab.BuySeeds);
+        animalTabButton = CreateTab(panel, "BuyAnimalsTab", "THÚ VẬT", -0.5f * step, ShopTab.BuyAnimals);
+        upgradeTabButton = CreateTab(panel, "DragonUpgradesTab", "NÂNG CẤP RỒNG", 0.5f * step, ShopTab.DragonUpgrades);
+        sellTabButton = CreateTab(panel, "SellProduceTab", "BÁN HÀNG", 1.5f * step, ShopTab.SellProduce);
+    }
 
-        sellTabButton = CreateButton("SellProduceTab", panel, "BÁN NÔNG SẢN");
-        SetRect(sellTabButton.GetComponent<RectTransform>(), new Vector2(0.5f, 1f),
-            new Vector2(0.5f, 1f), new Vector2(112f, -118f), new Vector2(205f, 42f));
-        sellTabButton.onClick.AddListener(() => SelectTab(ShopTab.SellProduce));
+    private Button CreateTab(RectTransform panel, string objectName, string label, float x, ShopTab tab)
+    {
+        Button button = CreateButton(objectName, panel, label);
+        SetRect(button.GetComponent<RectTransform>(), new Vector2(0.5f, 1f),
+            new Vector2(0.5f, 1f), new Vector2(x, -118f), new Vector2(136f, 42f));
+
+        TextMeshProUGUI text = button.GetComponentInChildren<TextMeshProUGUI>();
+        if (text != null)
+        {
+            text.enableAutoSizing = true;
+            text.fontSizeMin = 10f;
+            text.fontSizeMax = 16f;
+        }
+
+        button.onClick.AddListener(() => SelectTab(tab));
+        return button;
     }
 
     private void BuildScrollView(RectTransform panel)
@@ -288,18 +307,36 @@ public class ShopUIController : MonoBehaviour
         }
 
         SetTabColor(buyTabButton, currentTab == ShopTab.BuySeeds);
+        SetTabColor(animalTabButton, currentTab == ShopTab.BuyAnimals);
+        SetTabColor(upgradeTabButton, currentTab == ShopTab.DragonUpgrades);
         SetTabColor(sellTabButton, currentTab == ShopTab.SellProduce);
 
-        bool hasRows = currentTab == ShopTab.BuySeeds
-            ? BuildSeedRows()
-            : BuildProduceRows();
+        bool hasRows;
+        string emptyMessage;
+        switch (currentTab)
+        {
+            case ShopTab.BuyAnimals:
+                hasRows = BuildAnimalRows();
+                emptyMessage = "Chưa có thú vật nào trong cửa hàng.";
+                break;
+            case ShopTab.DragonUpgrades:
+                hasRows = BuildDragonUpgradeRows();
+                emptyMessage = "Chưa có dữ liệu nâng cấp rồng.";
+                break;
+            case ShopTab.SellProduce:
+                hasRows = BuildProduceRows();
+                emptyMessage = "Không có nông sản hoặc sản phẩm thú vật trong Hotbar/Inventory.";
+                break;
+            default:
+                hasRows = BuildSeedRows();
+                emptyMessage = "Chưa có dữ liệu hạt giống.";
+                break;
+        }
 
         emptyText.gameObject.SetActive(!hasRows);
         if (!hasRows)
         {
-            emptyText.text = currentTab == ShopTab.BuySeeds
-                ? "Chưa có dữ liệu hạt giống."
-                : "Không có nông sản trong Hotbar hoặc Inventory.";
+            emptyText.text = emptyMessage;
         }
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(contentRoot);
@@ -349,6 +386,9 @@ public class ShopUIController : MonoBehaviour
             && seed.cropToPlant != null
             && SeasonManager.Instance != null
             && !seed.cropToPlant.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason);
+        // [Thú] you can only own so many of each animal
+        bool soldOut = seed.itemType == ItemType.Animal
+            && AnimalProducer.CountOwned(seed) >= seed.maxOwned;
 
         GameObject row = CreateUIObject("BuySeed_" + seed.name, contentRoot);
         Image rowImage = row.AddComponent<Image>();
@@ -362,10 +402,19 @@ public class ShopUIController : MonoBehaviour
         rowColors.pressedColor = new Color(0.78f, 0.72f, 0.56f, 1f);
         rowColors.selectedColor = Color.white;
         rowButton.colors = rowColors;
-        rowButton.interactable = !unavailableInCurrentSeason;
+        rowButton.interactable = !unavailableInCurrentSeason && !soldOut;
         rowButton.onClick.AddListener(() =>
         {
-            coinManager.TryBuyItem(seed, 1);
+            // [Thú] animals are summoned on the farm instead of going to the inventory
+            if (seed.itemType == ItemType.Animal)
+            {
+                coinManager.TryBuyAnimal(seed);
+            }
+            else
+            {
+                coinManager.TryBuyItem(seed, 1);
+            }
+
             RefreshShop();
         });
 
@@ -399,18 +448,14 @@ public class ShopUIController : MonoBehaviour
         TextMeshProUGUI typeText = CreateText(
             "ItemInfo",
             row.transform,
-            unavailableInCurrentSeason
-                ? "Không bán trong mùa này"
-                : seed.itemType == ItemType.Fertilizer
-                ? "Phân bón • Mua 1"
-                : "Hạt giống • Mua 1",
+            GetBuyRowInfo(seed, unavailableInCurrentSeason, soldOut),
             14f);
         SetRect(typeText.rectTransform, new Vector2(0f, 0.5f),
-            new Vector2(0f, 0.5f), new Vector2(191f, -15f), new Vector2(220f, 23f));
+            new Vector2(0f, 0.5f), new Vector2(231f, -15f), new Vector2(300f, 23f));
         typeText.alignment = TextAlignmentOptions.MidlineLeft;
         ApplyReadableText(typeText, new Color(0.82f, 0.88f, 0.86f), 0.08f);
 
-        if (unavailableInCurrentSeason)
+        if (unavailableInCurrentSeason || soldOut)
         {
             rowImage.color = new Color(0.045f, 0.055f, 0.06f, 0.78f);
             icon.color = new Color(0.45f, 0.45f, 0.45f, 0.75f);
@@ -437,6 +482,184 @@ public class ShopUIController : MonoBehaviour
         priceText.alignment = TextAlignmentOptions.Center;
         priceText.fontStyle = FontStyles.Bold;
         ApplyReadableText(priceText, new Color(1f, 0.93f, 0.58f), 0.12f);
+    }
+
+    // [Thú] Animals + animal feed. Animals are summoned on the farm when bought.
+    private bool BuildAnimalRows()
+    {
+        if (coinManager == null)
+        {
+            return false;
+        }
+
+        bool hasRows = false;
+        hasRows |= BuildPurchaseCatalog(coinManager.AnimalCatalog, ItemType.Animal);
+        hasRows |= BuildPurchaseCatalog(coinManager.AnimalCatalog, ItemType.AnimalFeed);
+        return hasRows;
+    }
+
+    private static string GetBuyRowInfo(ItemData item, bool unavailableInCurrentSeason, bool soldOut)
+    {
+        if (unavailableInCurrentSeason)
+        {
+            return "Không bán trong mùa này";
+        }
+
+        switch (item.itemType)
+        {
+            case ItemType.Fertilizer:
+                return "Phân bón • Mua 1";
+
+            case ItemType.AnimalFeed:
+                return "Thức ăn • +" + item.feedSatisfaction + " hài lòng • Mua 1";
+
+            case ItemType.Animal:
+                int owned = AnimalProducer.CountOwned(item);
+                if (soldOut)
+                {
+                    return "Đã nuôi tối đa " + owned + "/" + item.maxOwned;
+                }
+
+                string produces = string.Empty;
+                AnimalProducer template = item.animalPrefab != null
+                    ? item.animalPrefab.GetComponent<AnimalProducer>()
+                    : null;
+                if (template != null && template.DropItem != null)
+                {
+                    produces = " • Cho " + template.DropItem.itemName
+                        + " mỗi " + template.DropEveryDays + " ngày";
+                }
+
+                return "Thú vật • Đang nuôi " + owned + "/" + item.maxOwned + produces;
+
+            default:
+                return "Hạt giống • Mua 1";
+        }
+    }
+
+    // [Rồng] One row per upgrade (4 dragons x 3 stats). Bought with coins and
+    // applied instantly to every dragon of that element.
+    private bool BuildDragonUpgradeRows()
+    {
+        DragonStats stats = DragonStats.Instance;
+        if (coinManager == null || stats == null)
+        {
+            return false;
+        }
+
+        bool hasRows = false;
+
+        foreach (DragonUpgradeTrack track in stats.Tracks)
+        {
+            if (track == null)
+            {
+                continue;
+            }
+
+            hasRows = true;
+            DragonElement element = track.element;
+            DragonStat stat = track.stat;
+
+            int level = stats.GetLevel(element, stat);
+            bool maxed = stats.IsMaxed(element, stat);
+            int cost = stats.GetNextCost(element, stat);
+
+            int currentBonus = Mathf.RoundToInt(track.bonusPerLevel * level * 100f);
+            int nextBonus = Mathf.RoundToInt(track.bonusPerLevel * (level + 1) * 100f);
+
+            string level_text = "Cấp " + level + "/" + track.maxLevel
+                + " • +" + currentBonus + "%"
+                + (maxed ? string.Empty : " → +" + nextBonus + "%");
+
+            string description = track.description;
+            if (!ElementalDragon.HasDragon(element))
+            {
+                description = "Chưa có " + DragonStats.GetElementName(element).ToLower()
+                    + " trên nông trại • " + description;
+            }
+
+            CreateUpgradeRow(
+                ElementalDragon.GetIcon(element),
+                DragonStats.GetElementName(element) + " • " + DragonStats.GetStatName(element, stat),
+                level_text,
+                description,
+                maxed ? "TỐI ĐA" : "NÂNG CẤP\n" + cost.ToString("N0"),
+                !maxed,
+                () =>
+                {
+                    DragonStats.Instance.TryUpgrade(element, stat, coinManager);
+                    RefreshShop();
+                }
+            );
+        }
+
+        return hasRows;
+    }
+
+    private void CreateUpgradeRow(
+        Sprite icon,
+        string title,
+        string levelText,
+        string description,
+        string buttonLabel,
+        bool canUpgrade,
+        UnityEngine.Events.UnityAction onClick
+    )
+    {
+        GameObject row = CreateUIObject("DragonUpgrade_" + title, contentRoot);
+        row.AddComponent<Image>().color = new Color(0.08f, 0.15f, 0.17f, 0.96f);
+        LayoutElement rowLayout = row.AddComponent<LayoutElement>();
+        rowLayout.minHeight = 84f;
+        rowLayout.preferredHeight = 84f;
+
+        GameObject frame = CreateUIObject("IconFrame", row.transform);
+        Image frameImage = frame.AddComponent<Image>();
+        frameImage.color = new Color(0.68f, 0.43f, 0.17f, 1f);
+        frameImage.raycastTarget = false;
+        SetRect(frameImage.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(45f, 0f), new Vector2(58f, 58f));
+
+        GameObject iconObject = CreateUIObject("Icon", row.transform);
+        Image iconImage = iconObject.AddComponent<Image>();
+        iconImage.sprite = icon;
+        iconImage.enabled = icon != null;
+        iconImage.preserveAspect = true;
+        iconImage.raycastTarget = false;
+        SetRect(iconImage.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(45f, 0f), new Vector2(48f, 48f));
+
+        TextMeshProUGUI nameText = CreateText("Name", row.transform, title, 18f);
+        SetRect(nameText.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(231f, 25f), new Vector2(300f, 26f));
+        nameText.alignment = TextAlignmentOptions.MidlineLeft;
+        ApplyReadableText(nameText, Color.white, 0.12f);
+
+        TextMeshProUGUI levelLabel = CreateText("Level", row.transform, levelText, 15f);
+        SetRect(levelLabel.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(231f, 0f), new Vector2(300f, 24f));
+        levelLabel.alignment = TextAlignmentOptions.MidlineLeft;
+        levelLabel.color = new Color(1f, 0.82f, 0.25f);
+
+        TextMeshProUGUI descriptionText = CreateText("Description", row.transform, description, 12f);
+        SetRect(descriptionText.rectTransform, new Vector2(0f, 0.5f), new Vector2(0f, 0.5f),
+            new Vector2(231f, -24f), new Vector2(300f, 22f));
+        descriptionText.alignment = TextAlignmentOptions.MidlineLeft;
+        descriptionText.color = new Color(0.78f, 0.86f, 0.84f);
+
+        Button button = CreateButton("UpgradeButton", row.transform, buttonLabel);
+        SetRect(button.GetComponent<RectTransform>(), new Vector2(1f, 0.5f),
+            new Vector2(1f, 0.5f), new Vector2(-86f, 0f), new Vector2(142f, 54f));
+        button.interactable = canUpgrade;
+
+        TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null)
+        {
+            buttonText.enableAutoSizing = true;
+            buttonText.fontSizeMin = 10f;
+            buttonText.fontSizeMax = 16f;
+        }
+
+        button.onClick.AddListener(onClick);
     }
 
     private bool BuildProduceRows()

@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 14301e68509cba34681a47ba922d3f05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1290480522961760683
+    second: seed-pumpkin_0
+  - first:
+      213: 1250898385226384963
+    second: seed-pumpkin_1
+  - first:
+      213: 8865295134833639929
+    second: seed-pumpkin_2
+  - first:
+      213: -4984085541433793490
+    second: seed-pumpkin_3
+  - first:
+      213: 5017399746692210434
+    second: seed-pumpkin_4
+  - first:
+      213: 2460259348525725310
+    second: seed-pumpkin_5
+  - first:
+      213: -5134069008553454159
+    second: seed-pumpkin_6
+  - first:
+      213: 9106758271310179395
+    second: seed-pumpkin_7
+  - first:
+      213: -2094063347462900802
+    second: seed-pumpkin_8
+  - first:
+      213: 7375550453653048049
+    second: seed-pumpkin_9
+  - first:
+      213: 6418522926265935017
+    second: seed-pumpkin_10
+  - first:
+      213: 1074798469893000138
+    second: seed-pumpkin_11
+  - first:
+      213: -6081456038428475503
+    second: seed-pumpkin_12
+  - first:
+      213: 395396567346194390
+    second: seed-pumpkin_13
+  - first:
+      213: 1750699275473561210
+    second: seed-pumpkin_14
+  - first:
+      213: -937670733711386083
+    second: seed-pumpkin_15
+  - first:
+      213: 6194447413129444457
+    second: seed-pumpkin_16
+  - first:
+      213: 3998822765006560860
+    second: seed-pumpkin_17
+  - first:
+      213: 483488639202364195
+    second: seed-pumpkin_18
+  - first:
+      213: 8792582581708306751
+    second: seed-pumpkin_19
+  - first:
+      213: -4105019484200633115
+    second: seed-pumpkin_20
+  - first:
+      213: 1650187756476835796
+    second: seed-pumpkin_21
+  - first:
+      213: 7228522134623081868
+    second: seed-pumpkin_22
+  - first:
+      213: 8522739560382452086
+    second: seed-pumpkin_23
+  - first:
+      213: -7905873444654001456
+    second: seed-pumpkin_24
+  - first:
+      213: 1107385340731663166
+    second: seed-pumpkin_25
+  - first:
+      213: 2779468439678541107
+    second: seed-pumpkin_26
+  - first:
+      213: -5351850212680822857
+    second: seed-pumpkin_27
+  - first:
+      213: 6522298622848228134
+    second: seed-pumpkin_28
+  - first:
+      213: 7379805556781821336
+    second: seed-pumpkin_29
+  - first:
+      213: 7248357552507048867
+    second: seed-pumpkin_30
+  - first:
+      213: 77009446676454796
+    second: seed-pumpkin_31
+  - first:
+      213: -4501296902084787040
+    second: seed-pumpkin_32
+  - first:
+      213: -6731902576667025296
+    second: seed-pumpkin_33
+  - first:
+      213: -8255536938712589335
+    second: seed-pumpkin_34
+  - first:
+      213: -1402219753516887216
+    second: seed-pumpkin_35
+  - first:
+      213: -3242698808462843385
+    second: seed-pumpkin_36
+  - first:
+      213: 2783205674429543139
+    second: seed-pumpkin_37
+  - first:
+      213: 6765970535395801804
+    second: seed-pumpkin_38
+  - first:
+      213: -8070461857651761087
+    second: seed-pumpkin_39
+  - first:
+      213: 1533729264587555712
+    second: seed-pumpkin_40
+  - first:
+      213: -8098098526644312702
+    second: seed-pumpkin_41
+  - first:
+      213: -1429486087688335165
+    second: seed-pumpkin_42
+  - first:
+      213: 8234686098561227251
+    second: seed-pumpkin_43
+  - first:
+      213: -2465751949835791901
+    second: seed-pumpkin_44
+  - first:
+      213: -7863055102437894152
+    second: seed-pumpkin_45
+  - first:
+      213: 7997797319148403888
+    second: seed-pumpkin_46
+  - first:
+      213: -9144470698797501221
+    second: seed-pumpkin_47
+  - first:
+      213: -1140866269337583799
+    second: seed-pumpkin_48
+  - first:
+      213: 201098907822830963
+    second: seed-pumpkin_49
+  - first:
+      213: -7920479859130247360
+    second: seed-pumpkin_50
+  - first:
+      213: -578543443597095233
+    second: seed-pumpkin_51
+  - first:
+      213: 1977570658541496403
+    second: seed-pumpkin_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seed-pumpkin_0
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1144
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba132b8c235b8e110800000000000000
+      internalID: 1290480522961760683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1100
+        width: 237
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346478d24751c5110800000000000000
+      internalID: 1250898385226384963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1159
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f102cc64fad70b70800000000000000
+      internalID: 8865295134833639929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1140
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24adac5b98f4dab0800000000000000
+      internalID: -4984085541433793490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 929
+        width: 150
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f59bd7c7261a540800000000000000
+      internalID: 5017399746692210434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 194
+        width: 685
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76b53ca7d8942220800000000000000
+      internalID: 2460259348525725310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_6
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 951
+        width: 35
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b554dc207f10c8b0800000000000000
+      internalID: -5134069008553454159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_7
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 949
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c2bc8e564b16e70800000000000000
+      internalID: 9106758271310179395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_8
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 964
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3fe45fa7460f2e0800000000000000
+      internalID: -2094063347462900802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_9
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 916
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa06fc6f083b5660800000000000000
+      internalID: 7375550453653048049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 849
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a428ca389c231950800000000000000
+      internalID: 6418522926265935017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 833
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb0b1b83837aee00800000000000000
+      internalID: 1074798469893000138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 841
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ff05834f35a9ba0800000000000000
+      internalID: -6081456038428475503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_13
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 761
+        width: 77
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d72416451bbc7500800000000000000
+      internalID: 395396567346194390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_14
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 841
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76a22727bbbb4810800000000000000
+      internalID: 1750699275473561210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 746
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a5ad88f69bcf2f0800000000000000
+      internalID: -937670733711386083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 827
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cfa674a1917f550800000000000000
+      internalID: 6194447413129444457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 822
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e16fb3e1cae7730800000000000000
+      internalID: 3998822765006560860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 789
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b08901b52b5b600800000000000000
+      internalID: 483488639202364195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 618
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b201e547850a70800000000000000
+      internalID: 8792582581708306751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_20
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 614
+        width: 43
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecf928478a0807c0800000000000000
+      internalID: -4105019484200633115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_21
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 666
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7208d7505a6e610800000000000000
+      internalID: 1650187756476835796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_22
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 400
+        width: 63
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85d145459ed05460800000000000000
+      internalID: 7228522134623081868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 558
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d3c9897ad64670800000000000000
+      internalID: 8522739560382452086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 497
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2543c3df1b84290800000000000000
+      internalID: -7905873444654001456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_25
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 531
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3329c7a9193e5f00800000000000000
+      internalID: 1107385340731663166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_26
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 513
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dd273d1d7a29620800000000000000
+      internalID: 2779468439678541107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_27
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 423
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf8f0e36986ab5b0800000000000000
+      internalID: -5351850212680822857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_28
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 592
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b53e57a0cd38a50800000000000000
+      internalID: 6522298622848228134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_29
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 387
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d2f63dd065a6660800000000000000
+      internalID: 7379805556781821336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_30
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 487
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3d3326ac6579460800000000000000
+      internalID: 7248357552507048867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_31
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 487
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ddf790fa7911100800000000000000
+      internalID: 77009446676454796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_32
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 359
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a48ba2015e2881c0800000000000000
+      internalID: -4501296902084787040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_33
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 367
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a93f064a7392a0800000000000000
+      internalID: -6731902576667025296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_34
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 353
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb9be9d4e07e6d80800000000000000
+      internalID: -8255536938712589335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_35
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 156
+        width: 118
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053179e30905a8ce0800000000000000
+      internalID: -1402219753516887216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_36
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 314
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7026dff3d9e9ff2d0800000000000000
+      internalID: -3242698808462843385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_37
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 236
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2793990deef9620800000000000000
+      internalID: 2783205674429543139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_38
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 152
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccab603ba5e85ed50800000000000000
+      internalID: 6765970535395801804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_39
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 65
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140e35913b5ffff80800000000000000
+      internalID: -8070461857651761087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_40
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 54
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083cc5dd3a6e84510800000000000000
+      internalID: 1533729264587555712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_41
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 65
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285604bab46cd9f80800000000000000
+      internalID: -8098098526644312702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 63
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c059fb1af1792ce0800000000000000
+      internalID: -1429486087688335165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_43
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 69
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9d69d906b774270800000000000000
+      internalID: 8234686098561227251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_44
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 78
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e19fcd6aa3e7cdd0800000000000000
+      internalID: -2465751949835791901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_45
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 81
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7ddd96b01d0e290800000000000000
+      internalID: -7863055102437894152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_46
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc7961a942edfe60800000000000000
+      internalID: 7997797319148403888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_47
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 63
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4f4335950581180800000000000000
+      internalID: -9144470698797501221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_48
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 23
+        width: 288
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f78ef2c24da20f0800000000000000
+      internalID: -1140866269337583799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375bf7524627ac200800000000000000
+      internalID: 201098907822830963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_50
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047d7e9588dc41290800000000000000
+      internalID: -7920479859130247360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_51
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe8345adc998f7f0800000000000000
+      internalID: -578543443597095233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seed-pumpkin_52
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 39
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e99c490eb17b10800000000000000
+      internalID: 1977570658541496403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      seed-pumpkin_0: 1290480522961760683
+      seed-pumpkin_1: 1250898385226384963
+      seed-pumpkin_10: 6418522926265935017
+      seed-pumpkin_11: 1074798469893000138
+      seed-pumpkin_12: -6081456038428475503
+      seed-pumpkin_13: 395396567346194390
+      seed-pumpkin_14: 1750699275473561210
+      seed-pumpkin_15: -937670733711386083
+      seed-pumpkin_16: 6194447413129444457
+      seed-pumpkin_17: 3998822765006560860
+      seed-pumpkin_18: 483488639202364195
+      seed-pumpkin_19: 8792582581708306751
+      seed-pumpkin_2: 8865295134833639929
+      seed-pumpkin_20: -4105019484200633115
+      seed-pumpkin_21: 1650187756476835796
+      seed-pumpkin_22: 7228522134623081868
+      seed-pumpkin_23: 8522739560382452086
+      seed-pumpkin_24: -7905873444654001456
+      seed-pumpkin_25: 1107385340731663166
+      seed-pumpkin_26: 2779468439678541107
+      seed-pumpkin_27: -5351850212680822857
+      seed-pumpkin_28: 6522298622848228134
+      seed-pumpkin_29: 7379805556781821336
+      seed-pumpkin_3: -4984085541433793490
+      seed-pumpkin_30: 7248357552507048867
+      seed-pumpkin_31: 77009446676454796
+      seed-pumpkin_32: -4501296902084787040
+      seed-pumpkin_33: -6731902576667025296
+      seed-pumpkin_34: -8255536938712589335
+      seed-pumpkin_35: -1402219753516887216
+      seed-pumpkin_36: -3242698808462843385
+      seed-pumpkin_37: 2783205674429543139
+      seed-pumpkin_38: 6765970535395801804
+      seed-pumpkin_39: -8070461857651761087
+      seed-pumpkin_4: 5017399746692210434
+      seed-pumpkin_40: 1533729264587555712
+      seed-pumpkin_41: -8098098526644312702
+      seed-pumpkin_42: -1429486087688335165
+      seed-pumpkin_43: 8234686098561227251
+      seed-pumpkin_44: -2465751949835791901
+      seed-pumpkin_45: -7863055102437894152
+      seed-pumpkin_46: 7997797319148403888
+      seed-pumpkin_47: -9144470698797501221
+      seed-pumpkin_48: -1140866269337583799
+      seed-pumpkin_49: 201098907822830963
+      seed-pumpkin_5: 2460259348525725310
+      seed-pumpkin_50: -7920479859130247360
+      seed-pumpkin_51: -578543443597095233
+      seed-pumpkin_52: 1977570658541496403
+      seed-pumpkin_6: -5134069008553454159
+      seed-pumpkin_7: 9106758271310179395
+      seed-pumpkin_8: -2094063347462900802
+      seed-pumpkin_9: 7375550453653048049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

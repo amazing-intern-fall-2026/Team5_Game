@@ -203,6 +203,11 @@ public class FarmTileController : MonoBehaviour
 
         plantedCrops.Add(cellPosition, cropPlant);
 
+        // [Quái] Free the cell (and dry the soil) if monsters destroy this crop.
+        Vector3Int plantedCell = cellPosition;
+        cropPlant.Died += destroyedCrop =>
+            HandleCropDestroyed(plantedCell, destroyedCrop);
+
         return true;
     }
 
@@ -273,6 +278,18 @@ public class FarmTileController : MonoBehaviour
         }
 
         farmSoilTilemap.SetTile(cellPosition, tilledTile);
+    }
+
+    // [Quái] Raised by CropPlant when a monster destroys it (harvest never raises this).
+    private void HandleCropDestroyed(Vector3Int cellPosition, CropPlant destroyedCrop)
+    {
+        if (plantedCrops.TryGetValue(cellPosition, out CropPlant current)
+            && current == destroyedCrop)
+        {
+            plantedCrops.Remove(cellPosition);
+        }
+
+        ResetWaterAfterHarvest(cellPosition);
     }
 
     public FertilizerApplicationResult ApplyFertilizerAtWorldPosition(

@@ -1,5 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class DemoTrainerMenu : MonoBehaviour
 {
@@ -11,12 +15,63 @@ public class DemoTrainerMenu : MonoBehaviour
     [Tooltip("Nông sản dùng để test chất lượng. Nếu để trống sẽ lấy từ CoinManager.")]
     [SerializeField] private ItemData[] produce;
 
+    [Header("Spawning")]
     [SerializeField] private GameObject[] animalPrefabs;
+    [SerializeField] private GameObject[] dragonPrefabs;
+    [SerializeField] private GameObject[] dummyPrefabs;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float spawnOffset = 1.5f;
 
+    // [Quái] Test the night monsters without waiting for night.
+    [Header("Quái vật")]
+    [SerializeField] private MonsterBase[] monsterPrefabs;
+    [SerializeField] private MonsterSpawner monsterSpawner;
+    [SerializeField] private float monsterSpawnDistance = 4f;
+
+    // [Thú] Feed + animal products for testing the animal shop / satisfaction.
+    [Header("Thú vật (test)")]
+    [SerializeField] private ItemData[] animalItems;
+
     private bool isOpen;
     private Vector2 scrollPosition;
+
+#if UNITY_EDITOR
+    private void OnValidate()
+    {
+        if (dragonPrefabs == null || dragonPrefabs.Length == 0)
+        {
+            dragonPrefabs = LoadPrefabsByNames(new[]
+            {
+                "EarthDragon", "FireDragon", "IceDragon", "LightningDragon"
+            });
+        }
+
+        if (dummyPrefabs == null || dummyPrefabs.Length == 0)
+        {
+            dummyPrefabs = LoadPrefabsByNames(new[] { "TrainingDummy" });
+        }
+    }
+
+    private static GameObject[] LoadPrefabsByNames(string[] prefabNames)
+    {
+        List<GameObject> loaded = new List<GameObject>();
+        foreach (string name in prefabNames)
+        {
+            string[] guids = AssetDatabase.FindAssets($"{name} t:Prefab");
+            foreach (string guid in guids)
+            {
+                string path = AssetDatabase.GUIDToAssetPath(guid);
+                GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+                if (prefab != null && prefab.name == name)
+                {
+                    loaded.Add(prefab);
+                    break;
+                }
+            }
+        }
+        return loaded.ToArray();
+    }
+#endif
 
     private void Awake()
     {
@@ -41,6 +96,11 @@ public class DemoTrainerMenu : MonoBehaviour
             {
                 spawnPoint = player.transform;
             }
+        }
+
+        if (monsterSpawner == null)
+        {
+            monsterSpawner = FindFirstObjectByType<MonsterSpawner>();
         }
     }
 
@@ -69,23 +129,63 @@ public class DemoTrainerMenu : MonoBehaviour
         DrawQualitySection("Nông sản Sao Tím", produce, CropQuality.PurpleStar);
         DrawQualitySection("Nông sản Sao Vàng", produce, CropQuality.GoldStar);
 
-        GUILayout.Space(6f);
-        GUILayout.Label("Sinh vật");
+        DrawSpawnSection("Sinh vật (Thú nuôi)", animalPrefabs, Color.white);
+        DrawSpawnSection("Rồng (Dragons)", dragonPrefabs, new Color(1f, 0.55f, 0.25f));
+        DrawSpawnSection("Bù nhìn (Dummies)", dummyPrefabs, new Color(0.55f, 0.85f, 1f));
 
-        if (animalPrefabs != null)
+        GUILayout.Space(6f);
+        GUILayout.Label("Quái vật (test)");
+
+        if (monsterPrefabs != null)
         {
-            foreach (GameObject animalPrefab in animalPrefabs)
+            foreach (MonsterBase monsterPrefab in monsterPrefabs)
             {
-                if (animalPrefab == null)
+                if (monsterPrefab == null)
                 {
                     continue;
                 }
 
-                if (GUILayout.Button("+ " + animalPrefab.name, GUILayout.Height(30f)))
+                if (GUILayout.Button("+ " + monsterPrefab.name, GUILayout.Height(30f)))
                 {
-                    SpawnAnimal(animalPrefab);
+                    SpawnMonster(monsterPrefab);
                 }
             }
+        }
+
+        if (monsterSpawner != null
+            && GUILayout.Button("Triệu hồi đợt quái ngay", GUILayout.Height(30f)))
+        {
+            monsterSpawner.SpawnWaveNow();
+        }
+
+        if (GUILayout.Button("Xóa toàn bộ quái", GUILayout.Height(30f)))
+        {
+            MonsterBase.DespawnAll();
+        }
+
+        DrawSection("Vật phẩm thú vật", animalItems, false);
+
+        GUILayout.Space(6f);
+        GUILayout.Label("Thú vật / Rồng (test)");
+
+        if (GUILayout.Button("Hài lòng tối đa (mọi thú)", GUILayout.Height(30f)))
+        {
+            AnimalProducer.DebugSetAllSatisfaction(100f);
+        }
+
+        if (GUILayout.Button("Hài lòng = 0 (mọi thú)", GUILayout.Height(30f)))
+        {
+            AnimalProducer.DebugSetAllSatisfaction(0f);
+        }
+
+        if (GUILayout.Button("Sang ngày mới cho thú (thử sinh sản)", GUILayout.Height(30f)))
+        {
+            AnimalProducer.DebugAdvanceDayAll();
+        }
+
+        if (GUILayout.Button("Reset nâng cấp rồng", GUILayout.Height(30f)))
+        {
+            DragonStats.Current?.ResetLevels();
         }
 
         GUILayout.Space(12f);
@@ -100,11 +200,36 @@ public class DemoTrainerMenu : MonoBehaviour
         GUILayout.EndArea();
     }
 
-    private void DrawQualitySection(
-        string title,
-        ItemData[] items,
-        CropQuality quality
-    )
+    private void DrawSpawnSection(string title, GameObject[] prefabs, Color buttonColor)
+    {
+        if (prefabs == null || prefabs.Length == 0)
+        {
+            return;
+        }
+
+        GUILayout.Space(6f);
+        GUILayout.Label(title);
+
+        Color previousColor = GUI.backgroundColor;
+        GUI.backgroundColor = buttonColor;
+
+        foreach (GameObject prefab in prefabs)
+        {
+            if (prefab == null)
+            {
+                continue;
+            }
+
+            if (GUILayout.Button("+ " + prefab.name, GUILayout.Height(30f)))
+            {
+                SpawnPrefab(prefab);
+            }
+        }
+
+        GUI.backgroundColor = previousColor;
+    }
+
+    private void DrawQualitySection(string title, ItemData[] items, CropQuality quality)
     {
         GUILayout.Space(6f);
         GUILayout.Label(title);
@@ -139,11 +264,7 @@ public class DemoTrainerMenu : MonoBehaviour
         GUI.backgroundColor = previousColor;
     }
 
-    private void DrawSection(
-        string title,
-        ItemData[] items,
-        bool giveOneOnly
-    )
+    private void DrawSection(string title, ItemData[] items, bool giveOneOnly)
     {
         GUILayout.Space(6f);
         GUILayout.Label(title);
@@ -175,11 +296,7 @@ public class DemoTrainerMenu : MonoBehaviour
         GiveItem(item, amount, CropQuality.Normal);
     }
 
-    private void GiveItem(
-        ItemData item,
-        int amount,
-        CropQuality quality
-    )
+    private void GiveItem(ItemData item, int amount, CropQuality quality)
     {
         if (itemStorage == null)
         {
@@ -200,13 +317,32 @@ public class DemoTrainerMenu : MonoBehaviour
         }
     }
 
-    private void SpawnAnimal(GameObject animalPrefab)
+    private void SpawnPrefab(GameObject prefab)
     {
         Vector3 origin = spawnPoint != null ? spawnPoint.position : transform.position;
-        Vector3 randomOffset = Random.insideUnitCircle * spawnOffset;
+        Vector2 randomOffset = Random.insideUnitCircle * spawnOffset;
         Vector3 spawnPosition = origin + new Vector3(randomOffset.x, randomOffset.y, 0f);
 
-        Instantiate(animalPrefab, spawnPosition, Quaternion.identity);
-        Debug.Log("[Trainer] Đã triệu hồi " + animalPrefab.name + ".");
+        Instantiate(prefab, spawnPosition, Quaternion.identity);
+        Debug.Log("[Trainer] Đã triệu hồi " + prefab.name + ".");
+    }
+
+    private void SpawnMonster(MonsterBase monsterPrefab)
+    {
+        Vector3 origin = spawnPoint != null ? spawnPoint.position : transform.position;
+        Vector2 direction = Random.insideUnitCircle.normalized;
+        Vector3 position = origin + (Vector3)(direction * monsterSpawnDistance);
+
+        // Going through the spawner gives it today's difficulty scaling.
+        if (monsterSpawner != null)
+        {
+            monsterSpawner.SpawnMonster(monsterPrefab, position);
+        }
+        else
+        {
+            Instantiate(monsterPrefab, position, Quaternion.identity);
+        }
+
+        Debug.Log("[Trainer] Đã triệu hồi quái " + monsterPrefab.name + ".");
     }
 }

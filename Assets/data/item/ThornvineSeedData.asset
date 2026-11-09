@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ba65f3c6dbf5c4da5c522d5148b019, type: 3}
+  m_Name: ThornvineSeedData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: "H\u1EA1t gi\u1ED1ng d\xE2y gai t\xEDm"
+  icon: {fileID: 21300000, guid: 385a1d5a9e71e8d4ba88a19814699e48, type: 3}
+  maxStack: 99
+  itemType: 2
+  purchasePrice: 450
+  sellPrice: 0
+  sellPriceMode: 0
+  normalQualityPriceMultiplier: 1
+  purpleStarPriceMultiplier: 2
+  goldStarPriceMultiplier: 5
+  canHoe: 0
+  canWater: 0
+  cropToPlant: {fileID: 11400000, guid: 32192171d94c8584a9eb38a100aec284, type: 2}
+  fertilizerType: 0
+  fertilizerTestMode: 0
+  fertilizerEffects: []

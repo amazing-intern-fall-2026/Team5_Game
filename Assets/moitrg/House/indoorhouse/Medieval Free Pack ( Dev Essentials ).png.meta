@@ -1,0 +1,2471 @@
+fileFormatVersion: 2
+guid: 284bf8a8a13c116488b2efcd745b321c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7726204540697110068
+    second: Medieval Free Pack ( Dev Essentials )_0
+  - first:
+      213: -8123008976281146299
+    second: Medieval Free Pack ( Dev Essentials )_1
+  - first:
+      213: -7990758025952093503
+    second: Medieval Free Pack ( Dev Essentials )_2
+  - first:
+      213: -3315877549015199639
+    second: Medieval Free Pack ( Dev Essentials )_3
+  - first:
+      213: -688285130523952063
+    second: Medieval Free Pack ( Dev Essentials )_4
+  - first:
+      213: -9038829365862167181
+    second: Medieval Free Pack ( Dev Essentials )_5
+  - first:
+      213: 5666076520605920279
+    second: Medieval Free Pack ( Dev Essentials )_6
+  - first:
+      213: 464595605779596739
+    second: Medieval Free Pack ( Dev Essentials )_7
+  - first:
+      213: 6635393221189044194
+    second: Medieval Free Pack ( Dev Essentials )_8
+  - first:
+      213: -3733368048868818327
+    second: Medieval Free Pack ( Dev Essentials )_9
+  - first:
+      213: -1585870021489932057
+    second: Medieval Free Pack ( Dev Essentials )_10
+  - first:
+      213: -9023085202542092536
+    second: Medieval Free Pack ( Dev Essentials )_11
+  - first:
+      213: 935379630475708980
+    second: Medieval Free Pack ( Dev Essentials )_12
+  - first:
+      213: 2004841323774795348
+    second: Medieval Free Pack ( Dev Essentials )_13
+  - first:
+      213: -2056015426358523834
+    second: Medieval Free Pack ( Dev Essentials )_14
+  - first:
+      213: 8523067912552708700
+    second: Medieval Free Pack ( Dev Essentials )_15
+  - first:
+      213: 8665021657592846912
+    second: Medieval Free Pack ( Dev Essentials )_16
+  - first:
+      213: -6664668591812218922
+    second: Medieval Free Pack ( Dev Essentials )_17
+  - first:
+      213: 4470597064726731323
+    second: Medieval Free Pack ( Dev Essentials )_18
+  - first:
+      213: 493871672577595779
+    second: Medieval Free Pack ( Dev Essentials )_19
+  - first:
+      213: 138939073985545520
+    second: Medieval Free Pack ( Dev Essentials )_20
+  - first:
+      213: -5805729817687719521
+    second: Medieval Free Pack ( Dev Essentials )_21
+  - first:
+      213: -2179474305090391269
+    second: Medieval Free Pack ( Dev Essentials )_22
+  - first:
+      213: -9085818126260892983
+    second: Medieval Free Pack ( Dev Essentials )_23
+  - first:
+      213: -6611798791263027536
+    second: Medieval Free Pack ( Dev Essentials )_24
+  - first:
+      213: 9005140214624065249
+    second: Medieval Free Pack ( Dev Essentials )_25
+  - first:
+      213: 3663560193833962322
+    second: Medieval Free Pack ( Dev Essentials )_26
+  - first:
+      213: 846424773279403038
+    second: Medieval Free Pack ( Dev Essentials )_27
+  - first:
+      213: -5757153108851362600
+    second: Medieval Free Pack ( Dev Essentials )_28
+  - first:
+      213: 4703959720677219611
+    second: Medieval Free Pack ( Dev Essentials )_29
+  - first:
+      213: -5538754219807632088
+    second: Medieval Free Pack ( Dev Essentials )_30
+  - first:
+      213: 7498260112247263283
+    second: Medieval Free Pack ( Dev Essentials )_31
+  - first:
+      213: -4634102942004982183
+    second: Medieval Free Pack ( Dev Essentials )_32
+  - first:
+      213: 939330204548389763
+    second: Medieval Free Pack ( Dev Essentials )_33
+  - first:
+      213: 3098536622177269718
+    second: Medieval Free Pack ( Dev Essentials )_34
+  - first:
+      213: 8492782713208444933
+    second: Medieval Free Pack ( Dev Essentials )_35
+  - first:
+      213: 2426872132305253117
+    second: Medieval Free Pack ( Dev Essentials )_36
+  - first:
+      213: -1355337170616562694
+    second: Medieval Free Pack ( Dev Essentials )_37
+  - first:
+      213: 8888741755511517580
+    second: Medieval Free Pack ( Dev Essentials )_38
+  - first:
+      213: 8543268599117238548
+    second: Medieval Free Pack ( Dev Essentials )_39
+  - first:
+      213: -2733337041479259879
+    second: Medieval Free Pack ( Dev Essentials )_40
+  - first:
+      213: 8753890383624988356
+    second: Medieval Free Pack ( Dev Essentials )_41
+  - first:
+      213: 3912237242043164115
+    second: Medieval Free Pack ( Dev Essentials )_42
+  - first:
+      213: -4344796035200147002
+    second: Medieval Free Pack ( Dev Essentials )_43
+  - first:
+      213: -155726301993471812
+    second: Medieval Free Pack ( Dev Essentials )_44
+  - first:
+      213: -8246106991669473182
+    second: Medieval Free Pack ( Dev Essentials )_45
+  - first:
+      213: 8769898430775639146
+    second: Medieval Free Pack ( Dev Essentials )_46
+  - first:
+      213: -2838820858349071118
+    second: Medieval Free Pack ( Dev Essentials )_47
+  - first:
+      213: -5851486619532438967
+    second: Medieval Free Pack ( Dev Essentials )_48
+  - first:
+      213: -1736382477327488159
+    second: Medieval Free Pack ( Dev Essentials )_49
+  - first:
+      213: 501449231214579232
+    second: Medieval Free Pack ( Dev Essentials )_50
+  - first:
+      213: -5930860097472739564
+    second: Medieval Free Pack ( Dev Essentials )_51
+  - first:
+      213: 5189399049643086159
+    second: Medieval Free Pack ( Dev Essentials )_52
+  - first:
+      213: 921766077454591619
+    second: Medieval Free Pack ( Dev Essentials )_53
+  - first:
+      213: -6853741960018033666
+    second: Medieval Free Pack ( Dev Essentials )_54
+  - first:
+      213: 7351239680438898297
+    second: Medieval Free Pack ( Dev Essentials )_55
+  - first:
+      213: 5494676922083601837
+    second: Medieval Free Pack ( Dev Essentials )_56
+  - first:
+      213: 6271854151237573973
+    second: Medieval Free Pack ( Dev Essentials )_57
+  - first:
+      213: -2606705335366282731
+    second: Medieval Free Pack ( Dev Essentials )_58
+  - first:
+      213: 1838356256331056089
+    second: Medieval Free Pack ( Dev Essentials )_59
+  - first:
+      213: -5938991822738170361
+    second: Medieval Free Pack ( Dev Essentials )_60
+  - first:
+      213: -5774539096438218495
+    second: Medieval Free Pack ( Dev Essentials )_61
+  - first:
+      213: -1284689761120169454
+    second: Medieval Free Pack ( Dev Essentials )_62
+  - first:
+      213: -3291382230885424076
+    second: Medieval Free Pack ( Dev Essentials )_63
+  - first:
+      213: 514499961703881267
+    second: Medieval Free Pack ( Dev Essentials )_64
+  - first:
+      213: -6908184130707840702
+    second: Medieval Free Pack ( Dev Essentials )_65
+  - first:
+      213: 6214683610604293759
+    second: Medieval Free Pack ( Dev Essentials )_66
+  - first:
+      213: -8190939252284814357
+    second: Medieval Free Pack ( Dev Essentials )_67
+  - first:
+      213: -7882984816553005781
+    second: Medieval Free Pack ( Dev Essentials )_68
+  - first:
+      213: -589461734198031096
+    second: Medieval Free Pack ( Dev Essentials )_69
+  - first:
+      213: 6526300339055047496
+    second: Medieval Free Pack ( Dev Essentials )_70
+  - first:
+      213: -4855836402635285398
+    second: Medieval Free Pack ( Dev Essentials )_71
+  - first:
+      213: -1058324867335559419
+    second: Medieval Free Pack ( Dev Essentials )_72
+  - first:
+      213: 9207591090069841550
+    second: Medieval Free Pack ( Dev Essentials )_73
+  - first:
+      213: -7870886530392122514
+    second: Medieval Free Pack ( Dev Essentials )_74
+  - first:
+      213: 6844104222122334920
+    second: Medieval Free Pack ( Dev Essentials )_75
+  - first:
+      213: -4904784656673835900
+    second: Medieval Free Pack ( Dev Essentials )_76
+  - first:
+      213: -3328005101342932751
+    second: Medieval Free Pack ( Dev Essentials )_77
+  - first:
+      213: -3635581351798688714
+    second: Medieval Free Pack ( Dev Essentials )_78
+  - first:
+      213: 6417416604177496573
+    second: Medieval Free Pack ( Dev Essentials )_79
+  - first:
+      213: 197423699540797861
+    second: Medieval Free Pack ( Dev Essentials )_80
+  - first:
+      213: -4869794048875316677
+    second: Medieval Free Pack ( Dev Essentials )_81
+  - first:
+      213: -1140764061717619445
+    second: Medieval Free Pack ( Dev Essentials )_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc91db9c7e107c490800000000000000
+      internalID: -7726204540697110068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ce375af56454f80800000000000000
+      internalID: -8123008976281146299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 166
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca160989ef1b1190800000000000000
+      internalID: -7990758025952093503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 193
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960914cffe2abf1d0800000000000000
+      internalID: -3315877549015199639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cbfea0258b276f0800000000000000
+      internalID: -688285130523952063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d8a6ed490af8280800000000000000
+      internalID: -9038829365862167181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ca5e84392f1ae40800000000000000
+      internalID: 5666076520605920279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 192
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c543beed33927600800000000000000
+      internalID: 464595605779596739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e702069af6a51c50800000000000000
+      internalID: 6635393221189044194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 179
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962816f2a89603cc0800000000000000
+      internalID: -3733368048868818327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 178
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8c6252e9bddf9e0800000000000000
+      internalID: -1585870021489932057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_11
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 191
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f156c80df87c280800000000000000
+      internalID: -9023085202542092536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 191
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a04ac61d22bfc00800000000000000
+      internalID: 935379630475708980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 175
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ede96df80a2db10800000000000000
+      internalID: 2004841323774795348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_14
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 175
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6484d2becd09773e0800000000000000
+      internalID: -2056015426358523834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_15
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5afb3cfb15084670800000000000000
+      internalID: 8523067912552708700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 165
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a53efc947504870800000000000000
+      internalID: 8665021657592846912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 167
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df64570a375283a0800000000000000
+      internalID: -6664668591812218922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_18
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 177
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ad0f81850ca0e30800000000000000
+      internalID: 4470597064726731323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 177
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3899d986ba59ad600800000000000000
+      internalID: 493871672577595779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_20
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 177
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03584560a5c9de100800000000000000
+      internalID: 138939073985545520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9184daad77ed6fa0800000000000000
+      internalID: -5805729817687719521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 143
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13fef7baa3f0c1e0800000000000000
+      internalID: -2179474305090391269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 143
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca0a6a8d80b8e180800000000000000
+      internalID: -9085818126260892983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 100
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bef868b70c2e34a0800000000000000
+      internalID: -6611798791263027536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6904d505fa8fc70800000000000000
+      internalID: 9005140214624065249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 139
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b0cbef59497d230800000000000000
+      internalID: 3663560193833962322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 128
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cc864c8da1fbb00800000000000000
+      internalID: 846424773279403038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_28
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 143
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4f06d00cb7a10b0800000000000000
+      internalID: -5757153108851362600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 127
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d16bc7172d74140800000000000000
+      internalID: 4703959720677219611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_30
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 128
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8259b26f1646223b0800000000000000
+      internalID: -5538754219807632088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_31
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 112
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3309af738db2f0860800000000000000
+      internalID: 7498260112247263283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_32
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 112
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e43314deb50bfb0800000000000000
+      internalID: -4634102942004982183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_33
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 111
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bd6e028db290d00800000000000000
+      internalID: 939330204548389763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 115
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d73a6024a6300b20800000000000000
+      internalID: 3098536622177269718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5081e5781ec6cd570800000000000000
+      internalID: 8492782713208444933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 113
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df27951a85bfda120800000000000000
+      internalID: 2426872132305253117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb44823600e03de0800000000000000
+      internalID: -1355337170616562694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 114
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81327538872b5b70800000000000000
+      internalID: 8888741755511517580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d127d689cf8670800000000000000
+      internalID: 8543268599117238548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 107
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919263f417c311ad0800000000000000
+      internalID: -2733337041479259879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_41
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 96
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6ecae7ce01c7970800000000000000
+      internalID: 8753890383624988356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 114
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d569013b0f0b4630800000000000000
+      internalID: 3912237242043164115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 114
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ae54960f24b3c0800000000000000
+      internalID: -4344796035200147002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 86
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb07e7fd0cfb6ddf0800000000000000
+      internalID: -155726301993471812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 80
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601dad7161ff8d80800000000000000
+      internalID: -8246106991669473182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 80
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c33aa6820f4b970800000000000000
+      internalID: 8769898430775639146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_47
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 80
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f45225587b7a98d0800000000000000
+      internalID: -2838820858349071118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 99
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94251da0ce75bcea0800000000000000
+      internalID: -5851486619532438967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 98
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16baeac265127e7e0800000000000000
+      internalID: -1736382477327488159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_50
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e00734b6185f600800000000000000
+      internalID: 501449231214579232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_51
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41749951a2a51bda0800000000000000
+      internalID: -5930860097472739564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_52
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 97
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41d9b7e0f2740840800000000000000
+      internalID: 5189399049643086159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_53
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 97
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386afac1d55cacc00800000000000000
+      internalID: 921766077454591619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_54
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 97
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef38fe2000e92e0a0800000000000000
+      internalID: -6853741960018033666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 99
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e01537a89d40660800000000000000
+      internalID: 7351239680438898297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_56
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 99
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad64507c83014c40800000000000000
+      internalID: 5494676922083601837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_68
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 48
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d6f8f33130a9290800000000000000
+      internalID: -7882984816553005781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 48
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dc0740dafc1d7f0800000000000000
+      internalID: -589461734198031096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_70
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 34
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84333ee9493129a50800000000000000
+      internalID: 6526300339055047496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 34
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c5385e48a9c9cb0800000000000000
+      internalID: -4855836402635285398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_72
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 48
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5076081f3231051f0800000000000000
+      internalID: -1058324867335559419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_73
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 48
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e862aa0005fe7cf70800000000000000
+      internalID: 9207591090069841550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_74
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 48
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b1290076ef4c290800000000000000
+      internalID: -7870886530392122514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_75
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 48
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca5a5547842bfe50800000000000000
+      internalID: 6844104222122334920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 52
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4847b276754beebb0800000000000000
+      internalID: -4904784656673835900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_77
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 52
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f044cb2efc80d1d0800000000000000
+      internalID: -3328005101342932751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_78
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 51
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634310ec502db8dc0800000000000000
+      internalID: -3635581351798688714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_79
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 51
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df971bb866e3f0950800000000000000
+      internalID: 6417416604177496573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_80
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 43
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a96f590fc36db200800000000000000
+      internalID: 197423699540797861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_82
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 16
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d1ac041213b20f0800000000000000
+      internalID: -1140764061717619445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 164
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9d10747bced974fb00172ea63f55ee
+      internalID: 56527746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_84
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 196
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af0040d3355d3a49b28f5c69a4ffe4a
+      internalID: -910119358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_85
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be418b69daaec49805a2bf67dc6b7c
+      internalID: 1712037293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_86
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 192
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0003bb38dad3841ae158886f665c00
+      internalID: 1587362267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_87
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 192
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97413a8b60f7186449b7e447599d5da9
+      internalID: 1790034466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26ef26d49708004199e6a7e9c4a9acb
+      internalID: -572171967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_89
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 159
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2492c0d95f8e045a015098c3d101f1
+      internalID: 374989600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_90
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 128
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f2b998bd411bd4db05978f0e2112fb
+      internalID: 1241992020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_91
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 159
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07abbf3cc31ef44d87374576dd52267
+      internalID: 479657834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_92
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 160
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b007a799bad8e4d9e296e875b013d7
+      internalID: -799826815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f7babbec705c0428a28a2669e03927
+      internalID: 166567493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_94
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 116
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d21803a52148da4c8afbe7f598d78da
+      internalID: 1758139384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_95
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 115
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a565173f82cec7d42bac5213fcc7d223
+      internalID: -100686833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_96
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 80
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99cc88cff27631469371af473af4d39
+      internalID: -4583415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_97
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 80
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b691574be8077e743a3fbbd6ec55817d
+      internalID: -1319941192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_98
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d4f124bca70884794796af7214bc75
+      internalID: -1099352241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 175
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e035ad52b9f4b4dbf9bf317c77ef08
+      internalID: -1598059577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_100
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 208
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3763eb450c7145b9f9d8e080cd485
+      internalID: -155202844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_101
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 175
+        width: 97
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee7af4701c205f448a848afe81742d9
+      internalID: 973290273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Free Pack ( Dev Essentials )_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc2eacede07c434f8559667adba1939
+      internalID: 646326941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ed9d63b9146c8542b715ab0f2eacb9f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Medieval Free Pack ( Dev Essentials )_0: -7726204540697110068
+      Medieval Free Pack ( Dev Essentials )_1: -8123008976281146299
+      Medieval Free Pack ( Dev Essentials )_10: -1585870021489932057
+      Medieval Free Pack ( Dev Essentials )_100: -155202844
+      Medieval Free Pack ( Dev Essentials )_101: 973290273
+      Medieval Free Pack ( Dev Essentials )_102: 646326941
+      Medieval Free Pack ( Dev Essentials )_11: -9023085202542092536
+      Medieval Free Pack ( Dev Essentials )_12: 935379630475708980
+      Medieval Free Pack ( Dev Essentials )_13: 2004841323774795348
+      Medieval Free Pack ( Dev Essentials )_14: -2056015426358523834
+      Medieval Free Pack ( Dev Essentials )_15: 8523067912552708700
+      Medieval Free Pack ( Dev Essentials )_16: 8665021657592846912
+      Medieval Free Pack ( Dev Essentials )_17: -6664668591812218922
+      Medieval Free Pack ( Dev Essentials )_18: 4470597064726731323
+      Medieval Free Pack ( Dev Essentials )_19: 493871672577595779
+      Medieval Free Pack ( Dev Essentials )_2: -7990758025952093503
+      Medieval Free Pack ( Dev Essentials )_20: 138939073985545520
+      Medieval Free Pack ( Dev Essentials )_21: -5805729817687719521
+      Medieval Free Pack ( Dev Essentials )_22: -2179474305090391269
+      Medieval Free Pack ( Dev Essentials )_23: -9085818126260892983
+      Medieval Free Pack ( Dev Essentials )_24: -6611798791263027536
+      Medieval Free Pack ( Dev Essentials )_25: 9005140214624065249
+      Medieval Free Pack ( Dev Essentials )_26: 3663560193833962322
+      Medieval Free Pack ( Dev Essentials )_27: 846424773279403038
+      Medieval Free Pack ( Dev Essentials )_28: -5757153108851362600
+      Medieval Free Pack ( Dev Essentials )_29: 4703959720677219611
+      Medieval Free Pack ( Dev Essentials )_3: -3315877549015199639
+      Medieval Free Pack ( Dev Essentials )_30: -5538754219807632088
+      Medieval Free Pack ( Dev Essentials )_31: 7498260112247263283
+      Medieval Free Pack ( Dev Essentials )_32: -4634102942004982183
+      Medieval Free Pack ( Dev Essentials )_33: 939330204548389763
+      Medieval Free Pack ( Dev Essentials )_34: 3098536622177269718
+      Medieval Free Pack ( Dev Essentials )_35: 8492782713208444933
+      Medieval Free Pack ( Dev Essentials )_36: 2426872132305253117
+      Medieval Free Pack ( Dev Essentials )_37: -1355337170616562694
+      Medieval Free Pack ( Dev Essentials )_38: 8888741755511517580
+      Medieval Free Pack ( Dev Essentials )_39: 8543268599117238548
+      Medieval Free Pack ( Dev Essentials )_4: -688285130523952063
+      Medieval Free Pack ( Dev Essentials )_40: -2733337041479259879
+      Medieval Free Pack ( Dev Essentials )_41: 8753890383624988356
+      Medieval Free Pack ( Dev Essentials )_42: 3912237242043164115
+      Medieval Free Pack ( Dev Essentials )_43: -4344796035200147002
+      Medieval Free Pack ( Dev Essentials )_44: -155726301993471812
+      Medieval Free Pack ( Dev Essentials )_45: -8246106991669473182
+      Medieval Free Pack ( Dev Essentials )_46: 8769898430775639146
+      Medieval Free Pack ( Dev Essentials )_47: -2838820858349071118
+      Medieval Free Pack ( Dev Essentials )_48: -5851486619532438967
+      Medieval Free Pack ( Dev Essentials )_49: -1736382477327488159
+      Medieval Free Pack ( Dev Essentials )_5: -9038829365862167181
+      Medieval Free Pack ( Dev Essentials )_50: 501449231214579232
+      Medieval Free Pack ( Dev Essentials )_51: -5930860097472739564
+      Medieval Free Pack ( Dev Essentials )_52: 5189399049643086159
+      Medieval Free Pack ( Dev Essentials )_53: 921766077454591619
+      Medieval Free Pack ( Dev Essentials )_54: -6853741960018033666
+      Medieval Free Pack ( Dev Essentials )_55: 7351239680438898297
+      Medieval Free Pack ( Dev Essentials )_56: 5494676922083601837
+      Medieval Free Pack ( Dev Essentials )_57: 6271854151237573973
+      Medieval Free Pack ( Dev Essentials )_58: -2606705335366282731
+      Medieval Free Pack ( Dev Essentials )_59: 1838356256331056089
+      Medieval Free Pack ( Dev Essentials )_6: 5666076520605920279
+      Medieval Free Pack ( Dev Essentials )_60: -5938991822738170361
+      Medieval Free Pack ( Dev Essentials )_61: -5774539096438218495
+      Medieval Free Pack ( Dev Essentials )_62: -1284689761120169454
+      Medieval Free Pack ( Dev Essentials )_63: -3291382230885424076
+      Medieval Free Pack ( Dev Essentials )_64: 514499961703881267
+      Medieval Free Pack ( Dev Essentials )_65: -6908184130707840702
+      Medieval Free Pack ( Dev Essentials )_66: 6214683610604293759
+      Medieval Free Pack ( Dev Essentials )_67: -8190939252284814357
+      Medieval Free Pack ( Dev Essentials )_68: -7882984816553005781
+      Medieval Free Pack ( Dev Essentials )_69: -589461734198031096
+      Medieval Free Pack ( Dev Essentials )_7: 464595605779596739
+      Medieval Free Pack ( Dev Essentials )_70: 6526300339055047496
+      Medieval Free Pack ( Dev Essentials )_71: -4855836402635285398
+      Medieval Free Pack ( Dev Essentials )_72: -1058324867335559419
+      Medieval Free Pack ( Dev Essentials )_73: 9207591090069841550
+      Medieval Free Pack ( Dev Essentials )_74: -7870886530392122514
+      Medieval Free Pack ( Dev Essentials )_75: 6844104222122334920
+      Medieval Free Pack ( Dev Essentials )_76: -4904784656673835900
+      Medieval Free Pack ( Dev Essentials )_77: -3328005101342932751
+      Medieval Free Pack ( Dev Essentials )_78: -3635581351798688714
+      Medieval Free Pack ( Dev Essentials )_79: 6417416604177496573
+      Medieval Free Pack ( Dev Essentials )_8: 6635393221189044194
+      Medieval Free Pack ( Dev Essentials )_80: 197423699540797861
+      Medieval Free Pack ( Dev Essentials )_81: -4869794048875316677
+      Medieval Free Pack ( Dev Essentials )_82: -1140764061717619445
+      Medieval Free Pack ( Dev Essentials )_83: 56527746
+      Medieval Free Pack ( Dev Essentials )_84: -910119358
+      Medieval Free Pack ( Dev Essentials )_85: 1712037293
+      Medieval Free Pack ( Dev Essentials )_86: 1587362267
+      Medieval Free Pack ( Dev Essentials )_87: 1790034466
+      Medieval Free Pack ( Dev Essentials )_88: -572171967
+      Medieval Free Pack ( Dev Essentials )_89: 374989600
+      Medieval Free Pack ( Dev Essentials )_9: -3733368048868818327
+      Medieval Free Pack ( Dev Essentials )_90: 1241992020
+      Medieval Free Pack ( Dev Essentials )_91: 479657834
+      Medieval Free Pack ( Dev Essentials )_92: -799826815
+      Medieval Free Pack ( Dev Essentials )_93: 166567493
+      Medieval Free Pack ( Dev Essentials )_94: 1758139384
+      Medieval Free Pack ( Dev Essentials )_95: -100686833
+      Medieval Free Pack ( Dev Essentials )_96: -4583415
+      Medieval Free Pack ( Dev Essentials )_97: -1319941192
+      Medieval Free Pack ( Dev Essentials )_98: -1099352241
+      Medieval Free Pack ( Dev Essentials )_99: -1598059577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

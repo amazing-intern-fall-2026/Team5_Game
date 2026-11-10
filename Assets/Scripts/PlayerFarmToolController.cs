@@ -7,12 +7,14 @@ public class PlayerFarmToolController : MonoBehaviour
     [SerializeField] private FarmTileController farmTileController;
     [SerializeField] private FarmActionSFX farmActionSFX;
 
+    private Animator animator;
     private Vector2 facingDirection = Vector2.down;
     private HotbarSlotUI selectedHotbarSlot;
     private TargetTileIndicator targetTileIndicator;
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         targetTileIndicator = GetComponent<TargetTileIndicator>();
 
         if (targetTileIndicator == null)
@@ -70,6 +72,45 @@ public class PlayerFarmToolController : MonoBehaviour
         {
             facingDirection = Vector2.right;
         }
+    }
+
+    private int GetAnimatorDirection()
+    {
+        if (facingDirection == Vector2.down)
+            return 0;
+
+        if (facingDirection == Vector2.up)
+            return 1;
+
+        return 2; // Right / Left
+    }
+
+    private void PlayHoeAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetInteger(
+            "Direction",
+            GetAnimatorDirection()
+        );
+
+        animator.ResetTrigger("Water");
+        animator.SetTrigger("Hoe");
+    }
+
+    private void PlayWaterAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetInteger(
+            "Direction",
+            GetAnimatorDirection()
+        );
+
+        animator.ResetTrigger("Hoe");
+        animator.SetTrigger("Water");
     }
 
     public void SetSelectedHotbarSlot(HotbarSlotUI hotbarSlot)
@@ -157,6 +198,7 @@ public class PlayerFarmToolController : MonoBehaviour
 
         if (selectedItem.canHoe)
         {
+            PlayHoeAnimation();
             if (farmTileController.HoeAtWorldPosition(targetPosition))
             {
                 farmActionSFX?.PlayTill();
@@ -164,6 +206,7 @@ public class PlayerFarmToolController : MonoBehaviour
         }
         else if (selectedItem.canWater)
         {
+            PlayWaterAnimation();
             if (farmTileController.WaterAtWorldPosition(targetPosition))
             {
                 farmActionSFX?.PlayWater();

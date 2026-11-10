@@ -24,6 +24,7 @@ public sealed class DayNightUI : MonoBehaviour
     [SerializeField] private Vector2 celestialIconSize = new Vector2(27f, 27f);
 
     [Header("Colors")]
+    [SerializeField] private Color dayTitleColor = new Color(1f, 0.93f, 0.66f, 1f);
     [SerializeField] private Color dayAccent = new Color(1f, 0.82f, 0.25f, 1f);
     [SerializeField] private Color nightAccent = new Color(0.55f, 0.82f, 1f, 1f);
     [SerializeField] private Color inactiveIconColor = new Color(1f, 1f, 1f, 0.35f);
@@ -75,6 +76,7 @@ public sealed class DayNightUI : MonoBehaviour
 
         bool isDay = controller.IsDay;
         dayText.text = $"Ngày {controller.DayNumber}";
+        dayText.color = dayTitleColor;
         stateText.text = isDay ? "Ban ngày" : "Ban đêm";
         stateText.color = isDay ? dayAccent : nightAccent;
 
@@ -139,10 +141,10 @@ public sealed class DayNightUI : MonoBehaviour
         }
 
         CreateStretchImage("PanelBorder", transform, panelBorder);
-        dayText = CreateText("DayText", transform, new Vector2(75f, -23f),
-            new Vector2(120f, 34f), 24f, TextAlignmentOptions.MidlineLeft);
-        stateText = CreateText("StateText", transform, new Vector2(75f, -58f),
-            new Vector2(120f, 28f), 17f, TextAlignmentOptions.MidlineLeft);
+        dayText = CreateText("DayText", transform, new Vector2(86f, -38f),
+            new Vector2(124f, 30f), 22f, TextAlignmentOptions.MidlineLeft);
+        stateText = CreateText("StateText", transform, new Vector2(86f, -65f),
+            new Vector2(124f, 25f), 16f, TextAlignmentOptions.MidlineLeft);
 
         RectTransform orbitRoot = CreateRect("Orbit", transform, orbitCenter,
             new Vector2(82f, 82f));

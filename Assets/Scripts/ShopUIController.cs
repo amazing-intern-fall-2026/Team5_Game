@@ -34,6 +34,8 @@ public class ShopUIController : MonoBehaviour
     private Button sellTabButton;
     private ShopTab currentTab;
     private bool isOpen;
+    private SeasonType displayedSeason;
+    private bool hasDisplayedSeason;
 
     public static bool IsOpen { get; private set; }
 
@@ -76,6 +78,13 @@ public class ShopUIController : MonoBehaviour
             && Keyboard.current[toggleKey].wasPressedThisFrame)
         {
             SetOpen(!isOpen);
+        }
+
+        if (isOpen && SeasonManager.Instance != null
+            && (!hasDisplayedSeason
+                || displayedSeason != SeasonManager.Instance.CurrentSeason))
+        {
+            RefreshShop();
         }
     }
 
@@ -251,6 +260,12 @@ public class ShopUIController : MonoBehaviour
 
     private void RefreshShop()
     {
+        if (SeasonManager.Instance != null)
+        {
+            displayedSeason = SeasonManager.Instance.CurrentSeason;
+            hasDisplayedSeason = true;
+        }
+
         if (coinText != null)
         {
             coinText.text = coinManager != null
@@ -330,6 +345,11 @@ public class ShopUIController : MonoBehaviour
 
     private void CreateBuyRow(ItemData seed)
     {
+        bool unavailableInCurrentSeason = seed.itemType == ItemType.Seed
+            && seed.cropToPlant != null
+            && SeasonManager.Instance != null
+            && !seed.cropToPlant.IsAllowedInSeason(SeasonManager.Instance.CurrentSeason);
+
         GameObject row = CreateUIObject("BuySeed_" + seed.name, contentRoot);
         Image rowImage = row.AddComponent<Image>();
         rowImage.color = new Color(0.06f, 0.115f, 0.125f, 1f);
@@ -342,6 +362,7 @@ public class ShopUIController : MonoBehaviour
         rowColors.pressedColor = new Color(0.78f, 0.72f, 0.56f, 1f);
         rowColors.selectedColor = Color.white;
         rowButton.colors = rowColors;
+        rowButton.interactable = !unavailableInCurrentSeason;
         rowButton.onClick.AddListener(() =>
         {
             coinManager.TryBuyItem(seed, 1);
@@ -378,7 +399,9 @@ public class ShopUIController : MonoBehaviour
         TextMeshProUGUI typeText = CreateText(
             "ItemInfo",
             row.transform,
-            seed.itemType == ItemType.Fertilizer
+            unavailableInCurrentSeason
+                ? "Không bán trong mùa này"
+                : seed.itemType == ItemType.Fertilizer
                 ? "Phân bón • Mua 1"
                 : "Hạt giống • Mua 1",
             14f);
@@ -386,6 +409,13 @@ public class ShopUIController : MonoBehaviour
             new Vector2(0f, 0.5f), new Vector2(191f, -15f), new Vector2(220f, 23f));
         typeText.alignment = TextAlignmentOptions.MidlineLeft;
         ApplyReadableText(typeText, new Color(0.82f, 0.88f, 0.86f), 0.08f);
+
+        if (unavailableInCurrentSeason)
+        {
+            rowImage.color = new Color(0.045f, 0.055f, 0.06f, 0.78f);
+            icon.color = new Color(0.45f, 0.45f, 0.45f, 0.75f);
+            nameText.color = new Color(0.55f, 0.55f, 0.55f, 1f);
+        }
 
         GameObject priceBox = CreateUIObject("PriceBox", row.transform);
         Image priceBoxImage = priceBox.AddComponent<Image>();

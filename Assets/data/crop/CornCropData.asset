@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropData
   cropName: Ngô
   cropType: 2
+  allowedSeasons:
+  - 1
   stage1Sprite: {fileID: 21300000, guid: 6ea028a7b01f6604e9d517b8f088976b, type: 3}
   stage2Sprite: {fileID: 21300000, guid: 59eab96591bb3d9439357546f27eca1b, type: 3}
   stage3Sprite: {fileID: 21300000, guid: b585095dfe56f4e49821887b4b2bb390, type: 3}

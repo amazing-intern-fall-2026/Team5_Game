@@ -60,6 +60,7 @@ MonoBehaviour:
   orbitRadius: 25
   orbitSmoothing: 12
   celestialIconSize: {x: 27, y: 27}
+  dayTitleColor: {r: 1, g: 0.93, b: 0.66, a: 1}
   dayAccent: {r: 1, g: 0.82, b: 0.25, a: 1}
   nightAccent: {r: 0.55, g: 0.82, b: 1, a: 1}
   inactiveIconColor: {r: 1, g: 1, b: 1, a: 0.35}

@@ -1,0 +1,3335 @@
+fileFormatVersion: 2
+guid: a3b4b32d08678d64a9d8ecdbf707068c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1001036736976043817
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_0"
+  - first:
+      213: -3399135878910197122
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_1"
+  - first:
+      213: -3085184743186149173
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_2"
+  - first:
+      213: 5736757287359727988
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_3"
+  - first:
+      213: -2911774030351616101
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_4"
+  - first:
+      213: 4970023511810248632
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_5"
+  - first:
+      213: -2911672727925989110
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_6"
+  - first:
+      213: 8272685710748998414
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_7"
+  - first:
+      213: 1107557902629405511
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_8"
+  - first:
+      213: 5980882551716452014
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_9"
+  - first:
+      213: 7975473645956842336
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_10"
+  - first:
+      213: 5574851075151172908
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_11"
+  - first:
+      213: 2404023348581492970
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_12"
+  - first:
+      213: 2905112288076916810
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_13"
+  - first:
+      213: 8039501680191791151
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_14"
+  - first:
+      213: -8970950502423140167
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_15"
+  - first:
+      213: 2609685010128671481
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_16"
+  - first:
+      213: -2398821791678837334
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_17"
+  - first:
+      213: 619554943747338733
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_18"
+  - first:
+      213: -942659318904030571
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_19"
+  - first:
+      213: -2120205419397768065
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_20"
+  - first:
+      213: -1066784433647986990
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_21"
+  - first:
+      213: 6188191786910298543
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_22"
+  - first:
+      213: 8351096934746212895
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_23"
+  - first:
+      213: -2299418447617703623
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_24"
+  - first:
+      213: -5705314854862995702
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_25"
+  - first:
+      213: 4973512409292945855
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_26"
+  - first:
+      213: -3571832386676296923
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_27"
+  - first:
+      213: 1903113731368529595
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_28"
+  - first:
+      213: -5845826458183771341
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_29"
+  - first:
+      213: -4428695098082461168
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_30"
+  - first:
+      213: 4815759287917345892
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_31"
+  - first:
+      213: 4870980507814538574
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_32"
+  - first:
+      213: -2131628314872592485
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_33"
+  - first:
+      213: -2310083635056591105
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_34"
+  - first:
+      213: 5867765887383029909
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_35"
+  - first:
+      213: 7764725364798416913
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_36"
+  - first:
+      213: 1311011969879071560
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_37"
+  - first:
+      213: -1508943177472778135
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_38"
+  - first:
+      213: 4268093048913447190
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_39"
+  - first:
+      213: -2998139484706037413
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_40"
+  - first:
+      213: 4622708850621356981
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_41"
+  - first:
+      213: 2792152417816475199
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_42"
+  - first:
+      213: -7380710566130938982
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_43"
+  - first:
+      213: -2336799676021374037
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_44"
+  - first:
+      213: 5273728094692465879
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_45"
+  - first:
+      213: -6069089126693660002
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_46"
+  - first:
+      213: -4854867654029403047
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_47"
+  - first:
+      213: 6621677458557465673
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_48"
+  - first:
+      213: 3721748750489149182
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_49"
+  - first:
+      213: -3452316251947340431
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_50"
+  - first:
+      213: 81457025211799546
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_51"
+  - first:
+      213: -4766482312391379485
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_52"
+  - first:
+      213: -5528966745704992279
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_53"
+  - first:
+      213: -1688123160011055456
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_54"
+  - first:
+      213: 8379522459613068483
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_55"
+  - first:
+      213: -6227596571594245798
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_56"
+  - first:
+      213: 6874171498118415389
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_57"
+  - first:
+      213: -6250444934258158520
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_58"
+  - first:
+      213: -188994535461540171
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_59"
+  - first:
+      213: 2137944667201595369
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_60"
+  - first:
+      213: 8153200500631256585
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_61"
+  - first:
+      213: -4403906187181065029
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_62"
+  - first:
+      213: 3718065614061691668
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_63"
+  - first:
+      213: -4350303334120300320
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_64"
+  - first:
+      213: 8845467371979126562
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_65"
+  - first:
+      213: 3515751631098445790
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_66"
+  - first:
+      213: -3358245011957901487
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_67"
+  - first:
+      213: -18140852669214539
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_68"
+  - first:
+      213: 8680768010355903273
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_69"
+  - first:
+      213: 4044517076806033463
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_70"
+  - first:
+      213: -5764544248683983944
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_71"
+  - first:
+      213: -60720550348817287
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_72"
+  - first:
+      213: -2916646524986680776
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_73"
+  - first:
+      213: -3634187029678721051
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_74"
+  - first:
+      213: -6025971150026361930
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_75"
+  - first:
+      213: 8237425583577682597
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_76"
+  - first:
+      213: 3699024351181571198
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_77"
+  - first:
+      213: -9030079003858484417
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_78"
+  - first:
+      213: -6396293812121150173
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_79"
+  - first:
+      213: 351585526304433985
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_80"
+  - first:
+      213: -3875020025144599155
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_81"
+  - first:
+      213: 3232654215676636709
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_82"
+  - first:
+      213: -1653667627639654064
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_83"
+  - first:
+      213: 1089804273419488676
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_84"
+  - first:
+      213: 3822817191885066231
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_85"
+  - first:
+      213: 3492148436528600704
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_86"
+  - first:
+      213: -5402554580477337587
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_87"
+  - first:
+      213: 5032076068604252403
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_88"
+  - first:
+      213: 4755900847584284886
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_89"
+  - first:
+      213: -6860728642918726654
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_90"
+  - first:
+      213: -7582988376845078718
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_91"
+  - first:
+      213: 6274330825673727838
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_92"
+  - first:
+      213: 116912022188879708
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_93"
+  - first:
+      213: -4905873206869171494
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_94"
+  - first:
+      213: 7901356962225030842
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_95"
+  - first:
+      213: 2537647137244848928
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_96"
+  - first:
+      213: 828612895243816353
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_97"
+  - first:
+      213: 5636344673626474499
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_98"
+  - first:
+      213: 4291782510975710371
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_99"
+  - first:
+      213: 2592380786877784245
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_100"
+  - first:
+      213: -3260083869706316160
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_101"
+  - first:
+      213: 67782038890011198
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_102"
+  - first:
+      213: 1843178966107365860
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_103"
+  - first:
+      213: 927124564642741428
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_104"
+  - first:
+      213: -5422187728913937780
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_105"
+  - first:
+      213: 2860145601157167519
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_106"
+  - first:
+      213: -2430724310278840803
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_107"
+  - first:
+      213: -8847170366080556494
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_108"
+  - first:
+      213: 5216284512959317531
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_109"
+  - first:
+      213: -3512106418919612811
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_110"
+  - first:
+      213: -4562405883313523092
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_111"
+  - first:
+      213: -8642634078502019679
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_112"
+  - first:
+      213: 3663333104808038628
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_113"
+  - first:
+      213: -7394681971520783469
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_114"
+  - first:
+      213: 1366052566358364809
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_115"
+  - first:
+      213: 588522819582736088
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_116"
+  - first:
+      213: -1866584718241576751
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_117"
+  - first:
+      213: -4284681385790948586
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_118"
+  - first:
+      213: 1140205655279890995
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_119"
+  - first:
+      213: -3320341594566789579
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_120"
+  - first:
+      213: 3467417926394609944
+    second: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_121"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_0"
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 985
+        width: 369
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d04d65346a9b12f0800000000000000
+      internalID: -1001036736976043817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_1"
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 985
+        width: 136
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72c5427de7d3d0d0800000000000000
+      internalID: -3399135878910197122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_2"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 947
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc05fe372d83f25d0800000000000000
+      internalID: -3085184743186149173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_3"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 947
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479c5b3bb5e0d9f40800000000000000
+      internalID: 5736757287359727988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_4"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 949
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b973fa652fc4797d0800000000000000
+      internalID: -2911774030351616101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_5"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 951
+        width: 155
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf0aca3d0219f440800000000000000
+      internalID: 4970023511810248632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_6"
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 844
+        width: 354
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0167c5a419a797d0800000000000000
+      internalID: -2911672727925989110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_7"
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 891
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bd4a7c2db7ec270800000000000000
+      internalID: 8272685710748998414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_8"
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 893
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743076a5b06de5f00800000000000000
+      internalID: 1107557902629405511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_9"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 893
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea614622efc500350800000000000000
+      internalID: 5980882551716452014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_10"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 893
+        width: 73
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0634fbe66039eae60800000000000000
+      internalID: 7975473645956842336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_11"
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 893
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25171a1489dd5d40800000000000000
+      internalID: 5574851075151172908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_12"
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 893
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8e1fb9f7ecc5120800000000000000
+      internalID: 2404023348581492970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_13"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 859
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48627beb38015820800000000000000
+      internalID: 2905112288076916810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_14"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 859
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ecfade2c029f60800000000000000
+      internalID: 8039501680191791151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_15"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 859
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8e4755c08c08380800000000000000
+      internalID: -8970950502423140167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_16"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 859
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f29164a0b6773420800000000000000
+      internalID: 2609685010128671481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_17"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 859
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad448b3a4ca5bed0800000000000000
+      internalID: -2398821791678837334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_18"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 859
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b5e450f9199800800000000000000
+      internalID: 619554943747338733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_19"
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 823
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a738808500be2f0800000000000000
+      internalID: -942659318904030571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_20"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 908
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c10f587648392e0800000000000000
+      internalID: -2120205419397768065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_21"
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 908
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6de7ca5350231f0800000000000000
+      internalID: -1066784433647986990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_22"
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 908
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa137ccc4afd0e550800000000000000
+      internalID: 6188191786910298543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_23"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 908
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ac6688a6e05e370800000000000000
+      internalID: 8351096934746212895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_24"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 823
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93144cfca13d610e0800000000000000
+      internalID: -2299418447617703623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_25"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 823
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fb1281e56a2d0b0800000000000000
+      internalID: -5705314854862995702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_26"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 823
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb937e97f27750540800000000000000
+      internalID: 4973512409292945855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_27"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 844
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5237ce26e5d4e6ec0800000000000000
+      internalID: -3571832386676296923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_28"
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 895
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea3650bd7396a10800000000000000
+      internalID: 1903113731368529595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_29"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 771
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b506d0fc37fdea0800000000000000
+      internalID: -5845826458183771341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_30"
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 771
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01af744c54d1a82c0800000000000000
+      internalID: -4428695098082461168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_31"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 771
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cf910be8305d240800000000000000
+      internalID: 4815759287917345892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_32"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 771
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d232cd6f2399340800000000000000
+      internalID: 4870980507814538574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_33"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 771
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97cada675fea62e0800000000000000
+      internalID: -2131628314872592485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_34"
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 771
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe320b5c2fe0ffd0800000000000000
+      internalID: -2310083635056591105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_35"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 842
+        width: 212
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598ce9e5cfd7e6150800000000000000
+      internalID: 5867765887383029909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_36"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 721
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118664b7498d1cb60800000000000000
+      internalID: 7764725364798416913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_37"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 721
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b5de8c076a13210800000000000000
+      internalID: 1311011969879071560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_38"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 721
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9606c70cc282f0be0800000000000000
+      internalID: -1508943177472778135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_39"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 721
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619ccc0c3005b3b30800000000000000
+      internalID: 4268093048913447190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_40"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 797
+        width: 131
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51260306087466d0800000000000000
+      internalID: -2998139484706037413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_41"
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 797
+        width: 88
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb175d1539272040800000000000000
+      internalID: 4622708850621356981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_42"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 700
+        width: 204
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36f2be94d7bfb620800000000000000
+      internalID: 2792152417816475199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_43"
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 673
+        width: 132
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b0bc348d2729990800000000000000
+      internalID: -7380710566130938982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_44"
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 710
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba38f775315029fd0800000000000000
+      internalID: -2336799676021374037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_45"
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 710
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc542eb2cb003940800000000000000
+      internalID: 5273728094692465879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_46"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 682
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a1d3d389346cba0800000000000000
+      internalID: -6069089126693660002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_47"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 683
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c1b02479b00acb0800000000000000
+      internalID: -4854867654029403047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_48"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 683
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944778eb09ce4eb50800000000000000
+      internalID: 6621677458557465673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_49"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 683
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efed82815ce46a330800000000000000
+      internalID: 3721748750489149182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_50"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 683
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dee56f8a8e610d0800000000000000
+      internalID: -3452316251947340431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_51"
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 683
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7953c9bb4612100800000000000000
+      internalID: 81457025211799546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_52"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 623
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5babd379d0addb0800000000000000
+      internalID: -4766482312391379485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_53"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 623
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e17e4bd90a2543b0800000000000000
+      internalID: -5528966745704992279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_54"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 623
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae5e661ee49298e0800000000000000
+      internalID: -1688123160011055456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_55"
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 623
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccf4a8c74b0a4470800000000000000
+      internalID: 8379522459613068483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_56"
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 689
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a593fa1d9e12399a0800000000000000
+      internalID: -6227596571594245798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_57"
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 688
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14867e7e86f56f50800000000000000
+      internalID: 6874171498118415389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_58"
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 697
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8441765d275f149a0800000000000000
+      internalID: -6250444934258158520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_59"
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 582
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2359a87e806df0800000000000000
+      internalID: -188994535461540171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_60"
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 582
+        width: 112
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7edf5f8518bad10800000000000000
+      internalID: 2137944667201595369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_61"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 590
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb9a668acf52170800000000000000
+      internalID: 8153200500631256585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_62"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 590
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc7de8d7ae22e2c0800000000000000
+      internalID: -4403906187181065029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_63"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 590
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413edb11af8399330800000000000000
+      internalID: 3718065614061691668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_64"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 590
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0ef80aa2e90a3c0800000000000000
+      internalID: -4350303334120300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_65"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 590
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227bf13a5b961ca70800000000000000
+      internalID: 8845467371979126562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_66"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 590
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf7f123b757ac030800000000000000
+      internalID: 3515751631098445790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_67"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 574
+        width: 112
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157958154fd1561d0800000000000000
+      internalID: -3358245011957901487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_68"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 560
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b09ab89dfc8fbff0800000000000000
+      internalID: -18140852669214539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_69"
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 651
+        width: 76
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b86d24388487870800000000000000
+      internalID: 8680768010355903273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_70"
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 554
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73066034ad2012830800000000000000
+      internalID: 4044517076806033463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_71"
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 532
+        width: 335
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb8b253c893000b0800000000000000
+      internalID: -5764544248683983944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_72"
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 554
+        width: 69
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c74ed2bf6482ff0800000000000000
+      internalID: -60720550348817287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_73"
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 554
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a9ac6407df587d0800000000000000
+      internalID: -2916646524986680776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_74"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 554
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7faa8b626c09dc0800000000000000
+      internalID: -3634187029678721051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_75"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 110
+        width: 69
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b33def7a237f5ca0800000000000000
+      internalID: -6025971150026361930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_76"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 713
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2dcdcace6315270800000000000000
+      internalID: 8237425583577682597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_77"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 502
+        width: 146
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7482b39c03955330800000000000000
+      internalID: 3699024351181571198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_78"
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 427
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f334d494df6bea280800000000000000
+      internalID: -9030079003858484417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_79"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 482
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d5d79baaccb37a0800000000000000
+      internalID: -6396293812121150173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_80"
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 479
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1476b836c2511e400800000000000000
+      internalID: 351585526304433985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_81"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 472
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d1bbf51d9293ac0800000000000000
+      internalID: -3875020025144599155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_82"
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 507
+        width: 258
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e231fb1e1bcdc20800000000000000
+      internalID: 3232654215676636709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_83"
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 428
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059b9fddd0efc09e0800000000000000
+      internalID: -1653667627639654064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_84"
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 428
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad0fdf6633cf1f00800000000000000
+      internalID: 1089804273419488676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_85"
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 482
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffc09b5bff5d0530800000000000000
+      internalID: 3822817191885066231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_86"
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 261
+        width: 249
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0861936308a967030800000000000000
+      internalID: 3492148436528600704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_87"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 441
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d002df6ab354605b0800000000000000
+      internalID: -5402554580477337587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_88"
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 440
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f096e7f58685d540800000000000000
+      internalID: 5032076068604252403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_89"
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 440
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d09d3f7f9a500240800000000000000
+      internalID: 4755900847584284886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_90"
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 436
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2044b7226abc9c0a0800000000000000
+      internalID: -6860728642918726654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_91"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 306
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fab366f30d3c690800000000000000
+      internalID: -7582988376845078718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_92"
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 357
+        width: 103
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fd093a4a6e21750800000000000000
+      internalID: 6274330825673727838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_93"
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 356
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f6a806dda5f9100800000000000000
+      internalID: 116912022188879708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_94"
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 349
+        width: 142
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e47f8f46daebb0800000000000000
+      internalID: -4905873206869171494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_95"
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 303
+        width: 25
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab68bf04b4247ad60800000000000000
+      internalID: 7901356962225030842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_96"
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 304
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02324c450a8873320800000000000000
+      internalID: 2537647137244848928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_97"
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 305
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adc05db903df7b00800000000000000
+      internalID: 828612895243816353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_98"
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 304
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308cb273e91583e40800000000000000
+      internalID: 5636344673626474499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_99"
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 301
+        width: 132
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4f0f374797f8b30800000000000000
+      internalID: 4291782510975710371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_100"
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 248
+        width: 145
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0e564379cf9f320800000000000000
+      internalID: 2592380786877784245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_101"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 100
+        width: 176
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0869c204efad1c2d0800000000000000
+      internalID: -3260083869706316160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_102"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 88
+        width: 80
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ad03eb76fc0f000800000000000000
+      internalID: 67782038890011198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_103"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 75
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e12d4c0189449910800000000000000
+      internalID: 1843178966107365860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_104"
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 85
+        width: 65
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcb11221eecddc00800000000000000
+      internalID: 927124564642741428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_105"
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 209
+        width: 244
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a4a901df480c4b0800000000000000
+      internalID: -5422187728913937780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_106"
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 152
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f997ed2454741b720800000000000000
+      internalID: 2860145601157167519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_107"
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 152
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e5cea4e15544ed0800000000000000
+      internalID: -2430724310278840803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_108"
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 152
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232e7662d69883580800000000000000
+      internalID: -8847170366080556494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_109"
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 153
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16cf42a027f36840800000000000000
+      internalID: 5216284512959317531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_110"
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 152
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e5de6e1dd724fc0800000000000000
+      internalID: -3512106418919612811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_111"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66f1f395041fa0c0800000000000000
+      internalID: -4562405883313523092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_112"
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 91
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad9333a8123f0880800000000000000
+      internalID: -8642634078502019679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_113"
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 90
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e01306bc06c6d230800000000000000
+      internalID: 3663333104808038628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_114"
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 85
+        width: 128
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bb484fcefc06990800000000000000
+      internalID: -7394681971520783469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_115"
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 39
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9821d4a429135f210800000000000000
+      internalID: 1366052566358364809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_116"
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 38
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6b073e26ada2800800000000000000
+      internalID: 588522819582736088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_117"
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 39
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8c90e961f8816e0800000000000000
+      internalID: -1866584718241576751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_118"
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 39
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bb3381bf0c984c0800000000000000
+      internalID: -4284681385790948586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_119"
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 38
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33279dd9003d2df00800000000000000
+      internalID: 1140205655279890995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_120"
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 37
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53674e269e6cbe1d0800000000000000
+      internalID: -3320341594566789579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_121"
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 38
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811829e9b3ebe1030800000000000000
+      internalID: 3467417926394609944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_122"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 434
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ee6e6235f9af40b352c68f1811e34
+      internalID: -918030848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_123"
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 258
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d69a9eeb686e940a5f83e5cda1ce20
+      internalID: 1122345194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d9c6dd6e8f585c74882034c9e5978c3e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_0": -1001036736976043817
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_1": -3399135878910197122
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_10": 7975473645956842336
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_100": 2592380786877784245
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_101": -3260083869706316160
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_102": 67782038890011198
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_103": 1843178966107365860
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_104": 927124564642741428
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_105": -5422187728913937780
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_106": 2860145601157167519
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_107": -2430724310278840803
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_108": -8847170366080556494
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_109": 5216284512959317531
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_11": 5574851075151172908
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_110": -3512106418919612811
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_111": -4562405883313523092
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_112": -8642634078502019679
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_113": 3663333104808038628
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_114": -7394681971520783469
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_115": 1366052566358364809
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_116": 588522819582736088
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_117": -1866584718241576751
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_118": -4284681385790948586
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_119": 1140205655279890995
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_12": 2404023348581492970
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_120": -3320341594566789579
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_121": 3467417926394609944
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_122": -918030848
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_123": 1122345194
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_13": 2905112288076916810
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_14": 8039501680191791151
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_15": -8970950502423140167
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_16": 2609685010128671481
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_17": -2398821791678837334
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_18": 619554943747338733
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_19": -942659318904030571
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_2": -3085184743186149173
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_20": -2120205419397768065
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_21": -1066784433647986990
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_22": 6188191786910298543
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_23": 8351096934746212895
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_24": -2299418447617703623
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_25": -5705314854862995702
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_26": 4973512409292945855
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_27": -3571832386676296923
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_28": 1903113731368529595
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_29": -5845826458183771341
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_3": 5736757287359727988
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_30": -4428695098082461168
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_31": 4815759287917345892
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_32": 4870980507814538574
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_33": -2131628314872592485
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_34": -2310083635056591105
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_35": 5867765887383029909
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_36": 7764725364798416913
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_37": 1311011969879071560
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_38": -1508943177472778135
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_39": 4268093048913447190
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_4": -2911774030351616101
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_40": -2998139484706037413
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_41": 4622708850621356981
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_42": 2792152417816475199
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_43": -7380710566130938982
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_44": -2336799676021374037
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_45": 5273728094692465879
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_46": -6069089126693660002
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_47": -4854867654029403047
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_48": 6621677458557465673
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_49": 3721748750489149182
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_5": 4970023511810248632
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_50": -3452316251947340431
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_51": 81457025211799546
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_52": -4766482312391379485
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_53": -5528966745704992279
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_54": -1688123160011055456
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_55": 8379522459613068483
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_56": -6227596571594245798
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_57": 6874171498118415389
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_58": -6250444934258158520
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_59": -188994535461540171
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_6": -2911672727925989110
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_60": 2137944667201595369
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_61": 8153200500631256585
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_62": -4403906187181065029
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_63": 3718065614061691668
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_64": -4350303334120300320
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_65": 8845467371979126562
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_66": 3515751631098445790
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_67": -3358245011957901487
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_68": -18140852669214539
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_69": 8680768010355903273
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_7": 8272685710748998414
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_70": 4044517076806033463
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_71": -5764544248683983944
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_72": -60720550348817287
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_73": -2916646524986680776
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_74": -3634187029678721051
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_75": -6025971150026361930
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_76": 8237425583577682597
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_77": 3699024351181571198
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_78": -9030079003858484417
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_79": -6396293812121150173
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_8": 1107557902629405511
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_80": 351585526304433985
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_81": -3875020025144599155
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_82": 3232654215676636709
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_83": -1653667627639654064
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_84": 1089804273419488676
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_85": 3822817191885066231
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_86": 3492148436528600704
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_87": -5402554580477337587
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_88": 5032076068604252403
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_89": 4755900847584284886
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_9": 5980882551716452014
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_90": -6860728642918726654
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_91": -7582988376845078718
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_92": 6274330825673727838
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_93": 116912022188879708
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_94": -4905873206869171494
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_95": 7901356962225030842
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_96": 2537647137244848928
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_97": 828612895243816353
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_98": 5636344673626474499
+      "B\u1ED9 sprite pixel ngh\u1EC7 thu\u1EADt c\xE2u c\xE1 retro_99": 4291782510975710371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

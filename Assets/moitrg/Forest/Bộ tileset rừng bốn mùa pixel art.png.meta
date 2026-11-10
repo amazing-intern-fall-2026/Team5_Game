@@ -1,0 +1,2098 @@
+fileFormatVersion: 2
+guid: db8f5550dec80e349a243ff642dba307
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7110390964161819368
+    second: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 107
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e23301d8ee2da260800000000000000
+      internalID: 7110390964161819368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_1"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 650
+        width: 121
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf181aacd7c96f548bba463f94971009
+      internalID: -799641912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_2"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 650
+        width: 104
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff46e7d75526ba48a3095e6966ecc40
+      internalID: 340830355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3447d6d21ca14a92a4013a7a4114d
+      internalID: -2110202396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_4"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 536
+        width: 70
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f46a63547c6b14cb15cc761af3f964
+      internalID: -1140632137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_5"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 536
+        width: 90
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1d90fe04249914b96341681379c619
+      internalID: 1950186407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_6"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 536
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c356dd5f774ef14c8fbc3e39a3b4d15
+      internalID: 881555730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_7"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 440
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ec7244ed81a04dbba2c23a9c65444
+      internalID: -1359609297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_8"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 440
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b3c8757280f6b43baaf2635c370385
+      internalID: 2141615748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_9"
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 440
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f18ea3a899ae847bca7099041798f1
+      internalID: -1966699023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_10"
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 440
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4427c265d0db1194f811f86cd0bdf8b5
+      internalID: -161908177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_11"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4362803cc6e3049be1f4395360a0b0
+      internalID: -254464243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_12"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 333
+        width: 80
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad7bd16e76910840ad081e941401271
+      internalID: -509353577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_13"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 333
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394772e20d2d7064a99ddd681c3ea3de
+      internalID: -1674869972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_14"
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 224
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9974948454716842ac8c5b112afa082
+      internalID: -340682605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_15"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bddd341305713147b1638837f63db6a
+      internalID: 565128430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_16"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 102
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597eae1173f93f741a3e63a259e3851e
+      internalID: 853955606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_17"
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 102
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c36205c334bdf849b9b216acbab3139
+      internalID: 281971521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_18"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 103
+        width: 81
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f882a61b7823eb74d8894c580b43f838
+      internalID: -1616024939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_19"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47133b61d50962940b1029ce5db1f1df
+      internalID: 172666116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_20"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 87
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7e915b728813439139a52291f1e2a
+      internalID: -755118289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_21"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1039a1c50bd8b4393c2d484e39c543
+      internalID: -461404726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_22"
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17a8d509822984f95e6cf69157beff
+      internalID: -542875118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_23"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 0
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce0bf0db77c65c4ba166c4d632586aa
+      internalID: -1416887153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_24"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 101
+        width: 103
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dce6f2b3f2a6b4f9fe693e8fccb48e
+      internalID: -548608616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_25"
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 102
+        width: 81
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06748b2a7e3d0d9489384687afdea9fe
+      internalID: 1579570461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_26"
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 102
+        width: 76
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa5228dfe7c064092f401ef13d0ab2
+      internalID: -766259620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_27"
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 102
+        width: 70
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe907e7a65c8d4b82273af2799b351
+      internalID: -1057200575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_28"
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 225
+        width: 78
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d843e541c79133d45a1eee9f90417612
+      internalID: 1722096237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_29"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 335
+        width: 109
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a95e84e71fb09c419c325c662fc04e9
+      internalID: 267089624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_30"
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 334
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce831601c9d3834a90aa0cbea486bc4
+      internalID: -840031546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_31"
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 333
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88970a3dc8e9178478fd3368191ad89b
+      internalID: 131819366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_32"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 440
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5698d906d2a2dc4599c1af355086abb
+      internalID: -541437100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_33"
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 440
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429745ae00c27c46960c55c57f41319
+      internalID: 2087900011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_34"
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 441
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe6f30100ace734b9880a72b2d8f019
+      internalID: 975015469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_35"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 441
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f323ca9daf80d4ea5305f97dcb5d47
+      internalID: -862272483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_36"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 536
+        width: 90
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c253eac19b2844a9101adf272733a8
+      internalID: -453748707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_37"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 650
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76905fda64d584b4382d4597f133835d
+      internalID: 398181901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_38"
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 649
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f34d0b129024134099bb0781853e03d
+      internalID: -614989879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_39"
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 536
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547a2f0f178705441b341b1f8c711aa6
+      internalID: -1890343355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_40"
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 537
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd533e958c0ad146a8ad96cc9f1d689
+      internalID: -213424648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_41"
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 536
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9edcc339572ac249b06e5f4f2238a4e
+      internalID: 1726522346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_42"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 536
+        width: 84
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c3b294cf482f94b9475425d28e0b9e
+      internalID: -1180430928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_43"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 441
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8433ba80f5f15e640a55fd1e8a666fa2
+      internalID: -1229094777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_44"
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 441
+        width: 80
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019fd9d51234d6448fa3c452bba9750
+      internalID: 1122252939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_45"
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 440
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51ba5498e379524f87ae542d57133bf
+      internalID: -1663244307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_46"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 440
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539f9538ced4c34a98aac557909e2e3
+      internalID: 1088163839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_47"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 333
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d71b0d9f3aa14e4ba687210725ce166
+      internalID: -443599089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_48"
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 223
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a40ecc76f2e24aae21dc8773b2f36
+      internalID: 615956848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_49"
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 223
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b04cd458563049b0578180e4fbb06
+      internalID: 2079089436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_50"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 102
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092fa49434708704b8a6b01e22da0d4c
+      internalID: 1562044142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_51"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 102
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6dfbe71aebeac429213d98de87aaa3
+      internalID: -2049988408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_52"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 102
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af09f4c67508544ab465218b6c32326
+      internalID: -644446222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_53"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 102
+        width: 88
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cacde61cdcc3f94ea41b84230d5a092
+      internalID: 1944906713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_54"
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c65f04cd7e1fb84d9ca6aa3f36a9330
+      internalID: -993231733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_55"
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3883335c2cb47f64d8a956518f31558c
+      internalID: 1219990596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_56"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eb07692237d714faa116b889e4aee6
+      internalID: -1391168041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_57"
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 0
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2c88a1e34a524faaf6ab728124331
+      internalID: -92317691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_58"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 103
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5b20f25fc147749a3b367a85d009e6
+      internalID: 1130978304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_59"
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 105
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37375b2346959e408b0cd22c3cac444
+      internalID: -1525533610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_60"
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 102
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e983a5b3184b32f49abacb2c9a3b6a67
+      internalID: -1995144221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_61"
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 104
+        width: 93
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc662b51733dc9648978c22a98702aa0
+      internalID: 998221007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_62"
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 649
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c484cbe49103e418891d5d88b00233
+      internalID: 228288168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_63"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 651
+        width: 116
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4eed7a43b206143bc289e90e2c1404
+      internalID: -582813014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_64"
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 652
+        width: 78
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f00921e9d9cd1242be82902adaf8511
+      internalID: -908683991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_65"
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 650
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441312eef4695644ca7946270a60f2a1
+      internalID: 1573893527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_66"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 536
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775bd306bf1ca642b3f47fc48134fa3
+      internalID: -1726840760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_67"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 537
+        width: 81
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc7e974a1509e4a9f73c6a45f5789a
+      internalID: 1039666431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_68"
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 537
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d72973e3e8e2ae4191a4b98f102e633
+      internalID: -27673225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_69"
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 441
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a833b221576d01c43b3b9e9f00303c48
+      internalID: -34666024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_70"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 440
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603546ce0eb64f1408f72262f1ff97ce
+      internalID: -337013951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_71"
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 440
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4869f1412e61aea48bf70b3998f91721
+      internalID: -1730894553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_72"
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 440
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3374495f41fe6be4cba07e3660fdd3c0
+      internalID: -1050250279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_73"
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 333
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d5e161df1864543af2ce09806d71f7
+      internalID: -1295401834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_74"
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 224
+        width: 102
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190add135a91cde458014aeca2bb514f
+      internalID: 1164422483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_75"
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 224
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909c4d9cd245274d9c9e7b19b235e40
+      internalID: 1794322793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_76"
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 224
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e580c9b2ce20746a47e6effc85ea68
+      internalID: -1729215084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_77"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 334
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bb8d1852b44d94ea9ad059ea3ec46f
+      internalID: 613912655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_78"
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 334
+        width: 82
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552784af5a15e24da507fa615545e2b
+      internalID: 1141805026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_79"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 334
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0d89c89a095044a9884ef3a95ad2b6
+      internalID: -276421855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_80"
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 334
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3222940d1187fd44ab966153882da96
+      internalID: -1482027959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_81"
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 333
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e51e6d8324d64f84c5fecb4ba76fe
+      internalID: 572347957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_82"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 537
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d83ee63f8d72499c6b694bf134544
+      internalID: 931314390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_83"
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 650
+        width: 69
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf6b1d3d3d275e4499017804971b3cb
+      internalID: -2102528158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_84"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a8dd77181bdcf4f9696b044911c42f
+      internalID: -744337528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_85"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 226
+        width: 69
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a403f8100f26ab140b3d7616e7217532
+      internalID: -201601652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21dade93a80bd7546af9babb7bb4016a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_0": 7110390964161819368
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_1": -799641912
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_10": -161908177
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_11": -254464243
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_12": -509353577
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_13": -1674869972
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_14": -340682605
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_15": 565128430
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_16": 853955606
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_17": 281971521
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_18": -1616024939
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_19": 172666116
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_2": 340830355
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_20": -755118289
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_21": -461404726
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_22": -542875118
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_23": -1416887153
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_24": -548608616
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_25": 1579570461
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_26": -766259620
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_27": -1057200575
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_28": 1722096237
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_29": 267089624
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_3": -2110202396
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_30": -840031546
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_31": 131819366
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_32": -541437100
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_33": 2087900011
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_34": 975015469
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_35": -862272483
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_36": -453748707
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_37": 398181901
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_38": -614989879
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_39": -1890343355
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_4": -1140632137
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_40": -213424648
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_41": 1726522346
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_42": -1180430928
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_43": -1229094777
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_44": 1122252939
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_45": -1663244307
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_46": 1088163839
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_47": -443599089
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_48": 615956848
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_49": 2079089436
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_5": 1950186407
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_50": 1562044142
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_51": -2049988408
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_52": -644446222
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_53": 1944906713
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_54": -993231733
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_55": 1219990596
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_56": -1391168041
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_57": -92317691
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_58": 1130978304
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_59": -1525533610
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_6": 881555730
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_60": -1995144221
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_61": 998221007
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_62": 228288168
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_63": -582813014
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_64": -908683991
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_65": 1573893527
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_66": -1726840760
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_67": 1039666431
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_68": -27673225
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_69": -34666024
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_7": -1359609297
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_70": -337013951
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_71": -1730894553
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_72": -1050250279
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_73": -1295401834
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_74": 1164422483
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_75": 1794322793
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_76": -1729215084
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_77": 613912655
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_78": 1141805026
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_79": -276421855
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_8": 2141615748
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_80": -1482027959
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_81": 572347957
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_82": 931314390
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_83": -2102528158
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_84": -744337528
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_85": -201601652
+      "B\u1ED9 tileset r\u1EEBng b\u1ED1n m\xF9a pixel art_9": -1966699023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

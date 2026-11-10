@@ -145,7 +145,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -183,7 +183,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -204,76 +204,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: farmer_water_4x3_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 724
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2208b616d12f4d6d0800000000000000
-      internalID: -2966480046527905758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: farmer_water_4x3_1
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 724
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0318cc4847b0a1c20800000000000000
-      internalID: 3177865082135413040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: farmer_water_4x3_2
       rect:
         serializedVersion: 2
-        x: 724
-        y: 724
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 202
+        y: 743
+        width: 136
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +233,12 @@ TextureImporter:
       name: farmer_water_4x3_3
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 724
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 796
+        y: 712
+        width: 153
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,81 +252,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_water_4x3_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 362
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be12f5d06f3776a10800000000000000
-      internalID: 1902616868210811371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: farmer_water_4x3_5
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 362
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b4778a7deb1c8bd0800000000000000
-      internalID: -2626693775886945102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: farmer_water_4x3_6
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 362
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b75e9dbb970ec5510800000000000000
-      internalID: 1539351986101151099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: farmer_water_4x3_7
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 362
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 494
+        y: 743
+        width: 136
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,12 +277,12 @@ TextureImporter:
       name: farmer_water_4x3_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1107
+        y: 743
+        width: 136
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,37 +296,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_water_4x3_9
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 0
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 437d46ed857075bd0800000000000000
-      internalID: -2641634578159839436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: farmer_water_4x3_10
       rect:
         serializedVersion: 2
-        x: 724
-        y: 0
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 387
+        y: 748
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,23 +318,177 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: farmer_water_4x3_11
+      name: farmer_water_4x3_12
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 0
-        width: 362
-        height: 362
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 196
+        y: 396
+        width: 149
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27ec852d2f8804860800000000000000
-      internalID: 7512154754946485874
+      spriteID: beaebedad477ffbb0800000000000000
+      internalID: -4900066694041703701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_13
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 401
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7077996d5f27220800000000000000
+      internalID: 2482316646681085894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 371
+        width: 219
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab10ee377c118c00800000000000000
+      internalID: 901032698932370339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_15
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 398
+        width: 133
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb9f7e88d7624070800000000000000
+      internalID: 8089142060512156616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_26
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 69
+        width: 152
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf047dd4ba0a87330800000000000000
+      internalID: 3708890950745407740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 71
+        width: 212
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75640caa4771f520800000000000000
+      internalID: 2734097611387856253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_28
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 53
+        width: 224
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788f584e15555dcb0800000000000000
+      internalID: -4839868414325032825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farmer_water_4x3_29
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 62
+        width: 135
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ae3c0b73aaca2e0800000000000000
+      internalID: -2113126968978052510
       vertices: []
       indices: 
       edges: []
@@ -488,7 +497,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 79df9fc2b2c27aa4690854fe28cb87f0
+    spriteID: dc3efc021d42aac4aa8ba458cfa4eed6
     internalID: 0
     vertices: []
     indices: 
@@ -498,14 +507,39 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":362.0,"y":362.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       farmer_water_4x3_0: -2966480046527905758
       farmer_water_4x3_1: 3177865082135413040
       farmer_water_4x3_10: 5998586541768810999
       farmer_water_4x3_11: 7512154754946485874
+      farmer_water_4x3_12: -4900066694041703701
+      farmer_water_4x3_13: 2482316646681085894
+      farmer_water_4x3_14: 901032698932370339
+      farmer_water_4x3_15: 8089142060512156616
+      farmer_water_4x3_16: 2483906786076642989
+      farmer_water_4x3_17: -6255663757035116914
+      farmer_water_4x3_18: 1866551717411079056
+      farmer_water_4x3_19: -6688217113915386289
       farmer_water_4x3_2: -5349302430521494857
+      farmer_water_4x3_20: -2414908432499026346
+      farmer_water_4x3_21: 8639193573698646255
+      farmer_water_4x3_22: -6770065730991929568
+      farmer_water_4x3_23: -2267229333427562334
+      farmer_water_4x3_24: 883923121852602169
+      farmer_water_4x3_25: -2134544252084386211
+      farmer_water_4x3_26: 3708890950745407740
+      farmer_water_4x3_27: 2734097611387856253
+      farmer_water_4x3_28: -4839868414325032825
+      farmer_water_4x3_29: -2113126968978052510
       farmer_water_4x3_3: -7120214668975534338
+      farmer_water_4x3_30: 6255147756687919206
+      farmer_water_4x3_31: 4397498120681617209
+      farmer_water_4x3_32: 7884110949837889367
+      farmer_water_4x3_33: 1148229531239378166
+      farmer_water_4x3_34: -1223319892556264835
+      farmer_water_4x3_35: -2885104547231304685
+      farmer_water_4x3_36: 2875665223843052888
       farmer_water_4x3_4: 1902616868210811371
       farmer_water_4x3_5: -2626693775886945102
       farmer_water_4x3_6: 1539351986101151099

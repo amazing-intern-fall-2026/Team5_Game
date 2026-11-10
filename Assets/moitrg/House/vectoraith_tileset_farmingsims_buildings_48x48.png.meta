@@ -1,0 +1,881 @@
+fileFormatVersion: 2
+guid: 081dda5cc724aa94cb9e7864f8f1cba5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9116974463241988320
+    second: vectoraith_tileset_farmingsims_buildings_48x48_0
+  - first:
+      213: 6079012079661025336
+    second: vectoraith_tileset_farmingsims_buildings_48x48_1
+  - first:
+      213: 751095757621219630
+    second: vectoraith_tileset_farmingsims_buildings_48x48_2
+  - first:
+      213: -6696439291524618840
+    second: vectoraith_tileset_farmingsims_buildings_48x48_3
+  - first:
+      213: -1851129223698564250
+    second: vectoraith_tileset_farmingsims_buildings_48x48_4
+  - first:
+      213: 8622698532093918287
+    second: vectoraith_tileset_farmingsims_buildings_48x48_5
+  - first:
+      213: -6208539109581714045
+    second: vectoraith_tileset_farmingsims_buildings_48x48_6
+  - first:
+      213: -498782910434848849
+    second: vectoraith_tileset_farmingsims_buildings_48x48_7
+  - first:
+      213: 3424266169775200989
+    second: vectoraith_tileset_farmingsims_buildings_48x48_8
+  - first:
+      213: 8355083748198311781
+    second: vectoraith_tileset_farmingsims_buildings_48x48_9
+  - first:
+      213: 3075378248935727513
+    second: vectoraith_tileset_farmingsims_buildings_48x48_10
+  - first:
+      213: 1547875646966415205
+    second: vectoraith_tileset_farmingsims_buildings_48x48_11
+  - first:
+      213: 4840997156525733969
+    second: vectoraith_tileset_farmingsims_buildings_48x48_12
+  - first:
+      213: -3629850048633330804
+    second: vectoraith_tileset_farmingsims_buildings_48x48_13
+  - first:
+      213: 3130945115610350812
+    second: vectoraith_tileset_farmingsims_buildings_48x48_14
+  - first:
+      213: -9002689741397378502
+    second: vectoraith_tileset_farmingsims_buildings_48x48_15
+  - first:
+      213: 1874635612878402955
+    second: vectoraith_tileset_farmingsims_buildings_48x48_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 241
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027572c87000a7180800000000000000
+      internalID: -9116974463241988320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 719
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8380189474dfc5450800000000000000
+      internalID: 6079012079661025336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 677
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21d051bc9d6c6a00800000000000000
+      internalID: 751095757621219630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 401
+        width: 336
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e4b091f77113a0800000000000000
+      internalID: -6696439291524618840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 680
+        width: 44
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3a1c57c77f46e0800000000000000
+      internalID: -1851129223698564250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 581
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c7db241aaf9a770800000000000000
+      internalID: 8622698532093918287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 437
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d0347f296d6d9a0800000000000000
+      internalID: -6208539109581714045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 182
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafce7be597f319f0800000000000000
+      internalID: -498782910434848849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 335
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda96d950ff658f20800000000000000
+      internalID: 3424266169775200989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 293
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567efffd66833f370800000000000000
+      internalID: 8355083748198311781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991e6cd2930fdaa20800000000000000
+      internalID: 3075378248935727513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 239
+        width: 194
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f39ed23b82b7510800000000000000
+      internalID: 1547875646966415205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 192
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1587461e34dae2340800000000000000
+      internalID: 4840997156525733969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 188
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83a64fcc9e20adc0800000000000000
+      internalID: -3629850048633330804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd403338ef9537b20800000000000000
+      internalID: 3130945115610350812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 47
+        width: 134
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ab4f4e065001380800000000000000
+      internalID: -9002689741397378502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 134
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85f9ec582b040a10800000000000000
+      internalID: 1874635612878402955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 144
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859cf1906058d6d4dbb2845f22037663
+      internalID: -1713835075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 383
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be3fd6a0a49d904aae8cb4326b467cd
+      internalID: 564535006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 396
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c7ea6a43909db4ea2107e284a4da31
+      internalID: -598542718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 628
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c8cd1011bc5024eafb4595163ad01f
+      internalID: 1324176318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 577
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd30c837eb66c0e439e2f95684977678
+      internalID: 1209363098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 438
+        width: 34
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee21de49c6d296f49b8b5193b4090cb1
+      internalID: 1755901636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 294
+        width: 33
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c10b31a10f1a344acb93a05b68ee71
+      internalID: -641971663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 192
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c520478084acdfd43a6e292ef431a11e
+      internalID: 835747076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 193
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c6ce1985e8b849bc2fafa282be1b5
+      internalID: 541086606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 287
+        width: 337
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2448a8e0189053842a97c50c7ec063e9
+      internalID: 990378366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 387
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a84942cb2d1cd4bb16fafadad231f1
+      internalID: 900370868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 429
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc55fd6004735124892c76f1929afc52
+      internalID: -1705054246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 480
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f31f48756d5694aa7ac6365a731b6f
+      internalID: 591344352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vectoraith_tileset_farmingsims_buildings_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 527
+        width: 46
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06151a904b2314c448b9cdd6696d0a94
+      internalID: 951379286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0d28050d8989df24dbfc44f8d5e6785e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vectoraith_tileset_farmingsims_buildings_48x48_0: -9116974463241988320
+      vectoraith_tileset_farmingsims_buildings_48x48_1: 6079012079661025336
+      vectoraith_tileset_farmingsims_buildings_48x48_10: 3075378248935727513
+      vectoraith_tileset_farmingsims_buildings_48x48_11: 1547875646966415205
+      vectoraith_tileset_farmingsims_buildings_48x48_12: 4840997156525733969
+      vectoraith_tileset_farmingsims_buildings_48x48_13: -3629850048633330804
+      vectoraith_tileset_farmingsims_buildings_48x48_14: 3130945115610350812
+      vectoraith_tileset_farmingsims_buildings_48x48_15: -9002689741397378502
+      vectoraith_tileset_farmingsims_buildings_48x48_16: 1874635612878402955
+      vectoraith_tileset_farmingsims_buildings_48x48_17: -1713835075
+      vectoraith_tileset_farmingsims_buildings_48x48_18: 564535006
+      vectoraith_tileset_farmingsims_buildings_48x48_19: -598542718
+      vectoraith_tileset_farmingsims_buildings_48x48_2: 751095757621219630
+      vectoraith_tileset_farmingsims_buildings_48x48_20: 1324176318
+      vectoraith_tileset_farmingsims_buildings_48x48_21: 1209363098
+      vectoraith_tileset_farmingsims_buildings_48x48_22: 1755901636
+      vectoraith_tileset_farmingsims_buildings_48x48_23: -641971663
+      vectoraith_tileset_farmingsims_buildings_48x48_24: 835747076
+      vectoraith_tileset_farmingsims_buildings_48x48_25: 541086606
+      vectoraith_tileset_farmingsims_buildings_48x48_26: 990378366
+      vectoraith_tileset_farmingsims_buildings_48x48_27: 900370868
+      vectoraith_tileset_farmingsims_buildings_48x48_28: -1705054246
+      vectoraith_tileset_farmingsims_buildings_48x48_29: 591344352
+      vectoraith_tileset_farmingsims_buildings_48x48_3: -6696439291524618840
+      vectoraith_tileset_farmingsims_buildings_48x48_30: 951379286
+      vectoraith_tileset_farmingsims_buildings_48x48_4: -1851129223698564250
+      vectoraith_tileset_farmingsims_buildings_48x48_5: 8622698532093918287
+      vectoraith_tileset_farmingsims_buildings_48x48_6: -6208539109581714045
+      vectoraith_tileset_farmingsims_buildings_48x48_7: -498782910434848849
+      vectoraith_tileset_farmingsims_buildings_48x48_8: 3424266169775200989
+      vectoraith_tileset_farmingsims_buildings_48x48_9: 8355083748198311781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
